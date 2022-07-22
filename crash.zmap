@@ -1,0 +1,29 @@
+top_level {
+
+Bridge:a<->Operations
+Operations:a<->Engineering
+Engineering:pt<->Machine_Shop
+Operations:d<->Galley* [short]
+
+Engineering:sb<->Engineering_Airlock
+Engineering:a<->Engine_Room
+
+
+Engineering_Airlock:out-->Spacewalk*
+
+//Aft_airlock:out<->Spacewalk_1
+//Spacewalk_1:f<->Spacewalk_2
+//Spacewalk_2:sb<->Spacewalk_3
+//Spacewalk_3:in<->Engineering_Airlock
+}
+
+lower_level {
+
+Galley:a<->Crew_Quarters
+Crew_Quarters:pt<->"Port-side Bunks"
+Crew_Quarters:sb<->"Starboard-side Bunks"
+Crew_Quarters:a<->"Captain's Quarters"
+Crew_Quarters:d<->Aft_airlock
+
+Aft_airlock:out-->Spacewalk*
+}

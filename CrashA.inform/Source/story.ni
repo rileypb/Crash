@@ -376,6 +376,7 @@ index (number)	recurs (truth state)	triggered (truth state)	thought (text)
 15	false	false	"Nice chair."
 16	false	false	"Cute dog."
 17	false	false	"I always wanted one of these."
+18	false	false	"What? No feelies?"
 
 
 
@@ -3960,7 +3961,11 @@ The description of the port-side storage unit is "The storage unit consists of t
 
 The description of the port keypad is "A standard 0-9 keypad with a '*' and '#'. Below the keys is a small keyhole.".
 
-The port top drawer contains a copy of Planetfall. The description of the copy of Planetfall is "It's amazing that this still exists. A copy of the interactive fiction classic on 5.25[quotation mark] floppy disk for the Apple II.".
+The port top drawer contains a copy of Planetfall.
+
+Instead of examining the copy of Planetfall:
+	say "It's amazing that this still exists. A copy of the interactive fiction classic on 5.25[quotation mark] floppy disk for the Apple II.";
+	think thought 18;
 
 To say port side display description:
 	If port-side storage unit is storage-breaking:

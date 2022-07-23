@@ -1707,7 +1707,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
 
 [Finally, another person! I'm saved!]
 
@@ -1721,7 +1721,7 @@ You push the trunk clear of the door.
 &gt;[43] set gravity control to 1
 You dial the gravity to 1.
 
-A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
+A man's voice comes over comms: "Usagi, are you there?"
 
 
 &gt;[44] press button
@@ -1942,7 +1942,15 @@ Taken.
 [74] take planetfall
 </commentary>
         <children><child nodeId="node-2526"></child>
+            <child nodeId="node-2716"></child>
         </children>
+    </item>
+    <item nodeId="node-2716">
+        <command xml:space="preserve">x copy</command>
+        <result xml:space="preserve">It's amazing that this still exists. A copy of the interactive fiction classic on 5.25" floppy disk for the Apple II. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2526">
         <command xml:space="preserve">play planetfall</command>

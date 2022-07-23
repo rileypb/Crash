@@ -19,6 +19,7 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1006"></child>
+            <child nodeId="node-2633"></child>
             <child nodeId="node-1005"></child>
             <child nodeId="node-1512"></child>
             <child nodeId="node-2170"></child>
@@ -1706,7 +1707,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+A man's voice comes over comms: "Usagi, are you there?"
 
 [Finally, another person! I'm saved!]
 
@@ -1720,7 +1721,7 @@ You push the trunk clear of the door.
 &gt;[43] set gravity control to 1
 You dial the gravity to 1.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
 
 
 &gt;[44] press button
@@ -1945,7 +1946,8 @@ Taken.
     </item>
     <item nodeId="node-2526">
         <command xml:space="preserve">play planetfall</command>
-        <result xml:space="preserve">PLANETFALL
+        <result xml:space="preserve">(on the Universal Game Emulator)
+PLANETFALL
 Infocom interactive fiction - a science fiction story
 Copyright (c) 1983 by Infocom, Inc. All rights reserved.
 PLANETFALL is a registered trademark of Infocom, Inc.
@@ -1956,7 +1958,154 @@ Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This m
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2527"></child>
+            <child nodeId="node-2609"></child>
         </children>
+    </item>
+    <item nodeId="node-2609">
+        <command xml:space="preserve">x slime</command>
+        <result xml:space="preserve">What slime?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2610"></child>
+        </children>
+    </item>
+    <item nodeId="node-2610">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Reactor Lobby
+The corridor widens here as it nears the main drive area. To starboard is the Ion Reactor that powers the vessel, and aft of here is the Auxiliary Control Room. The corridor continues to port.
+
+Ensign Blather, his uniform immaculate, enters and notices you are away from your post. "Twenty demerits, Ensign Seventh Class!" bellows Blather. "Forty if you're not back on Deck Nine in five seconds!" He curls his face into a hideous mask of disgust at your unbelievable negligence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2611"></child>
+        </children>
+    </item>
+    <item nodeId="node-2611">
+        <command xml:space="preserve">hit blather</command>
+        <result xml:space="preserve">Blather removes several of your appendages and internal organs.
+
+    ****  You have died  ****
+
+[Ouch. I hope that's not prescient.]
+
+You stop playing Planetfall. Time to save the ship.
+
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is open and contains an engineering uniform. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2612"></child>
+        </children>
+    </item>
+    <item nodeId="node-2612">
+        <command xml:space="preserve">play planetfall</command>
+        <result xml:space="preserve">(on the Universal Game Emulator)
+[No, I have more important things to do than playing that again.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2613"></child>
+        </children>
+    </item>
+    <item nodeId="node-2613">
+        <command xml:space="preserve">pf</command>
+        <result xml:space="preserve">PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2614"></child>
+        </children>
+    </item>
+    <item nodeId="node-2614">
+        <command xml:space="preserve">quit</command>
+        <result xml:space="preserve">You stop playing Planetfall. Time to save the ship.
+
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is open and contains an engineering uniform. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2615"></child>
+        </children>
+    </item>
+    <item nodeId="node-2615">
+        <command xml:space="preserve">pf</command>
+        <result xml:space="preserve">PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2616"></child>
+        </children>
+    </item>
+    <item nodeId="node-2616">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Ensign Blather blocks your way, snarling angrily.
+
+"I said to return to your post, Ensign Seventh Class!" bellows Blather, turning a deepening shade of crimson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2617"></child>
+        </children>
+    </item>
+    <item nodeId="node-2617">
+        <command xml:space="preserve">x blather</command>
+        <result xml:space="preserve">Ensign Blather is a tall, beefy officer with a tremendous, misshapen nose. His uniform is perfect in every respect, and the crease in his trousers could probably slice diamonds in half.
+
+"I said to return to your post, Ensign Seventh Class!" bellows Blather, turning a deepening shade of crimson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2618"></child>
+        </children>
+    </item>
+    <item nodeId="node-2618">
+        <command xml:space="preserve">taste him</command>
+        <result xml:space="preserve">You taste nothing unexpected.
+
+"I said to return to your post, Ensign Seventh Class!" bellows Blather, turning a deepening shade of crimson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2619"></child>
+        </children>
+    </item>
+    <item nodeId="node-2619">
+        <command xml:space="preserve">x him</command>
+        <result xml:space="preserve">Ensign Blather is a tall, beefy officer with a tremendous, misshapen nose. His uniform is perfect in every respect, and the crease in his trousers could probably slice diamonds in half.
+
+Blather loses his last vestige of patience and drags you to the Feinstein's brig. He throws you in, and the door clangs shut behind you.
+
+Brig
+You are in the Feinstein's brig. Graffiti cover the walls. The cell door to the south is locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2620"></child>
+        </children>
+    </item>
+    <item nodeId="node-2620">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2527">
         <command xml:space="preserve">undo</command>
@@ -4079,6 +4228,7 @@ Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This m
         <children><child nodeId="node-2304"></child>
             <child nodeId="node-2171"></child>
             <child nodeId="node-2353"></child>
+            <child nodeId="node-2622"></child>
             <child nodeId="node-2314"></child>
             <child nodeId="node-2330"></child>
         </children>
@@ -4382,6 +4532,133 @@ The ambassador grunts a polite farewell, and disappears up the gangway, leaving 
     <item nodeId="node-2328">
         <command xml:space="preserve">touch slime</command>
         <result xml:space="preserve">It feels like slime. Aren't you glad you didn't step in it?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2622">
+        <command xml:space="preserve">sb</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2623"></child>
+        </children>
+    </item>
+    <item nodeId="node-2623">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Reactor Lobby
+The corridor widens here as it nears the main drive area. To starboard is the Ion Reactor that powers the vessel, and aft of here is the Auxiliary Control Room. The corridor continues to port.
+
+Ensign Blather, his uniform immaculate, enters and notices you are away from your post. "Twenty demerits, Ensign Seventh Class!" bellows Blather. "Forty if you're not back on Deck Nine in five seconds!" He curls his face into a hideous mask of disgust at your unbelievable negligence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2624"></child>
+        </children>
+    </item>
+    <item nodeId="node-2624">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+"I said to return to your post, Ensign Seventh Class!" bellows Blather, turning a deepening shade of crimson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2625"></child>
+        </children>
+    </item>
+    <item nodeId="node-2625">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+"I said to return to your post, Ensign Seventh Class!" bellows Blather, turning a deepening shade of crimson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2626"></child>
+        </children>
+    </item>
+    <item nodeId="node-2626">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+"I said to return to your post, Ensign Seventh Class!" bellows Blather, turning a deepening shade of crimson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2627"></child>
+        </children>
+    </item>
+    <item nodeId="node-2627">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Blather loses his last vestige of patience and drags you to the Feinstein's brig. He throws you in, and the door clangs shut behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Brig
+You are in the Feinstein's brig. Graffiti cover the walls. The cell door to the south is locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2628"></child>
+        </children>
+    </item>
+    <item nodeId="node-2628">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">You see nothing special about the cell door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2629"></child>
+        </children>
+    </item>
+    <item nodeId="node-2629">
+        <command xml:space="preserve">open it</command>
+        <result xml:space="preserve">No way, Jose.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2630"></child>
+        </children>
+    </item>
+    <item nodeId="node-2630">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">That's already closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2631"></child>
+        </children>
+    </item>
+    <item nodeId="node-2631">
+        <command xml:space="preserve">sb</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2632"></child>
+        </children>
+    </item>
+    <item nodeId="node-2632">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The only obvious exit is starboard.
+
+A massive explosion rocks the ship. Echoes from the explosion resound deafeningly down the halls.
+
+
+[No, no, no. This is hitting too close to home. Better quit and focus on saving the ship.]
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -6679,6 +6956,55 @@ This is a featureless corridor similar to every other corridor on the ship. It c
 
 
 A note on fixing: you don't need to fiddle with screwdrivers and screws. Instead, say what you mean.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2633">
+        <command xml:space="preserve">gonear brig</command>
+        <result xml:space="preserve">
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Brig
+You are in the Feinstein's brig. Graffiti cover the walls. The cell door to the south is locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2634"></child>
+        </children>
+    </item>
+    <item nodeId="node-2634">
+        <command xml:space="preserve">read graffiti</command>
+        <result xml:space="preserve">All the graffiti seem to be about Blather. One of the least obscene items reads:
+
+There once was a krip, name of Blather
+ Who told a young Ensign named Smather
+ "I'll make you inherit
+ A trotting demerit
+ And ship you off to those stinking fawg-infested tar-pools of Krather."
+
+
+It's not a very good limerick, is it?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2639"></child>
+        </children>
+    </item>
+    <item nodeId="node-2639">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The only obvious exit is starboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2640"></child>
+        </children>
+    </item>
+    <item nodeId="node-2640">
+        <command xml:space="preserve">go s</command>
+        <result xml:space="preserve">The only obvious exit is starboard.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -4762,6 +4762,25 @@ Deck Eight is above Gangway. It is in-planetfall. "This is a featureless corrido
 
 Brig is a room. It is in-planetfall. "You are in the Feinstein’s brig. Graffiti cover the walls. The cell door to the south is locked."
 
+The cell door is a door. The cell door is starboard of brig.
+
+Instead of opening cell door:
+	say "No way, Jose.";
+	
+Instead of going starboard from brig:
+	say "The cell door is locked.";
+	
+The graffiti is scenery in brig. It is readable. 
+The readable text is "All the graffiti seem to be about Blather. One of the least obscene items reads:
+
+There once was a krip, name of Blather[line break]
+Who told a young Ensign named Smather[line break]
+'I’ll make you inherit[line break]
+A trotting demerit[line break]
+And ship you off to those stinking fawg-infested tar-pools of Krather.'
+
+It’s not a very good limerick, is it?"
+
 The floor is a backdrop. 
 
 When play begins: 

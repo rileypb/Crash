@@ -375,6 +375,8 @@ index (number)	recurs (truth state)	triggered (truth state)	thought (text)
 14	false	false	"Or so you say."
 15	false	false	"Nice chair."
 16	false	false	"Cute dog."
+17	false	false	"I always wanted one of these."
+
 
 
 Chapter 3 - Speaking
@@ -504,13 +506,15 @@ A vac suit has a number called remaining air. The remaining air is usually 15.
 
 Understand "vacuum" as a vac suit. The description of a vac suit is "A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently [if switched on]on.[otherwise]off.[end if] A gauge indicates the suit has [remaining air] units of air left." 
 
+Tipped venting is a truth state that varies.
+
 Instead of examining a vac suit (called VS):
 	let MB be a random magnetic boots which are part of VS;
 	say "A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently [if MB is switched on]on[otherwise]off[end if]. A gauge indicates the suit has [remaining air of VS] units of air left.";
-
-After examining a vac suit:
-	think "I always wanted one of these.";
-	tip "You can vent air by using 'vent suit'";
+	think thought 17;
+	if tipped venting is false:
+		tip "You can vent air by using 'vent suit'";
+		now tipped venting is true;
 
 Vacuum-suit is a subject. It is privately-named. The description is "subject". Understand "vac", "vacuum" and "suit" as vacuum-suit.
 Does the player mean wearing vacuum-suit: It is very unlikely.
@@ -1801,6 +1805,35 @@ Fixing is an action applying to one thing. Understand "fix [something]" and "rep
 
 Check fixing something (this is the block fixing rule):
 	say "This is a hard one. You'll have to be more specific about how you do that." instead;
+	
+Chapter 12 - Playing
+
+Played Planetfall already is a truth state that varies.
+
+Playing it on is an action applying to two things. Understand "play [something] on/with [something]" and "play [something]" as playing it on.
+
+Check playing something on something (this is the can only play games rule):
+	if the noun is not the copy of Planetfall:
+		say "[The noun] is not a game." instead;
+		
+Check playing something on something (this is the can only play games on game machines rule):
+	if the second noun is not Universal Game Emulator:
+		say "[The second noun] cannot play games.";
+
+Check playing the copy of Planetfall on the Universal Game Emulator when played planetfall already is true:
+	think "No, I have more important things to do than playing that again." instead;
+		
+Carry out playing the copy of Planetfall on the Universal Game Emulator:
+	now played planetfall already is true;
+	start playing planetfall;
+	
+Rule for supplying a missing second noun while playing copy of Planetfall on:
+	if the Universal Game Emulator is touchable:
+		say "(on the Universal Game Emulator)[command clarification break]";
+		now the second noun is the Universal Game Emulator;
+	otherwise:
+		say "You have nothing to play that on.";
+		rule fails;
 
 Book 9 - The Player
 
@@ -2965,6 +2998,8 @@ When End Game begins:
 		activate the table of winning hints;
 		activate the table of fuel injection hints;
 		activate the table of engine hints;
+		activate the table of moving engine hints;
+		
 	
 Every turn when last-moves is true or protocols-activated is true:
 	decrement turns left;
@@ -3881,6 +3916,7 @@ The piece of note paper is readable. The description is "[the readable text]". T
 
 Rule for printing room description details of the engineering uniform: omit contents in listing;
 
+The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "This device, the Universal Game Emulator, or 'UGE', can play any game ever produced for any system.".  Understand "console", "UGE", "MAME" as Universal Game Emulator.
 
 The port-side bed is in the port-side crew quarters. it is privately-named. The printed name is "bunk bed". It is scenery. The description is "A fairly typical military bunk bed." Understand "bunk" and "bed" as the port-side bed.
 The port-side top bunk is a part of the port-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the port-side top bunk. 
@@ -4643,8 +4679,200 @@ Section 16 - Regions
 
 The Interior is a region. The Bridge, operations deck, engineering deck, engine room, machine room, galley, junction, port-side crew quarters, starboard-side crew quarters, captain's quarters, staging area, engineering airlock and Aft-Airlock-Room are in the interior.
 
+Book 14 - Planetfall
 
-Book 14 - The Plot
+To print Planetfall banner text:
+	say "PLANETFALL[line break]Infocom interactive fiction - a science fiction story[line break]Copyright (c) 1983 by Infocom, Inc. All rights reserved.[line break]PLANETFALL is a registered trademark of Infocom, Inc.[line break]Release 39 / Serial number 880501";
+
+To print Planetfall intro text:
+	say "Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning’s assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.";
+	
+Playing Planetfall is a scene. Playing Planetfall begins when the player is in Deck Nine.
+Playing Planetfall ends when the location is not in-planetfall.
+
+Check quitting the game when the location is in-planetfall:
+	say "You stop playing Planetfall. Time to save the ship.";
+	now the status exit table is Table of Fancy Status;
+	now right alignment depth is 14;
+	now the player is yourself;
+	try looking instead;
+
+A room can be in-planetfall.
+
+The ensign seventh class is a person. It is neuter. It is in Deck Nine.
+The ensign seventh class wears the Patrol uniform.
+The ensign seventh class wears the chronometer.
+The ensign seventh class carries the Patrol-issue self-contained multi-purpose scrub brush.
+
+Table of Planetfall Status
+left	central	right
+" [Location]"	""	"Score: 0  Time: [chrono reading]"
+
+To start playing Planetfall:
+	now status exit table is Table of Planetfall Status;
+	now right alignment depth is 20;
+	print Planetfall banner text;
+	say paragraph break;
+	print Planetfall intro text;
+	now the player is the ensign seventh class.
+	
+The Patrol uniform is a wearable thing. The description of the Patrol uniform is "It is a standard-issue one-pocket Stellar Patrol uniform, a miracle of modern technology. It will keep its owner warm in cold climates and cool in warm locales. It provides protection against mild radiation, repels all insects, absorbs sweat, promotes healthy skin tone, and on top of everything else, it is super-comfy.".
+
+The Patrol uniform contains the ID card. The description of the ID card is "'STELLAR PATROL[line break]
+Special Assignment Task Force[line break]
+ID Number:  6172-531-541'".
+
+To say chrono reading:
+	let T be 4475 + (3 * turn count);
+	say "[T]";
+
+The chronometer is a wearable thing. The description is "It is a standard wrist chronometer with a digital display. According to the chronometer, the current time is [chrono reading]. The back is engraved with the message 'Good luck in the Patrol! Love, Mom and Dad.'"
+
+Understand "watch" as the chronometer.
+
+Instead of reading the chronometer:
+	try examining the chronometer;
+
+The Patrol-issue self-contained multi-purpose scrub brush is a thing.
+
+The brochure is a readable thing. The readable text is "'The leading export of Blow’k-bibben-Gordo is the adventure game[line break][line break]          *** PLANETFALL ***
+
+written by S. Eric Meretzky.[line break]Buy one today. Better yet, buy a thousand.'";
+
+Chapter 1 - Rooms
+
+Deck Nine is a room. "This is a featureless corridor similar to every other corridor on the ship. It curves away to starboard, and a gangway leads up. To port is the entrance to one of the ship’s primary escape pods. The pod bulkhead is closed."
+It is in-planetfall.
+
+Instead of going port from Deck Nine:
+	say "The escape pod bulkhead is closed.";
+	
+Instead of opening the escape pod bulkhead:
+	say "Why open the door to the emergency escape pod if there’s no emergency?";
+
+Reactor Lobby is starboard of Deck Nine. "The corridor widens here as it nears the main drive area. To starboard is the Ion Reactor that powers the vessel, and aft of here is the Auxiliary Control Room. The corridor continues to port."
+It is in-planetfall.
+
+Escape Pod is a room. It is in-planetfall.
+The escape pod bulkhead is a door. It is port of Deck Nine and starboard of Escape Pod.
+
+Planetfall Gangway is above Deck Nine. The printed name is "Gangway". It is in-planetfall. "This is a steep metal gangway connecting Deck Eight, above, and Deck Nine, below."
+
+Deck Eight is above Gangway. It is in-planetfall. "This is a featureless corridor leading port and starboard. A gangway leads down, and to fore is the Hyperspatial Jump Machinery Room."
+
+Brig is a room. It is in-planetfall. "You are in the Feinstein’s brig. Graffiti cover the walls. The cell door to the south is locked."
+
+The floor is a backdrop. 
+
+When play begins: 
+	Move the floor backdrop to all in-planetfall rooms;
+	
+Instead of rubbing the floor:
+	say "The floor is a bit shinier now.";
+
+Chapter 2 - Characters
+
+Section 1 - Blather
+
+Ensign First Class Blather is a man. He is undescribed. The description is "Ensign Blather is a tall, beefy officer with a tremendous, misshapen nose. His uniform is perfect in every respect, and the crease in his trousers could probably slice diamonds in half.".
+
+Blather has a room called last yelling location.
+Number of turns in location is a number that varies.
+
+To report blather yelling: 
+	if last yelling location of blather is the location:
+		say "'I said to return to your post, Ensign Seventh Class!' bellows Blather, turning a deepening shade of crimson.";
+	otherwise:
+		say "Ensign Blather, his uniform immaculate, enters and notices you are away from your post. 'Twenty demerits, Ensign Seventh Class!' bellows Blather. 'Forty if you’re not back on Deck Nine in five seconds!' He curls his face into a hideous mask of disgust at your unbelievable negligence.";
+	now the last yelling location of blather is the location;
+	
+Every turn when blather is not in the location and the location is Deck Eight:
+	now blather is in Deck Eight;
+	
+Every turn when blather is not in the location and the location is Reactor Lobby:
+	now blather is in Reactor Lobby;
+	
+Every turn when blather is in the location and the location is not Deck Nine:
+	if number of turns in location is 4:
+		say "Blather loses his last vestige of patience and drags you to the Feinstein’s brig. He throws you in, and the door clangs shut behind you.";
+		now the player is in the brig;
+	otherwise:
+		report blather yelling;
+		
+Every turn when the location is Deck Nine and the alien Ambassador is not in the location:
+	if number of turns in location is 2:
+		now the alien ambassador is on deck nine;
+		say "The alien ambassador from the planet Blow’k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet’s major exports.";
+		now the player carries the brochure;
+		
+		
+Every turn when player is in Deck Nine and the Ambassador is in Deck Nine:
+	if number of turns in location is 6:
+		now the alien ambassador is nowhere;
+		say "The ambassador grunts a polite farewell, and disappears up the gangway, leaving a trail of dripping slime.";
+	otherwise if turns in location of ambassador > 0:
+		say "[one of]The ambassador inquires whether you are interested in a game of Bocci.[or]The ambassador offers you a bit of celery.[or]The ambassador asks where Admiral Smithers can be found.[or]The ambassador introduces himself as Br’gun-te’elkner-ipg’nun.[or]The ambassador asks if you are performing some sort of religious ceremony.[or]The ambassador remarks that all humans look alike to him.[in random order]";
+
+After going a direction when the location is in-planetfall:
+	now the number of turns in location is 0;
+	continue the action;
+
+Every turn when the location is in-planetfall:
+	increment the number of turns in location;
+	
+Instead of going nowhere when Blather is in the location:
+	say "[one of]Ensign Blather blocks your way, snarling angrily.[or]Ensign Blather pushes you roughly back toward your post.[or]Blather throws you to the deck and makes you do 20 push-ups.[purely at random]";
+	
+Every turn when number of turns in location is 9:
+	say "A massive explosion rocks the ship. Echoes from the explosion resound deafeningly down the halls.[if player is in deck nine] The door to port slides open.[end if][if the ambassador is in the location] The ambassador squawks frantically, evacuates a massive load of gooey slime, and rushes away.[end if]";
+	say paragraph break;
+	think "No, no, no. This is hitting too close to home. Better quit and focus on saving the ship.";
+	now the player is yourself;
+	now right alignment depth is 14;
+	now the status exit table is Table of Fancy Status;
+	try looking;
+	
+Instead of examining ensign seventh class:
+	say "That's difficult unless your eyes are prehensile.";
+	
+Instead of attacking Blather:
+	say "Blather removes several of your appendages and internal organs.[line break][line break]    ****  You have died  ****[paragraph break]";
+	think "Ouch. I hope that's not prescient.";
+	try quitting the game;
+	
+
+Section 2 - Ambassador
+
+The alien ambassador is a man. The alien ambassador has a number called turns in location. The alien ambassador is undescribed.
+The description is "The ambassador has around twenty eyes, seven of which are currently open. Half of his six legs are retracted. Green slime oozes from multiple orifices in his scaly skin. He speaks through a mechanical translator slung around his neck.".
+
+Every turn when the alien ambassador is in deck nine and the player is in deck nine:
+	increment turns in location of alien ambassador;
+
+Slime is a thing in Deck Nine. It is undescribed.
+
+Instead of doing something to the slime when the ambassador has not been in deck nine:
+	say "What slime?";
+
+Instead of taking, touching the slime when the ambassador has been in deck nine:
+	say "It feels like slime. Aren't you glad you didn't step in it?";
+
+Instead of examining the slime when the ambassador has been in deck nine:
+	say "It looks like slime. Aren't you glad you didn't step in it?";
+
+Instead of smelling the slime when the ambassador has been in deck nine:
+	say "It smells like slime. Aren't you glad you didn't step in it?";
+
+Instead of rubbing the slime when the ambassador has been in deck nine:
+	say "Whew. You’ve cleaned up maybe one ten-thousandth of the slime. If you hurry, it might be all cleaned up before Ensign Blather gets here.";
+	
+Instead of attacking the ambassador:
+	say "The ambassador is startled, and emits an amazing quantity of slime which spreads across the section of the deck you just polished.";
+	
+Instead of saying hello to the ambassador:
+	say "The ambassador taps his translator, and then touches his center knee to his left ear (the Blow’k-bibben-Gordoan equivalent of shrugging).";
+	
+Book 15 - The Plot
 
 Chapter 1 - Scenes
 
@@ -4809,7 +5037,7 @@ Persuasion rule when asking the shipboard computer to try executing when locatio
 	End the story finally saying "You have saved New Da Nang, the SS Usagi, and yourself!";
 
 	
-Book 15 - Contraptions and Puzzles
+Book 16 - Contraptions and Puzzles
 
 Chapter 1 - Fuel Mixing Puzzle
 
@@ -5115,7 +5343,7 @@ When play begins:
 	Tachyon Crystals injected into Unobtainium creates Red Matter;
 	Tachyon Crystals injected into Tachyon Crystals creates Void Matter;
 	
-Book 16 - Technical Details
+Book 17 - Technical Details
 
 The parser nothing error internal rule response (B) is "But you don't see anything.".
 
@@ -5165,7 +5393,7 @@ The new implicitly pass through other barriers rule is listed instead of the imp
 
 
 
-Book 17 - Help
+Book 18 - Help
 
 
 Helping with speech is an action out of world. Understand "help speech" as helping with speech.
@@ -5268,7 +5496,7 @@ Carry out helping with speech:
 	
 	One useful command is '<name>, repeat', which will cause the named person or thing to repeat the last thing they said, if anything. You can also say '<name>, repeat all', which will cause them to repeat an entire transcript of their speech.";	
 	
-Book 18 - Hints
+Book 19 - Hints
 
 Hints tipped is a truth state that varies.
 
@@ -5462,7 +5690,7 @@ hint	used (a number)
 "You also need some way for people to find you floating in space."	
 "Look for the beacon in the starboard-side locker."
 
-Book 19 - About
+Book 20 - About
 
 abouting is an action out of world. Understand "about" and "credits" as abouting.
 
@@ -5473,9 +5701,9 @@ Carry out abouting:
 	say "Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Stu Dobbie, and Jade.";
 	say "Special thanks to Laura Taalman for so many great ideas and improvements.";
 
-Book 20 - Not for Release
+Book 21 - Not for Release
 
-DEBUG is false.
+DEBUG is true.
 
 When play begins:
 	if DEBUG is true:
@@ -5531,6 +5759,10 @@ Refilling is an action applying to nothing. Understand "refill" as refilling.
 Carry out refilling:
 	let VS be a random vac suit worn by the player;
 	now the remaining air of VS is 1000;
+	
+planetfalling is an action out of world. Understand "pf" as planetfalling.
+Carry out planetfalling:
+	start playing planetfall;
 
 Test airlock with "f/f/u/a/u/s/take slippers/look under bed/get trunk/open it/take present/open it/take eyes/p/d/drop trunk/stand on trunk/take broken sensor/put optical sensor in panel".
 
@@ -5540,9 +5772,11 @@ test microwave with "test spacewalk/p/open drawer/take all/s/f/move trunk/set gr
 
 test cabinet with "test microwave/a/s/get on top bunk/replace screw".
 
-test storage with "test cabinet/get down/open cabinet/take beacon/p/p/open cabinet/x uniform/take paper/read it/x unit/type 9467 on keypad/pry bottom drawer open with knife/take card/close drawer/open keypad with key/tape wires/type 9467 on keypad".
+test storage with "test cabinet/get down/open cabinet/take beacon/p/p/open cabinet/x uniform/take paper/read it/take Universal Game Emulator/x unit/type 9467 on keypad/pry bottom drawer open with knife/take card/close drawer/open keypad with key/tape wires/close bottom drawer/type 9467 on keypad/take planetfall".
 
-test staging with "test storage/s/d/turn over locker/open locker".
+test planetfall with "test storage/play planetfall on universal/z/z/z/z/z/z/z/z";
+
+test staging with "test planetfall/s/d/turn over locker/open locker".
 
 test tether with "test staging/a/out/tie tether to hook/f/tie tether to hook/s/tie tether to hook/p/a/in/in/turn off boots/push jl-758 aft/push jl-758 aft/push jl-758 aft/push jl-758 fore/push jl-758 starboard/push jl-758 in/push jl-758 in/push jl-758 aft".
 

@@ -4411,16 +4411,19 @@ Check turning over suit locker 2 when gravity > 1:
 	say "It's much too heavy to turn over." instead;
 	
 Carry out turning over suit locker 2 when suit locker 2 is door-side down:
-	now suit locker 2 is not door-side down;
+	now suit locker 2 is not door-side down;	
 	
 Report turning over suit locker 2:
 	say "You turn over the locker. Now it's door-side-up.";
 	rule succeeds;
+	
+Tether in play is a truth state that varies.
 
-After opening suit locker 2 for the first time:
+After opening suit locker 2 when tether in play is false:
 	say "You open the locker.[paragraph break]";
 	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting: a tether, used for securing people or objects during extravehicular activity.";
-	now the player carries the tether.
+	now the player carries the tether;
+	now tether in play is true;
 
 One vac suit is in staging area. It is undescribed.
 
@@ -4847,7 +4850,7 @@ Every turn when the location is in-planetfall:
 Instead of going nowhere when Blather is in the location:
 	say "[one of]Ensign Blather blocks your way, snarling angrily.[or]Ensign Blather pushes you roughly back toward your post.[or]Blather throws you to the deck and makes you do 20 push-ups.[purely at random]";
 	
-Every turn when number of turns in location is 9:
+Every turn when number of turns in location is 9 and the location is in-planetfall:
 	say "A massive explosion rocks the ship. Echoes from the explosion resound deafeningly down the halls.[if player is in deck nine] The door to port slides open.[end if][if the ambassador is in the location] The ambassador squawks frantically, evacuates a massive load of gooey slime, and rushes away.[end if]";
 	say paragraph break;
 	think "No, no, no. This is hitting too close to home. Better quit and focus on saving the ship.";
@@ -5798,7 +5801,7 @@ test cabinet with "test microwave/a/s/get on top bunk/replace screw".
 
 test storage with "test cabinet/get down/open cabinet/take beacon/p/p/open cabinet/x uniform/take paper/read it/take Universal Game Emulator/x unit/type 9467 on keypad/pry bottom drawer open with knife/take card/close drawer/open keypad with key/tape wires/close bottom drawer/type 9467 on keypad/take planetfall".
 
-test planetfall with "test storage/play planetfall on universal/z/z/z/z/z/z/z/z";
+test planetfall with "test storage/play planetfall on universal/z/z/z/z/z/z/z/z/z";
 
 test staging with "test planetfall/s/d/turn over locker/open locker".
 

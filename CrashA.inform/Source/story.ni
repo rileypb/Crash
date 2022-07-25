@@ -798,6 +798,9 @@ Instead of inserting the toolbox into something:
 	
 Instead of putting the toolbox on something:
 	think "No. That's my life right there.";
+	
+Instead of opening the toolbox:
+	say "You'll open it if you need it.";
 
 Chapter 3 - The To-do list
 
@@ -1941,7 +1944,7 @@ Before asking Arvax about "himself":
 Before asking Captain Mulgrew about "herself":
 	try quizzing Captain Mulgrew about Captain Mulgrew instead;
 
-Before asking someone about a topic:
+Before asking someone about a topic when end game is not happening:
 	say "'I'm afraid I don't have anything to say about that.'";
 	reset turns in state instead;
 	
@@ -2105,7 +2108,7 @@ For Asking for attention by Arvax while current conversation state is waiting fo
 	make no decision;
 	
 For Asking for attention by Arvax when current conversation state is asking mulgrew questions:
-	print "[Arvax]: ''Hey, friend, we need to reboot the computer soon before it's too late.'[line break]" as Arvax near communications console with transcript false;
+	print "[Arvax]: 'Hey, friend, we need to reboot the computer soon before it's too late.'[line break]" as Arvax near communications console with transcript false;
 
 System rebooted is a truth state that varies.
 
@@ -2239,6 +2242,23 @@ Response when saying no and current conversation state is asking mulgrew questio
 	
 Section 3 - Revenge of Arvax
 
+check asking Arvax about something during end game (this is the divert end game asking rule):
+	try quizzing arvax about the ss usagi instead;
+
+check quizzing Arvax about something when the second noun is not the ss usagi during end game (this is the divert end game quizzing rule):
+	say "'We don't have time for that!";
+	try quizzing arvax about the ss usagi instead;
+
+check telling Arvax about something during end game (this is the divert end game telling rule):
+	say "'We don't have time for that!";
+	try quizzing arvax about the ss usagi instead;
+
+check informing Arvax about something during end game (this is the divert end game informing rule):
+	say "'We don't have time for that!";
+	try quizzing arvax about the ss usagi instead;
+	
+[The divert end game conversation rule is listed first in the before rules.
+]
 Response of Arvax when told about Captain's Affair:
 	print "'Oh, Captain no... We must act fast if we're going to stop what she's put in motion.'[line break]" as Arvax near communications console;
 	now Arvax knows Captain's Affair;
@@ -2398,10 +2418,9 @@ For asking for attention by Arvax while talking about cs-end-game-protocols:
 cs-end-game-protocols-said-hello is a truth state that varies.
 
 After saying hello to Arvax when talking about cs-end-game-protocols and cs-end-game-protocols-said-hello is false:
-	print "'Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation.[line break]" as Arvax near communications console;
+	print "'Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation.'[line break]" as Arvax near communications console;
 	now cs-end-game-protocols-said-hello is true;
 	reset turns in state;
-	try quizzing arvax about ss usagi;
 	
 After saying hello to Arvax when talking about cs-end-game-protocols:
 	print "'No time for that! What are we going to do?'" as Arvax near communications console;
@@ -2480,7 +2499,7 @@ After quizzing shipboard computer about an object when logged in as Arvax is fal
 	otherwise:
 		print "I'm unable to give you any information about [the second noun].[line break]" as computer near player;
 		
-After quizzing shipboard computer about an object when logged in as Arvax is true:
+After quizzing shipboard computer about an object when logged in as Arvax is true and the second noun is not the shipboard computer:
 	if there is a dt-subject of the second noun in the Table of computer Subjects:
 		choose the row with dt-subject of second noun in the Table of computer Subjects;
 		if there is no dt-text-arvax entry or the dt-text-arvax entry is "":
@@ -2896,7 +2915,9 @@ Instead of informing the shipboard computer about something when location is the
 Instead of telling the shipboard computer about something when location is the bridge:
 	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;
 
-Player aware of melted helm is a truth state that varies.
+Player aware of melted helm is a truth state that varies
+
+The access panel keyhole is part of the pilot's access panel. It is scenery. "It's a small hex-shaped hole."
 
 To say state of pilot's access panel:
 	If the pilot's access panel is closed:
@@ -2916,6 +2937,9 @@ To say state of navigator's access panel:
 After closing the pilot's access panel:
 	now the pilot's access panel is locked;
 	continue the action;
+	
+Instead of inserting the hex-shaped tool into the access panel keyhole:
+	try unlocking the pilot's access panel with the hex-shaped tool;
 
 The pilot's console is a thing in the bridge. It is scenery. "The pilot's console is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel [state of pilot's access panel].". Understand "pilot console" as pilot's console.
 The pilot's access panel is a container which is a part of the pilot's console. It is closed, locked, and openable. It has carrying capacity 0. The pilot's access panel has matching key the hex-shaped tool. The description is "The access panel is a rectangle of the same plastic that makes up the console. There is a hex-shaped keyhole in it." Understand "pilot access/-- panel" as pilot's access panel.
@@ -3120,7 +3144,7 @@ Check taking the equipment trunk when gravity > 1:
 Check taking the equipment trunk when gravity is 1:
 	say "You could probably lift the trunk in this low gravity, if it weren't so cumbersome." instead;
 
-instead of doing something to the equipment trunk for the third time:
+instead of doing something other than pushing to the equipment trunk for the third time:
 	say "Really, the equipment trunk isn't important to the story. But by all means, continue to fiddle with it.";
 
 The environmental console is a thing in Operations. It is scenery. The description is "[The environmental console] contains the controls that deal with the comfort of the occupants, including temperature, pressure, and gravity. [description of the gravity control]".
@@ -3350,7 +3374,7 @@ Section 6 - Machine Room
 
 The machine room counter is a supporter in the Machine Room. It is scenery. The description is "A long surface made of some composite material, this counter does an admirable job of keeping things off the floor."
 
-The machine room drawers is a closed openable container in the Machine Room. It is scenery. Understand "drawer" as the machine room drawers. The description is "Under the counter is a row of drawers which are [state and contents of the machine room drawers]."
+The machine room drawers is a closed openable container in the Machine Room. It is plural-named. It is scenery. Understand "drawer" as the machine room drawers. The description is "Under the counter is a row of drawers which are [state and contents of the machine room drawers]."
 
 The small key is in the machine room drawers. The description is "A small steel key.".
 The roll of electrical tape is in the machine room drawers. The description is "Electrical tape always comes in handy. Perhaps not as handy as duct tape, but pretty handy. There's enough here to last you for a while.". 
@@ -3361,6 +3385,11 @@ The fresh fuse is in the machine room drawers. The description is "A small yello
 The portable hand-held vacuum cleaner is a thing on the machine room counter. "There's a hand vac sitting on the counter."
 Understand "hand vac" as the portable hand-held vacuum cleaner.
 The description of the vacuum cleaner is "A small canister vacuum, with a handle to easily carry it around, and a short hose."
+
+Does the player mean doing something to the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely;
+
+Does the player mean taking a vac suit when the player is wearing a vac suit: it is very unlikely.
+Does the player mean taking the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely.
 
 Section 7 - Engine Room
 
@@ -3376,7 +3405,7 @@ Understand "screen" as engine diagram.
 
 The test button is a button in the engine room. It is scenery. "A square, red button with large capital letters saying 'TEST'."
 
-The fusion engine is scenery in the Engine Room. The fusion engine can be broken. The fusion engine is broken. "The portion of the engine directly accessible from the engine room is a formidable machine. You wouldn't dare touch any of the various dials, components, hatches, etc. that adorn the surface[if fusion engine is broken]. At your feet a part of the engine juts out -- it looks broken[end if]."
+The fusion engine is scenery in the Engine Room. The fusion engine can be broken.  "The portion of the engine directly accessible from the engine room is a formidable machine. You wouldn't dare touch any of the various dials, components, hatches, etc. that adorn the surface[if fusion engine is broken]. At your feet a part of the engine juts out -- it looks broken[end if]."
 
 After examining the fusion engine when the fusion engine is broken:
 	add fix the engine;
@@ -3527,6 +3556,11 @@ Report eating the cooked dinner:
 	say "You eat the cooked dinner. It's as uninspiring as you imagined.";
 	stop the action;
 	
+Does the player mean inserting into something that is not a container: it is very unlikely.
+Does the player mean plugging in the microwavable dinner: it is very unlikely.
+Does the player mean unplugging the microwavable dinner: it is very unlikely.
+Does the player mean doing something to the microwavable dinner: it is very unlikely.
+	
 Check eating something when the chewing gum is currently chewed:
 	say "You can't eat while chewing gum." instead;
 
@@ -3556,7 +3590,7 @@ Carry out unplugging the microwave oven:
 	now the microwave oven is unplugged;
 	
 Report plugging in the microwave oven when the wall socket is plugged-up:
-	say "You plug in the microwave oven, but nothing happens	.";
+	say "You plug in the microwave oven, but nothing happens.";
 	rule succeeds;
 
 Report plugging in the microwave oven when the wall socket is not plugged-up:
@@ -3748,6 +3782,9 @@ Check inserting the fresh fuse into the aft access panel when the old fuse is in
 	
 Check screwing the aft access panel when the fresh fuse is not in the aft access panel:
 	think "Why should I close it when I haven't fixed it yet?" instead;
+	
+Does the player mean inserting the blown fuse into the aft access panel: It is very unlikely.
+Does the player mean inserting the fresh fuse into the aft access panel: It is very likely.
 
 Carry out screwing the aft access panel when the aft access panel is unscrewed and the player encloses the blue screw:
 	say "When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.";
@@ -3799,7 +3836,7 @@ Instead of opening captain's door when the captain's door is already authorized:
 	
 The description of Captain's Quarters is "Neat and spartan, this cabin is the very model of a small fighting ship's captain's quarters. An impeccably organized desk is against one wall, while a typically spotless bed sits beneath a portrait of this very ship. You can exit to fore.".
 
-The captain's bed is a supporter in the captain's quarters. It is enterable. It is scenery. It is undersided. "The captain's bed is like all the others on the ship: faultlessly neat"
+The captain's bed is a supporter in the captain's quarters. It is enterable. It is scenery. It is undersided. "The captain's bed is like all the others on the ship: faultlessly neat."
 
 The captain's desk is a thing in the captain's quarters. It is scenery. The description is "The Captain's desk is a simple institutional metal desk with a single drawer, [state and contents of desk drawer]. On the desk are two framed photos, one of a dog, who by his tag must be named 'Pluto', and another of an astronaut planting a flag on Earth's moon.".
 
@@ -3906,7 +3943,7 @@ After the journal hacking a topic:
 
 Section 11 - Port-Side Crew Quarters
 
-The port-side equipment cabinet is a container in Port-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, [state and contents of port-side equipment cabinet]."
+The port-side equipment cabinet is a container in Port-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, it is [state and contents of port-side equipment cabinet]."
 
 The port-side cabinet door is a part of the port-side equipment cabinet. It is privately-named. The printed name is "cabinet door". Understand "cabinet/-- door" as port-side cabinet door. The description is "It's a simple black-painted steel door.".
 
@@ -3962,6 +3999,15 @@ The description of the port-side storage unit is "The storage unit consists of t
 The description of the port keypad is "A standard 0-9 keypad with a '*' and '#'. Below the keys is a small keyhole.".
 
 The port top drawer contains a copy of Planetfall.
+
+The port keyhole is part of the port keypad. It is scenery.
+"A pretty typical heyhole, maybe smaller than most."
+
+Instead of inserting the small key into the port keyhole:
+	try unlocking the port keypad with the small key;
+
+Instead of unlocking the port keyhole with the small key:
+	try unlocking the port keypad with the small key;
 
 Instead of examining the copy of Planetfall:
 	say "It's amazing that this still exists. A copy of the interactive fiction classic on 5.25[quotation mark] floppy disk for the Apple II.";
@@ -4095,8 +4141,7 @@ Carry out prying the port bottom drawer open with the knife when the port bottom
 	deactivate table of open unit hints;
 	
 Report prying the port bottom drawer open with the knife when the port bottom drawer was half-open:
-	say "You wedge the knife into the seam and lever the drawer open.";
-	try examining the port bottom drawer;
+	say "You wedge the knife into the seam and lever the drawer open, revealing [list of things contained in the port bottom drawer with indefinite articles].";
 	
 After unlocking the port keypad with the small key:
 	try opening the port keypad;
@@ -4186,7 +4231,7 @@ Instead of going nowhere from port-side crew quarters when player is on the port
 
 Section 12 - Starboard-Side Crew Quarters
 
-The starboard-side equipment cabinet is a container in starboard-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, [state and contents of port-side equipment cabinet]."
+The starboard-side equipment cabinet is a container in starboard-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, it is [state and contents of starboard-side equipment cabinet]."
 The starboard-side cabinet door is a part of the starboard-side equipment cabinet. It is privately-named. The printed name is "cabinet door". Understand "cabinet/-- door" as starboard-side cabinet door. The description is "It's a simple black-painted steel door.".
 
 The starboard-side equipment cabinet can be unrepaired or repaired. The starboard-side equipment cabinet is unrepaired. 
@@ -4316,6 +4361,15 @@ The description of the starboard display is "The display says 'Enter Code'.".
 The description of the starboard top drawer is "The top drawer is labeled 'Jäger'. It is closed."
 The description of the starboard bottom drawer is "The bottom drawer is labeled 'Abimbola'. It is closed."
 
+The starboard keyhole is part of the starboard keypad. It is scenery.
+"A pretty typical heyhole, maybe smaller than most."
+
+Instead of inserting the small key into the starboard keyhole:
+	try unlocking the starboard keypad with the small key;
+
+Instead of unlocking the starboard keyhole with the small key:
+	try unlocking the starboard keypad with the small key;
+
 Instead of opening the starboard-side storage unit:
 	try opening the starboard top drawer;
 	
@@ -4431,7 +4485,7 @@ The munitions compartment is a container in Staging Area. The description is "Th
 
 The examine containers rule does nothing when the noun is the munitions compartment.
 
-Understand "compartments", "gun", "cabinet" as munitions compartment. It is closed, locked and transparent. It is scenery.
+Understand "compartments", "gun", "cabinet", "glass" as munitions compartment. It is closed, locked and transparent. It is scenery.
 
 The laser rifle is in the munitions compartment. The description is "A red and black ferocious stick of death, the Syrinx 52-K is among the best rifles available today." Understand "rifles", "weapon", "weapons", "gun", "guns", "stick of death", "Syrinx" and "52-K" as the laser rifle.
 
@@ -4507,7 +4561,7 @@ The hook 1 is a hook in spacewalk 1. It is privately-named. The printed name is 
 The hook 2 is a hook in spacewalk 2. It is privately-named. The printed name is "hook". 
 The hook 3 is a hook in spacewalk 3. It is privately-named. The printed name is "hook".
 
-The printed name of Spacewalk 2 is "Hull of the Usagi". The description of Spacewalk 2 is "Here the path runs aft to the aft airlock and starboard to the engineering airlock. [if broke debris is false]Your path to starboard is blocked by a piece of debris lodged in the hull. [think thought 6] It's going to be tough to get over; it doesn't look magnetic, so you're mag boots won't stick to it. You'll need to be careful.[otherwise]Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.[end if]
+The printed name of Spacewalk 2 is "Hull of the Usagi". The description of Spacewalk 2 is "Here the path runs aft to the aft airlock and starboard to the engineering airlock. [if broke debris is false]Your path to starboard is blocked by a piece of debris lodged in the hull. [think thought 6] It's going to be tough to get over; it doesn't look magnetic, so your mag boots won't stick to it. You'll need to be careful.[otherwise]Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.[end if]
 
 There is a hook set in the hull here.";
 
@@ -5024,6 +5078,7 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	now Aft Airlock Inner Door Broken is true;
 	move the explosion backdrop to all explosion-seeing rooms;
 	Activate the table of beginning hints;
+	Now the fusion engine is broken;
 	say banner text;
 	
 Chapter 4 - Last Moves
@@ -5795,11 +5850,11 @@ Test airlock with "f/f/u/a/u/s/take slippers/look under bed/get trunk/open it/ta
 
 test spacewalk with "test airlock/take suit/wear it/turn on mag boots/a/out/out/f/s/vent air/s/in/p/sit in recharger"
 
-test microwave with "test spacewalk/p/open drawer/take all/s/f/move trunk/set gravity control to 1/press button/d/open drawer/take knife/unplug microwave/vacuum socket/plug in microwave"
+test microwave with "test spacewalk/p/open drawer/take all/s/f/move trunk/set gravity control to 1/press button/d/open drawer/take knife/open closet/take dinner/unplug microwave/vacuum socket/plug in microwave"
 
 test cabinet with "test microwave/a/s/get on top bunk/replace screw".
 
-test storage with "test cabinet/get down/open cabinet/take beacon/p/p/open cabinet/x uniform/take paper/read it/take Universal Game Emulator/x unit/type 9467 on keypad/pry bottom drawer open with knife/take card/close drawer/open keypad with key/tape wires/close bottom drawer/type 9467 on keypad/take planetfall".
+test storage with "test cabinet/get down/open cabinet/take beacon/p/p/open cabinet/x uniform/take paper/read it/take Universal Game Emulator/x unit/type 9467 on keypad/pry bottom drawer open with knife/take card/close drawer/put key into keyhole/tape wires/close bottom drawer/type 9467 on keypad/take planetfall".
 
 test planetfall with "test storage/play planetfall on universal/z/z/z/z/z/z/z/z/z";
 
@@ -5807,7 +5862,7 @@ test staging with "test planetfall/s/d/turn over locker/open locker".
 
 test tether with "test staging/a/out/tie tether to hook/f/tie tether to hook/s/tie tether to hook/p/a/in/in/turn off boots/push jl-758 aft/push jl-758 aft/push jl-758 aft/push jl-758 fore/push jl-758 starboard/push jl-758 in/push jl-758 in/push jl-758 aft".
 
-test captain with "test tether/f/f/d/a/open door with red card/x panel/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/x panel/put gum in hole/close panel/open door with red card/a/open drawer/take journal/read it/journal, password walrus/journal, password charon/read journal".
+test captain with "test tether/f/f/d/a/open door with red card/x panel/open panel/take blown fuse/put fuse in panel/close panel/close panel/x panel/put gum in hole/close panel/open door with red card/a/open drawer/take journal/read it/journal, password walrus/journal, password charon/read journal".
 
 test arvax with "test captain/f/f/u/z/hello/tell caller about me/yes/hello/tell arvax about affair".
 

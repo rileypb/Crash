@@ -14,7 +14,7 @@ Reading language definition from </Applications/Inform.app/Contents/Resources/In
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 47782 words long.
+I've now read your source text, which is 48352 words long.
 
 
 -----------------------------------------------------
@@ -31,7 +31,7 @@ I've also read Exit Lister by Eric Eve, which is 3331 words long.
 I've also read Basic Screen Effects by Emily Short, which is 2218 words long.
 I've also read Inanimate Listeners by Emily Short, which is 412 words long.
 I've also read Data Structures by Dannii Willis, which is 5584 words long.
-I've also read Nautical Directions by Philip Riley, which is 286 words long.
+I've also read Nautical Directions by Philip Riley, which is 287 words long.
 I've also read Menus by Emily Short, which is 2001 words long.
 
 
@@ -185,8 +185,8 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 CAT "A cartoon spaceship."
-Total of 194 files written as streams.
-CPU time: 432 centiseconds
+Total of 195 files written as streams.
+CPU time: 446 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

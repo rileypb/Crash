@@ -1564,6 +1564,9 @@ Check listening (this is the block listening rule):
 Check listening to something (this is the block listening to rule):
 	say "That's not something you need to do in this game." instead;
 	
+Instead of listening when the player is in the Galley:
+	say "You can hear someone talking above you, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
+	
 Instead of going down when player is on something:
 	try exiting;
 	
@@ -1581,9 +1584,17 @@ Chapter 1 - Typing
 
 A thing can be typable.
 
-Typing it on is an action applying to one topic and one thing. Understand "type [text] on [something]" as typing it on. Understand "press [text] on [something]" as typing it on.
+Typing it on is an action applying to one topic and one thing. Understand "type [text] on/into [something]" as typing it on. Understand "press [text] on [something]" as typing it on. Understand "enter [text] on/into [something]" as typing it on.
 
-Contentlessly typing on is an action applying to one thing. Understand "type on [something]" and "press [something]" as contentlessly typing on.
+Understand "enter [text]" and "type [text]" as typing it on.
+
+Rule for supplying a missing second noun while typing:
+	if the port-side storage unit is in the location:
+		now the second noun is the port keypad;
+	otherwise if the starboard-side storage unit is in the location:
+		now the second noun is the starboard keypad;
+
+Contentlessly typing on is an action applying to one thing. Understand "type on/into [something]" and "press [something]" as contentlessly typing on.
 
 Check typing a topic on something when the second noun is not typable:
 	say "You can't type on [the second noun]." instead;
@@ -1857,8 +1868,25 @@ Instead of examining the repair corps uniform:
 		say ". It would look impressive if it weren't for the chewing gum stuck to it";
 	say ".";
 
-The toolbox is a thing. Understand "tools" as toolbox.
+The toolbox is a thing. Understand "tools", "box", "tool" as toolbox.
 The player carries the toolbox. The description of the toolbox is "Your toolbox holds wrenches, screwdrivers, pliers, and an assortment of various fasteners."
+
+The screwdriver is a part of the toolbox. Understand "screwdrivers" as the screwdriver. 
+
+The wrench is a part of the toolbox. Understand "wrenches" as the wrench.
+
+The pliers are a part of the toolbox. They are plural-named.
+
+The fasteners are a part of the toolbox. They are plural-named. Understand "screws", "bolts" as the fasteners.
+
+A tool-thing is a kind of thing. The screwdriver, wrench, pliers, and fasteners are tool-things.
+	
+Instead of taking a tool-thing:
+	say "You'll take [regarding the noun][them] out when you need [them].";
+	
+Instead of examining a tool-thing:
+	say "All of your tools are top quality.";
+
 [The toolbox contains a wrench, a flat blade screwdriver, a microwave heating element, and a box of assorted fasteners. ]
 [The description is "Your toolbox is a black metal box with a lid. It is [if toolbox is closed]closed[otherwise]open[end if].";]
 
@@ -3403,7 +3431,8 @@ The engine diagram is in the Engine Room. It is scenery. The description is "Thi
 
 Understand "screen" as engine diagram.
 
-The test button is a button in the engine room. It is scenery. "A square, red button with large capital letters saying 'TEST'."
+The test button is a button in the engine room. It is scenery. "A square, yellow button with large capital letters saying 'TEST'."
+Understand "yellow button" as test button.
 
 The fusion engine is scenery in the Engine Room. The fusion engine can be broken.  "The portion of the engine directly accessible from the engine room is a formidable machine. You wouldn't dare touch any of the various dials, components, hatches, etc. that adorn the surface[if fusion engine is broken]. At your feet a part of the engine juts out -- it looks broken[end if]."
 
@@ -3491,10 +3520,11 @@ To say microwave display:
 	otherwise:
 		say "The front display shows 'Press Start'";
 
-The microwave oven is a container in the Galley. It is scenery. It is openable and closed. "The microwave is [if open]open[otherwise]closed[end if]. It's plugged into a socket inset in the countertop. [microwave display]. A large button below the display says 'Start'."
+The microwave oven is a container in the Galley. It is scenery. It is openable and closed. "The microwave is [if open]open[otherwise]closed[end if]. [if unplugged]Its cord is unplugged.[otherwise]It's plugged into a socket inset in the countertop.[end if] [microwave display]. A large red button below the display says 'Start'."
 
 The microwave oven can be plugged-in or unplugged. The microwave oven is plugged-in.
-The start button is a button that is a part of the microwave oven. "It's a button. It says 'Start'."
+The start button is a button that is a part of the microwave oven. "It's a red button. It says 'Start'." 
+Understand "red button" as the start button.
 The microwave front display is part of the microwave oven. The description is "[microwave display]."
 
 To say socket description:
@@ -3503,6 +3533,9 @@ To say socket description:
 		say ". The microwave oven is plugged in to it";
 	otherwise if wall socket is plugged-up:
 		say ". Upon close inspection, you notice that it's clogged up with dust";
+		
+Instead of rubbing the wall socket:
+	say "Your fingers won't fit into the socket to reach the dust.";
 
 The wall socket is a thing in the galley. It is privately-named. It is scenery. The wall socket can be plugged-up. It is plugged-up. Understand "power point", "outlet", "power", "electrical", "socket", and "wall socket" as the wall socket. The description of the wall socket is "[socket description]."
 
@@ -3545,12 +3578,16 @@ Instead of inserting something that is not the microwavable dinner into the micr
 	say "That's not something you can heat in the microwave.";
 
 The closet is a container in the Galley. It is scenery. It is closed and openable. "A closet with a folding door, set into the bulkhead."
+The folding door is a part of the closet.
+
+Instead of doing something to the folding door:
+	now the noun is the closet;
+	try the current action;
 
 An MRE is a kind of thing. An MRE is edible. The description is "A regulation Meal Ready-to-Eat. One perk of not going on missions is you don't have to eat these things." The indefinite article is "an". [The mass of an MRE is 0.5].
 10 MREs is in the closet. 
 
 A microwavable dinner is in the closet. The description is "Spiced ham in some kind of sauce. Ugh."
-Understand "microwave dinner" and "microwaveable" as microwavable dinner.
 A cooked dinner is a thing. It is edible. The description is "Spiced ham in some kind of sauce, heated. Ugh."
 Report eating the cooked dinner:
 	say "You eat the cooked dinner. It's as uninspiring as you imagined.";
@@ -3560,6 +3597,7 @@ Does the player mean inserting into something that is not a container: it is ver
 Does the player mean plugging in the microwavable dinner: it is very unlikely.
 Does the player mean unplugging the microwavable dinner: it is very unlikely.
 Does the player mean doing something to the microwavable dinner: it is very unlikely.
+Does the player mean inserting the microwavable dinner into the microwavable dinner: It is very unlikely.
 	
 Check eating something when the chewing gum is currently chewed:
 	say "You can't eat while chewing gum." instead;
@@ -3694,6 +3732,12 @@ The galley's blue button is part of the control panel. The description is "It's 
 The door operations manual is a thing in the galley. It is scenery. 
 The door operations manual is readable. The readable text is "[description of the door operations manual]";
 
+Does the player mean doing something other than reading to the door operations manual:
+	It is very unlikely;
+	
+Does the player mean reading the door operations manual:
+	It is very likely;
+
 The description of the door operations manual is "Most of the manual is concerned with the technical details of the door, such as installation, maintainance, and repair. There is a small section towards the end detailing its safety features; for example: 'To prevent injury, the Portmaster V S-65 will not open when it senses weight pressing upon it from above. In this case, an audible signal and a red warning light will indicate that an obstruction exists.'";
 
 Does the player mean opening the door operations manual: it is very unlikely.
@@ -3701,7 +3745,20 @@ Does the player mean opening the door operations manual: it is very unlikely.
 Instead of taking the manual:
 	say "It is chained securely to the control panel. Best leave it.";
 	
-Randomly shouting is an action applying to nothing. Understand "shout" as randomly shouting.
+Randomly shouting is an action applying to nothing. Understand "shout", "yell", "scream" as randomly shouting.
+Knocking on is an action applying to one thing. Understand "knock on [something]", "pound on [something]", "bang on [something]" as knocking on.
+
+Check knocking on something:
+	say "There's no point in knocking on that.";
+	
+Instead of knocking on the midship door: 
+	say "Whoever's up there, they didn't hear you apparently.";
+
+Instead of knocking on the captain's door:
+	say "You wait a second but no one answers. No one's home, I guess.";
+	
+Does the player mean knocking on the midship door when the player is in the Galley:
+	it is very likely;
 
 Instead of randomly shouting while player is in galley:
 	say "Whoever is talking doesn't seem to hear you.";
@@ -4175,7 +4232,7 @@ Instead of wrapping the wires with electrical tape:
 	try putting the electrical tape on the wires;
 	
 Check taping the wires when the player does not enclose the electrical tape:
-	if the electrical tape is touchable:
+	if the electrical tape is touchable:	
 		say "(first taking the electrical tape)[command clarification break]";
 		now the player carries the electrical tape;
 		try putting the electrical tape on the wires instead;
@@ -4238,6 +4295,8 @@ The starboard-side equipment cabinet can be unrepaired or repaired. The starboar
 
 The beacon is in the starboard-side equipment cabinet. The description is "A device for broadcasting the location of an object in space."
 
+The crooked screw is contained in the starboard-side cabinet door. The description is "The screw is bent beyond repair.".
+
 Instead of opening the starboard-side equipment cabinet when the starboard-side equipment cabinet is unrepaired:
 	say "The door is stuck one-quarter open. You try to open the cabinet the rest of the way, but the door is jammed.";
 	
@@ -4246,13 +4305,23 @@ Instead of examining the starboard-side cabinet door when the starboard-side equ
 	
 Instead of examining the starboard-side cabinet door when the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
 	say "You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.";
+
+Instead of examining the starboard-side equipment cabinet when the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
+	say "You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.";
 	
 Replacing screw is an action applying to nothing. Understand "replace the/-- screw" as replacing screw.
 Check replacing screw:
 	say "I'm not sure what you're referring to.";
+
+Instead of taking the screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk): 
+	try replacing screw;
+
+Instead of unscrewing the screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk): 
+	try replacing screw;
 	
 Instead of replacing screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
 	say "You unscrew the old screw and replace it with a new one.";
+	now the crooked screw is nowhere;
 	now the starboard-side equipment cabinet is repaired;
 	tick off fix the cabinet;
 	

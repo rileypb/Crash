@@ -549,7 +549,11 @@ Chapter 1 - Chewing Gum
 
 The chewing gum is a thing. it is edible. it is improper-named. The indefinite article is "some".
 
-Instead of examining the chewing gum:
+Carry out examining the chewing gum when the gum is stuck to the repair corps uniform and the player is wearing the repair corps uniform and player is wearing a vac suit:
+	say "You know it's on the repair corps uniform, but you can't see it with the vac suit over it.";
+	rule succeeds;
+
+Carry out examining the chewing gum:
 	if the chewing gum is currently chewed:
 		if boarding the ship is happening:
 			say "It still tastes pretty good.";
@@ -560,6 +564,7 @@ Instead of examining the chewing gum:
 		if the current stuck thing of the chewing gum is not the player:
 			say ". It's stuck to [the current stuck thing of the chewing gum]";
 		say ".";
+	rule succeeds;
 
 Chewing Gum can be currently chewed.
 
@@ -720,7 +725,9 @@ After printing inventory details for something (called T) when T is not the chew
 After printing room description details for something (called T) when T is not the chewing gum and T is the current stuck thing of the chewing gum:
 	say " with chewing gum stuck to [regarding T][them]";
 	
-Instead of taking chewing gum when the chewing gum is stuck to something and the gum is not currently chewed:
+Definition: The gum is uniform-stuck if the chewing gum sticks to the repair corps uniform or the chewing gum sticks to the engineering uniform.
+	
+Instead of taking chewing gum when the chewing gum is stuck to something and the gum is not currently chewed and the gum is not uniform-stuck:
 	if the player carries the chewing gum:
 		say "[text of the can't take what's already taken rule response (A)]";
 		rule fails;
@@ -1190,16 +1197,16 @@ Include (-
 
 Chapter 7 - The Box and The Bear
 
-The optical sensor is a thing. The description is "The optical sensor is a small component with a two-pronged connecter on the back and a blue metallic circle on the other."
+The new optical sensor is a thing. The description is "The optical sensor is a small component with a two-pronged connecter on the back and a blue metallic circle on the other."
 
 The present is a thing contained in the black trunk's inside. The description is "This is a box wrapped in paper obviously intended for a child. Written on the outside is the message 'To Mitchell, Happy Second Birthday! Love, Uncle Fred'"
 
 Bertie the Bear is a thing. The printed name is "Bertie the Bear™". The description is "Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals.[if the eyes are nowhere] This bear seems to be missing his eyes.[otherwise] This bear's blindly staring eyes are unnerving.[end if]".
-The eyes are parts of Bertie the Bear. The description of the eyes is "They're well disguised, but these are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.". Understand "optical" and "sensors" as the eyes.
+The eyes are parts of Bertie the Bear. The description of the eyes is "They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.". Understand "optical" and "sensors", "sensor" as the eyes.
 
 Instead of taking the eyes:
 	now the eyes are nowhere;
-	now the player carries the optical sensor;
+	now the player carries the new optical sensor;
 	think "Am I really going to do this? Yes, yes, I am, apparently.";
 	say "You grasp one of the eyes and give it a tug, first softly then harder. Eventually it gives and you extract the eye from the bear. Upon examination you discover that the eye is in fact an optical sensor in camouflage. It looks like you didn't pull it carefully enough, however, because the connector at the end has been damaged.
 	
@@ -1222,19 +1229,21 @@ Instead of opening the present:
 Chapter 8 - Hooks and Tethers
 
 A tether-kind is a kind of thing.
-The tether is a tether-kind. The description is "see carry out examining the tether".
+The EVA transport line is a tether-kind. The description is "see carry out examining the EVA transport line".
 
-Carry out examining the tether:
+Understand "tether", "rope" as EVA transport line.
+
+Carry out examining the EVA transport line:
 	let AC be the attachment count;
 	if AC is 0:
-		say "The tether is a strong rope, maybe 16 meters long. It has a hook at either end.";
+		say "The EVA transport line is a strong rope, maybe 16 meters long. It has a hook at either end.";
 	otherwise:
 		if location is spacewalk 1:
-			follow the spacewalk 1 tether description rule;
+			follow the spacewalk 1 EVA transport line description rule;
 		otherwise if location is spacewalk 2:
-			follow the spacewalk 2 tether description rule;
+			follow the spacewalk 2 EVA transport line description rule;
 		otherwise if location is spacewalk 3:
-			follow the spacewalk 3 tether description rule;
+			follow the spacewalk 3 EVA transport line description rule;
 	rule succeeds;
 
 A hook is a kind of thing. It is privately-named and scenery. The printed name is "hook". Understand "hook" as a hook.
@@ -1243,78 +1252,78 @@ A hook can be tethered. A hook is usually not tethered.
 To decide whether (R - a room) is room-tethered:
 	if R encloses a hook (called H) and H is tethered:
 		decide yes;
-	if R encloses the tether and attachment count > 1:
+	if R encloses the EVA transport line and attachment count > 1:
 		decide yes;
 	decide no;
 
 To decide what number is the attachment count:
 	decide on the number of entries in the list of hooks which are tethered;
 
-The description of a hook is "A post extends from the hull here, with a heavyweight snap hook on the end[if tethered]. The tether is attached to the hook[otherwise]. The hook is unattached[end if].".
+The description of a hook is "A post extends from the hull here, with a heavyweight snap hook on the end[if tethered]. The EVA transport line is attached to the hook[otherwise]. The hook is unattached[end if].".
 
 check an actor tying something to something (this is the new block tying rule):
-	if the noun is not the tether or the second noun is not a hook:
+	if the noun is not the EVA transport line or the second noun is not a hook:
 		if the actor is the player:
 			say "[We] [would achieve] nothing by this." (A);
 		stop the action;
 	if second noun is tethered:
 		if the actor is the player:
-			say "The tether is already attached to [the second noun].";
+			say "The EVA transport line is already attached to [the second noun].";
 		stop the action;			
 
 The new block tying rule is listed instead of the block tying rule in the check tying it to rules.		
 
-Instead of tying a hook to the tether:
+Instead of tying a hook to the EVA transport line:
 	try tying the second noun to the noun;
 
-check tying the tether to hook 2 when the attachment count is 0:
-	say "You can't attach the tether to this hook until you've attached one of the other hooks." instead;
+check tying the EVA transport line to hook 2 when the attachment count is 0:
+	say "You can't attach the EVA transport line to this hook until you've attached one of the other hooks." instead;
 
-check tying the tether to hook 1 when the attachment count is 1:
-	say "You can't attach the tether to this hook until you've attached the middle hook." instead;
+check tying the EVA transport line to hook 1 when the attachment count is 1:
+	say "You can't attach the EVA transport line to this hook until you've attached the middle hook." instead;
 
-check tying the tether to hook 3 when the attachment count is 1:
-	say "You can't attach the tether to this hook until you've attached the middle hook." instead;
+check tying the EVA transport line to hook 3 when the attachment count is 1:
+	say "You can't attach the EVA transport line to this hook until you've attached the middle hook." instead;
 	
 
-carry out tying the tether to a hook:
+carry out tying the EVA transport line to a hook:
 	now second noun is tethered;
 	if the attachment count is 3:
-		now the tether is in the room of stuff;
+		now the EVA transport line is in the room of stuff;
 	
-report tying the tether to a hook:
+report tying the EVA transport line to a hook:
 	if attachment count is 3:
-		say "You make the final attachment, letting go of the tether.";
+		say "You make the final attachment, letting go of the EVA transport line.";
 		think "Three! That was a bit of work. Hope it's useful.";
 	otherwise:
-		say "You attach the tether to the hook.";
+		say "You attach the EVA transport line to the hook.";
 		let X be "[attachment count in words]";
 		think "[X in title case]...";
 	
-Before going to aft-airlock-room when player encloses the tether and the attachment count is 1:
+Before going to aft-airlock-room when player encloses the EVA transport line and the attachment count is 1:
 	if a random tethered hook is hook 3:
-		say "The tether can't reach any farther. You leave it behind.";
+		say "The EVA transport line can't reach any farther. You leave it behind.";
 	otherwise:
-		say "There's no reason to bring the tether inside. You leave it behind.";
-	now the tether is in spacewalk 1;
+		say "There's no reason to bring the EVA transport line inside. You leave it behind.";
+	now the EVA transport line is in spacewalk 1;
 	
-Before going to engineering airlock when player encloses the tether and the attachment count is 1:
+Before going to engineering airlock when player encloses the EVA transport line and the attachment count is 1:
 	if a random tethered hook is hook 1:
-		say "The tether can't reach any farther. You leave it behind.";
+		say "The EVA transport line can't reach any farther. You leave it behind.";
 	otherwise:
-		say "There's no reason to bring the tether inside. You leave it behind.";
-	now the tether is in spacewalk 3;
+		say "There's no reason to bring the EVA transport line inside. You leave it behind.";
+	now the EVA transport line is in spacewalk 3;
 
-Rule for writing a paragraph about the tether when the attachment count > 0:
-	now the tether is mentioned;
+Rule for writing a paragraph about the EVA transport line when the attachment count > 0:
+	now the EVA transport line is mentioned;
 	
 After deciding the scope of the player when the location is offboard:
 	if location is spacewalk 1 and hook 1 is tethered:
-		place the tether in scope;
+		place the EVA transport line in scope;
 	if location is spacewalk 2 and hook 2 is tethered:
-		place the tether in scope;
+		place the EVA transport line in scope;
 	if location is spacewalk 3 and hook 3 is tethered:
-		place the tether in scope;	
+		place the EVA transport line in scope;	
 		
 reaching inside for an offboard room (this is the reaching inside spacewalk rule):
 	rule succeeds;	
@@ -1328,170 +1337,170 @@ To decide whether local hook is tethered:
 		decide yes;
 	decide no;
 				
-Instead of taking the tether when local hook is tethered and the tether is not in the location:
-	say "The tether is attached here. Best leave it where it is.";
+Instead of taking the EVA transport line when local hook is tethered and the EVA transport line is not in the location:
+	say "The EVA transport line is attached here. Best leave it where it is.";
 
 After looking when the location is spacewalk 1:
-	follow the spacewalk 1 tether description rule;
+	follow the spacewalk 1 EVA transport line description rule;
 	
-This is the spacewalk 1 tether description rule:	
+This is the spacewalk 1 EVA transport line description rule:	
 	say run paragraph on;
 	let AC be the attachment count;
 	if AC is 3:
-		say "The tether is attached to the hook, and from there runs forward.";
+		say "The EVA transport line is attached to the hook, and from there runs forward.";
 		make no decision;
 	if AC is 2:
 		if hook 1 is tethered:
-			if the player encloses the tether:
-				say "The tether is attached to the hook, and from there runs forward, but then back to you, as you're still holding the end.";
+			if the player encloses the EVA transport line:
+				say "The EVA transport line is attached to the hook, and from there runs forward, but then back to you, as you're still holding the end.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "The tether is attached to the hook, and from there runs forward, but then back here, where the end floats loose.";
+			otherwise if the EVA transport line is in the location:
+				say "The EVA transport line is attached to the hook, and from there runs forward, but then back here, where the end floats loose.";
 				make no decision;
 			otherwise:
-				say "The tether is attached to the hook, and from there runs forward.";			
+				say "The EVA transport line is attached to the hook, and from there runs forward.";			
 				make no decision;
 		otherwise:
-			if the player encloses the tether:
-				say "You're holding one end of the tether, which runs forward from here.";
+			if the player encloses the EVA transport line:
+				say "You're holding one end of the EVA transport line, which runs forward from here.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "The loose end of the tether floats here. The rest of it runs forward.";
+			otherwise if the EVA transport line is in the location:
+				say "The loose end of the EVA transport line floats here. The rest of it runs forward.";
 				make no decision;
 	if AC is 1:
 		if hook 1 is tethered:
-			if the player encloses the tether:
-				say "The tether is attached to the hook. You hold the other end in a loose coil.";
+			if the player encloses the EVA transport line:
+				say "The EVA transport line is attached to the hook. You hold the other end in a loose coil.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "The tether is attached to the hook. The other end floats in a loose coil nearby.";
+			otherwise if the EVA transport line is in the location:
+				say "The EVA transport line is attached to the hook. The other end floats in a loose coil nearby.";
 				make no decision;
 			otherwise:
-				say "The tether is attached to the hook, and from there runs forward.";
+				say "The EVA transport line is attached to the hook, and from there runs forward.";
 				make no decision;
 		otherwise:
-			if the player encloses the tether:
-				say "You're holding one end of the tether. From here it runs forward.";
+			if the player encloses the EVA transport line:
+				say "You're holding one end of the EVA transport line. From here it runs forward.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "One end of the tether floats here, while the rest runs forward.";
+			otherwise if the EVA transport line is in the location:
+				say "One end of the EVA transport line floats here, while the rest runs forward.";
 				make no decision;
 	if AC is 0:
-		if the tether is in the location:
-			say "The tether floats in a loose coil here.";
+		if the EVA transport line is in the location:
+			say "The EVA transport line floats in a loose coil here.";
 			make no decision;
 
 After looking when the location is spacewalk 2:
-	follow the spacewalk 2 tether description rule;
+	follow the spacewalk 2 EVA transport line description rule;
  
-This is the spacewalk 2 tether description rule:
+This is the spacewalk 2 EVA transport line description rule:
 	let AC be the attachment count;
 	if AC is 3:
-		say "The tether is attached to the hook, and extends aft and starboard from here.";
+		say "The EVA transport line is attached to the hook, and extends aft and starboard from here.";
 		make no decision;
 	if AC is 2:
 		if hook 1 is tethered:
-			if the player encloses the tether:
-				say "You are holding one end of the tether, which is attached to the hook here, and then runs aft.";
+			if the player encloses the EVA transport line:
+				say "You are holding one end of the EVA transport line, which is attached to the hook here, and then runs aft.";
 				make no decision;
-			otherwise if the tether is in spacewalk 2:
-				say "One end of the tether floats here. The remainder is attached to the hook and then runs aft.";
+			otherwise if the EVA transport line is in spacewalk 2:
+				say "One end of the EVA transport line floats here. The remainder is attached to the hook and then runs aft.";
 				make no decision;
-			otherwise if the tether is in spacewalk 1:
-				say "The tether is hooked here, and both ends run aft.";
+			otherwise if the EVA transport line is in spacewalk 1:
+				say "The EVA transport line is hooked here, and both ends run aft.";
 				make no decision;
-			otherwise if the tether is in spacewalk 3:
-				say "The tether is attached to the hook, and extends aft and starboard.";
+			otherwise if the EVA transport line is in spacewalk 3:
+				say "The EVA transport line is attached to the hook, and extends aft and starboard.";
 				make no decision;
 		otherwise if hook 3 is tethered:
-			if the player encloses the tether:
-				say "You are holding one end of the tether in a loose coil. The tether is then attached to the hook here, after which it runs starboard.";
+			if the player encloses the EVA transport line:
+				say "You are holding one end of the EVA transport line in a loose coil. The EVA transport line is then attached to the hook here, after which it runs starboard.";
 				make no decision;
-			otherwise if the tether is in spacewalk 2:
-				say "One end of the tether floats here. The remainder is attached to the hook and then runs starboard.";
+			otherwise if the EVA transport line is in spacewalk 2:
+				say "One end of the EVA transport line floats here. The remainder is attached to the hook and then runs starboard.";
 				make no decision;
-			otherwise if the tether is in spacewalk 3:
-				say "The tether is hooked here, then both ends run starboard.";
+			otherwise if the EVA transport line is in spacewalk 3:
+				say "The EVA transport line is hooked here, then both ends run starboard.";
 				make no decision;
-			otherwise if the tether is in spacewalk 1:
-				say "The tether is attached to the hook, and extends aft and starboard.";
+			otherwise if the EVA transport line is in spacewalk 1:
+				say "The EVA transport line is attached to the hook, and extends aft and starboard.";
 				make no decision;
 	if AC is 1:
 		if hook 1 is tethered:
-			if the player encloses the tether:
-				say "You are holding one end of the tether, which runs aft from here.";
+			if the player encloses the EVA transport line:
+				say "You are holding one end of the EVA transport line, which runs aft from here.";
 				make no decision;
-			otherwise if the tether is in spacewalk 2:
-				say "One end of the tether floats loose here, while the other end runs aft.";
+			otherwise if the EVA transport line is in spacewalk 2:
+				say "One end of the EVA transport line floats loose here, while the other end runs aft.";
 				make no decision;
-			otherwise if the tether is in spacewalk 3:
-				say "The tether runs past here, aft to starboard, bypassing the hook. It floats loosely instead of tautly.";
+			otherwise if the EVA transport line is in spacewalk 3:
+				say "The EVA transport line runs past here, aft to starboard, bypassing the hook. It floats loosely instead of tautly.";
 				make no decision;
 		otherwise if hook 3 is tethered:
-			if the player encloses the tether:
-				say "You are holding one end of the tether, which runs starboard from here.";
+			if the player encloses the EVA transport line:
+				say "You are holding one end of the EVA transport line, which runs starboard from here.";
 				make no decision;
-			otherwise if the tether is in spacewalk 2:
-				say "One end of the tether floats loose here, while the other end runs starboard.";
+			otherwise if the EVA transport line is in spacewalk 2:
+				say "One end of the EVA transport line floats loose here, while the other end runs starboard.";
 				make no decision;
-			otherwise if the tether is in spacewalk 1:
-				say "The tether runs past here, aft to starboard, bypassing the hook. It floats loosely instead of tautly.";
+			otherwise if the EVA transport line is in spacewalk 1:
+				say "The EVA transport line runs past here, aft to starboard, bypassing the hook. It floats loosely instead of tautly.";
 				make no decision;
 	if AC is 0:
-		if the tether is in spacewalk 2:
-			say "The tether floats in a loose coil here.";
+		if the EVA transport line is in spacewalk 2:
+			say "The EVA transport line floats in a loose coil here.";
 			make no decision;
 
 After looking when the location is spacewalk 3:
-	follow the spacewalk 3 tether description rule;
+	follow the spacewalk 3 EVA transport line description rule;
 	
-This is the spacewalk 3 tether description rule:
+This is the spacewalk 3 EVA transport line description rule:
 	let AC be the attachment count;
 	if AC is 3:
-		say "The tether is attached to the hook, and from there runs to port.";
+		say "The EVA transport line is attached to the hook, and from there runs to port.";
 		make no decision;
 	if AC is 2:
 		if hook 3 is tethered:
-			if the player encloses the tether:
-				say "The tether is attached to the hook, and from there runs to port, but then back to you, as you're still holding the end.";
+			if the player encloses the EVA transport line:
+				say "The EVA transport line is attached to the hook, and from there runs to port, but then back to you, as you're still holding the end.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "The tether is attached to the hook, and from there runs to port, but then back here, where the end floats loose.";
+			otherwise if the EVA transport line is in the location:
+				say "The EVA transport line is attached to the hook, and from there runs to port, but then back here, where the end floats loose.";
 				make no decision;
 			otherwise:
-				say "The tether is attached to the hook, and from there runs to port.";			
+				say "The EVA transport line is attached to the hook, and from there runs to port.";			
 				make no decision;
 		otherwise:
-			if the player encloses the tether:
-				say "You're holding one end of the tether, which runs to port from here.";
+			if the player encloses the EVA transport line:
+				say "You're holding one end of the EVA transport line, which runs to port from here.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "The loose end of the tether floats here. The rest of it runs to port.";
+			otherwise if the EVA transport line is in the location:
+				say "The loose end of the EVA transport line floats here. The rest of it runs to port.";
 				make no decision;
 	if AC is 1:
 		if hook 3 is tethered:
-			if the player encloses the tether:
-				say "The tether is attached to the hook. You hold the other end in a loose coil.";
+			if the player encloses the EVA transport line:
+				say "The EVA transport line is attached to the hook. You hold the other end in a loose coil.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "The tether is attached to the hook. The other end floats in a loose coil nearby.";
+			otherwise if the EVA transport line is in the location:
+				say "The EVA transport line is attached to the hook. The other end floats in a loose coil nearby.";
 				make no decision;
 			otherwise:
-				say "The tether is attached to the hook, and from there runs to port.";
+				say "The EVA transport line is attached to the hook, and from there runs to port.";
 				make no decision;
 		otherwise:
-			if the player encloses the tether:
-				say "You're holding one end of the tether. From here it runs to port.";
+			if the player encloses the EVA transport line:
+				say "You're holding one end of the EVA transport line. From here it runs to port.";
 				make no decision;
-			otherwise if the tether is in the location:
-				say "One end of the tether floats here, while the rest runs to port.";
+			otherwise if the EVA transport line is in the location:
+				say "One end of the EVA transport line floats here, while the rest runs to port.";
 				make no decision;
 	if AC is 0:
-		if the tether is in the location:
-			say "The tether floats in a loose coil here.";
+		if the EVA transport line is in the location:
+			say "The EVA transport line floats in a loose coil here.";
 			make no decision;
 		
-chapter 9 - Engine Stabilizer
+Chapter 9 - Engine Stabilizer
 
 The brand-new JL-758 is in the Staging Area. The printed name is "JL-758". Understand "engine", "hunk", "metal", "JL", "new", "part" and "stabilizer" as brand-new JL-758. "What looks like part of an engine is stowed in a corner."
 
@@ -1507,14 +1516,20 @@ Instead of taking the brand-new JL-758:
 		say ", in any gravity";
 	say ".";
 	
+Instead of tying the EVA transport line to the cord:
+	say "The hook on the EVA transport line won't attach securely to the clips on the cord. This is probably not where you want to attach the EVA transport line. On the other hand, the clips [italic type]will[roman type] slide along the EVA transport line smoothly."
+
+Instead of tying the EVA transport line to the brand-new JL-758:
+	say "The hook on the EVA transport line won't attach securely to the clips on the cord. This is probably not where you want to attach the EVA transport line. On the other hand, the clips [italic type]will[roman type] slide along the EVA transport line smoothly."
+	
 Instead of pushing the brand-new JL-758 to a direction when gravity > 1:
 	say "That's too heavy to push.";
 
 Instead of pushing the brand-new JL-758 to outside when the location is aft-airlock-room and the attachment count < 3 and attachment count > 0:
-	say "I wouldn't do that before the tether is fully attached.";
+	say "I wouldn't do that before the EVA transport line is fully attached.";
 
 Instead of pushing the brand-new JL-758 to aft when the location is aft-airlock-room and the attachment count < 3 and attachment count > 0:
-	say "I wouldn't do that before the tether is fully attached.";
+	say "I wouldn't do that before the EVA transport line is fully attached.";
 
 Instead of pushing the brand-new JL-758 to outside when the location is aft-airlock-room and attachment count is 0:
 	say "I wouldn't do that. The JL-758 is likely to float away and you won't be able to stop it.";
@@ -1523,24 +1538,44 @@ Instead of pushing the brand-new JL-758 to aft when the location is aft-airlock-
 	say "I wouldn't do that. The JL-758 is likely to float away and you won't be able to stop it.";
 
 Before pushing the brand-new JL-758 to outside when the location is aft-airlock-room and the attachment count is 3:
-	say "You clip the JL-758 to the tether.";
+	say "You clip the JL-758 to the EVA transport line.";
 
 Before pushing the brand-new JL-758 to aft when the location is aft-airlock-room and the attachment count is 3:
-	say "You clip the JL-758 to the tether.";
+	say "You clip the JL-758 to the EVA transport line.";
 	
 Before pushing the brand-new JL-758 to inside when the location is spacewalk 1:
-	say "You unclip the JL-758 from the tether.";
+	say "You unclip the JL-758 from the EVA transport line.";
 
 Before pushing the brand-new JL-758 to outside when the location is Engineering Airlock and the attachment count is 3:
-	say "You clip the JL-758 to the tether.";
+	say "You clip the JL-758 to the EVA transport line.";
 	
 Before pushing the brand-new JL-758 to inside when the location is spacewalk 3:
-	say "You unclip the JL-758 from the tether.";
+	say "You unclip the JL-758 from the EVA transport line.";
 
 Rule for writing a paragraph about the brand-new JL-758 when the location is offboard:
-	say "The JL-758 is floating here, clipped to the tether.";
+	say "The JL-758 is floating here, clipped to the EVA transport line.";
+	
+Chapter 10 - Some trivia about clothing
+
+Check taking off the engineering uniform when the player is wearing the engineering uniform and the player is wearing a vac suit:
+	say "You can't remove the uniform until you remove the vac suit on top of it." instead;
+
+Check taking off the repair corps uniform when the player is wearing the repair corps uniform and the player is wearing a vac suit:
+	say "You can't remove the uniform until you remove the vac suit on top of it." instead;
+	
+Check examining the engineering uniform when the player is wearing the engineering uniform and the player is wearing a vac suit:
+	say "You can't see the uniform when you're wearing the vac suit on top of it." instead;
+	
+Check examining the repair corps uniform when the player is wearing the repair corps uniform and the player is wearing a vac suit:
+	say "You can't see the uniform when you're wearing the vac suit on top of it." instead;
+	
+Check taking the gum when the current stuck thing of the chewing gum is the engineering uniform and the player is wearing the engineering uniform and the player is wearing a vac suit:
+	say "You can't reach the gum with the vac suit on top of the uniform." instead;
+	
+Check taking the gum when the current stuck thing of the chewing gum is the repair corps uniform and the player is wearing the repair corps uniform and the player is wearing a vac suit:
+	say "You can't reach the gum with the vac suit on top of your uniform." instead;
 				
-Chapter 10 - Useless things
+Chapter 11 - Useless things
 
 The interior is a region.
 
@@ -1862,7 +1897,7 @@ The player wears the repair corps uniform.
 
 The repair corps patch is a part of the repair corps uniform. The description is "The patch shows a hammer and a wrench, crossed.".
 
-Instead of examining the repair corps uniform:
+Carry out examining the repair corps uniform:
 	say "The repair corps uniform is a smart hunter green color, with a patch featuring a hammer and a wrench, crossed";
 	if the gum is stuck to the repair corps uniform:
 		say ". It would look impressive if it weren't for the chewing gum stuck to it";
@@ -1944,10 +1979,10 @@ Instead of examining the player:
 Chapter 1 - Wearing things
 
 Check wearing the engineering uniform when the player wears a vac suit:
-	say "You can't put a uniform on over a vac suit. Try the other way around";
+	say "You can't put a uniform on over a vac suit. Try the other way around" instead;
 
 Check wearing the repair corps uniform when the player wears a vac suit:
-	say "You can't put a uniform on over a vac suit. Try the other way around";
+	say "You can't put a uniform on over a vac suit. Try the other way around" instead;
 	
 Check wearing the engineering uniform when the player wears the repair corps uniform:
 	say "(removing the repair corps uniform first)";
@@ -2239,6 +2274,11 @@ Response of Captain Mulgrew when asked-or-told about Captain's Affair:
 	print "'Lies. Filthy lies. I don't know what you're talking about. And reading my private journal! What kind of person are you?'[paragraph break]" as Captain Mulgrew near communications console;
 	now mulgrew-is-angry is true;
 	say "Captain Mulgrew cuts the connection.";
+
+Response of Captain Mulgrew when asked-or-told about the captain's journal and the captain's affair is familiar:
+	print "'Lies. Filthy lies. I don't know what you're talking about. And reading my private journal! What kind of person are you?'[paragraph break]" as Captain Mulgrew near communications console;
+	now mulgrew-is-angry is true;
+	say "Captain Mulgrew cuts the connection.";
 	
 mulgrew's-code is a subject. It is not familiar. The description is "subject".
 security code is a subject. The description is "subject". understand "access", "password" as security code.
@@ -2262,10 +2302,10 @@ Response of Captain Mulgrew when asked about the computer:
 Response of Arvax when asked about security code:
 	print "'Just say [']Computer, access code [Arvax code]['].'[line break]" as arvax near communications console;
 	
-Response when saying yes and current conversation state is asking mulgrew questions:
+Response when saying yes and current conversation state is not waiting for yes:
 	say "I'm not sure what question you're answering.";
 	
-Response when saying no and current conversation state is asking mulgrew questions:
+Response when saying no and current conversation state is not waiting for yes:
 	say "I'm not sure what question you're answering.";
 	
 Section 3 - Revenge of Arvax
@@ -2287,7 +2327,11 @@ check informing Arvax about something during end game (this is the divert end ga
 	
 [The divert end game conversation rule is listed first in the before rules.
 ]
-Response of Arvax when told about Captain's Affair:
+Response of Arvax when asked-or-told about Captain's Affair:
+	print "'Oh, Captain no... We must act fast if we're going to stop what she's put in motion.'[line break]" as Arvax near communications console;
+	now Arvax knows Captain's Affair;
+
+Response of Arvax when asked-or-told about Captain's journal and the captain's affair is familiar:
 	print "'Oh, Captain no... We must act fast if we're going to stop what she's put in motion.'[line break]" as Arvax near communications console;
 	now Arvax knows Captain's Affair;
 
@@ -2319,7 +2363,7 @@ Response of Arvax when asked-or-told about Captain Mulgrew and talking about cs-
 Response of Arvax when asked about Operation Dalmatian:
 	print "'Ask the computer.'[line break]" as Arvax near communications console; 
 	
-Response of Captain Mulgrew when asked about Operation Dalmatian and talking about asking mulgrew questions:
+Response of Captain Mulgrew when asked-or-told about Operation Dalmatian and talking about asking mulgrew questions:
 	print "'Never heard of it. No doubt another of Arvax's lies.'[line break]" as Captain Mulgrew near communications console;
 
 Response of Arvax when asked-or-told about the computer and talking about asking mulgrew questions:
@@ -2381,6 +2425,7 @@ To decide whether ship is in self-destruct mode:
 	decide on whether or not engine output is Void Matter;
 	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-reboot:
+	say "'The only thing we have time to focus on is the ship![paragraph break]";
 	if turns left < 20 and problems exist:
 		print "[line break]'I'm sorry... you're going to have to destroy the ship. We're out of time.'[line break]" as Arvax near communications console;
 		rule succeeds;
@@ -2389,7 +2434,7 @@ Response of Arvax when asked-or-told about usagi and talking about cs-end-game-r
 			add Adjust fuel injection specification;
 		if the fusion engine is broken:
 			add fix the engine;
-		print "'[problems description].[paragraph break]" as Arvax near communications console;
+		print "'[problems description].'[paragraph break]" as Arvax near communications console;
 	otherwise if ship is in self-destruct mode:
 		print "'Friend, if I were to start the fusion engine with the fuel injection you've specified, the ship would explode. Are you sure there is no other option to save the people of New Da Nang?'" as Arvax near communications console;
 		tip "If you really want to blow up the ship, enter 'Arvax, self-destruct' to start the countdown from 10, or press the test button in the engine room.";
@@ -3475,10 +3520,11 @@ Instead of pressing the test button:
 	otherwise:
 		say "A voice says 'Fuel test sequence beginning...'";
 		now test sequence countdown is 11;
-		now destruct in progress is true;
+		if ship is in self-destruct mode:
+			now destruct in progress is true;
 
 To end game suicide:
-	say "The Void Matter is injected into the fusion engine, causing an explosion that rips the ship apart. You are never aware of this, however, as you are instantly vaporized. If you had been aware, you would certainly have been pleased to know that your death saved the people of New Da Nang.";
+	say "The Void Matter is injected into the fusion engine, causing an explosion that rips the ship apart. You are never aware of this, however, as you are instantly `. If you had been aware, you would certainly have been pleased to know that your death saved the people of New Da Nang.";
 	increment score;
 	now the final result is noble suicide;
 	end the story saying "You have died nobly.";
@@ -3509,8 +3555,12 @@ The knife is a thing in the kitchen drawer. The description is "A typical butter
 The fork is a thing in the kitchen drawer. The description is "A typical dinner fork.".
 The spoon is a thing in the kitchen drawer. The description is "A typical dinner spoon.".
 
-The stool is a supporter in the Galley. It is scenery. It is enterable. "Two tall bar-type stools, one on each side of the counter."
-Understand "stools" as the stool.
+A stool is a kind of supporter which is scenery and enterable. The description is "A tall bar-type stool, bolted to the floor."
+
+The left stool is a stool in the galley. The right stool is a stool in the galley.
+
+[The stools is a supporter in the Galley. It is scenery. It is enterable. "Two tall bar-type stools, one on each side of the counter. They are bolted to the floor."
+Understand "stool" as the stools.]
 
 To say microwave display:
 	if microwave is unplugged:
@@ -3866,8 +3916,13 @@ Instead of opening the aft access panel:
 	
 Instead of closing the aft access panel:
 	try screwing the aft access panel;
-	
+
 Instead of inserting the chewing gum into the hole:
+	if the gum is not enclosed by the player:			
+		say "(first taking the chewing gum)[command clarification break]";
+		silently try taking the chewing gum;
+	if the gum is not enclosed by the player:
+		rule fails;
 	now the hole is gummed-up;
 	now the chewing gum is nowhere;
 	say "You push the gum into the hole.";
@@ -3955,6 +4010,8 @@ Does the player mean inserting into the captain's desk:
 The desk drawer contains the captain's journal.
 The captain's journal has indefinite article "the". The captain's journal can be locked or unlocked. It is locked. 
 It is readable. It is addressable. The description is "dummy description"
+
+Understand "diary" as the captain's journal.
 
 Check examining the captain's journal:
 	try reading the captain's journal instead;
@@ -4065,6 +4122,15 @@ Instead of inserting the small key into the port keyhole:
 
 Instead of unlocking the port keyhole with the small key:
 	try unlocking the port keypad with the small key;
+	
+Instead of unlocking the port top drawer with something:
+	say "You may be trying to unlock the keypad, which has a keyhole in it.";
+	
+Instead of unlocking the port bottom drawer with something:
+	say "You may be trying to unlock the keypad, which has a keyhole in it.";
+	
+Instead of unlocking the port-side storage unit with something:
+	say "You may be trying to unlock the keypad, which has a keyhole in it.";
 
 Instead of examining the copy of Planetfall:
 	say "It's amazing that this still exists. A copy of the interactive fiction classic on 5.25[quotation mark] floppy disk for the Apple II.";
@@ -4473,7 +4539,7 @@ The sticky note is a thing in the starboard-side crew quarters. The description 
 
 The readable text of the sticky note is "[description]". It is readable.
 
-A pair of slippers are a wearable thing in the starboard-side crew quarters. The description is "These seem comfy.". "A pair of slippers peeks out from under the bed." 
+A pair of slippers are a wearable thing in the starboard-side crew quarters. They are plural-named. The description is "These seem comfy.". "A pair of slippers peeks out from under the bed." 
 
 After taking the slippers when the black trunk underlies the starboard-side bottom bunk for the first time:
 	say "As you lean to take the slippers, you notice something under the bed.";
@@ -4540,13 +4606,13 @@ Report turning over suit locker 2:
 	say "You turn over the locker. Now it's door-side-up.";
 	rule succeeds;
 	
-Tether in play is a truth state that varies.
+EVA transport line in play is a truth state that varies.
 
-After opening suit locker 2 when tether in play is false:
+After opening suit locker 2 when EVA transport line in play is false:
 	say "You open the locker.[paragraph break]";
-	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting: a tether, used for securing people or objects during extravehicular activity.";
-	now the player carries the tether;
-	now tether in play is true;
+	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting: a EVA transport line, used for securing objects during extravehicular transit.";
+	now the player carries the EVA transport line;
+	now EVA transport line in play is true;
 
 One vac suit is in staging area. It is undescribed.
 
@@ -4633,6 +4699,8 @@ The hook 3 is a hook in spacewalk 3. It is privately-named. The printed name is 
 The printed name of Spacewalk 2 is "Hull of the Usagi". The description of Spacewalk 2 is "Here the path runs aft to the aft airlock and starboard to the engineering airlock. [if broke debris is false]Your path to starboard is blocked by a piece of debris lodged in the hull. [think thought 6] It's going to be tough to get over; it doesn't look magnetic, so your mag boots won't stick to it. You'll need to be careful.[otherwise]Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.[end if]
 
 There is a hook set in the hull here.";
+
+The outer hull is a backdrop. It is in spacewalk 1, spacewalk 2, and spacewalk 3. The description is "The hull is covered with all kinds of machinery, antennae, radio dishes, and heat sinks. You should probably leave them alone. Your skills as a mechanic don't extend to specialized spaceship repair."
 
 The large piece of debris is a thing in Spacewalk 2. It is scenery. The description is "This approximately 4' diameter chunk of debris seems to be made up of plastic and other non-metallic materials. It must have been travelling at quite a speed to embed itself in the hull like it did.".
 
@@ -4757,6 +4825,8 @@ To decide whether mag-boots-on:
 Instead of going outside when location is an offboard room and destruct in progress is false:
 	if mag-boots-on:
 		say "The mag boots keep you firmly attached to the hull.";
+	otherwise if the player carries the EVA transport line and attachment count > 0 or the location is room-tethered:
+		say "You propel yourself away from the ship, but fortunately you are holding the EVA transport line, so you manage to get back to the ship.";
 	otherwise:
 		if player carries the beacon:
 			Say "You propel yourself away from the ship. Some hours later a ship, following your beacon, finds you and rescues you. By that time, however, the SS Usagi has slammed into New Da Nang, killing thousands. You can't help but think you might have saved them if you had stayed on the ship.";
@@ -4788,6 +4858,11 @@ Instead of jumping when location is an offboard room:
 		Say "You can't even begin to jump in these mag boots.";
 	otherwise if destruct in progress is true:
 		end game destruct;
+	otherwise if the player carries the beacon:
+		Say "You propel yourself away from the ship. Some hours later a ship, following your beacon, finds you and rescues you. By that time, however, the SS Usagi has slammed into New Da Nang, killing thousands. You can't help but think you might have saved them if you had stayed on the ship.";
+		now score is 0;
+		now the final result is cowardice;
+		end the story saying "You have saved yourself in a disgraceful act of cowardice.";
 	otherwise:
 		Say "You propel yourself away from the ship, realizing too late you have no way to get back. You drift through the blackness of space until your air runs out and you suffocate.";
 		now the final result is pointless death;
@@ -4797,7 +4872,7 @@ After going to a room (called R2) when player is wearing vac suit and not mag-bo
 	if destruct in progress is true: 
 		end game destruct;
 	otherwise if R2 is room-tethered:
-		say "You grab hold of the tether to keep yourself on the ship. Better turn your mag boots on.";
+		say "You grab hold of the EVA transport line to keep yourself on the ship. Better turn your mag boots on.";
 		tip "If you'd really like to go farther out from the ship, say so with 'out'.";
 	otherwise:
 		Say "You take a step on the hull of the ship, and keep going, and going... Should have turned those mag boots on.";	
@@ -5831,8 +5906,8 @@ hint	used (a number)
 "To do that, you'll need some way of keeping the stabilizer under control (or stable, if you will.)"	
 "Look in the vac suit locker for some help."	
 "You'll need to turn the locker over first."
-"Attach the tether to the hooks outside."
-"Then push the engine stabilizer along the tether."	
+"Attach the EVA transport line to the hooks outside."
+"Then push the engine stabilizer along the EVA transport line."	
 
 Table of Surviving Self-destruction Hints
 hint	used (a number)
@@ -5929,13 +6004,17 @@ test planetfall with "test storage/play planetfall on universal/z/z/z/z/z/z/z/z/
 
 test staging with "test planetfall/s/d/turn over locker/open locker".
 
-test tether with "test staging/a/out/tie tether to hook/f/tie tether to hook/s/tie tether to hook/p/a/in/in/turn off boots/push jl-758 aft/push jl-758 aft/push jl-758 aft/push jl-758 fore/push jl-758 starboard/push jl-758 in/push jl-758 in/push jl-758 aft".
+test tether with "test staging/a/out/tie EVA transport line to hook/f/tie EVA transport line to hook/s/tie EVA transport line to hook/p/a/in/in/turn off boots/push jl-758 aft/push jl-758 aft/push jl-758 aft/push jl-758 fore/push jl-758 starboard/push jl-758 in/push jl-758 in/push jl-758 aft".
 
-test captain with "test tether/f/f/d/a/open door with red card/x panel/open panel/take blown fuse/put fuse in panel/close panel/close panel/x panel/put gum in hole/close panel/open door with red card/a/open drawer/take journal/read it/journal, password walrus/journal, password charon/read journal".
+test captain with "test EVA transport line/f/f/d/a/open door with red card/x panel/open panel/take blown fuse/put fuse in panel/close panel/close panel/x panel/put gum in hole/close panel/open door with red card/a/open drawer/take journal/read it/journal, password walrus/journal, password charon/read journal".
 
-test arvax with "test captain/f/f/u/z/hello/tell caller about me/yes/hello/tell arvax about affair".
+test arvax with "test captain/f/f/u/z/hello/tell caller about me/yes/hello/tell arvax about journal".
 
-test win with "test arvax/computer, access code 2/computer, reboot/z/z/z/z/ask arvax about ship/a/a/x diagram/ask computer about liquid/og > 4/ask computer about red matter/TC > 3/ask computer about unobtainium/ah > 2/og > 1/f/f/ask arvax about ship/f/touch command console/computer, execute"
+test reboot with "test arvax/computer, access code 2/computer, reboot/z/z/z/z".
+
+test fuel with "test reboot/ask arvax about ship/a/a/x diagram/ask computer about liquid/og > 4/ask computer about red matter/TC > 3/ask computer about unobtainium/ah > 2/og > 1"; 
+
+test win with "test fuel/f/f/ask arvax about ship/f/touch command console/computer, execute"
 
 test protocols with "test arvax/computer, access code 3/computer, emergency protocols"
 
@@ -5944,3 +6023,5 @@ test explode with "test protocols/ask arvax about ship/f/open pilot's panel with
 test nobly with "test explode/z/z/z/z/z/z/z/z/z/z".
 
 test escape with "test explode/f/s/out".
+
+test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/tell caller about me/yes/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/remove suit/put gum in hole/wear suit/turn on boots/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/turn it over/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1".

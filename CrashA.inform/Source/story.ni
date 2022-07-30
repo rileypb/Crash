@@ -320,7 +320,7 @@ Chapter 2 - Thinking
 
 To think (thought - a text):
 	if accessible is true:
-		say "You think, '[thought]'";
+		say "You think, '[thought]'[paragraph break]";
 	otherwise:
 		say "[bracket][italic type][thought][roman type][close bracket][paragraph break]";	
 	
@@ -514,7 +514,7 @@ Instead of examining a vac suit (called VS):
 	say "A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently [if MB is switched on]on[otherwise]off[end if]. A gauge indicates the suit has [remaining air of VS] units of air left.";
 	think thought 17;
 	if tipped venting is false:
-		tip "You can vent air by using 'vent suit'";
+		tip "You can vent air by using 'vent suit.'";
 		now tipped venting is true;
 
 Vacuum-suit is a subject. It is privately-named. The description is "subject". Understand "vac", "vacuum" and "suit" as vacuum-suit.
@@ -731,6 +731,11 @@ Instead of taking chewing gum when the chewing gum is stuck to something and the
 	if the player carries the chewing gum:
 		say "[text of the can't take what's already taken rule response (A)]";
 		rule fails;
+	say "You unstick the chewing gum from [the current stuck thing of the chewing gum].";
+	now the chewing gum is carried by the player;
+	now the current stuck thing of the chewing gum is the player;
+	
+Instead of taking chewing gum when the chewing gum is stuck to something and the gum is not currently chewed and the gum is uniform-stuck and the player is not wearing a vac suit:
 	say "You unstick the chewing gum from [the current stuck thing of the chewing gum].";
 	now the chewing gum is carried by the player;
 	now the current stuck thing of the chewing gum is the player;
@@ -1197,7 +1202,7 @@ Include (-
 
 Chapter 7 - The Box and The Bear
 
-The new optical sensor is a thing. The description is "The optical sensor is a small component with a two-pronged connecter on the back and a blue metallic circle on the other."
+The new optical sensor is a thing. The description is "The optical sensor is a small component with a two-pronged connector on the back and a blue metallic circle on the other."
 
 The present is a thing contained in the black trunk's inside. The description is "This is a box wrapped in paper obviously intended for a child. Written on the outside is the message 'To Mitchell, Happy Second Birthday! Love, Uncle Fred'"
 
@@ -1507,7 +1512,9 @@ Chapter 9 - Engine Stabilizer
 
 The brand-new JL-758 is in the Staging Area. Understand "engine", "hunk", "metal", "JL", "new", "part" and "stabilizer" as brand-new JL-758. "What looks like part of an engine is stowed in a corner."
 
-The description is "This is a wide, low, trapezoidal hunk of metal bearing the marking JL-758 on one side. Numerous electrical contacts dot the upper surface. Someone has threaded a thick cord with clips on both ends through some openings on the top and side.".
+The electrical contacts are part of the brand-new JL-758. The description of the electrical contacts is "It looks like the JL-758 is meant to be put under something, so that it makes contact with some other device.".
+
+The description of the brand-new JL-758 is "This is a wide, low, trapezoidal hunk of metal bearing the marking JL-758 on one side. Numerous electrical contacts dot the upper surface. Someone has threaded a thick cord with clips on both ends through some openings on the top and side.".
 
 The woven cord is part of the brand-new JL-758. The description is "It looks like this is meant to attach [the jl-758] to something.". Understand "rope", "clips", "clip" as the woven cord.
 
@@ -1628,9 +1635,9 @@ Chapter 1 - Typing
 
 A thing can be typable.
 
-Typing it on is an action applying to one topic and one thing. Understand "type [text] on/into [something]" as typing it on. Understand "press [text] on [something]" as typing it on. Understand "enter [text] on/into [something]" as typing it on.
+Typing it on is an action applying to one topic and one thing. Understand "type [text] on/into [something]" as typing it on. Understand "press [text] on [something]" and "key [text] on [something]" as typing it on. Understand "enter [text] on/into [something]" as typing it on.
 
-Understand "enter [text]" and "type [text]" as typing it on.
+Understand "enter [text]" and "type [text]" and "press [text]" and "key [text]" and "enter [text]" as typing it on.
 
 Rule for supplying a missing second noun while typing:
 	if the port-side storage unit is in the location:
@@ -1911,6 +1918,7 @@ Carry out examining the repair corps uniform:
 	if the gum is stuck to the repair corps uniform:
 		say ". It would look impressive if it weren't for the chewing gum stuck to it";
 	say ".";
+	rule succeeds;
 
 The toolbox is a thing. Understand "tools", "box", "tool" as toolbox.
 The player carries the toolbox. The description of the toolbox is "Your toolbox holds wrenches, screwdrivers, pliers, and an assortment of various fasteners."
@@ -2016,7 +2024,7 @@ Before asking Arvax about "himself":
 Before asking Captain Mulgrew about "herself":
 	try quizzing Captain Mulgrew about Captain Mulgrew instead;
 
-Before asking someone about a topic when end game is not happening:
+Instead of asking someone about a topic when end game is not happening:
 	say "'I'm afraid I don't have anything to say about that.'";
 	reset turns in state instead;
 	
@@ -2047,7 +2055,7 @@ Understand "ship" as the SS Usagi.
 
 Chapter 1 - States
 
-Understand "caller" as Arvax.
+Understand "caller" and "man" as Arvax.
 
 A conversation state is a kind of object.
 A conversation state has a text called reminder text.
@@ -2105,10 +2113,29 @@ Report imploring someone for something (this is the block imploring rule):
 	
 Section 1 - Making Contact
 
-Before doing something to Arvax when talking about making contact:
+[Instead of doing something other than saying hello to Arvax when talking about making contact:
 	if action name part of the current action is not the saying hello to action:
+		say action name part of the current action;
 		say "[text of parser error internal rule response (E)][line break]";
-		stop;
+		stop;]
+	
+		
+Before quizzing arvax about something when talking about making contact (this is the say hello before quizzing rule):
+	say "You should say hello first." instead;
+		
+Before informing arvax about something when talking about making contact (this is the say hello before informing rule):
+	say "You should say hello first." instead;
+		
+Before asking arvax about something when talking about making contact (this is the say hello before asking rule):
+	say "You should say hello first." instead;
+		
+Before telling arvax about something when talking about making contact (this is the say hello before telling rule):
+	say "You should say hello first." instead;
+	
+[the say hello before quizzing rule is listed first in the check quizzing it about rules.
+the say hello before informing rule is listed first in the check informing it about rules.
+the say hello before asking rule is listed first in the check asking it about rules.
+the say hello before telling rule is listed first in the check telling it about rules.]
 
 After saying hello to Arvax when talking about making contact:
 	say "You call out 'Yes! I'm here! I'm here! What's going on?'[paragraph break]";
@@ -2323,7 +2350,7 @@ Number of arvax interactions is a number that varies.
 
 After quizzing arvax about something:
 	increment number of arvax interactions;
-	if number of arvax interactions is 4:
+	if number of arvax interactions is 4 and gravity > 1 and protocols-activated is false:
 		say "'Hey, you sound tired. If you need a rest, lower the gravity setting. You should find it in the operations deck somewhere.'";
 	continue the action;
 
@@ -2335,6 +2362,7 @@ After informing arvax about something:
 
 A thing can be endgame-relevant.
 The fusion engine, the ss usagi, fuel injection specification are endgame-relevant.
+Destroying the ship is endgame-relevant.
 
 check asking Arvax about something during end game (this is the divert end game asking rule):
 	say "'We don't have time for that!'";
@@ -2380,6 +2408,9 @@ Response of Arvax when asked-or-told about Captain Mulgrew and talking about cs-
 		print "'Seems like she was one of the bad ones. I was suspicious when I learned she had escaped the space station explosion.'[line break]" as Arvax near communications console;
 	otherwise:
 		print "'Blackmail or not, she's a villain through-and-through.'[line break]" as Arvax near communications console;
+	
+Response of Arvax when asked-or-told about destroying the ship and talking about cs-end-game-protocols:
+	say "I don't know much about it, but I imagine it can be done by setting the fuel mix right... well, wrong, I guess.";
 	
 Response of Arvax when asked-or-told about Captain Mulgrew and talking about cs-end-game-reboot:
 	if Captain's Affair is not familiar:
@@ -2535,18 +2566,28 @@ Response of Arvax when asked-or-told about usagi and talking about cs-end-game-p
 		think "Oh god, this is it.";
 	otherwise:
 		print "'[problems description]. [paragraph break]'To be honest, friend, the readouts I'm seeing about the state of helm control are dire. I'm not sure it can be fixed.'[line break]" as Arvax near communications console;
-	
+
+arvax aware of melted helm is a truth state that varies.	
+
 Response of Arvax when asked-or-told about the pilot's access panel and player aware of melted helm is true and talking about cs-end-game-protocols:
 	print "'Dammit! ... I'm sorry, I don't think that can be fixed -- not with the time you have left.'[line break]" as Arvax near communications console;
+	now arvax aware of melted helm is true;
 	
 Response of Arvax when asked-or-told about helm and talking about cs-end-game-protocols and player aware of melted helm is true :
 	print "'Dammit! ... I'm sorry, I don't think that can be fixed -- not with the time you have left.'[line break]" as Arvax near communications console;
+	now arvax aware of melted helm is true;
 	
 Section 6 - More things about the ship
 
 Response of Arvax when asked-or-told about the fusion engine:
-	if computer-rebooted is false:
+	if computer-rebooted is false and protocols-activated is false:
 		say "'I can't get any readings until you reboot the system.'[line break]";
+	otherwise if protocols-activated is true:
+		say "'It's probably the engine stabilizer that's broken, but that doesn't matter without helm control";
+		if arvax aware of melted helm is false:
+			say ". Go check on the helm -- the pilot's console.'";
+		otherwise:
+			say ". Even if you fix the engine we won't be able to fly. You're going to have to destroy the ship.'";
 	otherwise if fusion engine is broken:
 		say "'It looks like you need to replace the engine stabilizer. It's the kind of thing you might have on board.'[line break]";
 	otherwise:
@@ -2722,6 +2763,7 @@ Corporal Delores Franck is a subject. It is unfamiliar.
 Gunnery Sergeant Somchai Khotpanya is a subject. It is unfamiliar.
 Private First Class Friedrich Jäger is a subject. It is unfamiliar.
 Private Akin Abimbola is a subject. It is unfamiliar.
+Destroying the ship is a subject. Understand "destruction", "destruct", "self-destruct", "scuttle", "scuttling", "blowing up" as destroying the ship;
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
@@ -2856,11 +2898,11 @@ When play begins:
 To say describe moon:
 	say "FOO";
 	
-Deep Space is a backdrop. "[if crashing is not happening]The blue disk of the supergiant Deneb looms largest in your view, but even it is just a small spot in the deep blackness of space.[otherwise][describe moon][end if]". Deep Space is in Space Station Gangway, Spacewalk 1, Spacewalk 2, Spacewalk 3, and Bridge.
+deep space is a backdrop. "[if crashing is not happening]The blue-white disk of the supergiant Deneb looms largest in your view, but even it is just a small spot in the deep blackness of space.[otherwise][describe moon][end if]". Deep Space is in Space Station Gangway, Spacewalk 1, Spacewalk 2, Spacewalk 3, and Bridge.
 
-Deneb Star is a backdrop. Deneb Star is in Space Station Gangway, Spacewalk 1, Spacewalk 2, Spacewalk 3, and Bridge. "Deneb is a huge blue disk dominating the port-side view of the ship.";
+Deneb Star is a backdrop. The printed name is "Deneb (star)". Deneb Star is in Space Station Gangway, Spacewalk 1, Spacewalk 2, Spacewalk 3, and Bridge. "Deneb is a blue-white spot off the port side of the ship.";
 
-Aft Airlock is a backdrop. Aft Airlock is in Space Station Gangway, Aft-Airlock-Room, Staging Area, and Spacewalk 1. The description of Aft Airlock is "[if location is space station gangway]The aft airlock is to fore. The door is open, expecting you to come in.[otherwise if location is aft-airlock-room]The airlock is the last defense against the great uncaring vacuum of outer space.[otherwise if location is spacewalk 1][think]God, I wish I was in there.[think end][end if]"
+Aft Airlock is a backdrop. Aft Airlock is in Space Station Gangway, Aft-Airlock-Room, Staging Area, and Spacewalk 1. The description of Aft Airlock is "[if location is space station gangway]The aft airlock is to fore. The door is open, expecting you to come in.[otherwise if location is aft-airlock-room]The airlock is the last defense against the great uncaring vacuum of outer space.[otherwise if location is spacewalk 1][think]God, I wish I was in there.[think end][end if]". Understand "windows" as aft airlock.
 
 Book 13 - The Map
 
@@ -2873,8 +2915,8 @@ Before you is the aft airlock of the Usagi, beckoning you in.[first time]
 
 Room of Stuff is fore of Space Station Gangway. "dummy description"
 
-The Bridge is a room. "This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. [view of space][line break]
-The pilot's and navigator's chairs sit before their respective consoles. The captain's chair, with command console, sits halfway between them and operations further aft.
+The Bridge is a room. "This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. [view of space]
+[line break]The pilot's and navigator's chairs sit before their respective consoles. The captain's chair, with command console, sits halfway between them and operations further aft.
 
 You hear someone speaking aft of here."
 
@@ -2882,9 +2924,9 @@ Understand "helm" as The Bridge.
 
 To say view of space:
 	if last-moves is true:
-		say "To port you can see the huge blue-white disk of Deneb. Ahead, the moon New Da Nang looms steadily larger and larger before you."; 
+		say "To port you can see the blue-white disk of Deneb. Ahead, the moon New Da Nang looms steadily larger and larger before you."; 
 	otherwise:
-		say "To port you can see the huge blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.";
+		say "To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.";
 
 Operations Deck is aft of Bridge. "This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.".
 
@@ -3479,7 +3521,7 @@ Section 4 - Engineering Deck
 
 The suit recharging station is in the Engineering Deck. It is an enterable supporter. "A device labeled 'Suit Recharging Station' is here. It is shaped like a chair with nozzles protruding from either arm." The description is "It looks like a person might sit in it."
 
-Understand "recharger" and "chair" as suit recharging station.
+Understand "recharger" and "chair" and "seat" as suit recharging station.
 
 Instead of entering the suit recharging station when the player is not wearing a vac suit:
 	say "You sit in the suit recharger, but nothing happens. You stand up again.";
@@ -3541,7 +3583,7 @@ Understand "hex" and "hex shaped" as the hex-shaped tool.
 The fresh fuse is in the machine room drawers. The description is "A small yellow cartridge fuse." Understand "new fuse" as the fresh fuse.
 
 The portable hand-held vacuum cleaner is a thing on the machine room counter. "There's a hand vac sitting on the counter."
-Understand "hand vac" as the portable hand-held vacuum cleaner.
+Understand "hand/-- vac" as the portable hand-held vacuum cleaner.
 The description of the vacuum cleaner is "A small canister vacuum, with a handle to easily carry it around, and a short hose."
 
 Does the player mean doing something to the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely;
@@ -4254,7 +4296,7 @@ After examining the starboard bottom drawer:
 
 The examine containers rule does nothing when examining the port bottom drawer.
 
-An access card called the red access card is in the port bottom drawer. The description of the red access card is "The card is red, with the Space Authority symbol that designates it as an access card, but otherwise featureless. [think]Why is the captain's card in a crewman's drawer?[think end]"
+An access card called the red access card is in the port bottom drawer. The description of the red access card is "The card is red, with the Space Authority symbol that designates it as an access card, but otherwise featureless. [think]Looks like the captain's card. Why would that be in a crewman's drawer?[think end]"
 	
 Instead of opening the port top drawer when port keypad is blown:
 	say "Normally, you'd open it by typing the code on the keypad, but that seems to be broken at the moment.";
@@ -4712,8 +4754,14 @@ Carry out turning over suit locker 2 when suit locker 2 is door-side down:
 Instead of turning suit locker 2 when gravity is 1:
 	try turning over suit locker 2;
 	
+Instead of turning suit locker 2 when gravity > 1:
+	say "It's much too heavy to turn over.";
+	
 Instead of pushing suit locker 2 when gravity is 1:
 	try turning over suit locker 2;
+	
+Instead of pushing suit locker 2 when gravity > 1:
+	say "It's much too heavy to turn over.";
 	
 Instead of taking suit locker 2 when gravity is 1:
 	say "You can't really lift the locker, even with the gravity this low, but you can turn it over.";

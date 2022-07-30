@@ -23,7 +23,7 @@ The story title is "Crash".
 The story author is "Phil Riley".
 The story headline is "An Interactive Disaster".
 The story genre is "Science Fiction".
-The release number is 5.
+The release number is 6.
 The story creation year is 2022.
 
 DEBUG is a truth state that varies. DEBUG is initially false.
@@ -1204,6 +1204,9 @@ The present is a thing contained in the black trunk's inside. The description is
 Bertie the Bear is a thing. The printed name is "Bertie the Bear™". The description is "Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals.[if the eyes are nowhere] This bear seems to be missing his eyes.[otherwise] This bear's blindly staring eyes are unnerving.[end if]".
 The eyes are parts of Bertie the Bear. The description of the eyes is "They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.". Understand "optical" and "sensors", "sensor" as the eyes.
 
+Instead of taking off the eyes:
+	try taking the eyes instead;
+
 Instead of taking the eyes:
 	now the eyes are nowhere;
 	now the player carries the new optical sensor;
@@ -1231,12 +1234,12 @@ Chapter 8 - Hooks and Tethers
 A tether-kind is a kind of thing.
 The EVA transport line is a tether-kind. The description is "see carry out examining the EVA transport line".
 
-Understand "tether", "rope" as EVA transport line.
+Understand "tether", "rope", "cable" as EVA transport line.
 
 Carry out examining the EVA transport line:
 	let AC be the attachment count;
 	if AC is 0:
-		say "The EVA transport line is a strong rope, maybe 16 meters long. It has a hook at either end.";
+		say "The EVA transport line is a strong rope, maybe 16 meters long. It has a hook at either end. One extends the line between two or more points, and then transits the payload along it.";
 	otherwise:
 		if location is spacewalk 1:
 			follow the spacewalk 1 EVA transport line description rule;
@@ -1259,7 +1262,7 @@ To decide whether (R - a room) is room-tethered:
 To decide what number is the attachment count:
 	decide on the number of entries in the list of hooks which are tethered;
 
-The description of a hook is "A post extends from the hull here, with a heavyweight snap hook on the end[if tethered]. The EVA transport line is attached to the hook[otherwise]. The hook is unattached[end if].".
+The description of a hook is "A post extends from the hull here, with a heavyweight snap hook on the end[if tethered]. The EVA transport line is attached to the hook[otherwise]. The hook is unattached[end if].". Understand "post" as a hook.
 
 check an actor tying something to something (this is the new block tying rule):
 	if the noun is not the EVA transport line or the second noun is not a hook:
@@ -1502,11 +1505,11 @@ This is the spacewalk 3 EVA transport line description rule:
 		
 Chapter 9 - Engine Stabilizer
 
-The brand-new JL-758 is in the Staging Area. The printed name is "JL-758". Understand "engine", "hunk", "metal", "JL", "new", "part" and "stabilizer" as brand-new JL-758. "What looks like part of an engine is stowed in a corner."
+The brand-new JL-758 is in the Staging Area. Understand "engine", "hunk", "metal", "JL", "new", "part" and "stabilizer" as brand-new JL-758. "What looks like part of an engine is stowed in a corner."
 
 The description is "This is a wide, low, trapezoidal hunk of metal bearing the marking JL-758 on one side. Numerous electrical contacts dot the upper surface. Someone has threaded a thick cord with clips on both ends through some openings on the top and side.".
 
-The JL-758 cord is part of the brand-new JL-758. The description is "It looks like this is meant to attach [the jl-758] to something.". Understand "rope", "clips", "clip" as the jl-758 cord.
+The woven cord is part of the brand-new JL-758. The description is "It looks like this is meant to attach [the jl-758] to something.". Understand "rope", "clips", "clip" as the woven cord.
 
 The brand-new JL-758 is pushable between rooms. 
 
@@ -1704,7 +1707,7 @@ Carry out throwing something:
 
 Chapter 6 - Venting the Suit
 
-venting is an action applying to nothing. Understand "vent the/-- vac/-- suit" or "vent air" as venting.
+venting is an action applying to nothing. Understand "vent the/-- vac/-- suit" or "vent air" as venting. Understand "expel air" as venting.
 
 To decide whether suit is empty:
 	if the player is not wearing a vac suit:
@@ -2310,10 +2313,28 @@ Response when saying no and current conversation state is not waiting for yes:
 	
 Section 3 - Revenge of Arvax
 
+Number of arvax interactions is a number that varies.
+
+After quizzing arvax about something:
+	increment number of arvax interactions;
+	if number of arvax interactions is 4:
+		say "'Hey, you sound tired. If you need a rest, lower the gravity setting. You should find it in the operations deck somewhere.'";
+	continue the action;
+
+After informing arvax about something:
+	increment number of arvax interactions;
+	if number of arvax interactions is 4:
+		say "'Hey, you sound tired. If you need a rest, lower the gravity setting. You should find it in the operations deck somewhere.'";
+	continue the action;
+
+A thing can be endgame-relevant.
+The fusion engine, the ss usagi, fuel injection specification are endgame-relevant.
+
 check asking Arvax about something during end game (this is the divert end game asking rule):
+	say "'We don't have time for that!'";
 	try quizzing arvax about the ss usagi instead;
 
-check quizzing Arvax about something when the second noun is not the ss usagi during end game (this is the divert end game quizzing rule):
+check quizzing Arvax about something when the second noun is not endgame-relevant during end game (this is the divert end game quizzing rule):
 	say "'We don't have time for that!";
 	try quizzing arvax about the ss usagi instead;
 
@@ -2425,7 +2446,7 @@ To decide whether ship is in self-destruct mode:
 	decide on whether or not engine output is Void Matter;
 	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-reboot:
-	say "'The only thing we have time to focus on is the ship![paragraph break]";
+	[say "'The only thing we have time to focus on is the ship![paragraph break]";]
 	if turns left < 20 and problems exist:
 		print "[line break]'I'm sorry... you're going to have to destroy the ship. We're out of time.'[line break]" as Arvax near communications console;
 		rule succeeds;
@@ -2465,8 +2486,8 @@ The helm is a subject. The description is "subject".
 	print "'It seems like it's out of balance. The engines must be very precisely balanced. Go take a look.'[line break]" as Arvax near communications console;]
 	
 Fuel injection specification is a subject. The description is "subject".
-Response of Arvax when asked-or-told about fuel injection specification and talking about cs-end-game-reboot:
-	print "'This may be tricky. Take a look around the engine room.'[line break]" as Arvax near communications console;
+[Response of Arvax when asked-or-told about fuel injection specification and talking about cs-end-game-reboot:
+	print "'This may be tricky. Take a look around the engine room.'[line break]" as Arvax near communications console;]
 
 For asking for attention by Arvax while talking about cs-end-game-reboot and computer-rebooting is false:
 	print "[Arvax]: 'You there, Usagi? We don't have much time.'[line break]" as Arvax near communications console with transcript false;
@@ -2514,7 +2535,41 @@ Response of Arvax when asked-or-told about the pilot's access panel and player a
 	
 Response of Arvax when asked-or-told about helm and talking about cs-end-game-protocols and player aware of melted helm is true :
 	print "'Dammit! ... I'm sorry, I don't think that can be fixed -- not with the time you have left.'[line break]" as Arvax near communications console;
+	
+Section 6 - More things about the ship
 
+Response of Arvax when asked-or-told about the fusion engine:
+	if computer-rebooted is false:
+		say "'I can't get any readings until you reboot the system.'[line break]";
+	otherwise if fusion engine is broken:
+		say "'It looks like you need to replace the engine stabilizer. It's the kind of thing you might have on board.'[line break]";
+	otherwise:
+		say "'I'm seeing the engine fully online";
+		if engine output is Liquid Copernicium:
+			say ".'[line break]";
+			try quizzing arvax about the ss usagi;
+		otherwise:
+			say ". Now you need to get the fuel specification right.'[line break]";
+			add adjust fuel injection specification;
+
+Response of Arvax when asked-or-told about the fuel injection specification:
+	if engine output is Liquid Copernicium:
+		say "'It looks like you've set the fuel injection correctly.'[line break]";
+		if not problems exist:
+			try quizzing arvax about the ss usagi;
+	otherwise if engine output is Void Matter:
+		if protocols-activated is true:
+			say "'You've set the fuel injection to destroy the ship. I think you may be right.'[line break]";
+		otherwise:
+			say "'You've set the fuel injection to destroy the ship! Change it now before anything happens!'[line break]";
+	otherwise:
+		say "'You need to set it to produce the correct output. The computer may be able to help you. I'm no engine specialist.'[line break]";
+	
+
+Section 7 - A few more things
+
+Does the player mean quizzing arvax about the fusion engine:
+	It is very likely;
 
 Book 11 - The Computer
 
@@ -2656,6 +2711,7 @@ Pollux III is a subject. The description is "subject".
 Pollux VI is a subject. The description is "subject".
 Irion is a subject. The description is "subject". Understand "Irion invaders" as Irion.
 Engine status is a subject. The description is "subject". Understand "drive" as engine status.
+Gravity-subject is a subject. It is privately-named. The description is "subject". The printed name is "gravity". Understand "gravity" as gravity-subject.
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
@@ -2740,6 +2796,7 @@ Pollux III	"Pollux III, now uninhabitable due to intense radiation, was once the
 Irion	"A sentient race of silicon-based insectoids originally from Pollux III. Their homeworld was destroyed in an industrial accident, leaving only the Irion who had settled on their planet's moon."
 Pollux VI	"A human-settled planet which is contested by the Irion."
 Engine status	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
+Gravity-subject	"The gravity is currently set to [gravity]."
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:
 	say ">>>> [Obj].";
@@ -2813,7 +2870,7 @@ To say view of space:
 	otherwise:
 		say "To port you can see the huge blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.";
 
-Operations Deck is aft of Bridge. "This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls, communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.".
+Operations Deck is aft of Bridge. "This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.".
 
 Engineering Deck is aft of Operations Deck. "The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system. 
 
@@ -3017,7 +3074,15 @@ Instead of inserting the hex-shaped tool into the access panel keyhole:
 The pilot's console is a thing in the bridge. It is scenery. "The pilot's console is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel [state of pilot's access panel].". Understand "pilot console" as pilot's console.
 The pilot's access panel is a container which is a part of the pilot's console. It is closed, locked, and openable. It has carrying capacity 0. The pilot's access panel has matching key the hex-shaped tool. The description is "The access panel is a rectangle of the same plastic that makes up the console. There is a hex-shaped keyhole in it." Understand "pilot access/-- panel" as pilot's access panel.
 
-The pilot's console wiring is scenery in the pilot's console. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" as the pilot's console wiring. The description of the pilot's console wiriting is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
+The pilot's wiring is scenery in the pilot's console. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" as the pilot's wiring. The description of the pilot's wiring is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
+
+The aperture is a part of the pilot's access panel. Understand "hole", "keyhole", "lock" as aperture.
+
+Instead of inserting the hex-shaped tool into the aperture:
+	try unlocking the pilot's access panel with the hex-shaped tool;
+	
+Instead of inserting the hex-shaped tool into the panel:
+	try unlocking the pilot's access panel with the hex-shaped tool;
 
 Instead of examining the pilot's access panel:
 	if the pilot's access panel is closed:
@@ -3524,7 +3589,7 @@ Instead of pressing the test button:
 			now destruct in progress is true;
 
 To end game suicide:
-	say "The Void Matter is injected into the fusion engine, causing an explosion that rips the ship apart. You are never aware of this, however, as you are instantly `. If you had been aware, you would certainly have been pleased to know that your death saved the people of New Da Nang.";
+	say "The Void Matter is injected into the fusion engine, causing an explosion that rips the ship apart. You are never aware of this, however, as you are instantly vaporized. If you had been aware, you would certainly have been pleased to know that your death saved the people of New Da Nang.";
 	increment score;
 	now the final result is noble suicide;
 	end the story saying "You have died nobly.";
@@ -4105,8 +4170,8 @@ The Port-side storage unit is a thing in port-side crew quarters. It is scenery.
 	The Port keypad is a container which is part of Port-side storage unit. It is closed, openable, locked, and lockable. The printed name is "keypad". The port keypad is typable. The carrying capacity is 0.
 	The port keypad has matching key the small key.
 	The Port display is a part of Port-side storage unit. The printed name is "display".
-	The Port top drawer is a drawer-kind which is part of Port-side storage unit. The printed name is "top drawer". It is closed.
-	The Port bottom drawer is a drawer-kind which is part of Port-side storage unit. The printed name is "bottom drawer". It is closed.
+	The Port top drawer is a drawer-kind which is part of Port-side storage unit. The printed name is "top drawer". It is closed. Understand "upper" as the port top drawer.
+	The Port bottom drawer is a drawer-kind which is part of Port-side storage unit. The printed name is "bottom drawer". It is closed. Understand "lower" as the port bottom drawer.
 	
 The description of the port-side storage unit is "The storage unit consists of top and bottom drawers, with an attached keypad and display. There is a keyhole under the keypad.[if the port bottom drawer is open] The top drawer is closed, but the bottom drawer is [state and contents of port bottom drawer].[otherwise if the port bottom drawer is half-open] The top drawer is closed; the bottom drawer juts out by a couple of centimeters.[otherwise if the port top drawer is open] The top drawer is [state and contents of port top drawer], but the bottom drawer is closed.[otherwise] Both drawers are closed.[end if]"
 
@@ -4124,13 +4189,13 @@ Instead of unlocking the port keyhole with the small key:
 	try unlocking the port keypad with the small key;
 	
 Instead of unlocking the port top drawer with something:
-	say "You may be trying to unlock the keypad, which has a keyhole in it.";
+	say "You may be trying to unlock the keypad, which has a keyhole in it. Or you may be trying to unlock a drawer, which can only be done by typing the correct code on the keypad.";
 	
 Instead of unlocking the port bottom drawer with something:
-	say "You may be trying to unlock the keypad, which has a keyhole in it.";
+	say "You may be trying to unlock the keypad, which has a keyhole in it. Or you may be trying to unlock a drawer, which can only be done by typing the correct code on the keypad.";
 	
 Instead of unlocking the port-side storage unit with something:
-	say "You may be trying to unlock the keypad, which has a keyhole in it.";
+	say "You may be trying to unlock the keypad, which has a keyhole in it. Or you may be trying to unlock a drawer, which can only be done by typing the correct code on the keypad.";
 
 Instead of examining the copy of Planetfall:
 	say "It's amazing that this still exists. A copy of the interactive fiction classic on 5.25[quotation mark] floppy disk for the Apple II.";
@@ -4201,12 +4266,12 @@ Check typing on the port keypad when the port-side storage unit is storage-broke
 To decide whether some drawer open:
 	decide on whether or not port bottom drawer is open or port top drawer is open;
 	
-Check typing on the port keypad when the port-side storage unit is not storage-broken and some drawer open:
+Check typing on the port keypad when the port-side storage unit is not storage-broken and (some drawer open or the port bottom drawer is half-open):
 	say "The display flashes 'Close Drawer'." instead;
 	
 Typing it on has a truth state called drawer opened. 
 
-Carry out typing a topic on the port keypad when the port-side storage unit is storage-fixed:
+Carry out typing a topic on the port keypad when the port-side storage unit is storage-fixed:			
 	if "[the topic understood]" is "9467":
 		now the port top drawer is open;
 		now drawer opened of typing it on is true;
@@ -4384,6 +4449,9 @@ Instead of taking the screw when the location is starboard-side crew quarters an
 
 Instead of unscrewing the screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk): 
 	try replacing screw;
+
+Instead of fixing the screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk): 
+	try replacing screw;
 	
 Instead of replacing screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
 	say "You unscrew the old screw and replace it with a new one.";
@@ -4484,8 +4552,8 @@ Instead of looking under the starboard-side bed:
 The starboard-side storage unit is a thing in starboard-side crew quarters. It is scenery. The printed name is "crew personal storage unit". Understand "crew", "personal", "storage", and "unit" as port-side storage unit.
 	The starboard keypad is a container which is part of starboard-side storage unit. The printed name is "keypad". The starboard keypad is typable. It is closed, openable, locked, and lockable. The starboard keypad has matching key the small key.
 	The starboard display is a part of starboard-side storage unit. The printed name is "display".
-	The starboard top drawer is a drawer-kind which is part of starboard-side storage unit. The printed name is "top drawer". It is closed.
-	The starboard bottom drawer is a drawer-kind which is part of starboard-side storage unit. The printed name is "bottom drawer". It is closed.	
+	The starboard top drawer is a drawer-kind which is part of starboard-side storage unit. The printed name is "top drawer". It is closed. Understand "upper" as the starboard top drawer.
+	The starboard bottom drawer is a drawer-kind which is part of starboard-side storage unit. The printed name is "bottom drawer". It is closed.	Understand "lower" as the starboard bottom drawer.
 	
 The description of the starboard-side storage unit is "The storage unit consists of top and bottom drawers, with an attached keypad and display. There is a keyhole under the keypad. Both drawers are closed."
 
@@ -4580,9 +4648,9 @@ Section 14 - Staging Area
 
 The suit locker 1 is a container in Staging Area. It is privately-named. The printed name is "vac suit locker". It is scenery. It contains five vac suits. Understand "vac/-- suit/-- locker" as suit locker 1. The description is "The locker is made of some composite material, all black. It is [if suit locker 1 is open]open[otherwise]closed[end if].". It is open and openable.
 
-A banged-up vac suit is a kind of thing. It is wearable. The description is "This vac suit has been banged up enough to be unreliable as protection against vacuum.". Understand "broken" and "unreliable" as a banged-up vac suit.
+A banged-up suit is a kind of thing. It is wearable. The description is "This vac suit has been banged up enough to be unreliable as protection against vacuum.". Understand "broken" and "unreliable" as a banged-up suit.
 
-The suit locker 2 is a container. It is privately-named. It is flippable. It is closed and openable. The printed name is "vac suit locker". It is scenery. Understand "vac/-- suit/-- locker" as suit locker 2. "[If suit locker 2 is door-side down]The vac suit locker has fallen with its door to the ground. It looks pretty heavy[otherwise]The locker has been flipped door-side-up[end if]." It contains four banged-up vac suits. Suit locker 2 can be door-side down. It is door-side down. It is closed and openable.
+The suit locker 2 is a container. It is privately-named. It is flippable. It is closed and openable. The printed name is "vac suit locker". It is scenery. Understand "vac/-- suit/-- locker" as suit locker 2. "[If suit locker 2 is door-side down]The vac suit locker has fallen with its door to the ground. It looks pretty heavy[otherwise]The locker has been flipped door-side-up[end if]." It contains four banged-up suits. Suit locker 2 can be door-side down. It is door-side down. It is closed and openable.
 
 Instead of pushing suit locker 2 when gravity > 1:
 	say "The locker is too heavy to move.";
@@ -4602,6 +4670,16 @@ Check turning over suit locker 2 when gravity > 1:
 Carry out turning over suit locker 2 when suit locker 2 is door-side down:
 	now suit locker 2 is not door-side down;	
 	
+Instead of turning suit locker 2 when gravity is 1:
+	try turning over suit locker 2;
+	
+Instead of pushing suit locker 2 when gravity is 1:
+	try turning over suit locker 2;
+	
+Instead of taking suit locker 2 when gravity is 1:
+	say "You can't really lift the locker, even with the gravity this low, but you can turn it over.";
+	try turning over suit locker 2;
+	
 Report turning over suit locker 2:
 	say "You turn over the locker. Now it's door-side-up.";
 	rule succeeds;
@@ -4610,7 +4688,7 @@ EVA transport line in play is a truth state that varies.
 
 After opening suit locker 2 when EVA transport line in play is false:
 	say "You open the locker.[paragraph break]";
-	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting: a EVA transport line, used for securing objects during extravehicular transit.";
+	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting: an EVA transport line, used for securing objects during extravehicular transit.";
 	now the player carries the EVA transport line;
 	now EVA transport line in play is true;
 
@@ -5206,19 +5284,23 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	say "[paragraph break]Press any key...";
 	if DEBUG is false:
 		wait for any key;
+	let VS be a random vac suit that is in Staging Area;
+	now the current stuck thing of the chewing gum is VS;
+	now the chewing gum is not currently chewed;
+	now the chewing gum is in the room of stuff;
 	try looking;
 	think "What now?";
 	now the description of the gangway-backdrop is "The gangway is gone, with the rest of Space Station Omicron-5.";
 	now the description of the space station omicron-5 is "The space station is now just an expanding cloud of debris, receding behind the ship.";
 	now explosion is familiar;
 	think "I think I spit out my gum.";
-	if the player wears the repair corps uniform:	
+[	if the player wears the repair corps uniform:	
 		now the current stuck thing of the chewing gum is the repair corps uniform;
 		now the chewing gum is not currently chewed;
 		now the chewing gum is in the room of stuff;
 	otherwise:
 		now the chewing gum is in the staging area;
-		now the chewing gum is not currently chewed;
+		now the chewing gum is not currently chewed;]
 	now Aft Airlock Inner Door Broken is true;
 	move the explosion backdrop to all explosion-seeing rooms;
 	Activate the table of beginning hints;
@@ -6002,11 +6084,11 @@ test storage with "test cabinet/get down/open cabinet/take beacon/p/p/open cabin
 
 test planetfall with "test storage/play planetfall on universal/z/z/z/z/z/z/z/z/z";
 
-test staging with "test planetfall/s/d/turn over locker/open locker".
+test staging with "test planetfall/s/d/turn locker/open locker".
 
 test tether with "test staging/a/out/tie EVA transport line to hook/f/tie EVA transport line to hook/s/tie EVA transport line to hook/p/a/in/in/turn off boots/push jl-758 aft/push jl-758 aft/push jl-758 aft/push jl-758 fore/push jl-758 starboard/push jl-758 in/push jl-758 in/push jl-758 aft".
 
-test captain with "test EVA transport line/f/f/d/a/open door with red card/x panel/open panel/take blown fuse/put fuse in panel/close panel/close panel/x panel/put gum in hole/close panel/open door with red card/a/open drawer/take journal/read it/journal, password walrus/journal, password charon/read journal".
+test captain with "test tether/f/f/d/a/open door with red card/x panel/open panel/take blown fuse/put fuse in panel/close panel/close panel/x panel/put gum in hole/close panel/open door with red card/a/open drawer/take journal/read it/journal, password walrus/journal, password charon/read journal".
 
 test arvax with "test captain/f/f/u/z/hello/tell caller about me/yes/hello/tell arvax about journal".
 
@@ -6024,4 +6106,4 @@ test nobly with "test explode/z/z/z/z/z/z/z/z/z/z".
 
 test escape with "test explode/f/s/out".
 
-test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/tell caller about me/yes/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/remove suit/put gum in hole/wear suit/turn on boots/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/turn it over/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1".
+test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/tell caller about me/yes/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/ask arvax about ship/f/x command console/touch it/computer, execute".

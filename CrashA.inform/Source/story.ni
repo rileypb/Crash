@@ -403,7 +403,7 @@ To print (speech text - a text) as (speaker - a thing) near (locale - a thing) w
 		say ST;
 	otherwise if X is 1 and last-turn-count-remote-speech-printed is not turn count:
 		let BR be best route from the location to the location of the locale, using even locked doors;
-		say "You [if the location is galley and the midship door is closed]faintly [end if]hear someone speaking [the direction description of BR].";
+[		say "You [if the location is galley and the midship door is closed]faintly [end if]hear someone speaking [the direction description of BR].";]
 		now last-turn-count-remote-speech-printed is turn count;
 	Now the last utterance of the speaker is ST;	
 	if T is true and speaker is a person:
@@ -1605,6 +1605,12 @@ Check listening to something (this is the block listening to rule):
 Instead of listening when the player is in the Galley:
 	say "You can hear someone talking above you, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
 	
+Instead of listening when the player is in the Bridge:
+	say "You can hear someone talking aft from here, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
+	
+Instead of listening when the player is in the Engineering:
+	say "You can hear someone talking forward from here, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
+	
 Instead of going down when player is on something:
 	try exiting;
 	
@@ -1982,10 +1988,10 @@ Instead of examining the player:
 Chapter 1 - Wearing things
 
 Check wearing the engineering uniform when the player wears a vac suit:
-	say "You can't put a uniform on over a vac suit. Try the other way around" instead;
+	say "You can't put a uniform on over a vac suit. Try the other way around." instead;
 
 Check wearing the repair corps uniform when the player wears a vac suit:
-	say "You can't put a uniform on over a vac suit. Try the other way around" instead;
+	say "You can't put a uniform on over a vac suit. Try the other way around." instead;
 	
 Check wearing the engineering uniform when the player wears the repair corps uniform:
 	say "(removing the repair corps uniform first)";
@@ -2712,6 +2718,10 @@ Pollux VI is a subject. The description is "subject".
 Irion is a subject. The description is "subject". Understand "Irion invaders" as Irion.
 Engine status is a subject. The description is "subject". Understand "drive" as engine status.
 Gravity-subject is a subject. It is privately-named. The description is "subject". The printed name is "gravity". Understand "gravity" as gravity-subject.
+Corporal Delores Franck is a subject. It is unfamiliar.
+Gunnery Sergeant Somchai Khotpanya is a subject. It is unfamiliar.
+Private First Class Friedrich Jäger is a subject. It is unfamiliar.
+Private Akin Abimbola is a subject. It is unfamiliar.
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
@@ -2797,6 +2807,10 @@ Irion	"A sentient race of silicon-based insectoids originally from Pollux III. T
 Pollux VI	"A human-settled planet which is contested by the Irion."
 Engine status	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
 Gravity-subject	"The gravity is currently set to [gravity]."
+Corporal Delores Franck	"Corporal Delores Franck is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
+Gunnery Sergeant Somchai Khotpanya	"Gunnery Sergeant Somchai Khotpanya is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
+Private First Class Friedrich Jäger	"Private First Class Friedrich Jäger is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
+Private Akin Abimbola	"Private Akin Abimbola is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:
 	say ">>>> [Obj].";
@@ -2860,7 +2874,9 @@ Before you is the aft airlock of the Usagi, beckoning you in.[first time]
 Room of Stuff is fore of Space Station Gangway. "dummy description"
 
 The Bridge is a room. "This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. [view of space][line break]
-The pilot's and navigator's chairs sit before their respective consoles. The captain's chair, with command console, sits halfway between them and operations further aft."
+The pilot's and navigator's chairs sit before their respective consoles. The captain's chair, with command console, sits halfway between them and operations further aft.
+
+You hear someone speaking aft of here."
 
 Understand "helm" as The Bridge.
 
@@ -2874,7 +2890,9 @@ Operations Deck is aft of Bridge. "This is where all of the support activity for
 
 Engineering Deck is aft of Operations Deck. "The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system. 
 
-The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port."
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore."
 
 [Near the console is a large cabinet with a card slot. [if the engineering cabinet is open]It is open.[otherwise]It is closed.[end if]]
 
@@ -2890,7 +2908,9 @@ Midship Door is a door. It is below Operations Deck. It is closed. The descripti
 
 Galley is below Midship Door. "This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
 
-On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.".
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+[if midship door is closed]You faintly hear someone speaking above.[otherwise]You hear someone speaking above.[end if]".
 
 Junction is aft of Galley. "This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area."
 
@@ -3359,7 +3379,7 @@ To print (speech text - a text) as (speaker - a thing) near (locale - a thing) w
 		say variable letter spacing;
 	otherwise if X is 1 and last-turn-count-remote-speech-printed is not turn count:
 		let BR be best route from the location to the location of the locale, using even locked doors;
-		say "You [if the location is galley and the midship door is closed]faintly [end if]hear someone speaking [the direction description of BR].";
+[		say "You [if the location is galley and the midship door is closed]faintly [end if]hear someone speaking [the direction description of BR].";]
 		now last-turn-count-remote-speech-printed is turn count;
 	Now the last utterance of the speaker is ST;	
 	if T is true:
@@ -3880,7 +3900,7 @@ Instead of randomly shouting while player is in galley:
 	
 Instead of hailing while player is in galley:
 	say "Whoever is talking doesn't seem to hear you.";
-	
+
 The cookware is a thing in the galley. The printed name is "pots and pans". Understand "pots" and "pans" as cookware. The cookware is scenery. It is plural-named. The description is "There is a wide array of cookware here, none of which is likely to be useful to you."
 
 Instead of taking the cookware:
@@ -4224,6 +4244,14 @@ After closing the port keypad:
 The description of the Port top drawer is "The top drawer is labeled 'Franck'. It is [state and contents of port top drawer]."
 The description of the Port bottom drawer is "The bottom drawer is labeled 'Khotpanya'. [if the port bottom drawer is open]It is [state and contents of port bottom drawer].[otherwise if the port bottom drawer is half-open]The bottom drawer juts out by a couple of centimeters.[otherwise]The bottom drawer is closed.[end if]"
 
+After examining the starboard top drawer:
+	now Delores Franck is familiar;
+	continue the action;
+	
+After examining the starboard bottom drawer:
+	now Somchai Khotpanya is familiar;
+	continue the action;
+
 The examine containers rule does nothing when examining the port bottom drawer.
 
 An access card called the red access card is in the port bottom drawer. The description of the red access card is "The card is red, with the Space Authority symbol that designates it as an access card, but otherwise featureless. [think]Why is the captain's card in a crewman's drawer?[think end]"
@@ -4302,6 +4330,9 @@ Check contentlessly typing on the port keypad when the port-side storage unit is
 Prying it open with is an action applying to two things. Understand "pry [something] with [something]" and "pry [something] open with [something]" and "pry open [something] with [something]" and "jimmy [something] with [something]" and "jimmy [something] open with [something]" and "jimmy open [something] with [something]" as prying it open with.
 
 Instead of unlocking port bottom drawer with knife:
+	try prying the port bottom drawer open with knife;
+	
+Instead of inserting the knife into the port bottom drawer:
 	try prying the port bottom drawer open with knife;
 	
 Instead of unlocking port top drawer with knife when the port bottom drawer has been open:
@@ -4454,7 +4485,7 @@ Instead of fixing the screw when the location is starboard-side crew quarters an
 	try replacing screw;
 	
 Instead of replacing screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
-	say "You unscrew the old screw and replace it with a new one.";
+	say "You unscrew the old screw and replace it with a new one from your toolbox.";
 	now the crooked screw is nowhere;
 	now the starboard-side equipment cabinet is repaired;
 	tick off fix the cabinet;
@@ -4563,6 +4594,14 @@ The description of the starboard display is "The display says 'Enter Code'.".
 
 The description of the starboard top drawer is "The top drawer is labeled 'Jäger'. It is closed."
 The description of the starboard bottom drawer is "The bottom drawer is labeled 'Abimbola'. It is closed."
+
+After examining the starboard top drawer:
+	now Friedrich Jäger is familiar;
+	continue the action;
+	
+After examining the starboard bottom drawer:
+	now Akin Abimbola is familiar;
+	continue the action;
 
 The starboard keyhole is part of the starboard keypad. It is scenery.
 "A pretty typical heyhole, maybe smaller than most."

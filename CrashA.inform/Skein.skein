@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-2901">
+<Skein rootNode="node-1002">
     <generator>Inform Mac Client (Inform version )</generator>
-    <item nodeId="node-2901">
+    <item nodeId="node-1002">
         <command xml:space="preserve">CrashA</command>
         <result xml:space="preserve">
 
@@ -18,10 +18,10 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16854"></child>
+        <children><child nodeId="node-1003"></child>
         </children>
     </item>
-    <item nodeId="node-16854">
+    <item nodeId="node-1003">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
 
@@ -37,10 +37,10 @@ A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboa
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16855"></child>
+        <children><child nodeId="node-1004"></child>
         </children>
     </item>
-    <item nodeId="node-16855">
+    <item nodeId="node-1004">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
 
@@ -52,19 +52,19 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16856"></child>
+        <children><child nodeId="node-1005"></child>
         </children>
     </item>
-    <item nodeId="node-16856">
+    <item nodeId="node-1005">
         <command xml:space="preserve">open locker</command>
         <result xml:space="preserve">That's already open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16857"></child>
+        <children><child nodeId="node-1006"></child>
         </children>
     </item>
-    <item nodeId="node-16857">
+    <item nodeId="node-1006">
         <command xml:space="preserve">x suit</command>
         <result xml:space="preserve">A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently off. A gauge indicates the suit has 15 units of air left.
 [I always wanted one of these.]
@@ -73,101 +73,101 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16863"></child>
+        <children><child nodeId="node-1007"></child>
         </children>
     </item>
-    <item nodeId="node-16863">
+    <item nodeId="node-1007">
         <command xml:space="preserve">x gloves</command>
         <result xml:space="preserve">Rather than being optimized for manual dexterity, these gloves are shaped to more easily wield a laser rifle.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16864"></child>
+        <children><child nodeId="node-1008"></child>
         </children>
     </item>
-    <item nodeId="node-16864">
+    <item nodeId="node-1008">
         <command xml:space="preserve">x helmet</command>
         <result xml:space="preserve">A big transparent fish bowl.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16865"></child>
+        <children><child nodeId="node-1009"></child>
         </children>
     </item>
-    <item nodeId="node-16865">
+    <item nodeId="node-1009">
         <command xml:space="preserve">x gloves</command>
         <result xml:space="preserve">Rather than being optimized for manual dexterity, these gloves are shaped to more easily wield a laser rifle.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16866"></child>
+        <children><child nodeId="node-1010"></child>
         </children>
     </item>
-    <item nodeId="node-16866">
+    <item nodeId="node-1010">
         <command xml:space="preserve">x boots</command>
         <result xml:space="preserve">Big boots with a thick sole. Lights indicate these boots are currently off.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16867"></child>
+        <children><child nodeId="node-1011"></child>
         </children>
     </item>
-    <item nodeId="node-16867">
+    <item nodeId="node-1011">
         <command xml:space="preserve">x nozzle</command>
         <result xml:space="preserve">This is useful for venting air from the suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16868"></child>
+        <children><child nodeId="node-1012"></child>
         </children>
     </item>
-    <item nodeId="node-16868">
+    <item nodeId="node-1012">
         <command xml:space="preserve">x gauge</command>
         <result xml:space="preserve">The gauge indicates the suit has 15 units of air left.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16869"></child>
+        <children><child nodeId="node-1013"></child>
         </children>
     </item>
-    <item nodeId="node-16869">
+    <item nodeId="node-1013">
         <command xml:space="preserve">turn on boots</command>
         <result xml:space="preserve">You switch the Magnetic boots on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16870"></child>
+        <children><child nodeId="node-1014"></child>
         </children>
     </item>
-    <item nodeId="node-16870">
+    <item nodeId="node-1014">
         <command xml:space="preserve">x boots</command>
         <result xml:space="preserve">Big boots with a thick sole. Lights indicate these boots are currently on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16871"></child>
+        <children><child nodeId="node-1015"></child>
         </children>
     </item>
-    <item nodeId="node-16871">
+    <item nodeId="node-1015">
         <command xml:space="preserve">x suit</command>
         <result xml:space="preserve">A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently on. A gauge indicates the suit has 15 units of air left.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16872"></child>
+        <children><child nodeId="node-1016"></child>
         </children>
     </item>
-    <item nodeId="node-16872">
+    <item nodeId="node-1016">
         <command xml:space="preserve">wear suit</command>
         <result xml:space="preserve">(first taking the vac suit)
 In general, the crew's gear is off-limits.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16873"></child>
+        <children><child nodeId="node-1017"></child>
         </children>
     </item>
-    <item nodeId="node-16873">
+    <item nodeId="node-1017">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
@@ -177,46 +177,46 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16874"></child>
+        <children><child nodeId="node-1018"></child>
         </children>
     </item>
-    <item nodeId="node-16874">
+    <item nodeId="node-1018">
         <command xml:space="preserve">x engine</command>
         <result xml:space="preserve">This is a wide, low, trapezoidal hunk of metal bearing the marking JL-758 on one side. Numerous electrical contacts dot the upper surface. Someone has threaded a thick cord with clips on both ends through some openings on the top and side.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16875"></child>
+        <children><child nodeId="node-1019"></child>
         </children>
     </item>
-    <item nodeId="node-16875">
+    <item nodeId="node-1019">
         <command xml:space="preserve">x contacts</command>
         <result xml:space="preserve">It looks like the JL-758 is meant to be put under something, so that it makes contact with some other device.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16894"></child>
+        <children><child nodeId="node-1020"></child>
         </children>
     </item>
-    <item nodeId="node-16894">
+    <item nodeId="node-1020">
         <command xml:space="preserve">x cord</command>
         <result xml:space="preserve">It looks like this is meant to attach the brand-new JL-758 to something.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16895"></child>
+        <children><child nodeId="node-1021"></child>
         </children>
     </item>
-    <item nodeId="node-16895">
+    <item nodeId="node-1021">
         <command xml:space="preserve">x clips</command>
         <result xml:space="preserve">It looks like this is meant to attach the brand-new JL-758 to something.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16896"></child>
+        <children><child nodeId="node-1022"></child>
         </children>
     </item>
-    <item nodeId="node-16896">
+    <item nodeId="node-1022">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
@@ -226,19 +226,19 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16897"></child>
+        <children><child nodeId="node-1023"></child>
         </children>
     </item>
-    <item nodeId="node-16897">
+    <item nodeId="node-1023">
         <command xml:space="preserve">x windows</command>
         <result xml:space="preserve">You can see the aft airlock through a window in the airlock door. Beyond the airlock is the gangway back to Space Station Omicron-5.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16920"></child>
+        <children><child nodeId="node-1024"></child>
         </children>
     </item>
-    <item nodeId="node-16920">
+    <item nodeId="node-1024">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">You climb the la--
 
@@ -288,46 +288,46 @@ Release 6 / Serial number 220730 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16921"></child>
+        <children><child nodeId="node-1025"></child>
         </children>
     </item>
-    <item nodeId="node-16921">
+    <item nodeId="node-1025">
         <command xml:space="preserve">x gum</command>
         <result xml:space="preserve">It's a used wad of pink chewing gum. It used to taste like grape, but now it tastes of nothing. It's stuck to the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16922"></child>
+        <children><child nodeId="node-1026"></child>
         </children>
     </item>
-    <item nodeId="node-16922">
+    <item nodeId="node-1026">
         <command xml:space="preserve">take it</command>
         <result xml:space="preserve">You unstick the chewing gum from the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16923"></child>
+        <children><child nodeId="node-1027"></child>
         </children>
     </item>
-    <item nodeId="node-16923">
+    <item nodeId="node-1027">
         <command xml:space="preserve">take it</command>
         <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16924"></child>
+        <children><child nodeId="node-1028"></child>
         </children>
     </item>
-    <item nodeId="node-16924">
+    <item nodeId="node-1028">
         <command xml:space="preserve">chew it</command>
         <result xml:space="preserve">You put the chewing gum in your mouth.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16925"></child>
+        <children><child nodeId="node-1029"></child>
         </children>
     </item>
-    <item nodeId="node-16925">
+    <item nodeId="node-1029">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
@@ -342,143 +342,144 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16926"></child>
+        <children><child nodeId="node-1030"></child>
         </children>
     </item>
-    <item nodeId="node-16926">
+    <item nodeId="node-1030">
         <command xml:space="preserve">put gum on suit</command>
         <result xml:space="preserve">(first spitting out the chewing gum)
 You stick the chewing gum to the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16927"></child>
+        <children><child nodeId="node-1031"></child>
         </children>
     </item>
-    <item nodeId="node-16927">
+    <item nodeId="node-1031">
         <command xml:space="preserve">wear suit</command>
         <result xml:space="preserve">(first taking the vac suit)
 You put on the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16928"></child>
+        <children><child nodeId="node-1032"></child>
         </children>
     </item>
-    <item nodeId="node-16928">
+    <item nodeId="node-1032">
         <command xml:space="preserve">x gum</command>
         <result xml:space="preserve">It's a used wad of pink chewing gum. It used to taste like grape, but now it tastes of nothing. It's stuck to the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16929"></child>
+        <children><child nodeId="node-1033"></child>
         </children>
     </item>
-    <item nodeId="node-16929">
+    <item nodeId="node-1033">
         <command xml:space="preserve">remove suit</command>
         <result xml:space="preserve">You take off the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16930"></child>
+        <children><child nodeId="node-1034"></child>
         </children>
     </item>
-    <item nodeId="node-16930">
+    <item nodeId="node-1034">
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You unstick the chewing gum from the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16931"></child>
+        <children><child nodeId="node-1035"></child>
         </children>
     </item>
-    <item nodeId="node-16931">
+    <item nodeId="node-1035">
         <command xml:space="preserve">put it on uniform</command>
         <result xml:space="preserve">You stick the chewing gum to the repair corps uniform.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16932"></child>
+        <children><child nodeId="node-1036"></child>
         </children>
     </item>
-    <item nodeId="node-16932">
+    <item nodeId="node-1036">
         <command xml:space="preserve">wear suit</command>
         <result xml:space="preserve">You put on the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16933"></child>
+        <children><child nodeId="node-1037"></child>
         </children>
     </item>
-    <item nodeId="node-16933">
+    <item nodeId="node-1037">
         <command xml:space="preserve">x gum</command>
         <result xml:space="preserve">You know it's on the repair corps uniform, but you can't see it with the vac suit over it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16934"></child>
+        <children><child nodeId="node-1038"></child>
         </children>
     </item>
-    <item nodeId="node-16934">
+    <item nodeId="node-1038">
         <command xml:space="preserve">take it</command>
         <result xml:space="preserve">You can't reach the gum with the vac suit on top of your uniform.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16935"></child>
+        <children><child nodeId="node-1039"></child>
         </children>
     </item>
-    <item nodeId="node-16935">
+    <item nodeId="node-1039">
         <command xml:space="preserve">remove suit</command>
         <result xml:space="preserve">You take off the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16936"></child>
+        <children><child nodeId="node-1040"></child>
         </children>
     </item>
-    <item nodeId="node-16936">
+    <item nodeId="node-1040">
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You unstick the chewing gum from the repair corps uniform.
 
+The chewing gum has become stuck to the vac suit.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16937"></child>
+        <children><child nodeId="node-1041"></child>
         </children>
     </item>
-    <item nodeId="node-16937">
+    <item nodeId="node-1041">
         <command xml:space="preserve">chew it</command>
-        <result xml:space="preserve">[Eww. That gum has gotten gross. No way.]
+        <result xml:space="preserve">You can't chew the gum when it's stuck to the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16938"></child>
+        <children><child nodeId="node-1042"></child>
         </children>
     </item>
-    <item nodeId="node-16938">
+    <item nodeId="node-1042">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  some used chewing gum
-  a vac suit
+  a vac suit with chewing gum stuck to it
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16939"></child>
+        <children><child nodeId="node-1043"></child>
         </children>
     </item>
-    <item nodeId="node-16939">
+    <item nodeId="node-1043">
         <command xml:space="preserve">take gum</command>
-        <result xml:space="preserve">You already have that.
+        <result xml:space="preserve">You unstick the chewing gum from the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-16940"></child>
+        <children><child nodeId="node-1044"></child>
         </children>
     </item>
-    <item nodeId="node-16940">
+    <item nodeId="node-1044">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   some used chewing gum
@@ -489,30 +490,30 @@ You put on the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17097"></child>
+        <children><child nodeId="node-1045"></child>
         </children>
     </item>
-    <item nodeId="node-17097">
+    <item nodeId="node-1045">
         <command xml:space="preserve">x me</command>
         <result xml:space="preserve">Nice uniform.
 
-The chewing gum has become stuck to the toolbox.
+The chewing gum has become stuck to the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17098"></child>
+        <children><child nodeId="node-1046"></child>
         </children>
     </item>
-    <item nodeId="node-17098">
+    <item nodeId="node-1046">
         <command xml:space="preserve">x gum</command>
-        <result xml:space="preserve">It's a used wad of pink chewing gum. It used to taste like grape, but now it tastes of nothing. It's stuck to the toolbox.
+        <result xml:space="preserve">It's a used wad of pink chewing gum. It used to taste like grape, but now it tastes of nothing. It's stuck to the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17099"></child>
+        <children><child nodeId="node-1047"></child>
         </children>
     </item>
-    <item nodeId="node-17099">
+    <item nodeId="node-1047">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
@@ -525,64 +526,64 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17100"></child>
+        <children><child nodeId="node-1048"></child>
         </children>
     </item>
-    <item nodeId="node-17100">
+    <item nodeId="node-1048">
         <command xml:space="preserve">x locker</command>
         <result xml:space="preserve">The vac suit locker has fallen with its door to the ground. It looks pretty heavy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17101"></child>
+        <children><child nodeId="node-1049"></child>
         </children>
     </item>
-    <item nodeId="node-17101">
+    <item nodeId="node-1049">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">The locker has fallen door-side down.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17102"></child>
+        <children><child nodeId="node-1050"></child>
         </children>
     </item>
-    <item nodeId="node-17102">
+    <item nodeId="node-1050">
         <command xml:space="preserve">take suit</command>
         <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17103"></child>
+        <children><child nodeId="node-1051"></child>
         </children>
     </item>
-    <item nodeId="node-17103">
+    <item nodeId="node-1051">
         <command xml:space="preserve">turn locker</command>
         <result xml:space="preserve">It's much too heavy to turn over.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17104"></child>
+        <children><child nodeId="node-1052"></child>
         </children>
     </item>
-    <item nodeId="node-17104">
+    <item nodeId="node-1052">
         <command xml:space="preserve">flip it over</command>
         <result xml:space="preserve">It's much too heavy to turn over.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17155"></child>
+        <children><child nodeId="node-1053"></child>
         </children>
     </item>
-    <item nodeId="node-17155">
+    <item nodeId="node-1053">
         <command xml:space="preserve">x ladder</command>
         <result xml:space="preserve">An ordinary metal ladder, it connects the staging area to the crew quarters.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17156"></child>
+        <children><child nodeId="node-1054"></child>
         </children>
     </item>
-    <item nodeId="node-17156">
+    <item nodeId="node-1054">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -592,55 +593,55 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17157"></child>
+        <children><child nodeId="node-1055"></child>
         </children>
     </item>
-    <item nodeId="node-17157">
+    <item nodeId="node-1055">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">The Captain's Door is a conventional, self-opening starship door. It is painted in the traditional red of a starship captain. It features a slot through which you may slide the appropriate access card. Beside the door is an access panel, which is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17158"></child>
+        <children><child nodeId="node-1056"></child>
         </children>
     </item>
-    <item nodeId="node-17158">
+    <item nodeId="node-1056">
         <command xml:space="preserve">x lader</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17159"></child>
+        <children><child nodeId="node-1057"></child>
         </children>
     </item>
-    <item nodeId="node-17159">
+    <item nodeId="node-1057">
         <command xml:space="preserve">x ladder</command>
         <result xml:space="preserve">An ordinary metal ladder, it connects the staging area to the crew quarters.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17160"></child>
+        <children><child nodeId="node-1058"></child>
         </children>
     </item>
-    <item nodeId="node-17160">
+    <item nodeId="node-1058">
         <command xml:space="preserve">x slot</command>
         <result xml:space="preserve">It's a typical card slot, perfect for sliding thin things through.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17161"></child>
+        <children><child nodeId="node-1059"></child>
         </children>
     </item>
-    <item nodeId="node-17161">
+    <item nodeId="node-1059">
         <command xml:space="preserve">x panel</command>
         <result xml:space="preserve">The access panel is set in the bulkhead to the left of the door. It is closed and held fast with a screw.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17162"></child>
+        <children><child nodeId="node-1060"></child>
         </children>
     </item>
-    <item nodeId="node-17162">
+    <item nodeId="node-1060">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
 
@@ -648,95 +649,95 @@ The access panel opens to reveal a row of fuses, one of which is blown.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17163"></child>
+        <children><child nodeId="node-1061"></child>
         </children>
     </item>
-    <item nodeId="node-17163">
+    <item nodeId="node-1061">
         <command xml:space="preserve">take blow fuse</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17164"></child>
+        <children><child nodeId="node-1062"></child>
         </children>
     </item>
-    <item nodeId="node-17164">
+    <item nodeId="node-1062">
         <command xml:space="preserve">take blown fuse</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17165"></child>
+        <children><child nodeId="node-1063"></child>
         </children>
     </item>
-    <item nodeId="node-17165">
+    <item nodeId="node-1063">
         <command xml:space="preserve">x it</command>
         <result xml:space="preserve">A typical yellow cartridge fuse, turned a smoky black.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17166"></child>
+        <children><child nodeId="node-1064"></child>
         </children>
     </item>
-    <item nodeId="node-17166">
+    <item nodeId="node-1064">
         <command xml:space="preserve">x fuses</command>
         <result xml:space="preserve">The panel holds a row of fuses, with one empty spot.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17167"></child>
+        <children><child nodeId="node-1065"></child>
         </children>
     </item>
-    <item nodeId="node-17167">
+    <item nodeId="node-1065">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17168"></child>
+        <children><child nodeId="node-1066"></child>
         </children>
     </item>
-    <item nodeId="node-17168">
+    <item nodeId="node-1066">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't just open the door with your bare hands. It needs an access card.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17169"></child>
+        <children><child nodeId="node-1067"></child>
         </children>
     </item>
-    <item nodeId="node-17169">
+    <item nodeId="node-1067">
         <command xml:space="preserve">unlock door</command>
         <result xml:space="preserve">What do you want to unlock the Captain's Door with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17170"></child>
+        <children><child nodeId="node-1068"></child>
         </children>
     </item>
-    <item nodeId="node-17170">
+    <item nodeId="node-1068">
         <command xml:space="preserve">card</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17171"></child>
+        <children><child nodeId="node-1069"></child>
         </children>
     </item>
-    <item nodeId="node-17171">
+    <item nodeId="node-1069">
         <command xml:space="preserve">unlock door with gum</command>
         <result xml:space="preserve">(first taking the chewing gum)
-You unstick the chewing gum from the toolbox.
+You unstick the chewing gum from the vac suit.
 
 That doesn't seem to be something you can unlock.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17172"></child>
+        <children><child nodeId="node-1070"></child>
         </children>
     </item>
-    <item nodeId="node-17172">
+    <item nodeId="node-1070">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Galley
@@ -748,196 +749,196 @@ You faintly hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17173"></child>
+        <children><child nodeId="node-1071"></child>
         </children>
     </item>
-    <item nodeId="node-17173">
+    <item nodeId="node-1071">
         <command xml:space="preserve">x marines</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17174"></child>
+        <children><child nodeId="node-1072"></child>
         </children>
     </item>
-    <item nodeId="node-17174">
+    <item nodeId="node-1072">
         <command xml:space="preserve">x counter</command>
         <result xml:space="preserve">A standard kitchen counter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17175"></child>
+        <children><child nodeId="node-1073"></child>
         </children>
     </item>
-    <item nodeId="node-17175">
+    <item nodeId="node-1073">
         <command xml:space="preserve">x drawer</command>
         <result xml:space="preserve">A small kitchen drawer which is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17176"></child>
+        <children><child nodeId="node-1074"></child>
         </children>
     </item>
-    <item nodeId="node-17176">
+    <item nodeId="node-1074">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">You open the kitchen drawer, revealing a knife, a fork, and a spoon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17177"></child>
+        <children><child nodeId="node-1075"></child>
         </children>
     </item>
-    <item nodeId="node-17177">
+    <item nodeId="node-1075">
         <command xml:space="preserve">take lal</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17178"></child>
+        <children><child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-17178">
+    <item nodeId="node-1076">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">knife: Taken.
 fork: Taken.
 spoon: Taken.
 
-The chewing gum has become stuck to the vac suit.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17179"></child>
+        <children><child nodeId="node-1077"></child>
         </children>
     </item>
-    <item nodeId="node-17179">
+    <item nodeId="node-1077">
         <command xml:space="preserve">x microwave</command>
         <result xml:space="preserve">(the microwave oven)
 The microwave is closed. It's plugged into a socket inset in the countertop. The front display is black. A large red button below the display says "Start".
 
+The chewing gum has become stuck to the vac suit.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17180"></child>
+        <children><child nodeId="node-1078"></child>
         </children>
     </item>
-    <item nodeId="node-17180">
+    <item nodeId="node-1078">
         <command xml:space="preserve">x display</command>
         <result xml:space="preserve">The front display is black.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17181"></child>
+        <children><child nodeId="node-1079"></child>
         </children>
     </item>
-    <item nodeId="node-17181">
+    <item nodeId="node-1079">
         <command xml:space="preserve">x button</command>
         <result xml:space="preserve">Which do you mean, the start button or the galley's blue button?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17182"></child>
+        <children><child nodeId="node-1080"></child>
         </children>
     </item>
-    <item nodeId="node-17182">
+    <item nodeId="node-1080">
         <command xml:space="preserve">start</command>
         <result xml:space="preserve">What do you want to start?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17183"></child>
+        <children><child nodeId="node-1081"></child>
         </children>
     </item>
-    <item nodeId="node-17183">
+    <item nodeId="node-1081">
         <command xml:space="preserve">x start button</command>
         <result xml:space="preserve">It's a red button. It says "Start".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17184"></child>
+        <children><child nodeId="node-1082"></child>
         </children>
     </item>
-    <item nodeId="node-17184">
+    <item nodeId="node-1082">
         <command xml:space="preserve">start microwave</command>
         <result xml:space="preserve">(the microwave oven)
 Nothing happens, but it's unclear why.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17185"></child>
+        <children><child nodeId="node-1083"></child>
         </children>
     </item>
-    <item nodeId="node-17185">
+    <item nodeId="node-1083">
         <command xml:space="preserve">press red button</command>
         <result xml:space="preserve">Nothing happens, but it's unclear why.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17186"></child>
+        <children><child nodeId="node-1084"></child>
         </children>
     </item>
-    <item nodeId="node-17186">
+    <item nodeId="node-1084">
         <command xml:space="preserve">x cord</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17187"></child>
+        <children><child nodeId="node-1085"></child>
         </children>
     </item>
-    <item nodeId="node-17187">
+    <item nodeId="node-1085">
         <command xml:space="preserve">x socket</command>
         <result xml:space="preserve">It's an ordinary grounded wall socket. The microwave oven is plugged in to it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17188"></child>
+        <children><child nodeId="node-1086"></child>
         </children>
     </item>
-    <item nodeId="node-17188">
+    <item nodeId="node-1086">
         <command xml:space="preserve">unplug</command>
         <result xml:space="preserve">What do you want to unplug?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17189"></child>
+        <children><child nodeId="node-1087"></child>
         </children>
     </item>
-    <item nodeId="node-17189">
+    <item nodeId="node-1087">
         <command xml:space="preserve">oven</command>
         <result xml:space="preserve">You unplug the microwave oven.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17190"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-17190">
+    <item nodeId="node-1088">
         <command xml:space="preserve">x socket</command>
         <result xml:space="preserve">It's an ordinary grounded wall socket. Upon close inspection, you notice that it's clogged up with dust.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17191"></child>
+        <children><child nodeId="node-1089"></child>
         </children>
     </item>
-    <item nodeId="node-17191">
+    <item nodeId="node-1089">
         <command xml:space="preserve">x plug</command>
         <result xml:space="preserve">It's an ordinary grounded plug.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17192"></child>
+        <children><child nodeId="node-1090"></child>
         </children>
     </item>
-    <item nodeId="node-17192">
+    <item nodeId="node-1090">
         <command xml:space="preserve">x socket</command>
         <result xml:space="preserve">It's an ordinary grounded wall socket. Upon close inspection, you notice that it's clogged up with dust.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17193"></child>
+        <children><child nodeId="node-1091"></child>
         </children>
     </item>
-    <item nodeId="node-17193">
+    <item nodeId="node-1091">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Galley
 This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
@@ -948,139 +949,139 @@ You faintly hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17194"></child>
+        <children><child nodeId="node-1092"></child>
         </children>
     </item>
-    <item nodeId="node-17194">
+    <item nodeId="node-1092">
         <command xml:space="preserve">x pots</command>
         <result xml:space="preserve">There is a wide array of cookware here, none of which is likely to be useful to you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17195"></child>
+        <children><child nodeId="node-1093"></child>
         </children>
     </item>
-    <item nodeId="node-17195">
+    <item nodeId="node-1093">
         <command xml:space="preserve">take pots</command>
         <result xml:space="preserve">The pots and pans are not something you need to fix the ship.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17196"></child>
+        <children><child nodeId="node-1094"></child>
         </children>
     </item>
-    <item nodeId="node-17196">
+    <item nodeId="node-1094">
         <command xml:space="preserve">x ladder</command>
         <result xml:space="preserve">It's an ordinary metal ladder. It connects the Galley to the Operations Deck. It has a small gap halfway up to accomodate the midship door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17197"></child>
+        <children><child nodeId="node-1095"></child>
         </children>
     </item>
-    <item nodeId="node-17197">
+    <item nodeId="node-1095">
         <command xml:space="preserve">up</command>
         <result xml:space="preserve">(first opening Midship Door)
 You can't open that with your bare hands.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17198"></child>
+        <children><child nodeId="node-1096"></child>
         </children>
     </item>
-    <item nodeId="node-17198">
+    <item nodeId="node-1096">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">(Midship Door)
 The midship door is a square hatch, separating Operations Deck from the Galley. It is made of a strong black plastic/metal alloy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17199"></child>
+        <children><child nodeId="node-1097"></child>
         </children>
     </item>
-    <item nodeId="node-17199">
+    <item nodeId="node-1097">
         <command xml:space="preserve">listen</command>
         <result xml:space="preserve">You can hear someone talking above you, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17200"></child>
+        <children><child nodeId="node-1098"></child>
         </children>
     </item>
-    <item nodeId="node-17200">
+    <item nodeId="node-1098">
         <command xml:space="preserve">knock at door</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17201"></child>
+        <children><child nodeId="node-1099"></child>
         </children>
     </item>
-    <item nodeId="node-17201">
+    <item nodeId="node-1099">
         <command xml:space="preserve">knock on door</command>
         <result xml:space="preserve">(Midship Door)
 Whoever's up there, they didn't hear you apparently.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17202"></child>
+        <children><child nodeId="node-1100"></child>
         </children>
     </item>
-    <item nodeId="node-17202">
+    <item nodeId="node-1100">
         <command xml:space="preserve">yell</command>
         <result xml:space="preserve">Whoever is talking doesn't seem to hear you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17203"></child>
+        <children><child nodeId="node-1101"></child>
         </children>
     </item>
-    <item nodeId="node-17203">
+    <item nodeId="node-1101">
         <command xml:space="preserve">scream</command>
         <result xml:space="preserve">Whoever is talking doesn't seem to hear you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17204"></child>
+        <children><child nodeId="node-1102"></child>
         </children>
     </item>
-    <item nodeId="node-17204">
+    <item nodeId="node-1102">
         <command xml:space="preserve">shout</command>
         <result xml:space="preserve">Whoever is talking doesn't seem to hear you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17205"></child>
+        <children><child nodeId="node-1103"></child>
         </children>
     </item>
-    <item nodeId="node-17205">
+    <item nodeId="node-1103">
         <command xml:space="preserve">press button</command>
         <result xml:space="preserve">Which do you mean, the start button or the galley's blue button?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17206"></child>
+        <children><child nodeId="node-1104"></child>
         </children>
     </item>
-    <item nodeId="node-17206">
+    <item nodeId="node-1104">
         <command xml:space="preserve">blue</command>
         <result xml:space="preserve">A loud buzzer sounds and a red light flashes on the door, which stays resolutely shut.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17207"></child>
+        <children><child nodeId="node-1105"></child>
         </children>
     </item>
-    <item nodeId="node-17207">
+    <item nodeId="node-1105">
         <command xml:space="preserve">x light</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17208"></child>
+        <children><child nodeId="node-1106"></child>
         </children>
     </item>
-    <item nodeId="node-17208">
+    <item nodeId="node-1106">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Galley
 This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
@@ -1091,82 +1092,82 @@ You faintly hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17209"></child>
+        <children><child nodeId="node-1107"></child>
         </children>
     </item>
-    <item nodeId="node-17209">
+    <item nodeId="node-1107">
         <command xml:space="preserve">x stools</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17210"></child>
+        <children><child nodeId="node-1108"></child>
         </children>
     </item>
-    <item nodeId="node-17210">
+    <item nodeId="node-1108">
         <command xml:space="preserve">x stool</command>
         <result xml:space="preserve">Which do you mean, the left stool or the right stool?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17211"></child>
+        <children><child nodeId="node-1109"></child>
         </children>
     </item>
-    <item nodeId="node-17211">
+    <item nodeId="node-1109">
         <command xml:space="preserve">left</command>
         <result xml:space="preserve">A tall bar-type stool, bolted to the floor.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17212"></child>
+        <children><child nodeId="node-1110"></child>
         </children>
     </item>
-    <item nodeId="node-17212">
+    <item nodeId="node-1110">
         <command xml:space="preserve">x manual</command>
         <result xml:space="preserve">Most of the manual is concerned with the technical details of the door, such as installation, maintainance, and repair. There is a small section towards the end detailing its safety features; for example: "To prevent injury, the Portmaster V S-65 will not open when it senses weight pressing upon it from above. In this case, an audible signal and a red warning light will indicate that an obstruction exists."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17213"></child>
+        <children><child nodeId="node-1111"></child>
         </children>
     </item>
-    <item nodeId="node-17213">
+    <item nodeId="node-1111">
         <command xml:space="preserve">take it</command>
         <result xml:space="preserve">It is chained securely to the control panel. Best leave it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17214"></child>
+        <children><child nodeId="node-1112"></child>
         </children>
     </item>
-    <item nodeId="node-17214">
+    <item nodeId="node-1112">
         <command xml:space="preserve">x panel</command>
         <result xml:space="preserve">The control panel features a prominent blue button for opening the door above. The door operations manual dangles on a chain from the panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17215"></child>
+        <children><child nodeId="node-1113"></child>
         </children>
     </item>
-    <item nodeId="node-17215">
+    <item nodeId="node-1113">
         <command xml:space="preserve">take button</command>
         <result xml:space="preserve">Which do you mean, the start button or the galley's blue button?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17216"></child>
+        <children><child nodeId="node-1114"></child>
         </children>
     </item>
-    <item nodeId="node-17216">
+    <item nodeId="node-1114">
         <command xml:space="preserve">blue</command>
         <result xml:space="preserve">That seems to be a part of the control panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17217"></child>
+        <children><child nodeId="node-1115"></child>
         </children>
     </item>
-    <item nodeId="node-17217">
+    <item nodeId="node-1115">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Galley
 This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
@@ -1177,19 +1178,19 @@ You faintly hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17218"></child>
+        <children><child nodeId="node-1116"></child>
         </children>
     </item>
-    <item nodeId="node-17218">
+    <item nodeId="node-1116">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">The obvious exits are aft (to junction) and up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17219"></child>
+        <children><child nodeId="node-1117"></child>
         </children>
     </item>
-    <item nodeId="node-17219">
+    <item nodeId="node-1117">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Junction
@@ -1197,10 +1198,10 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17220"></child>
+        <children><child nodeId="node-1118"></child>
         </children>
     </item>
-    <item nodeId="node-17220">
+    <item nodeId="node-1118">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Starboard-Side Crew Quarters
@@ -1212,103 +1213,105 @@ A pair of slippers peeks out from under the bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17221"></child>
+        <children><child nodeId="node-1119"></child>
         </children>
     </item>
-    <item nodeId="node-17221">
+    <item nodeId="node-1119">
         <command xml:space="preserve">x slippers</command>
         <result xml:space="preserve">These seem comfy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17222"></child>
+        <children><child nodeId="node-1120"></child>
         </children>
     </item>
-    <item nodeId="node-17222">
+    <item nodeId="node-1120">
         <command xml:space="preserve">x bed</command>
         <result xml:space="preserve">A fairly typical military bunk bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17223"></child>
+        <children><child nodeId="node-1121"></child>
         </children>
     </item>
-    <item nodeId="node-17223">
+    <item nodeId="node-1121">
         <command xml:space="preserve">x bunk</command>
         <result xml:space="preserve">A fairly typical military bunk bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17224"></child>
+        <children><child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-17224">
+    <item nodeId="node-1122">
         <command xml:space="preserve">x    unit</command>
         <result xml:space="preserve">The storage unit consists of top and bottom drawers, with an attached keypad and display. There is a keyhole under the keypad. Both drawers are closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17225"></child>
+        <children><child nodeId="node-1123"></child>
         </children>
     </item>
-    <item nodeId="node-17225">
+    <item nodeId="node-1123">
         <command xml:space="preserve">x keypad</command>
         <result xml:space="preserve">A standard 0-9 keypad with a "*" and "#". Below the keys is a small keyhole.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17226"></child>
+        <children><child nodeId="node-1124"></child>
         </children>
     </item>
-    <item nodeId="node-17226">
+    <item nodeId="node-1124">
         <command xml:space="preserve">x display</command>
         <result xml:space="preserve">The display says "Enter Code".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17227"></child>
+        <children><child nodeId="node-1125"></child>
         </children>
     </item>
-    <item nodeId="node-17227">
+    <item nodeId="node-1125">
         <command xml:space="preserve">type 3445</command>
         <result xml:space="preserve">The storage unit buzzes and the display lights up "ERROR".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17228"></child>
+        <children><child nodeId="node-1126"></child>
         </children>
     </item>
-    <item nodeId="node-17228">
+    <item nodeId="node-1126">
         <command xml:space="preserve">unlock unit</command>
         <result xml:space="preserve">What do you want to unlock the crew personal storage unit with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17229"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-17229">
+    <item nodeId="node-1127">
         <command xml:space="preserve">gum</command>
         <result xml:space="preserve">(first taking the chewing gum)
 You unstick the chewing gum from the vac suit.
 
 That doesn't seem to be something you can unlock.
 
+The chewing gum has become stuck to the vac suit.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17230"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-17230">
+    <item nodeId="node-1128">
         <command xml:space="preserve">unlock keypad</command>
         <result xml:space="preserve">What do you want to unlock the keypad with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17231"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-17231">
+    <item nodeId="node-1129">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Starboard-Side Crew Quarters
 All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
@@ -1319,93 +1322,91 @@ A pair of slippers peeks out from under the bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17232"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-17232">
+    <item nodeId="node-1130">
         <command xml:space="preserve">x cabinet</command>
         <result xml:space="preserve">A simple black-painted steel cabinet, it is closed.
 
-The chewing gum has become stuck to the spoon.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17233"></child>
+        <children><child nodeId="node-1131"></child>
         </children>
     </item>
-    <item nodeId="node-17233">
+    <item nodeId="node-1131">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">You look closely, but you can't see anything from here that would stop the door from opening all the way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17234"></child>
+        <children><child nodeId="node-1132"></child>
         </children>
     </item>
-    <item nodeId="node-17234">
+    <item nodeId="node-1132">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">The door is stuck one-quarter open. You try to open the cabinet the rest of the way, but the door is jammed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17235"></child>
+        <children><child nodeId="node-1133"></child>
         </children>
     </item>
-    <item nodeId="node-17235">
+    <item nodeId="node-1133">
         <command xml:space="preserve">look in locker</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17236"></child>
+        <children><child nodeId="node-1134"></child>
         </children>
     </item>
-    <item nodeId="node-17236">
+    <item nodeId="node-1134">
         <command xml:space="preserve">look in cabinet</command>
         <result xml:space="preserve">You can't see inside, since the starboard-side equipment cabinet is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17237"></child>
+        <children><child nodeId="node-1135"></child>
         </children>
     </item>
-    <item nodeId="node-17237">
+    <item nodeId="node-1135">
         <command xml:space="preserve">up</command>
         <result xml:space="preserve">The only obvious exit is port (to junction).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17238"></child>
+        <children><child nodeId="node-1136"></child>
         </children>
     </item>
-    <item nodeId="node-17238">
+    <item nodeId="node-1136">
         <command xml:space="preserve">get on bunk</command>
         <result xml:space="preserve">You get onto the top bunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17239"></child>
+        <children><child nodeId="node-1137"></child>
         </children>
     </item>
-    <item nodeId="node-17239">
+    <item nodeId="node-1137">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">The door is stuck one-quarter open. You try to open the cabinet the rest of the way, but the door is jammed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17240"></child>
+        <children><child nodeId="node-1138"></child>
         </children>
     </item>
-    <item nodeId="node-17240">
+    <item nodeId="node-1138">
         <command xml:space="preserve">x cabinet</command>
         <result xml:space="preserve">You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17241"></child>
+        <children><child nodeId="node-1139"></child>
         </children>
     </item>
-    <item nodeId="node-17241">
+    <item nodeId="node-1139">
         <command xml:space="preserve">take screw</command>
         <result xml:space="preserve">(the crooked screw)
 You unscrew the old screw and replace it with a new one from your toolbox.
@@ -1416,10 +1417,10 @@ You cross out an item ("fix the cabinet") on your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17242"></child>
+        <children><child nodeId="node-1140"></child>
         </children>
     </item>
-    <item nodeId="node-17242">
+    <item nodeId="node-1140">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You get off the top bunk.
 
@@ -1432,109 +1433,109 @@ A pair of slippers peeks out from under the bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17243"></child>
+        <children><child nodeId="node-1141"></child>
         </children>
     </item>
-    <item nodeId="node-17243">
+    <item nodeId="node-1141">
         <command xml:space="preserve">x screwdriver</command>
         <result xml:space="preserve">All of your tools are top quality.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17244"></child>
+        <children><child nodeId="node-1142"></child>
         </children>
     </item>
-    <item nodeId="node-17244">
+    <item nodeId="node-1142">
         <command xml:space="preserve">x screw</command>
         <result xml:space="preserve">It's a fairly small screw, covered in blue enamel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17245"></child>
+        <children><child nodeId="node-1143"></child>
         </children>
     </item>
-    <item nodeId="node-17245">
+    <item nodeId="node-1143">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  a spoon with chewing gum stuck to it
+  a spoon
   a fork
   a knife
   a blown fuse
   a blue screw
-  a vac suit
+  a vac suit with chewing gum stuck to it
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17246"></child>
+        <children><child nodeId="node-1144"></child>
         </children>
     </item>
-    <item nodeId="node-17246">
+    <item nodeId="node-1144">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  a spoon with chewing gum stuck to it
+  a spoon
   a fork
   a knife
   a blown fuse
   a blue screw
-  a vac suit
+  a vac suit with chewing gum stuck to it
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17247"></child>
+        <children><child nodeId="node-1145"></child>
         </children>
     </item>
-    <item nodeId="node-17247">
+    <item nodeId="node-1145">
         <command xml:space="preserve">x fasteners</command>
         <result xml:space="preserve">All of your tools are top quality.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17248"></child>
+        <children><child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-17248">
+    <item nodeId="node-1146">
         <command xml:space="preserve">x screw</command>
         <result xml:space="preserve">It's a fairly small screw, covered in blue enamel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17249"></child>
+        <children><child nodeId="node-1147"></child>
         </children>
     </item>
-    <item nodeId="node-17249">
+    <item nodeId="node-1147">
         <command xml:space="preserve">x screws</command>
         <result xml:space="preserve">All of your tools are top quality.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17250"></child>
+        <children><child nodeId="node-1148"></child>
         </children>
     </item>
-    <item nodeId="node-17250">
+    <item nodeId="node-1148">
         <command xml:space="preserve">x bolts</command>
         <result xml:space="preserve">All of your tools are top quality.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17251"></child>
+        <children><child nodeId="node-1149"></child>
         </children>
     </item>
-    <item nodeId="node-17251">
+    <item nodeId="node-1149">
         <command xml:space="preserve">x nails</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17252"></child>
+        <children><child nodeId="node-1150"></child>
         </children>
     </item>
-    <item nodeId="node-17252">
+    <item nodeId="node-1150">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Starboard-Side Crew Quarters
 All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
@@ -1545,64 +1546,64 @@ A pair of slippers peeks out from under the bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17253"></child>
+        <children><child nodeId="node-1151"></child>
         </children>
     </item>
-    <item nodeId="node-17253">
+    <item nodeId="node-1151">
         <command xml:space="preserve">read note</command>
         <result xml:space="preserve">Written on the note is "Mail package to Mitchell ASAP".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17254"></child>
+        <children><child nodeId="node-1152"></child>
         </children>
     </item>
-    <item nodeId="node-17254">
+    <item nodeId="node-1152">
         <command xml:space="preserve">take it</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17255"></child>
+        <children><child nodeId="node-1153"></child>
         </children>
     </item>
-    <item nodeId="node-17255">
+    <item nodeId="node-1153">
         <command xml:space="preserve">stick it to slippers</command>
         <result xml:space="preserve">The sticky note seems to have lost its stick.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17256"></child>
+        <children><child nodeId="node-1154"></child>
         </children>
     </item>
-    <item nodeId="node-17256">
+    <item nodeId="node-1154">
         <command xml:space="preserve">drop it</command>
         <result xml:space="preserve">Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17257"></child>
+        <children><child nodeId="node-1155"></child>
         </children>
     </item>
-    <item nodeId="node-17257">
+    <item nodeId="node-1155">
         <command xml:space="preserve">take slippers</command>
         <result xml:space="preserve">As you lean to take the slippers, you notice something under the bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17258"></child>
+        <children><child nodeId="node-1156"></child>
         </children>
     </item>
-    <item nodeId="node-17258">
+    <item nodeId="node-1156">
         <command xml:space="preserve">take bed</command>
         <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17259"></child>
+        <children><child nodeId="node-1157"></child>
         </children>
     </item>
-    <item nodeId="node-17259">
+    <item nodeId="node-1157">
         <command xml:space="preserve">look under it</command>
         <result xml:space="preserve">You find a black trunk and move it out from under the bottom bunk.
 
@@ -1613,46 +1614,46 @@ You can see a black trunk (closed) and a sticky note here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17260"></child>
+        <children><child nodeId="node-1158"></child>
         </children>
     </item>
-    <item nodeId="node-17260">
+    <item nodeId="node-1158">
         <command xml:space="preserve">x trunk</command>
         <result xml:space="preserve">This is a large, plain black trunk with steel trim. It latches shut, but doesn't have a locking mechanism.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17261"></child>
+        <children><child nodeId="node-1159"></child>
         </children>
     </item>
-    <item nodeId="node-17261">
+    <item nodeId="node-1159">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">You open the black trunk, revealing a present.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17262"></child>
+        <children><child nodeId="node-1160"></child>
         </children>
     </item>
-    <item nodeId="node-17262">
+    <item nodeId="node-1160">
         <command xml:space="preserve">take present</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17263"></child>
+        <children><child nodeId="node-1161"></child>
         </children>
     </item>
-    <item nodeId="node-17263">
+    <item nodeId="node-1161">
         <command xml:space="preserve">x it</command>
         <result xml:space="preserve">This is a box wrapped in paper obviously intended for a child. Written on the outside is the message "To Mitchell, Happy Second Birthday! Love, Uncle Fred"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17264"></child>
+        <children><child nodeId="node-1162"></child>
         </children>
     </item>
-    <item nodeId="node-17264">
+    <item nodeId="node-1162">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">[I'll go to hell for this, but here goes...]
 
@@ -1660,37 +1661,37 @@ You rip off the wrapping paper and open the box. Inside is a stuffed bear you re
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17265"></child>
+        <children><child nodeId="node-1163"></child>
         </children>
     </item>
-    <item nodeId="node-17265">
+    <item nodeId="node-1163">
         <command xml:space="preserve">x bear</command>
         <result xml:space="preserve">Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals. This bear's blindly staring eyes are unnerving.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17266"></child>
+        <children><child nodeId="node-1164"></child>
         </children>
     </item>
-    <item nodeId="node-17266">
+    <item nodeId="node-1164">
         <command xml:space="preserve">x paper</command>
         <result xml:space="preserve">The paper, which is adorned with cartoon animals in primary colors prancing around the words "Happy Birthday", is ripped beyond repair.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17267"></child>
+        <children><child nodeId="node-1165"></child>
         </children>
     </item>
-    <item nodeId="node-17267">
+    <item nodeId="node-1165">
         <command xml:space="preserve">x eyes</command>
         <result xml:space="preserve">They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17268"></child>
+        <children><child nodeId="node-1166"></child>
         </children>
     </item>
-    <item nodeId="node-17268">
+    <item nodeId="node-1166">
         <command xml:space="preserve">remove eyes</command>
         <result xml:space="preserve">[Am I really going to do this? Yes, yes, I am, apparently.]
 
@@ -1700,40 +1701,40 @@ You try again more carefully with the second eye, and manage to produce an undam
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17269"></child>
+        <children><child nodeId="node-1167"></child>
         </children>
     </item>
-    <item nodeId="node-17269">
+    <item nodeId="node-1167">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a new optical sensor
   Bertie the Bear™
   some pair of slippers
-  a spoon with chewing gum stuck to it
+  a spoon
   a fork
   a knife
   a blown fuse
   a blue screw
-  a vac suit
+  a vac suit with chewing gum stuck to it
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17270"></child>
+        <children><child nodeId="node-1168"></child>
         </children>
     </item>
-    <item nodeId="node-17270">
+    <item nodeId="node-1168">
         <command xml:space="preserve">x sensor</command>
         <result xml:space="preserve">The optical sensor is a small component with a two-pronged connector on the back and a blue metallic circle on the other.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17437"></child>
+        <children><child nodeId="node-1169"></child>
         </children>
     </item>
-    <item nodeId="node-17437">
+    <item nodeId="node-1169">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Junction
@@ -1741,28 +1742,28 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17438"></child>
+        <children><child nodeId="node-1170"></child>
         </children>
     </item>
-    <item nodeId="node-17438">
+    <item nodeId="node-1170">
         <command xml:space="preserve">kick door</command>
         <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17439"></child>
+        <children><child nodeId="node-1171"></child>
         </children>
     </item>
-    <item nodeId="node-17439">
+    <item nodeId="node-1171">
         <command xml:space="preserve">hit door</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17440"></child>
+        <children><child nodeId="node-1172"></child>
         </children>
     </item>
-    <item nodeId="node-17440">
+    <item nodeId="node-1172">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Port-Side Crew Quarters
@@ -1770,65 +1771,65 @@ All crew members who aren't the captain sleep in this or the opposite-side bunk 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17441"></child>
+        <children><child nodeId="node-1173"></child>
         </children>
     </item>
-    <item nodeId="node-17441">
+    <item nodeId="node-1173">
         <command xml:space="preserve">x bunk</command>
         <result xml:space="preserve">A fairly typical military bunk bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17442"></child>
+        <children><child nodeId="node-1174"></child>
         </children>
     </item>
-    <item nodeId="node-17442">
+    <item nodeId="node-1174">
         <command xml:space="preserve">x cabinet</command>
         <result xml:space="preserve">A simple black-painted steel cabinet, it is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17443"></child>
+        <children><child nodeId="node-1175"></child>
         </children>
     </item>
-    <item nodeId="node-17443">
+    <item nodeId="node-1175">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">It's a simple black-painted steel door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17444"></child>
+        <children><child nodeId="node-1176"></child>
         </children>
     </item>
-    <item nodeId="node-17444">
+    <item nodeId="node-1176">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17445"></child>
+        <children><child nodeId="node-1177"></child>
         </children>
     </item>
-    <item nodeId="node-17445">
+    <item nodeId="node-1177">
         <command xml:space="preserve">open cabinet</command>
         <result xml:space="preserve">You open the port-side equipment cabinet, revealing an engineering uniform and an Universal Game Emulator.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17446"></child>
+        <children><child nodeId="node-1178"></child>
         </children>
     </item>
-    <item nodeId="node-17446">
+    <item nodeId="node-1178">
         <command xml:space="preserve">x uniform</command>
         <result xml:space="preserve">(the repair corps uniform)
 The repair corps uniform is a smart hunter green color, with a patch featuring a hammer and a wrench, crossed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17626"></child>
+        <children><child nodeId="node-1179"></child>
         </children>
     </item>
-    <item nodeId="node-17626">
+    <item nodeId="node-1179">
         <command xml:space="preserve">x engineering uniform</command>
         <result xml:space="preserve">Colored the traditional mustard yellow of Engineering, it's really a remarkably ugly uniform.
 
@@ -1836,19 +1837,19 @@ In the engineering uniform is a piece of note paper.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17627"></child>
+        <children><child nodeId="node-1180"></child>
         </children>
     </item>
-    <item nodeId="node-17627">
+    <item nodeId="node-1180">
         <command xml:space="preserve">read note</command>
         <result xml:space="preserve">Scribbled on the paper is the number 9467.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17630"></child>
+        <children><child nodeId="node-1181"></child>
         </children>
     </item>
-    <item nodeId="node-17630">
+    <item nodeId="node-1181">
         <command xml:space="preserve">key 9467</command>
         <result xml:space="preserve">As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom storage drawer pops out a centimeter or two.
 
@@ -1856,131 +1857,131 @@ You add an item ("fix the storage unit") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17631"></child>
+        <children><child nodeId="node-1182"></child>
         </children>
     </item>
-    <item nodeId="node-17631">
+    <item nodeId="node-1182">
         <command xml:space="preserve">press 9467</command>
         <result xml:space="preserve">The storage unit seems to be broken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17812"></child>
+        <children><child nodeId="node-1183"></child>
         </children>
     </item>
-    <item nodeId="node-17812">
+    <item nodeId="node-1183">
         <command xml:space="preserve">x bottom drawer</command>
         <result xml:space="preserve">The bottom drawer is labeled "Khotpanya". The bottom drawer juts out by a couple of centimeters.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17813"></child>
+        <children><child nodeId="node-1184"></child>
         </children>
     </item>
-    <item nodeId="node-17813">
+    <item nodeId="node-1184">
         <command xml:space="preserve">put gum in drawer</command>
         <result xml:space="preserve">Which do you mean, the top drawer or the bottom drawer?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17814"></child>
+        <children><child nodeId="node-1185"></child>
         </children>
     </item>
-    <item nodeId="node-17814">
+    <item nodeId="node-1185">
         <command xml:space="preserve">bottom</command>
         <result xml:space="preserve">You'll have to open the drawer all of the way to put something in it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17815"></child>
+        <children><child nodeId="node-1186"></child>
         </children>
     </item>
-    <item nodeId="node-17815">
+    <item nodeId="node-1186">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17816"></child>
+        <children><child nodeId="node-1187"></child>
         </children>
     </item>
-    <item nodeId="node-17816">
+    <item nodeId="node-1187">
         <command xml:space="preserve">open bottom drawer</command>
         <result xml:space="preserve">The drawer is partially open, but you can't find a purchase on it firm enough to open it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17817"></child>
+        <children><child nodeId="node-1188"></child>
         </children>
     </item>
-    <item nodeId="node-17817">
+    <item nodeId="node-1188">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a new optical sensor
   Bertie the Bear™
   some pair of slippers
-  a spoon with chewing gum stuck to it
+  a spoon
   a fork
   a knife
   a blown fuse
   a blue screw
-  a vac suit
+  a vac suit with chewing gum stuck to it
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17818"></child>
+        <children><child nodeId="node-1189"></child>
         </children>
     </item>
-    <item nodeId="node-17818">
+    <item nodeId="node-1189">
         <command xml:space="preserve">pry bottom drawer open with screwdriver</command>
         <result xml:space="preserve">The screwdriver is too large to pry open the bottom drawer.
 [Dang. I really thought that would work.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17819"></child>
+        <children><child nodeId="node-1190"></child>
         </children>
     </item>
-    <item nodeId="node-17819">
+    <item nodeId="node-1190">
         <command xml:space="preserve">pry bottom drawer open with wrench</command>
         <result xml:space="preserve">The wrench is too large to pry open the bottom drawer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17820"></child>
+        <children><child nodeId="node-1191"></child>
         </children>
     </item>
-    <item nodeId="node-17820">
+    <item nodeId="node-1191">
         <command xml:space="preserve">pry bottom drawer open with knife</command>
         <result xml:space="preserve">You wedge the knife into the seam and lever the drawer open, revealing the red access card.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17821"></child>
+        <children><child nodeId="node-1192"></child>
         </children>
     </item>
-    <item nodeId="node-17821">
+    <item nodeId="node-1192">
         <command xml:space="preserve">take card</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-17822"></child>
+        <children><child nodeId="node-1193"></child>
         </children>
     </item>
-    <item nodeId="node-17822">
+    <item nodeId="node-1193">
         <command xml:space="preserve">x it</command>
         <result xml:space="preserve">The card is red, with the Space Authority symbol that designates it as an access card, but otherwise featureless. [Looks like the captain's card. Why would that be in a crewman's drawer?]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18014"></child>
+        <children><child nodeId="node-1194"></child>
         </children>
     </item>
-    <item nodeId="node-18014">
+    <item nodeId="node-1194">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Junction
@@ -1988,38 +1989,38 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18015"></child>
+        <children><child nodeId="node-1195"></child>
         </children>
     </item>
-    <item nodeId="node-18015">
+    <item nodeId="node-1195">
         <command xml:space="preserve">open door with card</command>
         <result xml:space="preserve">The door won't function until the panel is closed.
 [Who designed this thing?]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18016"></child>
+        <children><child nodeId="node-1196"></child>
         </children>
     </item>
-    <item nodeId="node-18016">
+    <item nodeId="node-1196">
         <command xml:space="preserve">unlock door with card</command>
         <result xml:space="preserve">The door won't function until the panel is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18017"></child>
+        <children><child nodeId="node-1197"></child>
         </children>
     </item>
-    <item nodeId="node-18017">
+    <item nodeId="node-1197">
         <command xml:space="preserve">close panel</command>
         <result xml:space="preserve">[Why should I close it when I haven't fixed it yet?]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18018"></child>
+        <children><child nodeId="node-1198"></child>
         </children>
     </item>
-    <item nodeId="node-18018">
+    <item nodeId="node-1198">
         <command xml:space="preserve">x it</command>
         <result xml:space="preserve">The access panel is set in the bulkhead to the left of the door. It is open, leaving an empty hole where the screw was.
 
@@ -2027,42 +2028,42 @@ The panel holds a row of fuses, with one empty spot.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18019"></child>
+        <children><child nodeId="node-1199"></child>
         </children>
     </item>
-    <item nodeId="node-18019">
+    <item nodeId="node-1199">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   the red access card
   a new optical sensor
   Bertie the Bear™
   some pair of slippers
-  a spoon with chewing gum stuck to it
+  a spoon
   a fork
   a knife
   a blown fuse
   a blue screw
-  a vac suit
+  a vac suit with chewing gum stuck to it
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18020"></child>
+        <children><child nodeId="node-1200"></child>
         </children>
     </item>
-    <item nodeId="node-18020">
+    <item nodeId="node-1200">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18021"></child>
+        <children><child nodeId="node-1201"></child>
         </children>
     </item>
-    <item nodeId="node-18021">
+    <item nodeId="node-1201">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Staging Area
@@ -2076,10 +2077,10 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18022"></child>
+        <children><child nodeId="node-1202"></child>
         </children>
     </item>
-    <item nodeId="node-18022">
+    <item nodeId="node-1202">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">You try to enter the airlock, but the automatic door fails to open for you.
 [It's always just opened in the past.]
@@ -2088,46 +2089,46 @@ You add an item ("fix the airlock door") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18023"></child>
+        <children><child nodeId="node-1203"></child>
         </children>
     </item>
-    <item nodeId="node-18023">
+    <item nodeId="node-1203">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18024"></child>
+        <children><child nodeId="node-1204"></child>
         </children>
     </item>
-    <item nodeId="node-18024">
+    <item nodeId="node-1204">
         <command xml:space="preserve">x it</command>
         <result xml:space="preserve">The airlock door is an imposing solid barrier between vacuum and safety. It is colored yellow with red warning symbols on it. Above the door is a panel of electronic components.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18025"></child>
+        <children><child nodeId="node-1205"></child>
         </children>
     </item>
-    <item nodeId="node-18025">
+    <item nodeId="node-1205">
         <command xml:space="preserve">x symbols</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18026"></child>
+        <children><child nodeId="node-1206"></child>
         </children>
     </item>
-    <item nodeId="node-18026">
+    <item nodeId="node-1206">
         <command xml:space="preserve">drop trunk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18027"></child>
+        <children><child nodeId="node-1207"></child>
         </children>
     </item>
-    <item nodeId="node-18027">
+    <item nodeId="node-1207">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -2135,10 +2136,10 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18028"></child>
+        <children><child nodeId="node-1208"></child>
         </children>
     </item>
-    <item nodeId="node-18028">
+    <item nodeId="node-1208">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Starboard-Side Crew Quarters
@@ -2148,19 +2149,19 @@ You can see a cardboard box (empty), some wrapping paper, a black trunk (empty),
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18029"></child>
+        <children><child nodeId="node-1209"></child>
         </children>
     </item>
-    <item nodeId="node-18029">
+    <item nodeId="node-1209">
         <command xml:space="preserve">take trunk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18030"></child>
+        <children><child nodeId="node-1210"></child>
         </children>
     </item>
-    <item nodeId="node-18030">
+    <item nodeId="node-1210">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Junction
@@ -2168,10 +2169,10 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18031"></child>
+        <children><child nodeId="node-1211"></child>
         </children>
     </item>
-    <item nodeId="node-18031">
+    <item nodeId="node-1211">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Staging Area
@@ -2185,19 +2186,19 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18032"></child>
+        <children><child nodeId="node-1212"></child>
         </children>
     </item>
-    <item nodeId="node-18032">
+    <item nodeId="node-1212">
         <command xml:space="preserve">drop trunk</command>
         <result xml:space="preserve">Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18033"></child>
+        <children><child nodeId="node-1213"></child>
         </children>
     </item>
-    <item nodeId="node-18033">
+    <item nodeId="node-1213">
         <command xml:space="preserve">up</command>
         <result xml:space="preserve">
 Junction
@@ -2205,10 +2206,10 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18034"></child>
+        <children><child nodeId="node-1214"></child>
         </children>
     </item>
-    <item nodeId="node-18034">
+    <item nodeId="node-1214">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Staging Area
@@ -2224,29 +2225,29 @@ You can also see a black trunk (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18035"></child>
+        <children><child nodeId="node-1215"></child>
         </children>
     </item>
-    <item nodeId="node-18035">
+    <item nodeId="node-1215">
         <command xml:space="preserve">get on trunk</command>
         <result xml:space="preserve">(first closing the black trunk)
 You get onto the black trunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18036"></child>
+        <children><child nodeId="node-1216"></child>
         </children>
     </item>
-    <item nodeId="node-18036">
+    <item nodeId="node-1216">
         <command xml:space="preserve">x panel</command>
         <result xml:space="preserve">The prominent features of the panel are two optical sensors. One of them has become partially detached and looks broken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18037"></child>
+        <children><child nodeId="node-1217"></child>
         </children>
     </item>
-    <item nodeId="node-18037">
+    <item nodeId="node-1217">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You get off the black trunk.
 
@@ -2263,46 +2264,46 @@ You can also see a black trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18038"></child>
+        <children><child nodeId="node-1218"></child>
         </children>
     </item>
-    <item nodeId="node-18038">
+    <item nodeId="node-1218">
         <command xml:space="preserve">x panel</command>
         <result xml:space="preserve">The component panel is too high.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18039"></child>
+        <children><child nodeId="node-1219"></child>
         </children>
     </item>
-    <item nodeId="node-18039">
+    <item nodeId="node-1219">
         <command xml:space="preserve">take broken sensor</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18040"></child>
+        <children><child nodeId="node-1220"></child>
         </children>
     </item>
-    <item nodeId="node-18040">
+    <item nodeId="node-1220">
         <command xml:space="preserve">get on trunk</command>
         <result xml:space="preserve">You get onto the black trunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18041"></child>
+        <children><child nodeId="node-1221"></child>
         </children>
     </item>
-    <item nodeId="node-18041">
+    <item nodeId="node-1221">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You'll have to get off the black trunk first.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18042"></child>
+        <children><child nodeId="node-1222"></child>
         </children>
     </item>
-    <item nodeId="node-18042">
+    <item nodeId="node-1222">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You get off the black trunk.
 
@@ -2319,56 +2320,56 @@ You can also see a black trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18043"></child>
+        <children><child nodeId="node-1223"></child>
         </children>
     </item>
-    <item nodeId="node-18043">
+    <item nodeId="node-1223">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the black trunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18044"></child>
+        <children><child nodeId="node-1224"></child>
         </children>
     </item>
-    <item nodeId="node-18044">
+    <item nodeId="node-1224">
         <command xml:space="preserve">get on trunk</command>
         <result xml:space="preserve">(first closing the black trunk)
 You get onto the black trunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18045"></child>
+        <children><child nodeId="node-1225"></child>
         </children>
     </item>
-    <item nodeId="node-18045">
+    <item nodeId="node-1225">
         <command xml:space="preserve">x panel</command>
         <result xml:space="preserve">The prominent features of the panel are two optical sensors. One of them has become partially detached and looks broken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18046"></child>
+        <children><child nodeId="node-1226"></child>
         </children>
     </item>
-    <item nodeId="node-18046">
+    <item nodeId="node-1226">
         <command xml:space="preserve">take broken sensor</command>
         <result xml:space="preserve">You remove the broken sensor from the panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18047"></child>
+        <children><child nodeId="node-1227"></child>
         </children>
     </item>
-    <item nodeId="node-18047">
+    <item nodeId="node-1227">
         <command xml:space="preserve">put sensor in panel</command>
         <result xml:space="preserve">Which do you mean, the broken sensor or the new optical sensor?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18048"></child>
+        <children><child nodeId="node-1228"></child>
         </children>
     </item>
-    <item nodeId="node-18048">
+    <item nodeId="node-1228">
         <command xml:space="preserve">new</command>
         <result xml:space="preserve">You insert the fresh sensor into the empty socket.
 [There. That should do it.]
@@ -2379,10 +2380,10 @@ You cross out an item ("fix the airlock door") on your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18049"></child>
+        <children><child nodeId="node-1229"></child>
         </children>
     </item>
-    <item nodeId="node-18049">
+    <item nodeId="node-1229">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">(first getting off the black trunk)
 
@@ -2391,78 +2392,78 @@ You are in the aft airlock. Outside is the blackness of space, speckled with the
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18050"></child>
+        <children><child nodeId="node-1230"></child>
         </children>
     </item>
-    <item nodeId="node-18050">
+    <item nodeId="node-1230">
         <command xml:space="preserve">x boots</command>
         <result xml:space="preserve">Big boots with a thick sole. Lights indicate these boots are currently off.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18051"></child>
+        <children><child nodeId="node-1231"></child>
         </children>
     </item>
-    <item nodeId="node-18051">
+    <item nodeId="node-1231">
         <command xml:space="preserve">turn on boots</command>
         <result xml:space="preserve">You switch the Magnetic boots on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18052"></child>
+        <children><child nodeId="node-1232"></child>
         </children>
     </item>
-    <item nodeId="node-18052">
+    <item nodeId="node-1232">
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">Not without a vac suit, you aren't.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18053"></child>
+        <children><child nodeId="node-1233"></child>
         </children>
     </item>
-    <item nodeId="node-18053">
+    <item nodeId="node-1233">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a broken sensor
   the red access card
   Bertie the Bear™
   some pair of slippers
-  a spoon with chewing gum stuck to it
+  a spoon
   a fork
   a knife
   a blown fuse
   a blue screw
-  a vac suit
+  a vac suit with chewing gum stuck to it
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18054"></child>
+        <children><child nodeId="node-1234"></child>
         </children>
     </item>
-    <item nodeId="node-18054">
+    <item nodeId="node-1234">
         <command xml:space="preserve">wear suit</command>
         <result xml:space="preserve">You put on the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18055"></child>
+        <children><child nodeId="node-1235"></child>
         </children>
     </item>
-    <item nodeId="node-18055">
+    <item nodeId="node-1235">
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">It's dangerous out there. I recommend saving the game first...
 ⇒ Use "save" to save the game, or go "out" again to continue without saving.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18056"></child>
+        <children><child nodeId="node-1236"></child>
         </children>
     </item>
-    <item nodeId="node-18056">
+    <item nodeId="node-1236">
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">
 Outside the Aft Airlock (vacuum)
@@ -2474,10 +2475,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18057"></child>
+        <children><child nodeId="node-1237"></child>
         </children>
     </item>
-    <item nodeId="node-18057">
+    <item nodeId="node-1237">
         <command xml:space="preserve">turn off boots</command>
         <result xml:space="preserve">You switch the Magnetic boots off.
 
@@ -2485,10 +2486,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18058"></child>
+        <children><child nodeId="node-1238"></child>
         </children>
     </item>
-    <item nodeId="node-18058">
+    <item nodeId="node-1238">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Outside the Aft Airlock (vacuum)
 You are floating in the blackness of space outside of the aft airlock. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to fore among the obstructions. You can also go in to the airlock.
@@ -2499,10 +2500,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18059"></child>
+        <children><child nodeId="node-1239"></child>
         </children>
     </item>
-    <item nodeId="node-18059">
+    <item nodeId="node-1239">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You take a step on the hull of the ship, and keep going, and going... Should have turned those mag boots on.
 [Oops.]
@@ -2523,20 +2524,20 @@ Your death was completely pointless and preventable. All the same we grudgingly 
 Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18060"></child>
+        <children><child nodeId="node-1240"></child>
         </children>
     </item>
-    <item nodeId="node-18060">
+    <item nodeId="node-1240">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Outside the Aft Airlock (vacuum)
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18061"></child>
+        <children><child nodeId="node-1241"></child>
         </children>
     </item>
-    <item nodeId="node-18061">
+    <item nodeId="node-1241">
         <command xml:space="preserve">turn on boots</command>
         <result xml:space="preserve">You switch the Magnetic boots on.
 
@@ -2544,10 +2545,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18062"></child>
+        <children><child nodeId="node-1242"></child>
         </children>
     </item>
-    <item nodeId="node-18062">
+    <item nodeId="node-1242">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Outside the Aft Airlock (vacuum)
 You are standing on the hull of the ship, outside the aft airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to fore among the obstructions. You can also go in to the airlock.
@@ -2558,10 +2559,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18063"></child>
+        <children><child nodeId="node-1243"></child>
         </children>
     </item>
-    <item nodeId="node-18063">
+    <item nodeId="node-1243">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Hull of the Usagi (vacuum)
@@ -2575,10 +2576,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18064"></child>
+        <children><child nodeId="node-1244"></child>
         </children>
     </item>
-    <item nodeId="node-18064">
+    <item nodeId="node-1244">
         <command xml:space="preserve">take debris</command>
         <result xml:space="preserve">(the small piece of debris)
 You break off a piece of the debris.
@@ -2587,10 +2588,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18065"></child>
+        <children><child nodeId="node-1245"></child>
         </children>
     </item>
-    <item nodeId="node-18065">
+    <item nodeId="node-1245">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You attempt to climb over the debris. Just when you think you're over, your foot catches, and you lose your hold. The result: you're floating about a foot from the hull, unable to make contact with your mag boots to pull yourself down. You're barely moving relative to the hull, but you're stuck here. The bright side? You broke down the debris enough that it's no longer a barrier.
 
@@ -2605,10 +2606,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18066"></child>
+        <children><child nodeId="node-1246"></child>
         </children>
     </item>
-    <item nodeId="node-18066">
+    <item nodeId="node-1246">
         <command xml:space="preserve">throw debris</command>
         <result xml:space="preserve">(the small piece of debris)
 You throw the small piece of debris away from the ship. It propels you just a tiny amount toward the hull, but it's enough. One agonizing minute later, you're attached to the hull again.
@@ -2624,10 +2625,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18067"></child>
+        <children><child nodeId="node-1247"></child>
         </children>
     </item>
-    <item nodeId="node-18067">
+    <item nodeId="node-1247">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Outside the Engineering Airlock (vacuum)
@@ -2639,10 +2640,10 @@ A stern voice in your helmet intones "Air levels critical. Seek a pressurized lo
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18068"></child>
+        <children><child nodeId="node-1248"></child>
         </children>
     </item>
-    <item nodeId="node-18068">
+    <item nodeId="node-1248">
         <command xml:space="preserve">in</command>
         <result xml:space="preserve">
 Engineering Airlock
@@ -2652,10 +2653,10 @@ You are in the engineering airlock. Outside, the space to starboard looks so emp
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18069"></child>
+        <children><child nodeId="node-1249"></child>
         </children>
     </item>
-    <item nodeId="node-18069">
+    <item nodeId="node-1249">
         <command xml:space="preserve">in</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -2669,100 +2670,100 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18070"></child>
+        <children><child nodeId="node-1250"></child>
         </children>
     </item>
-    <item nodeId="node-18070">
+    <item nodeId="node-1250">
         <command xml:space="preserve">sit in sear</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18071"></child>
+        <children><child nodeId="node-1251"></child>
         </children>
     </item>
-    <item nodeId="node-18071">
+    <item nodeId="node-1251">
         <command xml:space="preserve">sit in seat</command>
         <result xml:space="preserve">The nozzles on either side of the chair connect with the suit. After a few moments, the machine emits a pleasant "ping", the nozzles retract, and you stand up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18321"></child>
+        <children><child nodeId="node-1252"></child>
         </children>
     </item>
-    <item nodeId="node-18321">
+    <item nodeId="node-1252">
         <command xml:space="preserve">x seat</command>
         <result xml:space="preserve">It looks like a person might sit in it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18322"></child>
+        <children><child nodeId="node-1253"></child>
         </children>
     </item>
-    <item nodeId="node-18322">
+    <item nodeId="node-1253">
         <command xml:space="preserve">x nozzles</command>
         <result xml:space="preserve">This is useful for venting air from the suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18323"></child>
+        <children><child nodeId="node-1254"></child>
         </children>
     </item>
-    <item nodeId="node-18323">
+    <item nodeId="node-1254">
         <command xml:space="preserve">x deck</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18324"></child>
+        <children><child nodeId="node-1255"></child>
         </children>
     </item>
-    <item nodeId="node-18324">
+    <item nodeId="node-1255">
         <command xml:space="preserve">x console</command>
         <result xml:space="preserve">The engineering console is huge, boasting an incomprehensible array of controls and monitors of the physical state of the ship. You dare not mess with it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18325"></child>
+        <children><child nodeId="node-1256"></child>
         </children>
     </item>
-    <item nodeId="node-18325">
+    <item nodeId="node-1256">
         <command xml:space="preserve">mess with it</command>
         <result xml:space="preserve">I SAID YOU DARE NOT MESS WITH IT!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18326"></child>
+        <children><child nodeId="node-1257"></child>
         </children>
     </item>
-    <item nodeId="node-18326">
+    <item nodeId="node-1257">
         <command xml:space="preserve">touch console</command>
         <result xml:space="preserve">I SAID YOU DARE NOT MESS WITH IT!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18327"></child>
+        <children><child nodeId="node-1258"></child>
         </children>
     </item>
-    <item nodeId="node-18327">
+    <item nodeId="node-1258">
         <command xml:space="preserve">x controls</command>
         <result xml:space="preserve">Without a degree in starship engineering, trying to understand these controls is pointless.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18328"></child>
+        <children><child nodeId="node-1259"></child>
         </children>
     </item>
-    <item nodeId="node-18328">
+    <item nodeId="node-1259">
         <command xml:space="preserve">x monitors</command>
         <result xml:space="preserve">Without a degree in starship engineering, trying to understand these controls is pointless.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18329"></child>
+        <children><child nodeId="node-1260"></child>
         </children>
     </item>
-    <item nodeId="node-18329">
+    <item nodeId="node-1260">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Engine Room
@@ -2772,47 +2773,47 @@ There is a large screen on the forward wall. It displays nothing right now. Ther
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18330"></child>
+        <children><child nodeId="node-1261"></child>
         </children>
     </item>
-    <item nodeId="node-18330">
+    <item nodeId="node-1261">
         <command xml:space="preserve">x screen</command>
         <result xml:space="preserve">The diagram screen is black.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18331"></child>
+        <children><child nodeId="node-1262"></child>
         </children>
     </item>
-    <item nodeId="node-18331">
+    <item nodeId="node-1262">
         <command xml:space="preserve">press button</command>
         <result xml:space="preserve">Nothing happens.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18332"></child>
+        <children><child nodeId="node-1263"></child>
         </children>
     </item>
-    <item nodeId="node-18332">
+    <item nodeId="node-1263">
         <command xml:space="preserve">move screen</command>
         <result xml:space="preserve">There's no point to pushing the engine diagram around.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18333"></child>
+        <children><child nodeId="node-1264"></child>
         </children>
     </item>
-    <item nodeId="node-18333">
+    <item nodeId="node-1264">
         <command xml:space="preserve">ask computer about screen</command>
         <result xml:space="preserve">
 The Delphi Engine Controls Aleph-Null is a fuel injection controller. It controls the process by which different substances are combined to produce the desired fuel. Since many fuels, such as Liquid Copernicium, have short half-lives, they must be produced shortly before use. Hence the necessity of the fuel injection controller.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18334"></child>
+        <children><child nodeId="node-1265"></child>
         </children>
     </item>
-    <item nodeId="node-18334">
+    <item nodeId="node-1265">
         <command xml:space="preserve">x engine</command>
         <result xml:space="preserve">(the fusion engine)
 The portion of the engine directly accessible from the engine room is a formidable machine. You wouldn't dare touch any of the various dials, components, hatches, etc. that adorn the surface. At your feet a part of the engine juts out -- it looks broken.
@@ -2821,38 +2822,38 @@ You add an item ("fix the engine") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18335"></child>
+        <children><child nodeId="node-1266"></child>
         </children>
     </item>
-    <item nodeId="node-18335">
+    <item nodeId="node-1266">
         <command xml:space="preserve">x broken</command>
         <result xml:space="preserve">(the broken sensor)
 You can tell it's broken because the connecting prongs are too short.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18336"></child>
+        <children><child nodeId="node-1267"></child>
         </children>
     </item>
-    <item nodeId="node-18336">
+    <item nodeId="node-1267">
         <command xml:space="preserve">x broken engine</command>
         <result xml:space="preserve">This is a wide, low, trapezoidal piece of metal like the one you've seen in the Staging Area, only this one looks scorched. It has the marking JL-758 on the front.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18337"></child>
+        <children><child nodeId="node-1268"></child>
         </children>
     </item>
-    <item nodeId="node-18337">
+    <item nodeId="node-1268">
         <command xml:space="preserve">take it</command>
         <result xml:space="preserve">Don't worry about that for now. Worry about finding a replacement.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18338"></child>
+        <children><child nodeId="node-1269"></child>
         </children>
     </item>
-    <item nodeId="node-18338">
+    <item nodeId="node-1269">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -2866,10 +2867,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18339"></child>
+        <children><child nodeId="node-1270"></child>
         </children>
     </item>
-    <item nodeId="node-18339">
+    <item nodeId="node-1270">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Machine Room
@@ -2879,29 +2880,29 @@ There's a hand vac sitting on the counter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18341"></child>
+        <children><child nodeId="node-1271"></child>
         </children>
     </item>
-    <item nodeId="node-18341">
+    <item nodeId="node-1271">
         <command xml:space="preserve">take vac</command>
         <result xml:space="preserve">(the portable hand-held vacuum cleaner)
 Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18885"></child>
+        <children><child nodeId="node-1272"></child>
         </children>
     </item>
-    <item nodeId="node-18885">
+    <item nodeId="node-1272">
         <command xml:space="preserve">open drawers</command>
         <result xml:space="preserve">You open the machine room drawers, revealing a small key, a roll of electrical tape, a hex-shaped tool, and a fresh fuse.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18886"></child>
+        <children><child nodeId="node-1273"></child>
         </children>
     </item>
-    <item nodeId="node-18886">
+    <item nodeId="node-1273">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">small key: Taken.
 roll of electrical tape: Taken.
@@ -2910,10 +2911,10 @@ fresh fuse: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18887"></child>
+        <children><child nodeId="node-1274"></child>
         </children>
     </item>
-    <item nodeId="node-18887">
+    <item nodeId="node-1274">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -2927,10 +2928,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18888"></child>
+        <children><child nodeId="node-1275"></child>
         </children>
     </item>
-    <item nodeId="node-18888">
+    <item nodeId="node-1275">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Operations Deck
@@ -2938,7 +2939,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 [Finally, another person! I'm saved!]
 
@@ -2946,19 +2947,19 @@ A man's voice comes over comms: "Usagi, are you there?"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-18889"></child>
+        <children><child nodeId="node-1276"></child>
         </children>
     </item>
-    <item nodeId="node-18889">
+    <item nodeId="node-1276">
         <command xml:space="preserve">ask man about chicken</command>
         <result xml:space="preserve">You should say hello first.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-19165"></child>
+        <children><child nodeId="node-1277"></child>
         </children>
     </item>
-    <item nodeId="node-19165">
+    <item nodeId="node-1277">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">(addressing the caller)
 You call out "Yes! I'm here! I'm here! What's going on?"
@@ -2967,10 +2968,10 @@ The caller responds, "Ahoy there, SS Usagi, good to hear from you. Seems like yo
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20608"></child>
+        <children><child nodeId="node-1278"></child>
         </children>
     </item>
-    <item nodeId="node-20608">
+    <item nodeId="node-1278">
         <command xml:space="preserve">tell caller about me</command>
         <result xml:space="preserve">You tell the caller that you're from the repair corps.
 
@@ -2982,32 +2983,32 @@ The caller responds, "Ahoy there, SS Usagi, good to hear from you. Seems like yo
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20609"></child>
+        <children><child nodeId="node-1279"></child>
         </children>
     </item>
-    <item nodeId="node-20609">
+    <item nodeId="node-1279">
         <command xml:space="preserve">ask computer about deneb ii</command>
         <result xml:space="preserve">
 Once the jewel of Deneb sector and a paradise of natural splendor, over the last two centuries Deneb II has succumbed to creeping corporatization. The resulting degrading of the ecosphere is a primary reason for the exodus to Deneb IV and the separatist movement which has followed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20610"></child>
+        <children><child nodeId="node-1280"></child>
         </children>
     </item>
-    <item nodeId="node-20610">
+    <item nodeId="node-1280">
         <command xml:space="preserve">ask computer about new da nang</command>
         <result xml:space="preserve">
 New Da Nang is a moon of Deneb II. It is the home of famous composer Orenascopol Thrax.
 
-"Well, Sergeant Screwdriver?"
+"Yes or no?"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20611"></child>
+        <children><child nodeId="node-1281"></child>
         </children>
     </item>
-    <item nodeId="node-20611">
+    <item nodeId="node-1281">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">"Great, great. Now let's get to work.
 
@@ -3019,33 +3020,33 @@ Master Sergeant R. Mu Arvax's voice breaks up and another voice comes over comms
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20612"></child>
+        <children><child nodeId="node-1282"></child>
         </children>
     </item>
-    <item nodeId="node-20612">
+    <item nodeId="node-1282">
         <command xml:space="preserve">ask computer about thrax</command>
         <result xml:space="preserve">
 I'm unable to give you any information about thrax.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20613"></child>
+        <children><child nodeId="node-1283"></child>
         </children>
     </item>
-    <item nodeId="node-20613">
+    <item nodeId="node-1283">
         <command xml:space="preserve">ask computer about arvax</command>
         <result xml:space="preserve">
 Classified personnel data on Master Sergeant R. Mu Arvax: Master Sergeant Arvax has had a distinguished career in the Space Marines, but has come under scrutiny in recent years for alleged sympathies with separatist factions on Deneb IV. Military Intelligence has so far declined to move on Arvax, but urges commanding officers to exercise discretion in their dealings with him, and to remain vigilant for any suspicious behavior.
 
-Captain Mulgrew: "Anyone there, Usagi?"
+Captain Mulgrew: "We hear you, Usagi, please respond."
 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20614"></child>
+        <children><child nodeId="node-1284"></child>
         </children>
     </item>
-    <item nodeId="node-20614">
+    <item nodeId="node-1284">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">(addressing Captain Jane Mulgrew)
 Captain Mulgrew responds, "Hello there, Usagi. That's my ship you've got there. Be careful with her.
@@ -3060,39 +3061,39 @@ Master Sergeant R. Mu Arvax's voice comes back over the radio: "You there still,
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20615"></child>
+        <children><child nodeId="node-1285"></child>
         </children>
     </item>
-    <item nodeId="node-20615">
+    <item nodeId="node-1285">
         <command xml:space="preserve">ask computer about mulgrew</command>
         <result xml:space="preserve">
 Captain Mulgrew is one of the most decorated captains in the Deneb sector. She was the second-youngest graduate of the Orion Marine Academy. She received command of the SS Usagi after successfully leading the retaking of the capital of Pollux VI from Irion invaders from the moon of Pollux III.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20616"></child>
+        <children><child nodeId="node-1286"></child>
         </children>
     </item>
-    <item nodeId="node-20616">
+    <item nodeId="node-1286">
         <command xml:space="preserve">ask mulgrew about emergency protocols</command>
         <result xml:space="preserve">"To prevent Arvax from seizing control of the ship remotely, we need to put the ship in a mode where it ignores all data communications. Voice radio will still be able to get through, but communications with the computer from outside will cease. You'll need to use my access code: say 'computer, access code 3'."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20617"></child>
+        <children><child nodeId="node-1287"></child>
         </children>
     </item>
-    <item nodeId="node-20617">
+    <item nodeId="node-1287">
         <command xml:space="preserve">computer, access code 3</command>
         <result xml:space="preserve">
 Welcome, Captain Jane Mulgrew. Logging you in.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20618"></child>
+        <children><child nodeId="node-1288"></child>
         </children>
     </item>
-    <item nodeId="node-20618">
+    <item nodeId="node-1288">
         <command xml:space="preserve">computer, emergency protocols</command>
         <result xml:space="preserve">
 Beginning emergency protocols. Take all appropriate precautions.
@@ -3104,19 +3105,19 @@ The emergency depressurization siren sounds throughout the ship.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20619"></child>
+        <children><child nodeId="node-1289"></child>
         </children>
     </item>
-    <item nodeId="node-20619">
+    <item nodeId="node-1289">
         <command xml:space="preserve">ask mulgrew about emergency protocols</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20620"></child>
+        <children><child nodeId="node-1290"></child>
         </children>
     </item>
-    <item nodeId="node-20620">
+    <item nodeId="node-1290">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -3124,10 +3125,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20621"></child>
+        <children><child nodeId="node-1291"></child>
         </children>
     </item>
-    <item nodeId="node-20621">
+    <item nodeId="node-1291">
         <command xml:space="preserve">x communications</command>
         <result xml:space="preserve">The communications console is used for all communications, including long-range subspace and short-range radio communications. A readout displays the connections on each channel: "channel 1 -- Deneb III Marine Command, channel 2 -- Unknown Caller, channel 3 -- No Connection."
 
@@ -3137,10 +3138,10 @@ The depressurization siren stops.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20622"></child>
+        <children><child nodeId="node-1292"></child>
         </children>
     </item>
-    <item nodeId="node-20622">
+    <item nodeId="node-1292">
         <command xml:space="preserve">g</command>
         <result xml:space="preserve">The communications console is used for all communications, including long-range subspace and short-range radio communications. A readout displays the connections on each channel: "channel 1 -- Deneb III Marine Command, channel 2 -- Unknown Caller, channel 3 -- No Connection."
 
@@ -3151,38 +3152,38 @@ Approaching New Da Nang. Beginning emergency countdown at 60.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20623"></child>
+        <children><child nodeId="node-1293"></child>
         </children>
     </item>
-    <item nodeId="node-20623">
+    <item nodeId="node-1293">
         <command xml:space="preserve">g</command>
         <result xml:space="preserve">The communications console is used for all communications, including long-range subspace and short-range radio communications. A readout displays the connections on each channel: "channel 1 -- Deneb III Marine Command, channel 2 -- No Connection, channel 3 -- No Connection."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20624"></child>
+        <children><child nodeId="node-1294"></child>
         </children>
     </item>
-    <item nodeId="node-20624">
+    <item nodeId="node-1294">
         <command xml:space="preserve">ask mulgrew about emergency protocols</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20625"></child>
+        <children><child nodeId="node-1295"></child>
         </children>
     </item>
-    <item nodeId="node-20625">
+    <item nodeId="node-1295">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
 "Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20626"></child>
+        <children><child nodeId="node-1296"></child>
         </children>
     </item>
-    <item nodeId="node-20626">
+    <item nodeId="node-1296">
         <command xml:space="preserve">ask arvax about situation</command>
         <result xml:space="preserve">"We don't have time for that!"
 
@@ -3192,20 +3193,20 @@ Approaching New Da Nang. Beginning emergency countdown at 60.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-20627"></child>
+        <children><child nodeId="node-1297"></child>
         </children>
     </item>
-    <item nodeId="node-20627">
+    <item nodeId="node-1297">
         <command xml:space="preserve">ask arvax about engine</command>
         <result xml:space="preserve">(the fusion engine)
 "It's probably the engine stabilizer that's broken, but that doesn't matter without helm control. Go check on the helm -- the pilot's console."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-21218"></child>
+        <children><child nodeId="node-1298"></child>
         </children>
     </item>
-    <item nodeId="node-21218">
+    <item nodeId="node-1298">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Bridge
@@ -3217,10 +3218,10 @@ You hear someone speaking aft of here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22107"></child>
+        <children><child nodeId="node-1299"></child>
         </children>
     </item>
-    <item nodeId="node-22107">
+    <item nodeId="node-1299">
         <command xml:space="preserve">x command console</command>
         <result xml:space="preserve">The command console displays the red outline of a hand.
 
@@ -3228,47 +3229,47 @@ You hear someone speaking aft of here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22108"></child>
+        <children><child nodeId="node-1300"></child>
         </children>
     </item>
-    <item nodeId="node-22108">
+    <item nodeId="node-1300">
         <command xml:space="preserve">touch it</command>
         <result xml:space="preserve">
 Unauthorized access attempted. This event has been logged by security.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22109"></child>
+        <children><child nodeId="node-1301"></child>
         </children>
     </item>
-    <item nodeId="node-22109">
+    <item nodeId="node-1301">
         <command xml:space="preserve">x chairs</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22110"></child>
+        <children><child nodeId="node-1302"></child>
         </children>
     </item>
-    <item nodeId="node-22110">
+    <item nodeId="node-1302">
         <command xml:space="preserve">x chair</command>
         <result xml:space="preserve">Which do you mean, the pilot's chair, the navigator's chair, or the captain's chair?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22111"></child>
+        <children><child nodeId="node-1303"></child>
         </children>
     </item>
-    <item nodeId="node-22111">
+    <item nodeId="node-1303">
         <command xml:space="preserve">captain</command>
         <result xml:space="preserve">Functional yet comfortable, it is every inch the chair of a commander. On the arm of the captain's chair is the command console, with which the captain commands the shipboard computer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22112"></child>
+        <children><child nodeId="node-1304"></child>
         </children>
     </item>
-    <item nodeId="node-22112">
+    <item nodeId="node-1304">
         <command xml:space="preserve">ask computer about ship</command>
         <result xml:space="preserve">(the ss usagi)
 
@@ -3276,92 +3277,92 @@ The SS Usagi is a light frigate in the Deneb system, with a crew of five includi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22113"></child>
+        <children><child nodeId="node-1305"></child>
         </children>
     </item>
-    <item nodeId="node-22113">
+    <item nodeId="node-1305">
         <command xml:space="preserve">ask computer about bridge</command>
         <result xml:space="preserve">
 A gangway is an inflatable bridge used to transfer people and equipment to and from space vessels.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22114"></child>
+        <children><child nodeId="node-1306"></child>
         </children>
     </item>
-    <item nodeId="node-22114">
+    <item nodeId="node-1306">
         <command xml:space="preserve">x console</command>
         <result xml:space="preserve">Which do you mean, the command console, the pilot's console, or the navigator's console?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22115"></child>
+        <children><child nodeId="node-1307"></child>
         </children>
     </item>
-    <item nodeId="node-22115">
+    <item nodeId="node-1307">
         <command xml:space="preserve">pilot's</command>
         <result xml:space="preserve">The pilot's console is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel which is closed. A hex-shaped aperture is probably the locking mechanism.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22116"></child>
+        <children><child nodeId="node-1308"></child>
         </children>
     </item>
-    <item nodeId="node-22116">
+    <item nodeId="node-1308">
         <command xml:space="preserve">open access panel with tool</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22117"></child>
+        <children><child nodeId="node-1309"></child>
         </children>
     </item>
-    <item nodeId="node-22117">
+    <item nodeId="node-1309">
         <command xml:space="preserve">open pilot's access panel with tool</command>
         <result xml:space="preserve">Which do you mean, the hex-shaped tool or the toolbox?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22118"></child>
+        <children><child nodeId="node-1310"></child>
         </children>
     </item>
-    <item nodeId="node-22118">
+    <item nodeId="node-1310">
         <command xml:space="preserve">hex</command>
         <result xml:space="preserve">You unlock the pilot's access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22119"></child>
+        <children><child nodeId="node-1311"></child>
         </children>
     </item>
-    <item nodeId="node-22119">
+    <item nodeId="node-1311">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">Opening the pilot's access panel reveals a fused mass of wiring and circuit boards. It's ruined beyond repair.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22120"></child>
+        <children><child nodeId="node-1312"></child>
         </children>
     </item>
-    <item nodeId="node-22120">
+    <item nodeId="node-1312">
         <command xml:space="preserve">x wiring</command>
         <result xml:space="preserve">It's ruined.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22121"></child>
+        <children><child nodeId="node-1313"></child>
         </children>
     </item>
-    <item nodeId="node-22121">
+    <item nodeId="node-1313">
         <command xml:space="preserve">x circuit</command>
         <result xml:space="preserve">It's ruined.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22122"></child>
+        <children><child nodeId="node-1314"></child>
         </children>
     </item>
-    <item nodeId="node-22122">
+    <item nodeId="node-1314">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Operations Deck
@@ -3373,10 +3374,10 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22123"></child>
+        <children><child nodeId="node-1315"></child>
         </children>
     </item>
-    <item nodeId="node-22123">
+    <item nodeId="node-1315">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm sorry, I don't think the helm can be fixed -- not with the time you have left. You're going to have to destroy the ship."
@@ -3384,10 +3385,10 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22437"></child>
+        <children><child nodeId="node-1316"></child>
         </children>
     </item>
-    <item nodeId="node-22437">
+    <item nodeId="node-1316">
         <command xml:space="preserve">ask arvax about helm</command>
         <result xml:space="preserve">"We don't have time for that!
 
@@ -3396,17 +3397,586 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-22438"></child>
+        <children><child nodeId="node-1317"></child>
         </children>
     </item>
-    <item nodeId="node-22438">
+    <item nodeId="node-1317">
         <command xml:space="preserve">ask about destroying the ship</command>
-        <result xml:space="preserve">"We don't have time for that!
-
-"I'm sorry, I don't think the helm can be fixed -- not with the time you have left. You're going to have to destroy the ship."
-[Oh god, this is it.]
+        <result xml:space="preserve">I don't know much about it, but I imagine it can be done by setting the fuel mix right... well, wrong, I guess.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engine Room
+This where the combustion process is controlled. The aft wall is dominated by the operating panel of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+
+There is a large diagram of the fuel injection process on the forward wall. There is a large button below the diagram labeled "Test".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+A large equipment trunk lies on the midship door, blocking it.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">There's an equipment trunk blocking the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">push trunk</command>
+        <result xml:space="preserve">You push the trunk clear of the door.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">push button</command>
+        <result xml:space="preserve">The door slides open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1326"></child>
+        </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+You can see a cardboard box (empty), some wrapping paper, and a sticky note here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">get on bed</command>
+        <result xml:space="preserve">You get onto the top bunk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">x bunk</command>
+        <result xml:space="preserve">A fairly typical military bunk bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">x top bunk</command>
+        <result xml:space="preserve">This bunk is, like the other, made up with regulation precision.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+        </children>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">It's a simple black-painted steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1332"></child>
+        </children>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">x cabinet</command>
+        <result xml:space="preserve">A simple black-painted steel cabinet, it is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1333"></child>
+        </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You get off the top bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+You can see a cardboard box (empty), some wrapping paper, and a sticky note here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1334"></child>
+        </children>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">open cabinet</command>
+        <result xml:space="preserve">You open the starboard-side equipment cabinet, revealing a beacon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1335"></child>
+        </children>
+    </item>
+    <item nodeId="node-1335">
+        <command xml:space="preserve">take beacon</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1336"></child>
+        </children>
+    </item>
+    <item nodeId="node-1336">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1337"></child>
+        </children>
+    </item>
+    <item nodeId="node-1337">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+You can see an equipment trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1340"></child>
+        </children>
+    </item>
+    <item nodeId="node-1340">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engine Room
+This where the combustion process is controlled. The aft wall is dominated by the operating panel of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+
+There is a large diagram of the fuel injection process on the forward wall. There is a large button below the diagram labeled "Test".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1341"></child>
+        </children>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">x diagram</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 --  3 --  4 --
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     -- &gt;&gt; -- &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">ask computer about vm</command>
+        <result xml:space="preserve">
+Void Matter is essentially vacuum condensed into matter, according to the most comprehensible description we could find. It is an extremely unstable substance, and tends to explode catastrophically in the presence of high levels of energy. It can be created by injecting one source of tachyon crystals into another source of tachyon crystals.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">tc &gt; 4</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 --  3 --  4 TC
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     -- &gt;&gt; -- &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">ask computer about tc</command>
+        <result xml:space="preserve">
+Rather than containing or being formed of tachyons, tachyon crystals get their name from their use in detecting tachyons, due to their negative refractive index. The typical method of creating tachyon crystals is injecting Anti-Helium into Red Matter. Tachyon Crystals can be used in the creation of Void Matter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">ah &gt; 3</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 --  3 AH  4 TC
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     -- &gt;&gt; -- &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1346"></child>
+        </children>
+    </item>
+    <item nodeId="node-1346">
+        <command xml:space="preserve">ask computer about rm</command>
+        <result xml:space="preserve">
+Red Matter is an unstable, possibly impossible substance created by injecting Tachyon Crystals into Unobtainium.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1347"></child>
+        </children>
+    </item>
+    <item nodeId="node-1347">
+        <command xml:space="preserve">tc &gt; 2</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 TC  3 AH  4 TC
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     -- &gt;&gt; -- &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">un &gt; 1</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 TC  3 AH  4 TC
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Un &gt;&gt; RM &gt;&gt; TC &gt;&gt; VM  Output
+             ====================
+
+        WARNING: DANGEROUS INJECTION PRODUCT
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+"Impact in 10."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">press test</command>
+        <result xml:space="preserve">A voice says "Fuel test sequence beginning..."
+
+"Impact in 9."
+
+"10"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+"Impact in 8."
+
+"9"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+Engineering Airlock
+You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
+
+"Impact in 7."
+
+"8"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+Outside the Engineering Airlock (vacuum)
+You are standing on the hull of the ship, outside the engineering airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+"Impact in 6."
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+"7"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">You can't even begin to jump in these mag boots.
+
+"Impact in 5."
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+"6"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">turn off boots</command>
+        <result xml:space="preserve">You switch the Magnetic boots off.
+
+"Impact in 4."
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+"5"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">You propel yourself away from the ship, away from the explosion that follows moments later. You switch on your beacon. Hours later, after you'd given up hope, a ship of the Space Marines finds you and brings you home. You are sorry you couldn't save the SS Usagi, but for your part in saving the people of New Da Nang, you receive a medal for meritorious service and are promoted to Lance Corporal.
+
+
+
+    *** You saved New Da Nang, but lost the ship. ***
+
+
+In that game you scored 4 out of a possible 10, in 316 turns.
+
+Hooray for saving New Da Nang! The Space Marine leadership is less happy about losing the SS Usagi. But here's your score breakdown. You get one point each for:
+- fixing the equipment cabinet in the starboard-side crew quarters
+- fixing the aft airlock door
+
+You also get a point for saving yourself, and a point for saving New Da Nang! Congratulations!
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>

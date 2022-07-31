@@ -11,679 +11,679 @@
     </dict>
     <key>1</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>31</integer>
+        <key>Line</key><integer>32</integer>
         <key>Title</key><string>Book 1 - Early declarations for compile reasons</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>52</integer>
+        <key>Line</key><integer>55</integer>
         <key>Title</key><string>Chapter 1 - Stolen from Essentials</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>59</integer>
+        <key>Line</key><integer>62</integer>
         <key>Title</key><string>Book 2 - Playability</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>61</integer>
+        <key>Line</key><integer>64</integer>
         <key>Title</key><string>Chapter 1 - Accessibility</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>103</integer>
+        <key>Line</key><integer>106</integer>
         <key>Title</key><string>Chapter 2 - Tips</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>111</integer>
+        <key>Line</key><integer>114</integer>
         <key>Title</key><string>Chapter 3 - The Status Line</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>139</integer>
+        <key>Line</key><integer>142</integer>
         <key>Title</key><string>Chapter 4 - Error messages</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>143</integer>
+        <key>Line</key><integer>146</integer>
         <key>Title</key><string>Book 3 - Going the wrong way</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>9</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>150</integer>
+        <key>Line</key><integer>153</integer>
         <key>Title</key><string>Book 4 - Pre- and Post-Reporting</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>10</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>247</integer>
+        <key>Line</key><integer>250</integer>
         <key>Title</key><string>Book 5 - Special Looking Behavior</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>11</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>262</integer>
+        <key>Line</key><integer>265</integer>
         <key>Title</key><string>Book 6 - Game Mechanics</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>12</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>264</integer>
+        <key>Line</key><integer>267</integer>
         <key>Title</key><string>Chapter 1 - Final Question Options</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>13</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>319</integer>
+        <key>Line</key><integer>322</integer>
         <key>Title</key><string>Chapter 2 - Thinking</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>14</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>383</integer>
+        <key>Line</key><integer>386</integer>
         <key>Title</key><string>Chapter 3 - Speaking</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>15</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>419</integer>
+        <key>Line</key><integer>422</integer>
         <key>Title</key><string>Chapter 4 - Relations</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>16</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>502</integer>
+        <key>Line</key><integer>505</integer>
         <key>Title</key><string>Book 7 - Things</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>17</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>548</integer>
+        <key>Line</key><integer>551</integer>
         <key>Title</key><string>Chapter 1 - Chewing Gum</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>18</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>648</integer>
+        <key>Line</key><integer>651</integer>
         <key>Title</key><string>Section 1 - Sticking gum to things</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>19</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>789</integer>
+        <key>Line</key><integer>792</integer>
         <key>Title</key><string>Section 2 - Blowing Bubbles</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>20</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>800</integer>
+        <key>Line</key><integer>803</integer>
         <key>Title</key><string>Chapter 2 - The Toolbox</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>21</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>817</integer>
+        <key>Line</key><integer>820</integer>
         <key>Title</key><string>Chapter 3 - The To-do list</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>22</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>872</integer>
+        <key>Line</key><integer>875</integer>
         <key>Title</key><string>Chapter 4 - Self-Closing Doors</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>23</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>915</integer>
+        <key>Line</key><integer>918</integer>
         <key>Title</key><string>Chapter 5 - Starship Doors</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>24</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>988</integer>
+        <key>Line</key><integer>991</integer>
         <key>Title</key><string>Chapter 6 - The Black Trunk</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>25</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1075</integer>
+        <key>Line</key><integer>1078</integer>
         <key>Title</key><string>Section 1 - I6 Fuckery to make the black trunk work in inventory when open and containing something</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>26</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1203</integer>
+        <key>Line</key><integer>1206</integer>
         <key>Title</key><string>Chapter 7 - The Box and The Bear</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>27</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1237</integer>
+        <key>Line</key><integer>1240</integer>
         <key>Title</key><string>Chapter 8 - Hooks and Tethers</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>28</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1511</integer>
+        <key>Line</key><integer>1514</integer>
         <key>Title</key><string>Chapter 9 - Engine Stabilizer</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>29</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1568</integer>
+        <key>Line</key><integer>1571</integer>
         <key>Title</key><string>Chapter 10 - Some trivia about clothing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>30</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1588</integer>
+        <key>Line</key><integer>1591</integer>
         <key>Title</key><string>Chapter 11 - Useless things</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>31</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1604</integer>
+        <key>Line</key><integer>1607</integer>
         <key>Title</key><string>Book 8 - Actions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>32</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1634</integer>
+        <key>Line</key><integer>1637</integer>
         <key>Title</key><string>Chapter 1 - Typing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>33</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1659</integer>
+        <key>Line</key><integer>1662</integer>
         <key>Title</key><string>Chapter 2 - Screwing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>34</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1689</integer>
+        <key>Line</key><integer>1692</integer>
         <key>Title</key><string>Chapter 3 - Pressing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>35</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1696</integer>
+        <key>Line</key><integer>1699</integer>
         <key>Title</key><string>Chapter 4 - Reading</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>36</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1712</integer>
+        <key>Line</key><integer>1715</integer>
         <key>Title</key><string>Chapter 5 - Throwing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>37</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1721</integer>
+        <key>Line</key><integer>1724</integer>
         <key>Title</key><string>Chapter 6 - Venting the Suit</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>38</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1746</integer>
+        <key>Line</key><integer>1749</integer>
         <key>Title</key><string>Chapter 7 - Turning over</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>39</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1762</integer>
+        <key>Line</key><integer>1765</integer>
         <key>Title</key><string>Chapter 8 - Pushing it to</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>40</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1797</integer>
+        <key>Line</key><integer>1800</integer>
         <key>Title</key><string>Chapter 9 - Repeating</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>41</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1853</integer>
+        <key>Line</key><integer>1856</integer>
         <key>Title</key><string>Chapter 10 - Wrapping</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>42</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1868</integer>
+        <key>Line</key><integer>1871</integer>
         <key>Title</key><string>Chapter 11 - Fixing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>43</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1875</integer>
+        <key>Line</key><integer>1878</integer>
         <key>Title</key><string>Chapter 12 - Playing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>44</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1904</integer>
+        <key>Line</key><integer>1907</integer>
         <key>Title</key><string>Book 9 - The Player</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>45</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>1996</integer>
+        <key>Line</key><integer>1999</integer>
         <key>Title</key><string>Chapter 1 - Wearing things</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>46</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2012</integer>
+        <key>Line</key><integer>2015</integer>
         <key>Title</key><string>Book 10 - People</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>47</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2056</integer>
+        <key>Line</key><integer>2059</integer>
         <key>Title</key><string>Chapter 1 - States</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>48</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2114</integer>
+        <key>Line</key><integer>2117</integer>
         <key>Title</key><string>Section 1 - Making Contact</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>49</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2145</integer>
+        <key>Line</key><integer>2148</integer>
         <key>Title</key><string>Section 2 - Establishing the Situation</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>50</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2347</integer>
+        <key>Line</key><integer>2350</integer>
         <key>Title</key><string>Section 3 - Revenge of Arvax</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>51</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2454</integer>
+        <key>Line</key><integer>2457</integer>
         <key>Title</key><string>Section 4 - Arvax End Game - Reboot</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>52</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2533</integer>
+        <key>Line</key><integer>2536</integer>
         <key>Title</key><string>Section 5 - Arvax End Game - Protocols</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>53</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2580</integer>
+        <key>Line</key><integer>2583</integer>
         <key>Title</key><string>Section 6 - More things about the ship</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>54</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2616</integer>
+        <key>Line</key><integer>2619</integer>
         <key>Title</key><string>Section 7 - A few more things</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>55</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2621</integer>
+        <key>Line</key><integer>2624</integer>
         <key>Title</key><string>Book 11 - The Computer</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>56</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2712</integer>
+        <key>Line</key><integer>2715</integer>
         <key>Title</key><string>Chapter 1 - Data</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>57</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2865</integer>
+        <key>Line</key><integer>2868</integer>
         <key>Title</key><string>Book 12 - Speaking to People and Things</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>58</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2884</integer>
+        <key>Line</key><integer>2887</integer>
         <key>Title</key><string>Section 1 - Backdrops</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>59</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>2907</integer>
+        <key>Line</key><integer>2910</integer>
         <key>Title</key><string>Book 13 - The Map</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>60</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3005</integer>
+        <key>Line</key><integer>3008</integer>
         <key>Title</key><string>Chapter 1 - Definitions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>61</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3007</integer>
+        <key>Line</key><integer>3010</integer>
         <key>Title</key><string>Section 1 - Vacuum</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>62</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3049</integer>
+        <key>Line</key><integer>3052</integer>
         <key>Title</key><string>Chapter 2 - Details</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>63</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3051</integer>
+        <key>Line</key><integer>3054</integer>
         <key>Title</key><string>Section 1 - Space Station Gangway</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>64</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3068</integer>
+        <key>Line</key><integer>3071</integer>
         <key>Title</key><string>Section 2 - Bridge</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>65</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3335</integer>
+        <key>Line</key><integer>3338</integer>
         <key>Title</key><string>Section 3 - Operations Deck</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>66</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3520</integer>
+        <key>Line</key><integer>3523</integer>
         <key>Title</key><string>Section 4 - Engineering Deck</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>67</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3562</integer>
+        <key>Line</key><integer>3565</integer>
         <key>Title</key><string>Section 5 - Engineering Airlock</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>68</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3573</integer>
+        <key>Line</key><integer>3576</integer>
         <key>Title</key><string>Section 6 - Machine Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>69</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3594</integer>
+        <key>Line</key><integer>3597</integer>
         <key>Title</key><string>Section 7 - Engine Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>70</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3672</integer>
+        <key>Line</key><integer>3675</integer>
         <key>Title</key><string>Section 8 - Galley</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>71</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>3953</integer>
+        <key>Line</key><integer>3956</integer>
         <key>Title</key><string>Section 9 - Junction</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>72</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>4058</integer>
+        <key>Line</key><integer>4061</integer>
         <key>Title</key><string>Section 10 - Captain's Quarters</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>73</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>4185</integer>
+        <key>Line</key><integer>4188</integer>
         <key>Title</key><string>Section 11 - Port-Side Crew Quarters</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>74</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>4493</integer>
+        <key>Line</key><integer>4496</integer>
         <key>Title</key><string>Section 12 - Starboard-Side Crew Quarters</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>75</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>4702</integer>
+        <key>Line</key><integer>4705</integer>
         <key>Title</key><string>Section 13 - Aft Airlock</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>76</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>4728</integer>
+        <key>Line</key><integer>4731</integer>
         <key>Title</key><string>Section 14 - Staging Area</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>77</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>4850</integer>
+        <key>Line</key><integer>4853</integer>
         <key>Title</key><string>Section 15 - Spacewalk</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>78</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5049</integer>
+        <key>Line</key><integer>5052</integer>
         <key>Title</key><string>Section 16 - Regions</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>79</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5053</integer>
+        <key>Line</key><integer>5056</integer>
         <key>Title</key><string>Book 14 - Planetfall</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>80</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5113</integer>
+        <key>Line</key><integer>5116</integer>
         <key>Title</key><string>Chapter 1 - Rooms</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>81</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5163</integer>
+        <key>Line</key><integer>5166</integer>
         <key>Title</key><string>Chapter 2 - Characters</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>82</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5165</integer>
+        <key>Line</key><integer>5168</integer>
         <key>Title</key><string>Section 1 - Blather</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>83</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5234</integer>
+        <key>Line</key><integer>5237</integer>
         <key>Title</key><string>Section 2 - Ambassador</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>84</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5265</integer>
+        <key>Line</key><integer>5268</integer>
         <key>Title</key><string>Book 15 - The Plot</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>85</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5267</integer>
+        <key>Line</key><integer>5270</integer>
         <key>Title</key><string>Chapter 1 - Scenes</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>86</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5277</integer>
+        <key>Line</key><integer>5280</integer>
         <key>Title</key><string>Chapter 2 - Flags</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>87</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5282</integer>
+        <key>Line</key><integer>5285</integer>
         <key>Title</key><string>Chapter 3 - Opening Moves</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>88</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5289</integer>
+        <key>Line</key><integer>5292</integer>
         <key>Title</key><string>Section 1 - Moving through the Aft Airlock</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>89</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5318</integer>
+        <key>Line</key><integer>5321</integer>
         <key>Title</key><string>Section 2 - Moving through the The Staging Area</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>90</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5397</integer>
+        <key>Line</key><integer>5400</integer>
         <key>Title</key><string>Chapter 4 - Last Moves</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>91</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5435</integer>
+        <key>Line</key><integer>5438</integer>
         <key>Title</key><string>Book 16 - Contraptions and Puzzles</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>92</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5437</integer>
+        <key>Line</key><integer>5440</integer>
         <key>Title</key><string>Chapter 1 - Fuel Mixing Puzzle</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>93</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5741</integer>
+        <key>Line</key><integer>5744</integer>
         <key>Title</key><string>Book 17 - Technical Details</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>94</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5791</integer>
+        <key>Line</key><integer>5794</integer>
         <key>Title</key><string>Book 18 - Help</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>95</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>5894</integer>
+        <key>Line</key><integer>5897</integer>
         <key>Title</key><string>Book 19 - Hints</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>96</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>6088</integer>
+        <key>Line</key><integer>6091</integer>
         <key>Title</key><string>Book 20 - About</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>97</key><dict>
         <key>Filename</key><string>/Users/rileypb/dev/Inform/Crash/CrashA.inform/Source/story.ni</string>
-        <key>Line</key><integer>6099</integer>
+        <key>Line</key><integer>6102</integer>
         <key>Title</key><string>Book 21 - Not for Release</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>

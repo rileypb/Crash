@@ -18,6 +18,7 @@ Use scoring. The maximum score is 10.
 Release along with cover art ("A cartoon spaceship.").
 Release along with a website.
 Release along with an interpreter.
+Release along with a file of "Illustrated Walkthrough" called "crash.pdf".
 
 The story title is "Crash".
 The story author is "Phil Riley".
@@ -48,6 +49,8 @@ The Room of Stuff is offboard.
 Master Sergeant R Mu Arvax is a man. The printed name is "[if arvax is familiar]Master Sergeant R. Mu Arvax[otherwise]caller[end if]". He is improper-named.
 
 Captain Jane Mulgrew is a woman. 
+
+ShowPrePostReportStack is always false.
 
 Chapter 1 - Stolen from Essentials
 

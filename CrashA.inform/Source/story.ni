@@ -516,6 +516,8 @@ Instead of examining a vac suit (called VS):
 	let MB be a random magnetic boots which are part of VS;
 	say "A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently [if MB is switched on]on[otherwise]off[end if]. A gauge indicates the suit has [remaining air of VS] units of air left.";
 	think thought 17;
+	if VS is the current stuck thing of the chewing gum:
+		say "There is some chewing gum stuck to the vac suit.";
 	if tipped venting is false:
 		tip "You can vent air by using 'vent suit.'";
 		now tipped venting is true;
@@ -6101,7 +6103,7 @@ Carry out abouting:
 
 Book 21 - Not for Release
 
-DEBUG is true.
+DEBUG is false.
 
 When play begins:
 	if DEBUG is true:

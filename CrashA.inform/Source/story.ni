@@ -615,7 +615,7 @@ Report masticating chewing gum:
 
 The can't chew two things at once rule is listed first in the check masticating rules.
 
-Demasticating is an action applying to one thing. Understand "spit [something]", "spit out [something]", "stop chewing [something]", and "remove [something] from mouth" as demasticating.
+Demasticating is an action applying to one thing. Understand "spit [something]", "spit out [something]", "spit [something] out", "stop chewing [something]", and "remove [something] from mouth" as demasticating.
 
 Instead of taking chewing gum when the chewing gum is currently chewed:
 	try demasticating the chewing gum instead.
@@ -644,7 +644,7 @@ Check dropping the chewing gum:
 	
 Understand "swallow [chewing gum]" as a mistake ("Don't you know that if you swallow gum it will stay in your stomach forever?")
 
-Instead of doing something other than masticating to the chewing gum during boarding the ship:
+Instead of doing something other than masticating or examining to the chewing gum during boarding the ship:
 	think "The gum's still got flavor. I don't want to spit it out yet.";
 	
 Instead of removing the chewing gum from something when gum is stuck to the second noun:
@@ -1517,7 +1517,9 @@ Chapter 9 - Engine Stabilizer
 
 The brand-new JL-758 is in the Staging Area. Understand "engine", "hunk", "metal", "JL", "new", "part" and "stabilizer" as brand-new JL-758. "What looks like part of an engine is stowed in a corner."
 
-The electrical contacts are part of the brand-new JL-758. The description of the electrical contacts is "It looks like the JL-758 is meant to be put under something, so that it makes contact with some other device.".
+The electrical contacts are part of the brand-new JL-758. They are plural-named. The description of the electrical contacts is "It looks like the JL-758 is meant to be put under something, so that it makes contact with some other device.".
+
+The openings are part of the brand-new JL-758. They are plural-named. The description of the openings is "A thick cord is threaded through the openings.".
 
 The description of the brand-new JL-758 is "This is a wide, low, trapezoidal hunk of metal bearing the marking JL-758 on one side. Numerous electrical contacts dot the upper surface. Someone has threaded a thick cord with clips on both ends through some openings on the top and side.".
 
@@ -1608,11 +1610,9 @@ Instead of doing something to a dummy-backdrop (this is the don't worry about a 
 
 Book 8 - Actions
 
-Check listening (this is the block listening rule):
-	say "That's not something you need to do in this game." instead;
+Understand "hear" as listening.
 
-Check listening to something (this is the block listening to rule):
-	say "That's not something you need to do in this game." instead;
+Understand "search under [something]" as looking under.
 	
 Instead of listening when the player is in the Galley:
 	say "You can hear someone talking above you, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
@@ -4206,6 +4206,9 @@ The port-side bed is in the port-side crew quarters. it is privately-named. The 
 The port-side top bunk is a part of the port-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the port-side top bunk. 
 The port-side bottom bunk is a part of the port-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "bottom bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "bottom bunk" as the port-side bottom bunk.
 
+Instead of climbing the port-side bed:
+	try entering the port-side top bunk;
+
 The port-side bottom bunk is undersided.
 The black trunk underlies the starboard-side bottom bunk.
 
@@ -4247,7 +4250,7 @@ The description of the port keypad is "A standard 0-9 keypad with a '*' and '#'.
 The port top drawer contains a copy of Planetfall.
 
 The port keyhole is part of the port keypad. It is scenery.
-"A pretty typical heyhole, maybe smaller than most."
+"A pretty typical keyhole, maybe smaller than most."
 
 Instead of inserting the small key into the port keyhole:
 	try unlocking the port keypad with the small key;
@@ -4332,7 +4335,7 @@ Report pushing the display to a direction:
 	say "success!";
 	
 Report typing on the port keypad when port-side storage unit was storage-breaking:
-	say "As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom storage drawer pops out a centimeter or two.[paragraph break]";
+	say "As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.[paragraph break]";
 	stop the action;
 	
 Check typing on the port keypad when the port-side storage unit is storage-broken:
@@ -4368,7 +4371,7 @@ Carry out contentlessly typing on the port keypad when port-side storage unit is
 	add fix the storage unit;
 
 Report contentlessly typing on the port keypad when port-side storage unit was storage-breaking:
-	say "As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom storage drawer pops out a centimeter or two.[paragraph break]";
+	say "As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.[paragraph break]";
 	stop the action;
 	
 Check contentlessly typing on the port keypad when the port-side storage unit is storage-broken:
@@ -4651,7 +4654,7 @@ After examining the starboard bottom drawer:
 	continue the action;
 
 The starboard keyhole is part of the starboard keypad. It is scenery.
-"A pretty typical heyhole, maybe smaller than most."
+"A pretty typical keyhole, maybe smaller than most."
 
 Instead of inserting the small key into the starboard keyhole:
 	try unlocking the starboard keypad with the small key;

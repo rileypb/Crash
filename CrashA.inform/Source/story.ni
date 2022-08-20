@@ -2353,37 +2353,42 @@ Section 3 - Revenge of Arvax
 
 Number of arvax interactions is a number that varies.
 
-After quizzing arvax about something:
+After quizzing arvax about something (this is the you're tired rule):
 	increment number of arvax interactions;
 	if number of arvax interactions is 4 and gravity > 1 and protocols-activated is false:
 		say "'Hey, you sound tired. If you need a rest, lower the gravity setting. You should find it in the operations deck somewhere.'";
 	continue the action;
+	
+The you're tired rule is listed last in the after rulebook.
 
 After informing arvax about something:
 	increment number of arvax interactions;
 	if number of arvax interactions is 4:
 		say "'Hey, you sound tired. If you need a rest, lower the gravity setting. You should find it in the operations deck somewhere.'";
 	continue the action;
+	
+After quizzing or informing Arvax about a room:
+	say "'I'm afraid I don't have anything to say about that.'[line break]";
 
 A thing can be endgame-relevant.
-The fusion engine, the ss usagi, fuel injection specification are endgame-relevant.
+The fusion engine, the ss usagi, fuel injection specification, engine status, brand-new JL-758 are endgame-relevant.
 Destroying the ship is endgame-relevant.
 
-check asking Arvax about something during end game (this is the divert end game asking rule):
+[check asking Arvax about something during end game (this is the divert end game asking rule):
 	say "'We don't have time for that!'";
-	try quizzing arvax about the ss usagi instead;
+	try quizzing arvax about the ss usagi instead;]
 
-check quizzing Arvax about something when the second noun is not endgame-relevant during end game (this is the divert end game quizzing rule):
+[check quizzing Arvax about something when the second noun is not endgame-relevant during end game (this is the divert end game quizzing rule):
 	say "'We don't have time for that!";
-	try quizzing arvax about the ss usagi instead;
+	try quizzing arvax about the ss usagi instead;]
 
-check telling Arvax about something during end game (this is the divert end game telling rule):
+[check telling Arvax about something during end game (this is the divert end game telling rule):
 	say "'We don't have time for that!";
-	try quizzing arvax about the ss usagi instead;
+	try quizzing arvax about the ss usagi instead;]
 
-check informing Arvax about something during end game (this is the divert end game informing rule):
+[check informing Arvax about something during end game (this is the divert end game informing rule):
 	say "'We don't have time for that!";
-	try quizzing arvax about the ss usagi instead;
+	try quizzing arvax about the ss usagi instead;]
 	
 [The divert end game conversation rule is listed first in the before rules.
 ]
@@ -2481,7 +2486,7 @@ To say problems description:
 		say "I'm trying to divert the ship from its collision course with New Da Nang, but there are some problems: [problems]";
 
 After saying hello to Arvax when talking about cs-end-game-reboot:
-	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.[line break]" as Arvax near communications console;
+	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.'[line break]" as Arvax near communications console;
 	reset turns in state;
 
 To decide whether ship is in self-destruct mode:
@@ -2522,7 +2527,6 @@ Carry out Arvax self-destructing:
 	Now destruct in progress is true;
 	Now destruct countdown is 10;
 	
-The helm is a subject. The description is "subject".
 	
 [Response of Arvax when asked-or-told about main starboard engine and talking about cs-end-game-reboot:
 	print "'It seems like it's out of balance. The engines must be very precisely balanced. Go take a look.'[line break]" as Arvax near communications console;]
@@ -2574,7 +2578,7 @@ Response of Arvax when asked-or-told about usagi and talking about cs-end-game-p
 
 arvax aware of melted helm is a truth state that varies.	
 
-Response of Arvax when asked-or-told about the pilot's access panel and player aware of melted helm is true and talking about cs-end-game-protocols:
+Response of Arvax when asked-or-told about the helm access panel and player aware of melted helm is true and talking about cs-end-game-protocols:
 	print "'Dammit! ... I'm sorry, I don't think that can be fixed -- not with the time you have left.'[line break]" as Arvax near communications console;
 	now arvax aware of melted helm is true;
 	
@@ -2584,13 +2588,19 @@ Response of Arvax when asked-or-told about helm and talking about cs-end-game-pr
 	
 Section 6 - More things about the ship
 
+Response of Arvax when asked-or-told about the engine status:
+	report on engine;
+	
 Response of Arvax when asked-or-told about the fusion engine:
+	report on engine;
+
+To report on engine:
 	if computer-rebooted is false and protocols-activated is false:
 		say "'I can't get any readings until you reboot the system.'[line break]";
 	otherwise if protocols-activated is true:
 		say "'It's probably the engine stabilizer that's broken, but that doesn't matter without helm control";
 		if arvax aware of melted helm is false:
-			say ". Go check on the helm -- the pilot's console.'";
+			say ". Go check on the helm -- the big table in the bridge.'";
 		otherwise:
 			say ". Even if you fix the engine we won't be able to fly. You're going to have to destroy the ship.'";
 	otherwise if fusion engine is broken:
@@ -2793,7 +2803,7 @@ Anti-Helium	"Anti-Helium is the anti-matter equivalent of Helium, possessing two
 Oganesson	"Oganesson is an element with atomic number 118. It is often used to create Liquid Copernicium[familiarize liquid copernicium]."
 Red Matter	"Red Matter is an unstable, possibly impossible substance created by injecting Tachyon Crystals[familiarize Tachyon Crystals] into Unobtainium[familiarize unobtainium]."
 Tachyon Crystals	"Rather than containing or being formed of tachyons, tachyon crystals get their name from their use in detecting tachyons, due to their negative refractive index. The typical method of creating tachyon crystals is injecting Anti-Helium[familiarize anti-helium] into Red Matter[familiarize red matter]. Tachyon Crystals can be used in the creation of Void Matter[familiarize void matter]."
-Unobtainium	"Unobtanium can only be acquired by the injection of Anti-Helium[familiarize anti-helium] into Oganesson[familiarize oganesson], hence its legendary reputation for being difficult to obtain."
+Unobtainium	"Unobtainium can only be acquired by the injection of Anti-Helium[familiarize anti-helium] into Oganesson[familiarize oganesson], hence its legendary reputation for being difficult to obtain."
 Void Matter	"Void Matter is essentially vacuum condensed into matter, according to the most comprehensible description we could find. It is an extremely unstable substance, and tends to explode catastrophically in the presence of high levels of energy. It can be created by injecting one source of tachyon crystals into another source of tachyon crystals[familiarize tachyon crystals]."
 Delphi Engine Controls LLC	"Delphi Engine Controls LLC is an engine parts manufacturer based on Tethys, moon of Saturn."
 Space Authority	"The Space Authority is the governing body of most human-controlled space. Its military is known as the Space Force. The Space Authority is a socialist society with a representative democracy."
@@ -3114,63 +3124,55 @@ Instead of telling the shipboard computer about something when location is the b
 
 Player aware of melted helm is a truth state that varies
 
-The access panel keyhole is part of the pilot's access panel. It is scenery. "It's a small hex-shaped hole."
+The access panel keyhole is part of the helm access panel. It is scenery. "It's a small hex-shaped hole."
 
-To say state of pilot's access panel:
-	If the pilot's access panel is closed:
+To say state of helm access panel:
+	If the helm access panel is closed:
 		say "which is closed. A hex-shaped aperture is probably the locking mechanism";
 	otherwise if protocols-activated is false:
 		say "which is open, revealing a maze of wiring and circuit boards";
 	otherwise:
 		say "which is open, revealing a fused mass of wiring and circuit boards";	
 		now player aware of melted helm is true;
-
-To say state of navigator's access panel:
-	If the pilot's access panel is closed:
-		say "which is closed. A hex-shaped aperture is probably the locking mechanism";
-	if the pilot's access panel is open:
-		say "which is open, revealing a maze of wiring and circuit boards";
 		
-After closing the pilot's access panel:
-	now the pilot's access panel is locked;
+After closing the helm access panel:
+	now the helm access panel is locked;
 	continue the action;
 	
 Instead of inserting the hex-shaped tool into the access panel keyhole:
-	try unlocking the pilot's access panel with the hex-shaped tool;
+	try unlocking the helm access panel with the hex-shaped tool;
 
-The pilot's console is a thing in the bridge. It is scenery. "The pilot's console is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel [state of pilot's access panel].". Understand "pilot console" as pilot's console.
-The pilot's access panel is a container which is a part of the pilot's console. It is closed, locked, and openable. It has carrying capacity 0. The pilot's access panel has matching key the hex-shaped tool. The description is "The access panel is a rectangle of the same plastic that makes up the console. There is a hex-shaped keyhole in it." Understand "pilot access/-- panel" as pilot's access panel.
+The helm table is a thing in the bridge. It is scenery. "The helm is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel [state of helm access panel].". Understand "sloped/-- table", "cryptic/-- readouts", "touch/-- controls" as the helm.
+The helm access panel is a container which is a part of the helm table. It is closed, locked, and openable. It has carrying capacity 0. The helm access panel has matching key the hex-shaped tool. The description is "The access panel is a rectangle of the same plastic that makes up the rest of the table. There is a hex-shaped keyhole in it." Understand "helm/-- access/-- panel" as helm access panel.
 
-The pilot's wiring is scenery in the pilot's console. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" as the pilot's wiring. The description of the pilot's wiring is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
+The helm wiring is scenery in the helm access panel. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" as the helm wiring. The description of the helm wiring is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
 
-The aperture is a part of the pilot's access panel. Understand "hole", "keyhole", "lock" as aperture.
+The aperture is a part of the helm access panel. Understand "hole", "keyhole", "lock" as aperture.
 
 Instead of inserting the hex-shaped tool into the aperture:
-	try unlocking the pilot's access panel with the hex-shaped tool;
+	try unlocking the helm access panel with the hex-shaped tool;
 	
-Instead of inserting the hex-shaped tool into the panel:
-	try unlocking the pilot's access panel with the hex-shaped tool;
+Instead of inserting the hex-shaped tool into the helm access panel:
+	try unlocking the helm access panel with the hex-shaped tool;
 
-Instead of examining the pilot's access panel:
-	if the pilot's access panel is closed:
+Instead of examining the helm access panel:
+	if the helm access panel is closed:
 		say "The access panel is a rectangle of the same plastic that makes up the console. There is a hex-shaped keyhole in it.";
 	otherwise if protocols-activated is true:
 		say "Inside the access panel, the wires and circuits are a melted mess.";
 	otherwise:
 		say "Inside the panel is a maze of wiring and circuit boards.";
 
-After opening the pilot's access panel:
+After opening the helm access panel:
 	if protocols-activated is true:
-		say "Opening [the pilot's access panel] reveals a fused mass of wiring and circuit boards. It's ruined beyond repair."; 
+		say "Opening [the helm access panel] reveals a fused mass of wiring and circuit boards. It's ruined beyond repair."; 
 		now player aware of melted helm is true;
 	otherwise:
-		say "Opening [the pilot's access panel] reveals an array of wiring and circuit boards.";
+		say "Opening [the helm access panel] reveals an array of wiring and circuit boards.";
 
-Check inserting something into the pilot's access panel:
+Check inserting something into the helm access panel:
 	say "[text of the can't insert into what's not a
 	container rule response (A)][line break]" instead;
-
-The navigator's console is a thing in the bridge. It is scenery. "The navigator's console is a sloped table covered with cryptic readouts and touch controls.". Understand "navigator console" as navigator's console.
 
 After examining the command console for the first time:
 	tip "You can 'touch command console' to touch your palm to it.";
@@ -3260,7 +3262,7 @@ Every turn while computer-rebooting is true:
 		now end-game is true;
 		now computer-rebooted is true;
 		now the current interlocutor is nothing;
-		print "Reboot complete.[paragraph break]" as computer near player;
+		print "Reboot complete.[line break]" as computer near player;
 	if the player is not wearing a vac suit:
 		if reboot-countdown is 4:
 			say "The air in here has gotten a bit stale.";
@@ -4896,6 +4898,21 @@ Carry out breaking off the small piece of debris:
 	
 Report breaking off the small piece of debris:
 	Say "You break off a piece of the debris.";
+	
+Does the player mean climbing the small piece of debris:
+	It is very unlikely;
+	
+Does the player mean climbing the large piece of debris:
+	It is very likely;
+	
+Does the player mean climbing the explosion:
+	It is very unlikely;
+	
+Instead of climbing the small piece of debris:
+	Try going starboard;
+	
+Instead of climbing the large piece of debris:
+	Try going starboard;
 
 Broke debris is a truth state that varies.
 Got Past Debris is truth state that varies.
@@ -5511,8 +5528,6 @@ To calculate products:
 	now product-1 is the injection of input 2 into input 1;
 	now product-2 is the injection of input 3 into product-1;
 	now product-3 is the injection of input 4 into product-2;
-	
-diagram tipped is a truth state that varies.
 
 To say fuel pipeline description:
 	if engine output is Liquid Copernicium:
@@ -5556,10 +5571,8 @@ Instead of examining engine diagram when accessible is false and engine diagram 
 	say line break;
 	say "        * this substance can only be produced, not input.";
 	say variable letter spacing;
-	if diagram tipped is false:
-		say line break;
-		tip "Use 'substance > input' to set each input. For instance, 'Un > 3' sets input 3 to Unobtainium. You may also use 'set <input> to <substance>' for the same effect. Use 'disconnect <input>' to disconnect an input.";
-		now diagram tipped is true;
+	say line break;
+	tip "Use 'substance > input' to set each input. For instance, 'Un > 3' sets input 3 to Unobtainium. You may also use 'set <input> to <substance>' for the same effect. Use 'disconnect <input>' to disconnect an input.";
 		
 To decide what substance is first input value:
 	if get key input 1 of Engine Inputs is some let X be the value:
@@ -5669,17 +5682,15 @@ Instead of examining engine diagram when accessible is true and engine diagram i
 	if product-3 is set:
 		say "The final product of the injection process is [product-3].";
 	say "The possible inputs are Anti-Helium, Oganesson, Red Matter, Tachyon Crystals, and Unobtainium. There are two additional possible outputs: Liquid Copernicium and Void Matter.";
-	if diagram tipped is false:
-		say line break;
-		tip "Use 'substance > input' to set each input. For instance, 'Un > 3' sets input 3 to Unobtainium. You may also use 'set <input> to <substance>' for the same effect. Use 'disconnect <input>' to disconnect an input.";
-		now diagram tipped is true;
+	say line break;
+	tip "Use 'substance > input' to set each input. For instance, 'Un > 3' sets input 3 to Unobtainium. You may also use 'set <input> to <substance>' for the same effect. Use 'disconnect <input>' to disconnect an input.";
 	
 	
 
 Empty-space is a substance. The symbol is "--". 
 Void Matter is a substance. The symbol is "VM". Understand "VM" as Void Matter.
 Oganesson is a substance. The symbol is "Og". Understand "Og" as Oganesson. Oganesson is inputtable.
-Unobtainium is a substance. The symbol is "Un". Understand "Un" as Unobtainium. Unobtainium is inputtable.
+Unobtainium is a substance. The symbol is "Un". Understand "Un" and "unobtanium" as Unobtainium. Unobtainium is inputtable.
 Red Matter is a substance. The symbol is "RM". Understand "RM" as Red Matter. Red Matter is inputtable.
 Liquid Copernicium is a substance. The symbol is "LC". Understand "LC" as Liquid Copernicium.
 Anti-Helium is a substance. The symbol is "AH". Understand "AH" as Anti-Helium. Anti-Helium is inputtable.
@@ -6106,7 +6117,7 @@ Carry out abouting:
 
 Book 21 - Not for Release
 
-DEBUG is false.
+DEBUG is true.
 
 When play begins:
 	if DEBUG is true:
@@ -6195,7 +6206,7 @@ test win with "test fuel/f/f/ask arvax about ship/f/touch command console/comput
 
 test protocols with "test arvax/computer, access code 3/computer, emergency protocols"
 
-test explode with "test protocols/ask arvax about ship/f/open pilot's panel with hex-shaped tool/x panel/open it/a/tell arvax about helm/ask arvax about ship/a/a/x diagram/ask computer about void matter/tc > 4/ask computer about tc/ah > 3/ask computer about rm/un > 1/tc > 2/press test".
+test explode with "test protocols/ask arvax about ship/f/open helm panel with hex-shaped tool/x panel/open it/a/tell arvax about helm/ask arvax about ship/a/a/x diagram/ask computer about void matter/tc > 4/ask computer about tc/ah > 3/ask computer about rm/un > 1/tc > 2/press test".
 
 test nobly with "test explode/z/z/z/z/z/z/z/z/z/z".
 

@@ -6112,7 +6112,7 @@ Carry out abouting:
 	say banner text;
 	say the list of extension credits;
 	say paragraph break;
-	say "Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Stu Dobbie, and Jade.";
+	say "Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Peter Gross, Drew Cook, Stu Dobbie, and Jade.";
 	say "Special thanks to Laura Taalman for so many great ideas and improvements.";
 
 Book 21 - Not for Release

@@ -8178,7 +8178,71 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
 [172] s
 [173] out
 </commentary>
-        <children></children>
+        <children><child nodeId="node-2778"></child>
+        </children>
+    </item>
+    <item nodeId="node-2778">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 6 / Serial number 220819 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+[Better get a move on], you think.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2779"></child>
+        </children>
+    </item>
+    <item nodeId="node-2779">
+        <command xml:space="preserve">about</command>
+        <result xml:space="preserve">Crash
+An Interactive Disaster by Phil Riley
+Release 6 / Serial number 220819 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Standard Rules version 3/120430 by Graham Nelson
+Adaptive Hints version 7 by Eric Eve
+Conversation Framework version 11 by Eric Eve
+Conversation Responses version 7 by Eric Eve
+Epistemology version 9 by Eric Eve
+Exit Lister version 11 by Eric Eve
+Data Structures version 1/220331 by Dannii Willis
+Nautical Directions by Philip Riley
+
+
+Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Stu Dobbie, and Jade.
+Special thanks to Laura Taalman for so many great ideas and improvements.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2780"></child>
+        </children>
+    </item>
+    <item nodeId="node-2780">
+        <command xml:space="preserve">credits</command>
+        <result xml:space="preserve">Crash
+An Interactive Disaster by Phil Riley
+Release 6 / Serial number 220819 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Standard Rules version 3/120430 by Graham Nelson
+Adaptive Hints version 7 by Eric Eve
+Conversation Framework version 11 by Eric Eve
+Conversation Responses version 7 by Eric Eve
+Epistemology version 9 by Eric Eve
+Exit Lister version 11 by Eric Eve
+Data Structures version 1/220331 by Dannii Willis
+Nautical Directions by Philip Riley
+
+
+Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Stu Dobbie, and Jade.
+Special thanks to Laura Taalman for so many great ideas and improvements.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1543">
         <command xml:space="preserve">test airlock</command>

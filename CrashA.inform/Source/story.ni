@@ -24,7 +24,7 @@ The story title is "Crash".
 The story author is "Phil Riley".
 The story headline is "An Interactive Disaster".
 The story genre is "Science Fiction".
-The release number is 6.
+The release number is 9.
 The story creation year is 2022.
 
 DEBUG is a truth state that varies. DEBUG is initially false.
@@ -2961,7 +2961,7 @@ Machine Room is port of Engineering Deck.
 
 Engine Room is aft of Engineering Deck.
 
-Midship Door is a door. It is below Operations Deck. It is closed. The description is "The midship door is a square hatch, separating Operations Deck from the Galley. It is made of a strong black plastic/metal alloy."
+Midship Door is a door. It is below Operations Deck. It is closed. The description is "The midship door is a square horizontal hatch, separating Operations Deck from the Galley. It is made of a strong black plastic/metal alloy."
 
 Galley is below Midship Door. "This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
 
@@ -3341,6 +3341,10 @@ Every turn while protocols-in-progress is true:
 
 Section 3 - Operations Deck
 
+After going to operations deck for the first time:
+	deactivate table of midship door hints;
+	continue the action;
+
 Fore blue button is a button in operations. It is scenery. "It's a blue button."
 
 The equipment trunk is a container in Operations. The equipment trunk blocks the Midship Door. It is closed, locked, and lockable. "A large equipment trunk lies on the midship door, blocking it." [The mass of the equipment trunk is 150.] The description is "It's a large black trunk with an electronic lock. You need the correct code to open it."
@@ -3680,6 +3684,9 @@ Section 8 - Galley
 
 The galley's blue button is a button.
 
+After going to the galley for the first time:
+	activate the table of midship door hints;
+	continue the action;
 
 The kitchen counter is a supporter in the Galley. It is scenery. "A standard kitchen counter."
 
@@ -5940,6 +5947,7 @@ title	subtable
 "How do I fix the engine?"	Table of Engine Hints
 "How do I move the engine stabilizer?"	Table of Moving Engine Hints
 "Can I survive blowing up the ship?"	Table of Surviving Self-destruction Hints
+"How do I get past the midship door?"	Table of Midship Door Hints
 
 Table of Beginning Hints
 hint	used (a number)
@@ -6104,6 +6112,13 @@ hint	used (a number)
 "You also need some way for people to find you floating in space."	
 "Look for the beacon in the starboard-side locker."
 
+Table of Midship Door Hints
+hint	used (a number)
+"No, there isn't a person standing on the door."	
+"But there is *something* on the door."	
+"You're going to have to move it."	
+"So you'll have to get to the other side of the door."	
+
 Book 20 - About
 
 abouting is an action out of world. Understand "about" and "credits" as abouting.
@@ -6117,7 +6132,7 @@ Carry out abouting:
 
 Book 21 - Not for Release
 
-DEBUG is true.
+DEBUG is false.
 
 When play begins:
 	if DEBUG is true:

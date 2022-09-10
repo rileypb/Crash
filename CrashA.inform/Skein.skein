@@ -8641,12 +8641,17 @@ A large equipment trunk lies on the midship door, blocking it.
     </item>
     <item nodeId="node-1724">
         <command xml:space="preserve">hints</command>
-        <result xml:space="preserve"> &gt; How do I fix the microwave oven?
-   How do I fix the equipment cabinet?
-   How do I use the shipboard computer?
-   How do I avoid being knocked unconscious?
-   How do I recharge the vac suit's air?
-</result>
+        <result xml:space="preserve">
+
+
+
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1701">

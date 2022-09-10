@@ -24,7 +24,7 @@ The story title is "Crash".
 The story author is "Phil Riley".
 The story headline is "An Interactive Disaster".
 The story genre is "Science Fiction".
-The release number is 9.
+The release number is 10.
 The story creation year is 2022.
 
 DEBUG is a truth state that varies. DEBUG is initially false.
@@ -1615,13 +1615,13 @@ Understand "hear" as listening.
 Understand "search under [something]" as looking under.
 	
 Instead of listening when the player is in the Galley:
-	say "You can hear someone talking above you, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
+	say "You can hear someone talking above you, but their gender is unclear. They're talking in short bursts with pauses between them, and no one seems to be answering.";
 	
 Instead of listening when the player is in the Bridge:
-	say "You can hear someone talking aft from here, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
+	say "You can hear someone talking aft from here, but their gender is unclear. They're talking in short bursts with pauses between them, and no one seems to be answering.";
 	
 Instead of listening when the player is in the Engineering:
-	say "You can hear someone talking forward from here, but it's unclear if they're male or female. They're talking in short bursts with pauses between them, and no one seems to be answering.";
+	say "You can hear someone talking forward from here, but their gender is unclear. They're talking in short bursts with pauses between them, and no one seems to be answering.";
 	
 Instead of going down when player is on something:
 	try exiting;

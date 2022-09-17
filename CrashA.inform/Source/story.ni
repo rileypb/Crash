@@ -649,6 +649,10 @@ Instead of doing something other than masticating or examining to the chewing gu
 	
 Instead of removing the chewing gum from something when gum is stuck to the second noun:
 	try taking the chewing gum;
+	
+Report waiting when the chewing gum is currently chewed:
+	say "Chew, chew, chew...";
+	rule succeeds;
 
 Section 1 - Sticking gum to things
 
@@ -4787,6 +4791,9 @@ Instead of taking suit locker 2 when gravity is 1:
 Report turning over suit locker 2:
 	say "You turn over the locker. Now it's door-side-up.";
 	rule succeeds;
+	
+After dropping black trunk in Staging Area:
+	say "You place the black trunk near the airlock door.";
 	
 EVA transport line in play is a truth state that varies.
 

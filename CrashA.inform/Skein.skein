@@ -8954,7 +8954,7 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 8 / Serial number 220904 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 12 / Serial number 220916 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8972,7 +8972,117 @@ This is a busy place when the ship is populated. To port and starboard are the c
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1123"></child>
+            <child nodeId="node-1761"></child>
         </children>
+    </item>
+    <item nodeId="node-1761">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1762"></child>
+        </children>
+    </item>
+    <item nodeId="node-1762">
+        <command xml:space="preserve">open cabinet</command>
+        <result xml:space="preserve">You open the port-side equipment cabinet, revealing an engineering uniform and an Universal Game Emulator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1763"></child>
+        </children>
+    </item>
+    <item nodeId="node-1763">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">engineering uniform: Taken.
+Universal Game Emulator: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1764"></child>
+        </children>
+    </item>
+    <item nodeId="node-1764">
+        <command xml:space="preserve">x uniform</command>
+        <result xml:space="preserve">Which do you mean, the engineering uniform or the repair corps uniform?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1765"></child>
+        </children>
+    </item>
+    <item nodeId="node-1765">
+        <command xml:space="preserve">engineering</command>
+        <result xml:space="preserve">Colored the traditional mustard yellow of Engineering, it's really a remarkably ugly uniform.
+
+In the engineering uniform is a piece of note paper.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1766"></child>
+        </children>
+    </item>
+    <item nodeId="node-1766">
+        <command xml:space="preserve">take paper</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1767"></child>
+        </children>
+    </item>
+    <item nodeId="node-1767">
+        <command xml:space="preserve">read it</command>
+        <result xml:space="preserve">Scribbled on the paper is the number 9467.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1768"></child>
+        </children>
+    </item>
+    <item nodeId="node-1768">
+        <command xml:space="preserve">x mer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1769"></child>
+        </children>
+    </item>
+    <item nodeId="node-1769">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Nice uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1770"></child>
+        </children>
+    </item>
+    <item nodeId="node-1770">
+        <command xml:space="preserve">drop all</command>
+        <result xml:space="preserve">piece of note paper: Dropped.
+Universal Game Emulator: Dropped.
+engineering uniform: Dropped.
+To-Do list: You need that to write on.
+
+toolbox: [No. That's my life right there.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1771"></child>
+        </children>
+    </item>
+    <item nodeId="node-1771">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">engineering uniform: Taken.
+Universal Game Emulator: Taken.
+piece of note paper: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1123">
         <command xml:space="preserve">f</command>

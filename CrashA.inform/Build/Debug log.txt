@@ -186,7 +186,7 @@ Phase XIII ... Compilation now complete
 
 CAT "A cartoon spaceship."
 Total of 195 files written as streams.
-CPU time: 458 centiseconds
+CPU time: 466 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

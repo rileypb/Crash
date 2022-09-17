@@ -30,7 +30,7 @@
             <attached>
                 <release>
                     <releasedate>2022-09-16</releasedate>
-                    <version>11</version>
+                    <version>12</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
                 </release>
@@ -43,7 +43,7 @@
         </colophon>
         <glulx>
             <serial>220916</serial>
-            <release>11</release>
+            <release>12</release>
             <compiler>Inform 7 build 6M62</compiler>
             <coverpicture>1</coverpicture>
         </glulx>

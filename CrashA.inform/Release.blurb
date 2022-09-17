@@ -19,7 +19,7 @@ picture 1 "/Users/rileypb/dev/Inform/Crash/CrashA.materials/Cover.png"
 ! Placeholder variables
 
 placeholder [IFID] = "BE586F0C-7411-4583-8F2C-6114B06543B5"
-placeholder [RELEASE] = "13"
+placeholder [RELEASE] = "14"
 placeholder [YEAR] = "2022"
 placeholder [TITLE] = "Crash"
 placeholder [AUTHOR] = "Phil Riley"

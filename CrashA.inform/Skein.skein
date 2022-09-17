@@ -9317,7 +9317,12 @@ You get onto the black trunk.
     </item>
     <item nodeId="node-1877">
         <command xml:space="preserve">replace sensor</command>
-        <result xml:space="preserve">I'm not sure what you're referring to.
+        <result xml:space="preserve">You remove the broken sensor and insert the fresh sensor into the empty socket.
+[There. That should do it.]
+
+It seems you completed something ("fix the airlock door") that wasn't on your to-do list. You note it down.
+
+[Your score has just gone up by one point.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

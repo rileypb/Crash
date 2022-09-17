@@ -24,7 +24,7 @@ The story title is "Crash".
 The story author is "Phil Riley".
 The story headline is "An Interactive Disaster".
 The story genre is "Science Fiction".
-The release number is 13.
+The release number is 14.
 The story creation year is 2022.
 
 DEBUG is a truth state that varies. DEBUG is initially false.

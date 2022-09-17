@@ -1216,7 +1216,7 @@ The new optical sensor is a thing. The description is "The optical sensor is a s
 The present is a thing contained in the black trunk's inside. The description is "This is a box wrapped in paper obviously intended for a child. Written on the outside is the message 'To Mitchell, Happy Second Birthday! Love, Uncle Fred'"
 
 Bertie the Bear is a thing. The printed name is "Bertie the Bear™". The description is "Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals.[if the eyes are nowhere] This bear seems to be missing his eyes.[otherwise] This bear's blindly staring eyes are unnerving.[end if]".
-The eyes are parts of Bertie the Bear. The description of the eyes is "They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.". Understand "optical" and "sensors", "sensor" as the eyes.
+The eyes are parts of Bertie the Bear. The description of the eyes is "They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.". Understand "optical" and "sensors", "sensor", "eye" as the eyes.
 
 Instead of taking off the eyes:
 	try taking the eyes instead;
@@ -3728,6 +3728,9 @@ To say socket description:
 		say ". The microwave oven is plugged in to it";
 	otherwise if wall socket is plugged-up:
 		say ". Upon close inspection, you notice that it's clogged up with dust";
+
+Instead of searching the wall socket:
+	say "[socket description].";
 		
 Instead of rubbing the wall socket:
 	say "Your fingers won't fit into the socket to reach the dust.";
@@ -3738,7 +3741,7 @@ Instead of inserting something into the wall socket:
 	say "No.[paragraph break]";
 	tip "Hey kids, never stick anything into an electrical outlet!";
 	
-Cleaning it with is an action applying to two things. Understand "clean [something] with [something]" as cleaning it with. Understand "vacuum [something] with [something]" as cleaning it with.
+Cleaning it with is an action applying to two things. Understand "clean [something] with [something]" as cleaning it with. Understand "vacuum [something] with [something]" as cleaning it with. Understand "unclog [something] with [something]" as cleaning it with.
 Vacuuming is an action applying to one thing. Understand "vacuum [something]" as vacuuming.
 
 Instead of vacuuming something:
@@ -3765,6 +3768,14 @@ Report cleaning the wall socket with the portable vacuum when the wall socket wa
 	
 Report cleaning something with something:
 	say "You vacuum [the noun] a little.";
+	
+Blowing into is an action applying to one thing. Understand "blow into [something]" as blowing into.
+
+Instead of blowing into the wall socket:
+	say "There's too much dust in there for that to be effective.";
+	
+Report blowing into something:
+	say "Blowing into [the noun] accomplishes nothing.";
 
 Instead of inserting an MRE into the microwave oven:
 	say "MREs are self-heating; there's no need to microwave them.";
@@ -4523,6 +4534,9 @@ The starboard-side equipment cabinet can be unrepaired or repaired. The starboar
 
 The beacon is in the starboard-side equipment cabinet. The description is "A device for broadcasting the location of an object in space."
 
+After entering the starboard-side top bunk when the starboard-side equipment cabinet is unrepaired:
+	say "As you clamber up, it looks like there's something wrong with the cabinet door.";
+
 The crooked screw is contained in the starboard-side cabinet door. The description is "The screw is bent beyond repair.".
 
 Instead of opening the starboard-side equipment cabinet when the starboard-side equipment cabinet is unrepaired:
@@ -4868,6 +4882,17 @@ Instead of inserting the optical sensor into the panel when player is on the bla
 	now the optical sensor is nowhere;
 	say "You insert the fresh sensor into the empty socket.";
 	think "There. That should do it.";
+	
+Replacing sensor is an action applying to nothing. Understand "replace the/-- broken/-- optical/-- sensor" as replacing sensor.
+Check replacing sensor:
+	say "I'm not sure what you're referring to.";
+	
+Instead of replacing sensor when the black trunk is in the staging area and the player is on the black trunk and aft airlock inner door broken is true and player carries the optical sensor and the broken sensor is in the room of stuff:
+	now aft airlock inner door broken is false;
+	tick off fix the airlock door;
+	now the optical sensor is nowhere;
+	say "You remove the broken sensor and insert the fresh sensor into the empty socket.";
+	think "There. That should do it.";	
 	
 The explosion is a backdrop. The description is "Receding behind the SS Usagi, the explosion of Space Station Omicron-5 sadly fades. [think]That's where I lived.[think end]". Understand "debris", "rubble", "embers" as explosion.
 

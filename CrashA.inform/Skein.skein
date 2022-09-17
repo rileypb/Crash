@@ -8799,6 +8799,7 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1119"></child>
+            <child nodeId="node-1830"></child>
             <child nodeId="node-1746"></child>
         </children>
     </item>
@@ -8902,6 +8903,181 @@ Release 11 / Serial number 220916 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1830">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1831"></child>
+        </children>
+    </item>
+    <item nodeId="node-1831">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">The only obvious exit is fore.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1832"></child>
+        </children>
+    </item>
+    <item nodeId="node-1832">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1833"></child>
+        </children>
+    </item>
+    <item nodeId="node-1833">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1834"></child>
+        </children>
+    </item>
+    <item nodeId="node-1834">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+[What now?]
+
+[I think I spit out my gum.]
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 13 / Serial number 220916 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1835"></child>
+        </children>
+    </item>
+    <item nodeId="node-1835">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1836"></child>
+        </children>
+    </item>
+    <item nodeId="node-1836">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1837"></child>
+        </children>
+    </item>
+    <item nodeId="node-1837">
+        <command xml:space="preserve">look under bed</command>
+        <result xml:space="preserve">You find a black trunk and move it out from under the bottom bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+You can also see a black trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1838"></child>
+        </children>
+    </item>
+    <item nodeId="node-1838">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the black trunk, revealing a present.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1839"></child>
+        </children>
+    </item>
+    <item nodeId="node-1839">
+        <command xml:space="preserve">open present</command>
+        <result xml:space="preserve">[I'll go to hell for this, but here goes...]
+
+You rip off the wrapping paper and open the box. Inside is a stuffed bear you recognize as Bertie the Bear™. You discard the paper and box.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1840"></child>
+        </children>
+    </item>
+    <item nodeId="node-1840">
+        <command xml:space="preserve">take etye</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1841"></child>
+        </children>
+    </item>
+    <item nodeId="node-1841">
+        <command xml:space="preserve">take eye</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1842"></child>
+        </children>
+    </item>
+    <item nodeId="node-1842">
+        <command xml:space="preserve">x eyes\</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1843"></child>
+        </children>
+    </item>
+    <item nodeId="node-1843">
+        <command xml:space="preserve">x eyes</command>
+        <result xml:space="preserve">They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1119">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
@@ -8954,11 +9130,12 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 12 / Serial number 220916 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 13 / Serial number 220916 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1122"></child>
+        <children><child nodeId="node-1820"></child>
+            <child nodeId="node-1122"></child>
         </children>
     </item>
     <item nodeId="node-1122">
@@ -8973,7 +9150,287 @@ This is a busy place when the ship is populated. To port and starboard are the c
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1123"></child>
             <child nodeId="node-1761"></child>
+            <child nodeId="node-1777"></child>
         </children>
+    </item>
+    <item nodeId="node-1777">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1778"></child>
+            <child nodeId="node-1866"></child>
+        </children>
+    </item>
+    <item nodeId="node-1866">
+        <command xml:space="preserve">look under bed</command>
+        <result xml:space="preserve">You find a black trunk and move it out from under the bottom bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+You can also see a black trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1867"></child>
+        </children>
+    </item>
+    <item nodeId="node-1867">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the black trunk, revealing a present.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1868"></child>
+        </children>
+    </item>
+    <item nodeId="node-1868">
+        <command xml:space="preserve">open present</command>
+        <result xml:space="preserve">[I'll go to hell for this, but here goes...]
+
+You rip off the wrapping paper and open the box. Inside is a stuffed bear you recognize as Bertie the Bear™. You discard the paper and box.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1869"></child>
+        </children>
+    </item>
+    <item nodeId="node-1869">
+        <command xml:space="preserve">take eyes</command>
+        <result xml:space="preserve">[Am I really going to do this? Yes, yes, I am, apparently.]
+
+You grasp one of the eyes and give it a tug, first softly then harder. Eventually it gives and you extract the eye from the bear. Upon examination you discover that the eye is in fact an optical sensor in camouflage. It looks like you didn't pull it carefully enough, however, because the connector at the end has been damaged.
+
+You try again more carefully with the second eye, and manage to produce an undamaged optical sensor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1870"></child>
+        </children>
+    </item>
+    <item nodeId="node-1870">
+        <command xml:space="preserve">take chest</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1871"></child>
+        </children>
+    </item>
+    <item nodeId="node-1871">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a black trunk (open but empty)
+  a new optical sensor
+  Bertie the Bear™
+  a To-Do list
+  a repair corps uniform (being worn)
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1872"></child>
+        </children>
+    </item>
+    <item nodeId="node-1872">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1873"></child>
+        </children>
+    </item>
+    <item nodeId="node-1873">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1874"></child>
+        </children>
+    </item>
+    <item nodeId="node-1874">
+        <command xml:space="preserve">drop trunk</command>
+        <result xml:space="preserve">You place the black trunk near the airlock door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1875"></child>
+        </children>
+    </item>
+    <item nodeId="node-1875">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+You can also see a black trunk (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1876"></child>
+        </children>
+    </item>
+    <item nodeId="node-1876">
+        <command xml:space="preserve">get on trunk</command>
+        <result xml:space="preserve">(first closing the black trunk)
+You get onto the black trunk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1877"></child>
+        </children>
+    </item>
+    <item nodeId="node-1877">
+        <command xml:space="preserve">replace sensor</command>
+        <result xml:space="preserve">I'm not sure what you're referring to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1878"></child>
+            <child nodeId="node-1904"></child>
+        </children>
+    </item>
+    <item nodeId="node-1904">
+        <command xml:space="preserve">showme black trunk</command>
+        <result xml:space="preserve">black trunk - supporter
+    black trunk (part of black trunk) - closed container
+    yourself - person
+        new optical sensor
+        Bertie the Bear™
+        To-Do list
+        repair corps uniform (worn)
+            repair corps patch (part of repair corps uniform)
+        toolbox
+            screwdriver (part of toolbox) - tool-thing
+            wrench (part of toolbox) - tool-thing
+            pliers (part of toolbox) - tool-thing
+            fasteners (part of toolbox) - tool-thing
+location: in the Staging Area
+singular-named, improper-named; unlit, inedible, portable, handled, seen, familiar, screwed; enterable
+list grouping key: none
+printed name: "black trunk"
+printed plural name: "supporters"
+indefinite article: none
+description: "This is a large, plain black trunk with steel trim. It latches shut, but doesn't have a locking mechanism."
+initial appearance: none
+last utterance: none
+readable text: none
+voice locale: yourself
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1878">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Staging Area (on the black trunk)
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1879"></child>
+        </children>
+    </item>
+    <item nodeId="node-1879">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a new optical sensor
+  Bertie the Bear™
+  a To-Do list
+  a repair corps uniform (being worn)
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1880"></child>
+        </children>
+    </item>
+    <item nodeId="node-1880">
+        <command xml:space="preserve">x panel</command>
+        <result xml:space="preserve">The prominent features of the panel are two optical sensors. One of them has become partially detached and looks broken.
+
+You add an item ("fix the airlock door") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1881"></child>
+        </children>
+    </item>
+    <item nodeId="node-1881">
+        <command xml:space="preserve">replace sensor</command>
+        <result xml:space="preserve">I'm not sure what you're referring to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1778">
+        <command xml:space="preserve">get on</command>
+        <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1779"></child>
+        </children>
+    </item>
+    <item nodeId="node-1779">
+        <command xml:space="preserve">get on bunk</command>
+        <result xml:space="preserve">As you clamber up, it looks like there's something wrong with the cabinet door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1780"></child>
+        </children>
+    </item>
+    <item nodeId="node-1780">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1761">
         <command xml:space="preserve">p</command>
@@ -9097,7 +9554,164 @@ You faintly hear someone speaking above.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1124"></child>
+            <child nodeId="node-1787"></child>
+            <child nodeId="node-1812"></child>
+            <child nodeId="node-1801"></child>
         </children>
+    </item>
+    <item nodeId="node-1801">
+        <command xml:space="preserve">unplug plug</command>
+        <result xml:space="preserve">You unplug the microwave oven.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1802"></child>
+        </children>
+    </item>
+    <item nodeId="node-1802">
+        <command xml:space="preserve">blow into socket</command>
+        <result xml:space="preserve">There's too much dust in there for that to be effective.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1803"></child>
+        </children>
+    </item>
+    <item nodeId="node-1803">
+        <command xml:space="preserve">blow into uniform</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1804"></child>
+        </children>
+    </item>
+    <item nodeId="node-1804">
+        <command xml:space="preserve">blow into me</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1805"></child>
+        </children>
+    </item>
+    <item nodeId="node-1805">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a To-Do list
+  a repair corps uniform (being worn)
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1812">
+        <command xml:space="preserve">unplug oven</command>
+        <result xml:space="preserve">You unplug the microwave oven.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1813"></child>
+        </children>
+    </item>
+    <item nodeId="node-1813">
+        <command xml:space="preserve">look in socket</command>
+        <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1814"></child>
+        </children>
+    </item>
+    <item nodeId="node-1814">
+        <command xml:space="preserve">look into socket</command>
+        <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1815"></child>
+        </children>
+    </item>
+    <item nodeId="node-1815">
+        <command xml:space="preserve">x it</command>
+        <result xml:space="preserve">It's an ordinary grounded wall socket. Upon close inspection, you notice that it's clogged up with dust.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1787">
+        <command xml:space="preserve">unplug</command>
+        <result xml:space="preserve">What do you want to unplug?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1788"></child>
+        </children>
+    </item>
+    <item nodeId="node-1788">
+        <command xml:space="preserve">unplug microwave</command>
+        <result xml:space="preserve">(the microwave oven)
+You unplug the microwave oven.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1789"></child>
+        </children>
+    </item>
+    <item nodeId="node-1789">
+        <command xml:space="preserve">x plug</command>
+        <result xml:space="preserve">It's an ordinary grounded plug.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1790"></child>
+        </children>
+    </item>
+    <item nodeId="node-1790">
+        <command xml:space="preserve">x socket</command>
+        <result xml:space="preserve">It's an ordinary grounded wall socket. Upon close inspection, you notice that it's clogged up with dust.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1791"></child>
+        </children>
+    </item>
+    <item nodeId="node-1791">
+        <command xml:space="preserve">unclog it</command>
+        <result xml:space="preserve">What do you want to unclog the wall socket with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1792"></child>
+        </children>
+    </item>
+    <item nodeId="node-1792">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a To-Do list
+  a repair corps uniform (being worn)
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1793"></child>
+        </children>
+    </item>
+    <item nodeId="node-1793">
+        <command xml:space="preserve">uniform</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1794"></child>
+        </children>
+    </item>
+    <item nodeId="node-1794">
+        <command xml:space="preserve">unclog socket with socket</command>
+        <result xml:space="preserve">The wall socket cannot be used as a vacuum cleaner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1124">
         <command xml:space="preserve">hints</command>
@@ -9195,6 +9809,229 @@ Operations Deck
 This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
 
 A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1820">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1821"></child>
+            <child nodeId="node-1849"></child>
+        </children>
+    </item>
+    <item nodeId="node-1849">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1850"></child>
+        </children>
+    </item>
+    <item nodeId="node-1850">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1851"></child>
+        </children>
+    </item>
+    <item nodeId="node-1851">
+        <command xml:space="preserve">look under bed</command>
+        <result xml:space="preserve">You find a black trunk and move it out from under the bottom bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+You can also see a black trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1852"></child>
+        </children>
+    </item>
+    <item nodeId="node-1852">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the black trunk, revealing a present.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1853"></child>
+        </children>
+    </item>
+    <item nodeId="node-1853">
+        <command xml:space="preserve">open present</command>
+        <result xml:space="preserve">[I'll go to hell for this, but here goes...]
+
+You rip off the wrapping paper and open the box. Inside is a stuffed bear you recognize as Bertie the Bear™. You discard the paper and box.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1854"></child>
+        </children>
+    </item>
+    <item nodeId="node-1854">
+        <command xml:space="preserve">take eye</command>
+        <result xml:space="preserve">[Am I really going to do this? Yes, yes, I am, apparently.]
+
+You grasp one of the eyes and give it a tug, first softly then harder. Eventually it gives and you extract the eye from the bear. Upon examination you discover that the eye is in fact an optical sensor in camouflage. It looks like you didn't pull it carefully enough, however, because the connector at the end has been damaged.
+
+You try again more carefully with the second eye, and manage to produce an undamaged optical sensor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1855"></child>
+        </children>
+    </item>
+    <item nodeId="node-1855">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+You can also see a cardboard box (empty), some wrapping paper, and a black trunk (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1856"></child>
+        </children>
+    </item>
+    <item nodeId="node-1856">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a new optical sensor
+  Bertie the Bear™
+  a To-Do list
+  a repair corps uniform (being worn)
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1857"></child>
+        </children>
+    </item>
+    <item nodeId="node-1857">
+        <command xml:space="preserve">x bear</command>
+        <result xml:space="preserve">Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals. This bear seems to be missing his eyes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1858"></child>
+        </children>
+    </item>
+    <item nodeId="node-1858">
+        <command xml:space="preserve">take eye</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1859"></child>
+        </children>
+    </item>
+    <item nodeId="node-1859">
+        <command xml:space="preserve">take sensor</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1821">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">The obvious exits are aft (to aft airlock), up and outside (to aft airlock).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1822"></child>
+        </children>
+    </item>
+    <item nodeId="node-1822">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">The obvious exits are aft (to aft airlock), up and outside (to aft airlock).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1823"></child>
+        </children>
+    </item>
+    <item nodeId="node-1823">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1824"></child>
+        </children>
+    </item>
+    <item nodeId="node-1824">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You faintly hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1825"></child>
+        </children>
+    </item>
+    <item nodeId="node-1825">
+        <command xml:space="preserve">unplug oven</command>
+        <result xml:space="preserve">You unplug the microwave oven.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1826"></child>
+        </children>
+    </item>
+    <item nodeId="node-1826">
+        <command xml:space="preserve">look in socket</command>
+        <result xml:space="preserve">It's an ordinary grounded wall socket. Upon close inspection, you notice that it's clogged up with dust
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1827"></child>
+        </children>
+    </item>
+    <item nodeId="node-1827">
+        <command xml:space="preserve">blow into uniform</command>
+        <result xml:space="preserve">Well that was fun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1828"></child>
+        </children>
+    </item>
+    <item nodeId="node-1828">
+        <command xml:space="preserve">blow into socket</command>
+        <result xml:space="preserve">There's too much dust in there for that to be effective.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

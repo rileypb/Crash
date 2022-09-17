@@ -4209,6 +4209,9 @@ The port-side cabinet door is a part of the port-side equipment cabinet. It is p
 The port-side equipment cabinet contains the engineering uniform. The engineering uniform is a wearable container. It contains a piece of note paper.
 The description of the engineering uniform is "Colored the traditional mustard yellow of Engineering, it's really a remarkably ugly uniform.".
 
+Rule for deciding whether all includes the piece of note paper when the piece of note paper is contained in the engineering uniform:
+	It does not.
+
 The piece of note paper is readable. The description is "[the readable text]". The readable text is "Scribbled on the paper is the number 9467."
 
 Rule for printing room description details of the engineering uniform: omit contents in listing;

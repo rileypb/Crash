@@ -2487,6 +2487,7 @@ To decide whether ship is in self-destruct mode:
 After going to operations deck when talking about cs-end-game-reboot and current interlocutor is arvax:
 	reset turns in state;
 	report on ship;
+	continue the action;
 	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-reboot:
 	report on ship;
@@ -2570,6 +2571,8 @@ After saying hello to Arvax when talking about cs-end-game-protocols:
 	
 After going to Operations Deck when talking about cs-end-game-protocols and current interlocutor is arvax:
 	report on ship-protocols;
+	reset turns in state;
+	continue the action;
 	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-protocols:
 	report on ship-protocols;
@@ -3603,6 +3606,9 @@ After printing the locale description of engineering airlock:
 		tip "astern: behind or toward the rear of a ship, spaceship or aircraft.";
 		now tipped astern is true;
 
+After going to Engineering Airlock for the first time:
+	print "Welcome back, visitor. I hope your spacewalk was uneventful.[line break]" as computer near player;
+	continue the action;
 
 Section 6 - Machine Room
 
@@ -3654,7 +3660,7 @@ After examining the fusion engine when the fusion engine is broken:
 Does the player mean examining the fusion engine when the location is Engine Room:
 	It is very likely;
 	
-The engine room monitors is scenery in the Engine Room. Understand "monitor", "electronics", and "controls" as engine room monitors. The description is "Without a degree in fusion propulsion, trying to understand these controls is pointless.".
+The engine room monitors is scenery in the Engine Room. They are plural-named. Understand "monitor", "electronics", and "controls" as engine room monitors. The description is "Without a degree in fusion propulsion, trying to understand these controls is pointless.".
 	
 The broken JL-758 is scenery in the Engine Room. "This is a wide, low, trapezoidal piece of metal like the one you've seen in the Staging Area, only this one looks scorched. It has the marking JL-758 on the front."
 
@@ -4109,6 +4115,10 @@ Instead of inserting the chewing gum into the hole:
 	think "I hope this works.";
 
 Section 10 - Captain's Quarters
+
+After going to Captain's Quarters for the first time:
+	print "Welcome, repairperson. Please observe appropriate respect for sensitive materials while in the Captain's quarters.[line break]" as computer near player;
+	continue the action;
 
 The matching card of Captain's door is the red access card.
 

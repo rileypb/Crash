@@ -3624,7 +3624,12 @@ The description of Engine Room is "This where the combustion process is controll
 
 The engine diagram is in the Engine Room. It is scenery. The description is "This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label 'Delphi Engine Controls Aleph-Null'. Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings."
 
-Understand "screen" as engine diagram.
+Understand "screen" as engine diagram. 
+
+The engine diagram is readable. 
+
+Instead of reading the engine diagram:
+	try examining the engine diagram;
 
 The test button is a button in the engine room. It is scenery. "A square, yellow button with large capital letters saying 'TEST'."
 Understand "yellow button" as test button.

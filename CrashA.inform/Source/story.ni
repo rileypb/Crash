@@ -5476,7 +5476,7 @@ Persuasion rule when asking the shipboard computer to try executing when locatio
 	print "Yes, Captain. Executing evasive maneuvers.[paragraph break]" as shipboard computer near captain's chair;
 	say "The ship pulls out of its dive toward New Da Nang, delivering a g-force that forces the breath out of you despite the intertial dampers. Soon you are turned around and headed for open space.";
 	print "Diverting communications to the bridge.[line break]" as shipboard computer near captain's chair;
-	say "[line break]Arvax comes over comms: 'Diverting SS Usagi to Deneb III. Rendezvous with retrieval crew in approximately twenty-eight minutes.
+	say "[line break]Arvax comes over comms: 'Directing SS Usagi to Deneb III. Rendezvous with retrieval crew in approximately twenty-eight minutes.
 	
 	'Sergeant Screwdriver, this couldn't have happened without you. You deserve to be a hero on New Da Nang, but unfortunately we need to keep
 	this incident secret, as will no doubt be emphasized at your debriefing.

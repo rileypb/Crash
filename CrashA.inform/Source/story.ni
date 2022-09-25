@@ -24,7 +24,7 @@ The story title is "Crash".
 The story author is "Phil Riley".
 The story headline is "An Interactive Disaster".
 The story genre is "Science Fiction".
-The release number is 14.
+The release number is 15.
 The story creation year is 2022.
 
 DEBUG is a truth state that varies. DEBUG is initially false.
@@ -2146,29 +2146,20 @@ the say hello before informing rule is listed first in the check informing it ab
 the say hello before asking rule is listed first in the check asking it about rules.
 the say hello before telling rule is listed first in the check telling it about rules.]
 
+Identity of the player is a fact. The description is "fact".
+
 After saying hello to Arvax when talking about making contact:
 	say "You call out 'Yes! I'm here! I'm here! What's going on?'[paragraph break]";
 	talk about establishing the situation;
-	print "[The Arvax] responds, 'Ahoy there, SS Usagi, good to hear from you. Seems like you're a bit out of sorts, and we'd like to help you out. But before we get into that, who am I speaking to? Tell me about yourself.'[line break]" as arvax near communications console;
-	
-Section 2 - Establishing the Situation
-
-Identity of the player is a fact. The description is "fact".
-
-Response of Arvax when told about the player and talking about establishing the situation:
-	if Arvax knows identity of the player:
-		say "[We] already told [the Arvax] about [ourselves].";
-	otherwise:
-		say "You tell [the arvax] that you're from the repair corps.[paragraph break]";
-		now arvax is familiar; 
-		now arvax knows identity of the player;
-		now arvax is proper-named;
-		print "'Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.[paragraph break]
-		   'So we've got some work to do. I'm [arvax]. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?'[paragraph break]" as arvax near communications console;
-		think "Sergeant Screwdriver, guy thinks he's funny.";
-		talk about waiting for yes;
-
-To reply to yes:
+	print "[The Arvax] responds, 'Ahoy there, SS Usagi, good to hear from you. Seems like you're a bit out of sorts, and we'd like to help you out. But before we get into that, who am I speaking to? Tell me about yourself.'[paragraph break]" as arvax near communications console;
+	say "You tell [the arvax] that you're from the repair corps.[paragraph break]";
+	now arvax is familiar; 
+	now arvax knows identity of the player;
+	now arvax is proper-named;
+	print "'Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.[paragraph break]
+	   'So we've got some work to do. I'm [arvax]. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?'[paragraph break]" as arvax near communications console;
+	think "Sergeant Screwdriver, guy thinks he's funny.";
+	say "'Yes sir!' you proclaim, despite his lame joke.[paragraph break]"; 
 	talk about mulgrew breaks in;
 	activate the Table of Trust Hints;
 	print "'Great, great. Now let's get to work.[paragraph break]
@@ -2176,9 +2167,6 @@ To reply to yes:
 	say "[The Arvax]'s voice breaks up and another voice comes over comms. [run paragraph on]";
 	print "'SS Usagi, this is Captain Jane Mulgrew, please come in. Repeat, this is Captain Mulgrew of the SS Usagi, Usagi come in.'[paragraph break]" as Jane Mulgrew near communications console;
 	think "Somebody else?";
-
-Response of Arvax when saying yes and talking about waiting for yes:
-	reply to yes;
 	
 Response of Arvax when saying no and talking about waiting for yes:
 	say "'Come now, surely there's no reason for such a negative attitude?'";
@@ -3364,7 +3352,14 @@ instead of doing something other than pushing to the equipment trunk for the thi
 
 The environmental console is a thing in Operations. It is scenery. The description is "[The environmental console] contains the controls that deal with the comfort of the occupants, including temperature, pressure, and gravity. [description of the gravity control]".
 
-understand "environmental/environment control/controls" and "environment" as environmental console.
+Understand "environmental/environment control/controls" and "environment" as environmental console.
+Understand "enviro" as environmental console.
+
+Does the player mean doing something to the Universal Game Emulator when the location is Operations Deck:
+	It is very unlikely.
+
+The temperature control is a thing in Operations. It is scenery. The description is "It's a comfortable 295 degrees Kelvin."
+The pressure control is a thing in Operations. It is scenery. The description is "The pressure is right in the middle of safe territory at 30 inHg."
 
 The communications console is a thing in Operations. It is scenery. The description is "[The communications console] is used for all communications, including long-range subspace and short-range radio communications.". Understand "comms" as the communications console.
 
@@ -3568,6 +3563,9 @@ Check messing with the engineering console:
 	
 Instead of touching the engineering console:
 	try messing with the engineering console instead;
+	
+Does the player mean doing something to the engineering console when the location is Engineering Deck:
+	It is very likely;
 
 Check messing with something:
 	say "I'm not sure how you would do that." instead;
@@ -5490,10 +5488,7 @@ Persuasion rule when asking the shipboard computer to try executing when locatio
 	
 	'Now, soldier, time to relax. The crew will be there soon to pick you up.'
 	
-	You relax in the captain's chair and reflect on your accomplishment. When you get to the Deneb III space
-	platform, you are whisked off for a series of debriefings and meetings.
-	
-	At the end of the day, you can barely sleep, as the newest member of the 95th Mechanical Division Special Maintenance Force. Adventure at last!";
+	You relax in the captain's chair and reflect on your accomplishment. At the end of the day, you can barely sleep, as the newest member of the 95th Mechanical Division Special Maintenance Force. Adventure at last!";
 	increase score by 3;
 	now the final result is win;
 	End the story finally saying "You have saved New Da Nang, the SS Usagi, and yourself!";
@@ -6167,7 +6162,7 @@ Carry out abouting:
 
 Book 21 - Not for Release
 
-DEBUG is false.
+DEBUG is true.
 
 When play begins:
 	if DEBUG is true:

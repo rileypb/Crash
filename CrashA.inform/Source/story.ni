@@ -2478,7 +2478,7 @@ To say problems description:
 
 After saying hello to Arvax when talking about cs-end-game-reboot:
 	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.'[line break]" as Arvax near communications console;
-	report on engine;
+	report on ship;
 	reset turns in state;
 
 To decide whether ship is in self-destruct mode:
@@ -2486,12 +2486,12 @@ To decide whether ship is in self-destruct mode:
 	
 After going to operations deck when talking about cs-end-game-reboot and current interlocutor is arvax:
 	reset turns in state;
-	report on engine;
+	report on ship;
 	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-reboot:
-	report on engine;
+	report on ship;
 	
-To report on engine:
+To report on ship:
 	[say "'The only thing we have time to focus on is the ship![paragraph break]";]
 	if turns left < 20 and problems exist:
 		print "[line break]'I'm sorry... you're going to have to destroy the ship. We're out of time.'[line break]" as Arvax near communications console;
@@ -2506,7 +2506,7 @@ To report on engine:
 		print "'Friend, if I were to start the fusion engine with the fuel injection you've specified, the ship would explode. Are you sure there is no other option to save the people of New Da Nang?'" as Arvax near communications console;
 		tip "If you really want to blow up the ship, enter 'Arvax, self-destruct' to start the countdown from 10, or press the test button in the engine room.";
 	otherwise if last-moves is false:
-		print "'Looks like the ship is ready to fly! Quick! Get to the bridge and use the command console! Say [']computer, execute[']'[line break]" as Arvax near communications console;
+		print "'Looks like the ship is ready to fly! Quick! I've set up evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and use the command console! Say [']computer, execute[']'[line break]" as Arvax near communications console;
 		now last-moves is true;
 		now turns left is 10;
 		think "Not much time!";
@@ -2527,6 +2527,7 @@ Destruct countdown is a number that varies.
 Carry out Arvax self-destructing:
 	Now destruct in progress is true;
 	Now destruct countdown is 10;
+	Now test sequence countdown is 11;
 	
 	
 [Response of Arvax when asked-or-told about main starboard engine and talking about cs-end-game-reboot:
@@ -2559,14 +2560,21 @@ For asking for attention by Arvax while talking about cs-end-game-protocols:
 cs-end-game-protocols-said-hello is a truth state that varies.
 
 After saying hello to Arvax when talking about cs-end-game-protocols and cs-end-game-protocols-said-hello is false:
-	print "'Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation.'[line break]" as Arvax near communications console;
+	print "'Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation.'[paragraph break]" as Arvax near communications console;
 	now cs-end-game-protocols-said-hello is true;
+	report on ship-protocols;
 	reset turns in state;
 	
 After saying hello to Arvax when talking about cs-end-game-protocols:
 	print "'No time for that! What are we going to do?'" as Arvax near communications console;
 	
+After going to Operations Deck when talking about cs-end-game-protocols and current interlocutor is arvax:
+	report on ship-protocols;
+	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-protocols:
+	report on ship-protocols;
+
+To report on ship-protocols:
 	if turns left < 20:
 		print "[line break]'I'm sorry... you're going to have to destroy the ship. We're out of time.'[line break]" as Arvax near communications console;
 		think "Oh god, this is it.";
@@ -2598,6 +2606,9 @@ Response of Arvax when asked-or-told about the fusion engine:
 To report on engine:
 	if computer-rebooted is false and protocols-activated is false:
 		say "'I can't get any readings until you reboot the system.'[line break]";
+	otherwise if ship is in self-destruct mode:
+		print "'Friend, if I were to start the fusion engine with the fuel injection you've specified, the ship would explode. Are you sure there is no other option to save the people of New Da Nang?'[paragraph break]" as Arvax near communications console;
+		tip "If you really want to blow up the ship, enter 'Arvax, self-destruct' to start the countdown from 10, or press the test button in the engine room.";
 	otherwise if protocols-activated is true:
 		say "'It's probably the engine stabilizer that's broken, but that doesn't matter without helm control";
 		if arvax aware of melted helm is false:
@@ -6272,4 +6283,4 @@ test nobly with "test explode/z/z/z/z/z/z/z/z/z/z".
 
 test escape with "test explode/f/s/out".
 
-test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/ask arvax about ship/f/x command console/touch it/computer, execute".
+test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/f/x command console/touch it/computer, execute".

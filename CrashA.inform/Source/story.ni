@@ -2478,12 +2478,20 @@ To say problems description:
 
 After saying hello to Arvax when talking about cs-end-game-reboot:
 	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.'[line break]" as Arvax near communications console;
+	report on engine;
 	reset turns in state;
 
 To decide whether ship is in self-destruct mode:
 	decide on whether or not engine output is Void Matter;
 	
+After going to operations deck when talking about cs-end-game-reboot and current interlocutor is arvax:
+	reset turns in state;
+	report on engine;
+	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-reboot:
+	report on engine;
+	
+To report on engine:
 	[say "'The only thing we have time to focus on is the ship![paragraph break]";]
 	if turns left < 20 and problems exist:
 		print "[line break]'I'm sorry... you're going to have to destroy the ship. We're out of time.'[line break]" as Arvax near communications console;

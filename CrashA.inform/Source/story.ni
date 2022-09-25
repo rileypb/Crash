@@ -3629,7 +3629,7 @@ Section 7 - Engine Room
 
 Definition: the engine diagram is rebooted if computer-rebooted is true or protocols-activated is true.
 
-The description of Engine Room is "This where the combustion process is controlled. The aft wall is dominated by the operating panel of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+The description of Engine Room is "This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
 
 [if the engine diagram is rebooted]There is a large diagram of the fuel injection process on the forward wall. [otherwise]There is a large screen on the forward wall. It displays nothing right now. [end if]There is a large button below the diagram labeled 'Test'.";
 

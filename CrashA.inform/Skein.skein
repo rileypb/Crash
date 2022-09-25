@@ -8499,7 +8499,8 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-6526"></child>
+        <children><child nodeId="node-7198"></child>
+            <child nodeId="node-6526"></child>
         </children>
     </item>
     <item nodeId="node-6526">
@@ -9389,6 +9390,77 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 [Rule "notify score changes rule" applies.]
 [Rule "reset report text rule" applies.]
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-7198">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The obvious exits are fore (to bridge), aft (to engineering deck) and down (to galley).
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+"8"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7199"></child>
+        </children>
+    </item>
+    <item nodeId="node-7199">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+"7"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7200"></child>
+        </children>
+    </item>
+    <item nodeId="node-7200">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Engineering Airlock
+You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
+
+"6"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7201"></child>
+        </children>
+    </item>
+    <item nodeId="node-7201">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">You propel yourself away from the ship, away from the explosion that follows moments later. You switch on your beacon. Hours later, after you'd given up hope, a ship of the Space Marines finds you and brings you home. You are sorry you couldn't save the SS Usagi, but for your part in saving the people of New Da Nang, you receive a medal for meritorious service and are promoted to Lance Corporal.
+
+
+
+    *** You saved New Da Nang, but lost the ship. ***
+
+
+In that game you scored 8 out of a possible 10, in 168 turns.
+
+Hooray for saving New Da Nang! The Space Marine leadership is less happy about losing the SS Usagi. But here's your score breakdown. You get one point each for:
+- fixing the aft airlock door
+- fixing the microwave oven
+- fixing the equipment cabinet in the starboard-side crew quarters
+- fixing the storage unit in the port-side crew quarters
+- fixing the fusion engine
+- fixing the captain's door
+
+You also get a point for saving yourself, and a point for saving New Da Nang! Congratulations!
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-4553">

@@ -2322,7 +2322,6 @@ To say Mulgrew code:
 	If mulgrew's security code is arvax's security code:
 		now mulgrew's security code is arvax's security code - 1;
 	say "[mulgrew's security code]";
-	
 To say Arvax code:
 	if Arvax's security code is 0:
 		now Arvax's security code is a random number between 10000 and 99999;
@@ -2385,11 +2384,11 @@ Destroying the ship is endgame-relevant.
 [The divert end game conversation rule is listed first in the before rules.
 ]
 Response of Arvax when asked-or-told about Captain's Affair:
-	print "'Oh, Captain no... We must act fast if we're going to stop what she's put in motion.'[line break]" as Arvax near communications console;
+	print "'Oh, Captain no... We must act fast if we're going to stop her from claiming even more lives.'[line break]" as Arvax near communications console;
 	now Arvax knows Captain's Affair;
 
 Response of Arvax when asked-or-told about Captain's journal and the captain's affair is familiar:
-	print "'Oh, Captain no... We must act fast if we're going to stop what she's put in motion.'[line break]" as Arvax near communications console;
+	print "'Oh, Captain no... We must act fast if we're going to stop her from claiming even more lives.'[line break]" as Arvax near communications console;
 	now Arvax knows Captain's Affair;
 
 Response of Arvax when asked about Da Nang:
@@ -6241,7 +6240,7 @@ test tether with "test staging/a/out/tie EVA transport line to hook/f/tie EVA tr
 
 test captain with "test tether/f/f/d/a/open door with red card/x panel/open panel/take blown fuse/put fuse in panel/close panel/close panel/x panel/put gum in hole/close panel/open door with red card/a/open drawer/take journal/read it/journal, password walrus/journal, password charon/read journal".
 
-test arvax with "test captain/f/f/u/z/hello/tell caller about me/yes/hello/tell arvax about journal".
+test arvax with "test captain/f/f/u/z/hello/hello/tell arvax about journal".
 
 test reboot with "test arvax/computer, access code 2/computer, reboot/z/z/z/z".
 
@@ -6257,4 +6256,4 @@ test nobly with "test explode/z/z/z/z/z/z/z/z/z/z".
 
 test escape with "test explode/f/s/out".
 
-test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/tell caller about me/yes/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/ask arvax about ship/f/x command console/touch it/computer, execute".
+test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/ask arvax about ship/f/x command console/touch it/computer, execute".

@@ -2497,11 +2497,13 @@ Response of Arvax when asked-or-told about usagi and talking about cs-end-game-r
 	otherwise if ship is in self-destruct mode:
 		print "'Friend, if I were to start the fusion engine with the fuel injection you've specified, the ship would explode. Are you sure there is no other option to save the people of New Da Nang?'" as Arvax near communications console;
 		tip "If you really want to blow up the ship, enter 'Arvax, self-destruct' to start the countdown from 10, or press the test button in the engine room.";
-	otherwise:
+	otherwise if last-moves is false:
 		print "'Looks like the ship is ready to fly! Quick! Get to the bridge and use the command console! Say [']computer, execute[']'[line break]" as Arvax near communications console;
 		now last-moves is true;
 		now turns left is 10;
 		think "Not much time!";
+	otherwise: 
+		print "'Hurry! Get to the bridge!'" as Arvax near communications console;
 		
 Self-destructing is an action applying to nothing. Understand "self-destruct" as self-destructing.
 
@@ -3229,7 +3231,8 @@ Every turn when last-moves is true or protocols-activated is true:
 	if turns left is 0:
 		crash;
 	otherwise if turns left < 11:		
-		say "'Impact in [turns left].'";
+		print "Impact in [turns left]." as computer near player;
+		say line break;
 		
 To crash:
 	if location is bridge:

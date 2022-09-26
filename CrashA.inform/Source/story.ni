@@ -650,7 +650,7 @@ Instead of doing something other than masticating or examining to the chewing gu
 Instead of removing the chewing gum from something when gum is stuck to the second noun:
 	try taking the chewing gum;
 	
-Report waiting when the chewing gum is currently chewed:
+Report waiting when the chewing gum is currently chewed and the location is not in-planetfall:
 	say "Chew, chew, chew...";
 	rule succeeds;
 
@@ -2883,6 +2883,11 @@ Corporal Delores Franck	"Corporal Delores Franck is deployed on the SS Usagi. Fo
 Gunnery Sergeant Somchai Khotpanya	"Gunnery Sergeant Somchai Khotpanya is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
 Private First Class Friedrich Jäger	"Private First Class Friedrich Jäger is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
 Private Akin Abimbola	"Private Akin Abimbola is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
+Captain's journal	"Information on the captain's journal is unavailable to protect the captain's privacy."
+EVA transport line	"An EVA transport line is used to transport a heavy or unwieldy object during EVAs. The line is extended between mooring hooks on the hull, and the object to be transported is hooked to the line."
+Destroying the ship	"Information on self-destruct methods is not available."
+copy of Planetfall	"Planetfall is a beloved classic of interactive science fiction from the 20th century."
+Ensign First Class Blather	"A total megakrip!"
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:
 	say ">>>> [Obj].";
@@ -4262,7 +4267,7 @@ The piece of note paper is readable. The description is "[the readable text]". T
 
 Rule for printing room description details of the engineering uniform: omit contents in listing;
 
-The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "This device, the Universal Game Emulator, or 'UGE', can play any game ever produced for any system.".  Understand "console", "UGE", "MAME" as Universal Game Emulator.
+The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "The Universal Game Emulator, or 'UGE', can play any game ever produced for any system.".  Understand "console", "UGE", "MAME" as Universal Game Emulator.
 
 The port-side bed is in the port-side crew quarters. it is privately-named. The printed name is "bunk bed". It is scenery. The description is "A fairly typical military bunk bed." Understand "bunk" and "bed" as the port-side bed.
 The port-side top bunk is a part of the port-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the port-side top bunk. 

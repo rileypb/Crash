@@ -22,6 +22,7 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
             <child nodeId="node-7693"></child>
             <child nodeId="node-7202"></child>
             <child nodeId="node-7696"></child>
+            <child nodeId="node-8915"></child>
             <child nodeId="node-3431"></child>
             <child nodeId="node-7209"></child>
             <child nodeId="node-2897"></child>
@@ -13026,7 +13027,7 @@ You push the trunk clear of the door.
 &gt;[47] set gravity control to 1
 You dial the gravity to 1.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
 
 
 &gt;[48] press button
@@ -13198,17 +13199,17 @@ Attention all crew: command functions are offline and the computer is running wi
 &gt;[84] z
 Time passes.
 
-The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
+The ambassador offers you a bit of celery.
 
 &gt;[85] z
 Time passes.
 
-The ambassador remarks that all humans look alike to him.
+The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
 
 &gt;[86] z
 Time passes.
 
-The ambassador offers you a bit of celery.
+The ambassador remarks that all humans look alike to him.
 
 &gt;[87] z
 Time passes.
@@ -13484,7 +13485,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 You can see an equipment trunk (closed) here.
 
-A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+A man's voice comes over comms: "Usagi, are you there?"
 
 
 &gt;[117] d
@@ -13569,7 +13570,9 @@ You open the desk drawer, revealing the captain's journal.
 Taken.
 
 &gt;[133] read it
-The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.The captain's journal is an electronic diary which requires a password to open.
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
+The captain's journal is an electronic diary which requires a password to open.
 ⇒ For example, say "journal, password walrus" to unlock the journal with the password "walrus".
 
 Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
@@ -13581,7 +13584,9 @@ The journal beeps once to indicate an invalid login.
 The journal chimes pleasantly and the screen fills with text.
 
 &gt;[136] read journal
-The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.[I never thought it would come to this, eavesdropping on someone's personal thoughts.]
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
+[I never thought it would come to this, eavesdropping on someone's personal thoughts.]
 
 You page through the journal, skimming over the boring parts detailing the running of the ship. Eventually you come across something more interesting:
 
@@ -13734,7 +13739,50 @@ Numerous later passages detail this cooperation, ranging from simple intelligenc
 [136] read journal
 </commentary>
         <children><child nodeId="node-7346"></child>
+            <child nodeId="node-8913"></child>
+            <child nodeId="node-8773"></child>
         </children>
+    </item>
+    <item nodeId="node-8773">
+        <command xml:space="preserve">computer, reboot</command>
+        <result xml:space="preserve">Authorization required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8774"></child>
+        </children>
+    </item>
+    <item nodeId="node-8774">
+        <command xml:space="preserve">computer, invoke emergency protocols</command>
+        <result xml:space="preserve">Authorization required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8775"></child>
+        </children>
+    </item>
+    <item nodeId="node-8775">
+        <command xml:space="preserve">ask computer about journal</command>
+        <result xml:space="preserve">I'm unable to give you any information about journal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-8913">
+        <command xml:space="preserve">ask computer about journal</command>
+        <result xml:space="preserve">Information on the captain's journal is unavailable to protect the captain's privacy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8914"></child>
+        </children>
+    </item>
+    <item nodeId="node-8914">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-7346">
         <command xml:space="preserve">               x door</command>
@@ -16129,6 +16177,286 @@ This is where all of the support activity for the bridge occurs. There are large
 You can see an equipment trunk (closed) here.
 
 Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-8915">
+        <command xml:space="preserve">pf</command>
+        <result xml:space="preserve">PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8916"></child>
+            <child nodeId="node-8939"></child>
+        </children>
+    </item>
+    <item nodeId="node-8939">
+        <command xml:space="preserve">x gum</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8940"></child>
+        </children>
+    </item>
+    <item nodeId="node-8940">
+        <command xml:space="preserve">take it</command>
+        <result xml:space="preserve">I'm not sure what 'it' refers to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-8916">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Patrol uniform (being worn)
+    an ID card
+  a chronometer (being worn)
+  a Patrol-issue self-contained multi-purpose scrub brush
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8917"></child>
+        </children>
+    </item>
+    <item nodeId="node-8917">
+        <command xml:space="preserve">x uniform</command>
+        <result xml:space="preserve">It is a standard-issue one-pocket Stellar Patrol uniform, a miracle of modern technology. It will keep its owner warm in cold climates and cool in warm locales. It provides protection against mild radiation, repels all insects, absorbs sweat, promotes healthy skin tone, and on top of everything else, it is super-comfy.
+
+In the Patrol uniform is an ID card.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8918"></child>
+        </children>
+    </item>
+    <item nodeId="node-8918">
+        <command xml:space="preserve">x card</command>
+        <result xml:space="preserve">"STELLAR PATROL
+ Special Assignment Task Force
+ ID Number:  6172-531-541"
+
+The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet's major exports.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8919"></child>
+        </children>
+    </item>
+    <item nodeId="node-8919">
+        <command xml:space="preserve">x slime</command>
+        <result xml:space="preserve">It looks like slime. Aren't you glad you didn't step in it?
+
+The ambassador inquires whether you are interested in a game of Bocci.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8920"></child>
+        </children>
+    </item>
+    <item nodeId="node-8920">
+        <command xml:space="preserve">clean slime</command>
+        <result xml:space="preserve">Whew. You've cleaned up maybe one ten-thousandth of the slime. If you hurry, it might be all cleaned up before Ensign Blather gets here.
+
+The ambassador offers you a bit of celery.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8921"></child>
+        </children>
+    </item>
+    <item nodeId="node-8921">
+        <command xml:space="preserve">take celery</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8922"></child>
+        </children>
+    </item>
+    <item nodeId="node-8922">
+        <command xml:space="preserve">x it</command>
+        <result xml:space="preserve">It looks like slime. Aren't you glad you didn't step in it?
+
+The ambassador asks if you are performing some sort of religious ceremony.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8923"></child>
+        </children>
+    </item>
+    <item nodeId="node-8923">
+        <command xml:space="preserve">x ambassador</command>
+        <result xml:space="preserve">The ambassador has around twenty eyes, seven of which are currently open. Half of his six legs are retracted. Green slime oozes from multiple orifices in his scaly skin. He speaks through a mechanical translator slung around his neck.
+
+The ambassador grunts a polite farewell, and disappears up the gangway, leaving a trail of dripping slime.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8924"></child>
+        </children>
+    </item>
+    <item nodeId="node-8924">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8925"></child>
+        </children>
+    </item>
+    <item nodeId="node-8925">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">The escape pod bulkhead is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8926"></child>
+        </children>
+    </item>
+    <item nodeId="node-8926">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Reactor Lobby
+The corridor widens here as it nears the main drive area. To starboard is the Ion Reactor that powers the vessel, and aft of here is the Auxiliary Control Room. The corridor continues to port.
+
+Ensign Blather, his uniform immaculate, enters and notices you are away from your post. "Twenty demerits, Ensign Seventh Class!" bellows Blather. "Forty if you're not back on Deck Nine in five seconds!" He curls his face into a hideous mask of disgust at your unbelievable negligence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8927"></child>
+        </children>
+    </item>
+    <item nodeId="node-8927">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Deck Nine
+This is a featureless corridor similar to every other corridor on the ship. It curves away to starboard, and a gangway leads up. To port is the entrance to one of the ship's primary escape pods. The pod bulkhead is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8928"></child>
+        </children>
+    </item>
+    <item nodeId="node-8928">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8929"></child>
+        </children>
+    </item>
+    <item nodeId="node-8929">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet's major exports.
+
+The ambassador remarks that all humans look alike to him.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8930"></child>
+        </children>
+    </item>
+    <item nodeId="node-8930">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+The ambassador asks where Admiral Smithers can be found.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8931"></child>
+        </children>
+    </item>
+    <item nodeId="node-8931">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8932"></child>
+        </children>
+    </item>
+    <item nodeId="node-8932">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8933"></child>
+        </children>
+    </item>
+    <item nodeId="node-8933">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+The ambassador grunts a polite farewell, and disappears up the gangway, leaving a trail of dripping slime.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8934"></child>
+        </children>
+    </item>
+    <item nodeId="node-8934">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8935"></child>
+        </children>
+    </item>
+    <item nodeId="node-8935">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8936"></child>
+        </children>
+    </item>
+    <item nodeId="node-8936">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+A massive explosion rocks the ship. Echoes from the explosion resound deafeningly down the halls.
+ The door to port slides open.
+
+
+[No, no, no. This is hitting too close to home. Better quit and focus on saving the ship.]
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8937"></child>
+        </children>
+    </item>
+    <item nodeId="node-8937">
+        <command xml:space="preserve">x gum</command>
+        <result xml:space="preserve">It still tastes pretty good.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

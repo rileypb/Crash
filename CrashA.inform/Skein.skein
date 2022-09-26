@@ -39,7 +39,8 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4054"></child>
+        <children><child nodeId="node-8942"></child>
+            <child nodeId="node-4054"></child>
         </children>
     </item>
     <item nodeId="node-4054">
@@ -1238,6 +1239,164 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
     <item nodeId="node-4211">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">"I'm seeing the engine fully online. Now you need to get the fuel specification right."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-8942">
+        <command xml:space="preserve">pf</command>
+        <result xml:space="preserve">PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8943"></child>
+        </children>
+    </item>
+    <item nodeId="node-8943">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8944"></child>
+        </children>
+    </item>
+    <item nodeId="node-8944">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Patrol uniform (being worn)
+    an ID card
+  a chronometer (being worn)
+  a Patrol-issue self-contained multi-purpose scrub brush
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8945"></child>
+        </children>
+    </item>
+    <item nodeId="node-8945">
+        <command xml:space="preserve">quit</command>
+        <result xml:space="preserve">You stop playing Planetfall. Time to save the ship.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8946"></child>
+        </children>
+    </item>
+    <item nodeId="node-8946">
+        <command xml:space="preserve">of</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8947"></child>
+        </children>
+    </item>
+    <item nodeId="node-8947">
+        <command xml:space="preserve">pf</command>
+        <result xml:space="preserve">PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8948"></child>
+        </children>
+    </item>
+    <item nodeId="node-8948">
+        <command xml:space="preserve">save</command>
+        <result xml:space="preserve">Save failed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8949"></child>
+        </children>
+    </item>
+    <item nodeId="node-8949">
+        <command xml:space="preserve">quit</command>
+        <result xml:space="preserve">You stop playing Planetfall. Time to save the ship.
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8950"></child>
+        </children>
+    </item>
+    <item nodeId="node-8950">
+        <command xml:space="preserve">purloin uge and planetfall</command>
+        <result xml:space="preserve">Which do you mean, the copy of Planetfall or Gangway?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8951"></child>
+        </children>
+    </item>
+    <item nodeId="node-8951">
+        <command xml:space="preserve">purloin uge and copy of planetfall</command>
+        <result xml:space="preserve">[Purloined.]
+[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8952"></child>
+        </children>
+    </item>
+    <item nodeId="node-8952">
+        <command xml:space="preserve">play planetfall</command>
+        <result xml:space="preserve">(on the Universal Game Emulator)
+PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet's major exports.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8953"></child>
+        </children>
+    </item>
+    <item nodeId="node-8953">
+        <command xml:space="preserve">quit</command>
+        <result xml:space="preserve">You stop playing Planetfall. Time to save the ship.
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8954"></child>
+        </children>
+    </item>
+    <item nodeId="node-8954">
+        <command xml:space="preserve">play planetfall</command>
+        <result xml:space="preserve">(on the Universal Game Emulator)
+[No, I have more important things to do than playing that again.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

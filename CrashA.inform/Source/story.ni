@@ -6213,6 +6213,8 @@ Carry out abouting:
 	say paragraph break;
 	say "Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Peter Gross, Drew Cook, Stu Dobbie, and Jade.";
 	say "Special thanks to Laura Taalman for so many great ideas and improvements.";
+	say line break;
+	say "Also Steve Meretsky.";
 
 Book 21 - Not for Release
 

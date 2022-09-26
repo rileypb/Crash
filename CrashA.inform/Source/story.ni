@@ -3450,7 +3450,6 @@ To print (speech text - a text) as (speaker - a thing) near (locale - a thing) w
 	if locale is in the location:
 		if the speaker is shipboard computer:
 			say fixed letter spacing;
-			say line break;
 		say ST;
 		say variable letter spacing;
 	otherwise if X is 1 and last-turn-count-remote-speech-printed is not turn count:
@@ -4210,6 +4209,8 @@ Captain's Affair is a subject. It is not familiar. The description is "subject".
 Understand "blackmail", "cooperation", "treason", "journal", "diary" as Captain's Affair.
 
 Carry out reading the captain's journal:
+	print "The Captain's journal is considered off-limits to non-command personnel. This incident has been logged." as computer near player;
+	say paragraph break;
 	if locked:
 		say "The captain's journal is an electronic diary which requires a password to open.";
 		tip "For example, say 'journal, password walrus' to unlock the journal with the password 'walrus'.";
@@ -5441,6 +5442,9 @@ Instead of going nowhere when location is Staging Area during Boarding the Ship:
 	
 Instead of taking a vac suit during Boarding the Ship:
 	say "In general, the crew's gear is off-limits.";
+	
+Attention All Crew Spoken is a truth state that varies.
+Explosion Turn is a number that varies.
 				
 Instead of going up when location is Staging Area during Boarding the Ship:
 	say "You climb the la--[paragraph break]";
@@ -5472,6 +5476,8 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	say "[paragraph break]Press any key...";
 	if DEBUG is false:
 		wait for any key;
+	say line break;
+	say banner text;
 	let VS be a random vac suit that is in Staging Area;
 	now the current stuck thing of the chewing gum is VS;
 	now the chewing gum is not currently chewed;
@@ -5493,7 +5499,14 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	move the explosion backdrop to all explosion-seeing rooms;
 	Activate the table of beginning hints;
 	Now the fusion engine is broken;
-	say banner text;
+	Now the explosion turn is -2;
+	
+Every turn when explosion happened is true and computer-rebooted is false and protocols-activated is false:
+	Increment explosion turn;
+	if the remainder after dividing explosion turn by 10 is 0 and location is onboard:
+		print "Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.[line break]" as computer near player;
+		now attention all crew spoken is true;
+	continue the action;
 	
 Chapter 4 - Last Moves
 

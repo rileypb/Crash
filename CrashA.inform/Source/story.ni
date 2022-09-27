@@ -107,9 +107,9 @@ Chapter 2 - Tips
 
 To tip (message - a text):
 	if accessible is true:
-		say "Tip: [message][paragraph break]";
+		say "Tip: [message]";
 	otherwise:
-		say "[unicode 8658] [message][paragraph break]";
+		say "[unicode 8658] [message]";
 		
 Chapter 3 - The Status Line
 
@@ -2496,11 +2496,6 @@ After saying hello to Arvax when talking about cs-end-game-reboot:
 To decide whether ship is in self-destruct mode:
 	decide on whether or not engine output is Void Matter;
 	
-After going to operations deck when talking about cs-end-game-reboot and current interlocutor is arvax:
-	reset turns in state;
-	report on ship;
-	continue the action;
-	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-reboot:
 	report on ship;
 	
@@ -2580,11 +2575,6 @@ After saying hello to Arvax when talking about cs-end-game-protocols and cs-end-
 	
 After saying hello to Arvax when talking about cs-end-game-protocols:
 	print "'No time for that! What are we going to do?'" as Arvax near communications console;
-	
-After going to Operations Deck when talking about cs-end-game-protocols and current interlocutor is arvax:
-	report on ship-protocols;
-	reset turns in state;
-	continue the action;
 	
 Response of Arvax when asked-or-told about usagi and talking about cs-end-game-protocols:
 	report on ship-protocols;
@@ -2975,7 +2965,12 @@ To say view of space:
 	otherwise:
 		say "To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.";
 
-Operations Deck is aft of Bridge. "This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.".
+Operations Deck is aft of Bridge. "This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.[arvax tip]".
+
+To say arvax tip:
+	if computer-rebooted is true or protocols-activated is true:
+		say paragraph break;
+		tip "You can always find out the current status by asking Arvax about the ship.";
 
 Engineering Deck is aft of Operations Deck. "The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system. 
 
@@ -4390,7 +4385,7 @@ After closing the port keypad:
 	continue the action;
 
 The description of the Port top drawer is "The top drawer is labeled 'Franck'. It is [state and contents of port top drawer]."
-The description of the Port bottom drawer is "The bottom drawer is labeled 'Khotpanya'. [if the port bottom drawer is open]It is [state and contents of port bottom drawer].[otherwise if the port bottom drawer is half-open]The bottom drawer juts out by a couple of centimeters.[otherwise]The bottom drawer is closed.[end if]"
+The description of the Port bottom drawer is "The bottom drawer is labeled 'Khotpanya'. [if the port bottom drawer is open]It is [state and contents of port bottom drawer].[otherwise if the port bottom drawer is half-open]It juts out by a couple of centimeters.[otherwise]The bottom drawer is closed.[end if]"
 
 After examining the starboard top drawer:
 	now Delores Franck is familiar;
@@ -5539,7 +5534,7 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	
 Every turn when explosion happened is true and computer-rebooted is false and protocols-activated is false:
 	Increment explosion turn;
-	if the remainder after dividing explosion turn by 10 is 0 and location is onboard:
+	if the remainder after dividing explosion turn by 15 is 0 and location is onboard:
 		print "Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.[line break]" as computer near player;
 		now attention all crew spoken is true;
 	continue the action;
@@ -6330,13 +6325,13 @@ test captain with "test tether/f/f/d/a/open door with red card/x panel/open pane
 
 test arvax with "test captain/f/f/u/z/hello/hello/tell arvax about journal".
 
-test reboot with "test arvax/computer, access code 2/computer, reboot/z/z/z/z".
+test reboot with "test arvax/computer, access code 2/computer, reboot/y/z/z/z/z".
 
 test fuel with "test reboot/ask arvax about ship/a/a/x diagram/ask computer about liquid/og > 4/ask computer about red matter/TC > 3/ask computer about unobtainium/ah > 2/og > 1"; 
 
 test win with "test fuel/f/f/ask arvax about ship/f/touch command console/computer, execute"
 
-test protocols with "test arvax/computer, access code 3/computer, emergency protocols"
+test protocols with "test arvax/computer, access code 3/computer, emergency protocols/y"
 
 test explode with "test protocols/ask arvax about ship/f/open helm panel with hex-shaped tool/x panel/open it/a/tell arvax about helm/ask arvax about ship/a/a/x diagram/ask computer about void matter/tc > 4/ask computer about tc/ah > 3/ask computer about rm/un > 1/tc > 2/press test".
 
@@ -6344,4 +6339,4 @@ test nobly with "test explode/z/z/z/z/z/z/z/z/z/z".
 
 test escape with "test explode/f/s/out".
 
-test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/f/x command console/touch it/computer, execute".
+test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/y/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/f/x command console/touch it/computer, execute".

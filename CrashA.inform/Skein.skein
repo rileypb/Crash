@@ -22,6 +22,7 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
             <child nodeId="node-7693"></child>
             <child nodeId="node-7202"></child>
             <child nodeId="node-8955"></child>
+            <child nodeId="node-10744"></child>
             <child nodeId="node-7696"></child>
             <child nodeId="node-8915"></child>
             <child nodeId="node-3431"></child>
@@ -1493,7 +1494,7 @@ Press any key...
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 15 / Serial number 220925 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
@@ -1741,7 +1742,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
+A man's voice comes over comms: "Usagi, are you there?"
 
 [Finally, another person! I'm saved!]
 
@@ -1755,7 +1756,7 @@ You push the trunk clear of the door.
 &gt;[51] set gravity control to 1
 You dial the gravity to 1.
 
-A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
 
 
 &gt;[52] press button
@@ -1927,17 +1928,17 @@ Attention all crew: command functions are offline and the computer is running wi
 &gt;[88] z
 Time passes.
 
-The ambassador asks if you are performing some sort of religious ceremony.
+The ambassador remarks that all humans look alike to him.
 
 &gt;[89] z
 Time passes.
 
-The ambassador offers you a bit of celery.
+The ambassador inquires whether you are interested in a game of Bocci.
 
 &gt;[90] z
 Time passes.
 
-The ambassador asks where Admiral Smithers can be found.
+The ambassador offers you a bit of celery.
 
 &gt;[91] z
 Time passes.
@@ -2298,6 +2299,8 @@ You open the desk drawer, revealing the captain's journal.
 Taken.
 
 &gt;[137] read it
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
 The captain's journal is an electronic diary which requires a password to open.
 ⇒ For example, say "journal, password walrus" to unlock the journal with the password "walrus".
 
@@ -2310,6 +2313,8 @@ The journal beeps once to indicate an invalid login.
 The journal chimes pleasantly and the screen fills with text.
 
 &gt;[140] read journal
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
 [I never thought it would come to this, eavesdropping on someone's personal thoughts.]
 
 You page through the journal, skimming over the boring parts detailing the running of the ship. Eventually you come across something more interesting:
@@ -2349,7 +2354,7 @@ You can see an equipment trunk (closed) here.
 &gt;[144] z
 Time passes.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 
 &gt;[145] hello
@@ -2362,7 +2367,7 @@ You tell the caller that you're from the repair corps.
 
 "Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.
 
- "So we've got some work to do. I'm Master Sergeant R. Mu Arvax. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
+ "So we've got some work to do. I'm Master Sergeant R. Mu Arvax -- you can ask the ship computer about me. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
 
 [Sergeant Screwdriver, guy thinks he's funny.]
 
@@ -2398,12 +2403,12 @@ Attention all crew: command functions are offline and the computer is running wi
 Welcome, Master Sergeant R. Mu Arvax. Logging you in.
 
 &gt;[149] computer, reboot
+Are you sure you wish to reboot?
+[150] y
+
 Beginning reboot. Take all appropriate precautions.
 
 Red alert lights flash throughout the ship.
-
-&gt;[150] z
-Time passes.
 
 &gt;[151] z
 Time passes.
@@ -2414,9 +2419,12 @@ Time passes.
 &gt;[153] z
 Time passes.
 
+&gt;[154] z
+Time passes.
+
 Reboot complete.
 
-&gt;[154] ask arvax about ship
+&gt;[155] ask arvax about ship
 (the ss usagi)
 "You're back! Great job rebooting the computer -- I'm getting telemetry now."
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
@@ -2427,7 +2435,7 @@ Reboot complete.
 
 You add an item ("adjust fuel injection specification") to your to-do list.
 
-&gt;[155] a
+&gt;[156] a
 
 Engineering Deck
 The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
@@ -2438,7 +2446,7 @@ You hear someone speaking to fore.
 
 A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
 
-&gt;[156] a
+&gt;[157] a
 
 Engine Room
 This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
@@ -2447,7 +2455,7 @@ There is a large diagram of the fuel injection process on the forward wall. Ther
 
 You can see a broken JL-758 here.
 
-&gt;[157] x diagram
+&gt;[158] x diagram
 This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
        Input: 2 --  3 --  4 --
@@ -2471,10 +2479,10 @@ Key:    --   empty input or output
 
 ⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
 
-&gt;[158] ask computer about liquid
+&gt;[159] ask computer about liquid
 Liquid Copernicium is the liquid form of the element Copernicium. It is a common starship fuel. It can be created by injecting Oganesson into Red Matter.
 
-&gt;[159] og &gt; 4
+&gt;[160] og &gt; 4
 This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
        Input: 2 --  3 --  4 Og
@@ -2498,10 +2506,10 @@ Key:    --   empty input or output
 
 ⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
 
-&gt;[160] ask computer about red matter
+&gt;[161] ask computer about red matter
 Red Matter is an unstable, possibly impossible substance created by injecting Tachyon Crystals into Unobtainium.
 
-&gt;[161] tc &gt; 3
+&gt;[162] tc &gt; 3
 This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
        Input: 2 --  3 TC  4 Og
@@ -2525,10 +2533,10 @@ Key:    --   empty input or output
 
 ⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
 
-&gt;[162] ask computer about unobtainium
+&gt;[163] ask computer about unobtainium
 Unobtainium can only be acquired by the injection of Anti-Helium into Oganesson, hence its legendary reputation for being difficult to obtain.
 
-&gt;[163] ah &gt; 2
+&gt;[164] ah &gt; 2
 This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
        Input: 2 AH  3 TC  4 Og
@@ -2552,7 +2560,7 @@ Key:    --   empty input or output
 
 ⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
 
-&gt;[164] og &gt; 1
+&gt;[165] og &gt; 1
 This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
        Input: 2 AH  3 TC  4 Og
@@ -2580,7 +2588,7 @@ You cross out an item ("adjust fuel injection specification") on your to-do list
 
 [Your score has just gone up by one point.]
 
-&gt;[165] f
+&gt;[166] f
 
 Engineering Deck
 The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
@@ -2591,7 +2599,7 @@ You hear someone speaking to fore.
 
 A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
 
-&gt;[166] f
+&gt;[167] f
 "Looks like the ship is ready to fly! Quick! I've set up evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and use the command console! Say 'computer, execute'"
 [Not much time!]
 
@@ -2602,12 +2610,12 @@ You can see an equipment trunk (closed) here.
 
 Impact in 9.
 
-&gt;[167] ask arvax about ship
+&gt;[168] ask arvax about ship
 (the ss usagi)
 "Hurry! Get to the bridge!"
 Impact in 8.
 
-&gt;[168] f
+&gt;[169] f
 
 Bridge
 This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. To port you can see the blue-white disk of Deneb. Ahead, the moon New Da Nang looms steadily larger and larger before you.
@@ -2620,13 +2628,13 @@ Impact in 7.
 
 The moon of New Da Nang looms ever larger on the forward viewscreen.
 
-&gt;[169] touch command console
+&gt;[170] touch command console
 Welcome, Captain. What are your orders?
 Impact in 6.
 
 The moon of New Da Nang looms ever larger on the forward viewscreen.
 
-&gt;[170] computer, execute
+&gt;[171] computer, execute
 Yes, Captain. Executing evasive maneuvers.
 
 The ship pulls out of its dive toward New Da Nang, delivering a g-force that forces the breath out of you despite the intertial dampers. Soon you are turned around and headed for open space.
@@ -2812,27 +2820,28 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
 [147] tell arvax about journal
 [148] computer, access code 2
 [149] computer, reboot
-[150] z
+[150] y
 [151] z
 [152] z
 [153] z
-[154] ask arvax about ship
-[155] a
+[154] z
+[155] ask arvax about ship
 [156] a
-[157] x diagram
-[158] ask computer about liquid
-[159] og &gt; 4
-[160] ask computer about red matter
-[161] tc &gt; 3
-[162] ask computer about unobtainium
-[163] ah &gt; 2
-[164] og &gt; 1
-[165] f
+[157] a
+[158] x diagram
+[159] ask computer about liquid
+[160] og &gt; 4
+[161] ask computer about red matter
+[162] tc &gt; 3
+[163] ask computer about unobtainium
+[164] ah &gt; 2
+[165] og &gt; 1
 [166] f
-[167] ask arvax about ship
-[168] f
-[169] touch command console
-[170] computer, execute
+[167] f
+[168] ask arvax about ship
+[169] f
+[170] touch command console
+[171] computer, execute
 </commentary>
         <children><child nodeId="node-5364"></child>
         </children>
@@ -4561,7 +4570,7 @@ You push the trunk clear of the door.
 &gt;[49] set gravity control to 1
 You dial the gravity to 1.
 
-A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+A man's voice comes over comms: "Usagi, are you there?"
 
 
 &gt;[50] press button
@@ -4733,17 +4742,17 @@ Attention all crew: command functions are offline and the computer is running wi
 &gt;[86] z
 Time passes.
 
-The ambassador asks if you are performing some sort of religious ceremony.
+The ambassador remarks that all humans look alike to him.
 
 &gt;[87] z
 Time passes.
 
-The ambassador remarks that all humans look alike to him.
+The ambassador asks where Admiral Smithers can be found.
 
 &gt;[88] z
 Time passes.
 
-The ambassador inquires whether you are interested in a game of Bocci.
+The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
 
 &gt;[89] z
 Time passes.
@@ -5019,7 +5028,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 You can see an equipment trunk (closed) here.
 
-A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
+A man's voice comes over comms: "Usagi, are you there?"
 
 
 &gt;[119] d
@@ -5208,12 +5217,12 @@ Attention all crew: command functions are offline and the computer is running wi
 Welcome, Master Sergeant R. Mu Arvax. Logging you in.
 
 &gt;[147] computer, reboot
+Are you sure you wish to reboot?
+[148] y
+
 Beginning reboot. Take all appropriate precautions.
 
 Red alert lights flash throughout the ship.
-
-&gt;[148] z
-Time passes.
 
 &gt;[149] z
 Time passes.
@@ -5222,6 +5231,9 @@ Time passes.
 Time passes.
 
 &gt;[151] z
+Time passes.
+
+&gt;[152] z
 Time passes.
 
 Reboot complete.
@@ -5374,15 +5386,20 @@ Reboot complete.
 [145] tell arvax about journal
 [146] computer, access code 2
 [147] computer, reboot
-[148] z
+[148] y
 [149] z
 [150] z
 [151] z
+[152] z
 </commentary>
-        <children><child nodeId="node-4045"></child>
+        <children><child nodeId="node-10742"></child>
+            <child nodeId="node-10428"></child>
+            <child nodeId="node-4045"></child>
             <child nodeId="node-3890"></child>
             <child nodeId="node-9894"></child>
             <child nodeId="node-9111"></child>
+            <child nodeId="node-10588"></child>
+            <child nodeId="node-10102"></child>
             <child nodeId="node-2889"></child>
         </children>
     </item>
@@ -5461,6 +5478,30 @@ You add an item ("adjust fuel injection specification") to your to-do list.
         <command xml:space="preserve">ask arvax about engine</command>
         <result xml:space="preserve">(the fusion engine)
 "I'm seeing the engine fully online. Now you need to get the fuel specification right."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-10102">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+Beginning reboot. Take all appropriate precautions.
+
+Red alert lights flash throughout the ship.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-10588">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship
+
+
+
+You can see an equipment trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -5904,6 +5945,118 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 "I'm seeing the engine fully online. Now you need to get the fuel specification right."
 
 You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-10428">
+        <command xml:space="preserve">                  hello</command>
+        <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+
+You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10429"></child>
+        </children>
+    </item>
+    <item nodeId="node-10429">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10430"></child>
+        </children>
+    </item>
+    <item nodeId="node-10430">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10431"></child>
+        </children>
+    </item>
+    <item nodeId="node-10431">
+        <command xml:space="preserve">ask arvax about status</command>
+        <result xml:space="preserve">"I'm seeing the engine fully online. Now you need to get the fuel specification right."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10432"></child>
+        </children>
+    </item>
+    <item nodeId="node-10432">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Bridge
+This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.
+ 
+The pilot's and navigator's chairs sit before their respective consoles. The captain's chair, with command console, sits halfway between them and operations further aft.
+
+You hear someone speaking aft of here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10433"></child>
+        </children>
+    </item>
+    <item nodeId="node-10433">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+You can see an equipment trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10434"></child>
+        </children>
+    </item>
+    <item nodeId="node-10434">
+        <command xml:space="preserve">ask arvax about ship</command>
+        <result xml:space="preserve">(the ss usagi)
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-10742">
+        <command xml:space="preserve">                    l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+
+You can see an equipment trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10743"></child>
+        </children>
+    </item>
+    <item nodeId="node-10743">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+
+You can see an equipment trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -18336,6 +18489,1415 @@ Time passes.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-10744">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10745"></child>
+        </children>
+    </item>
+    <item nodeId="node-10745">
+        <command xml:space="preserve">test reboot</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] test arvax
+(Testing.)
+
+&gt;[2] test captain
+(Testing.)
+
+&gt;[3] test tether
+(Testing.)
+
+&gt;[4] test staging
+(Testing.)
+
+&gt;[5] test planetfall
+(Testing.)
+
+&gt;[6] test storage
+(Testing.)
+
+&gt;[7] test cabinet
+(Testing.)
+
+&gt;[8] test microwave
+(Testing.)
+
+&gt;[9] test spacewalk
+(Testing.)
+
+&gt;[10] test airlock
+(Testing.)
+
+&gt;[11] f
+You pass into the aft airlock, the outer door closing behind you.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;[12] f
+You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;[13] u
+You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and slammed into the airlock door.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;[14] a
+You try to enter the airlock, but the automatic door fails to open for you.
+[It's always just opened in the past.]
+
+You add an item ("fix the airlock door") to your to-do list.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[15] u
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+&gt;[16] s
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;[17] take slippers
+As you lean to take the slippers, you notice something under the bed.
+
+&gt;[18] look under bed
+You find a black trunk and move it out from under the bottom bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+You can also see a black trunk (closed) here.
+
+&gt;[19] get trunk
+Taken.
+
+&gt;[20] open it
+You open the black trunk, revealing a present.
+
+&gt;[21] take present
+Taken.
+
+&gt;[22] open it
+[I'll go to hell for this, but here goes...]
+
+You rip off the wrapping paper and open the box. Inside is a stuffed bear you recognize as Bertie the Bear™. You discard the paper and box.
+
+&gt;[23] take eyes
+[Am I really going to do this? Yes, yes, I am, apparently.]
+
+You grasp one of the eyes and give it a tug, first softly then harder. Eventually it gives and you extract the eye from the bear. Upon examination you discover that the eye is in fact an optical sensor in camouflage. It looks like you didn't pull it carefully enough, however, because the connector at the end has been damaged.
+
+You try again more carefully with the second eye, and manage to produce an undamaged optical sensor.
+
+&gt;[24] p
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[25] d
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+&gt;[26] drop trunk
+You place the black trunk near the airlock door.
+
+&gt;[27] stand on trunk
+(first closing the black trunk)
+You get onto the black trunk.
+
+&gt;[28] take broken sensor
+You remove the broken sensor from the panel.
+
+&gt;[29] put optical sensor in panel
+You insert the fresh sensor into the empty socket.
+[There. That should do it.]
+
+You cross out an item ("fix the airlock door") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;[30] take suit
+Taken.
+
+&gt;[31] wear it
+You put on the vac suit.
+
+&gt;[32] turn on mag boots
+You switch the Magnetic boots on.
+
+&gt;[33] a
+(first getting off the black trunk)
+
+Aft Airlock
+You are in the aft airlock. Outside is the blackness of space, speckled with the dying embers of what was once Space Station Omicron-5. Forward leads into the ship.
+
+&gt;[34] out
+It's dangerous out there. I recommend saving the game first...
+⇒ Use "save" to save the game, or go "out" again to continue without saving.
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[35] out
+
+Outside the Aft Airlock (vacuum)
+You are standing on the hull of the ship, outside the aft airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to fore among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[36] f
+
+Hull of the Usagi (vacuum)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Your path to starboard is blocked by a piece of debris lodged in the hull. [Whatever happened, this was part of it. It's fortunate it didn't penetrate further into the hull.] It's going to be tough to get over; it doesn't look magnetic, so your mag boots won't stick to it. You'll need to be careful.
+
+There is a hook set in the hull here.
+
+It looks like you could break off a small piece of debris.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[37] s
+You attempt to climb over the debris. Just when you think you're over, your foot catches, and you lose your hold. The result: you're floating about a foot from the hull, unable to make contact with your mag boots to pull yourself down. You're barely moving relative to the hull, but you're stuck here. The bright side? You broke down the debris enough that it's no longer a barrier.
+
+[Okay, stay calm. Don't freak out.]
+
+Hull of the Usagi (vacuum, floating)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.
+
+There is a hook set in the hull here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[38] vent air
+You vent a bit of air from your suit. It propels you just a tiny amount toward the hull, but it's enough. One agonizing minute later, you're attached to the hull again.
+
+[Oh thank god! I thought I was a goner.]
+
+Hull of the Usagi (vacuum)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.
+
+There is a hook set in the hull here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[39] s
+
+Outside the Engineering Airlock (vacuum)
+You are standing on the hull of the ship, outside the engineering airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[40] in
+Welcome back, visitor. I hope your spacewalk was uneventful.
+
+Engineering Airlock
+You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
+
+⇒ astern: behind or toward the rear of a ship, spaceship or aircraft.
+&gt;[41] p
+
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;[42] sit in recharger
+The nozzles on either side of the chair connect with the suit. After a few moments, the machine emits a pleasant "ping", the nozzles retract, and you stand up.
+
+&gt;[43] p
+
+Machine Room
+The machine room is where the physical work of Engineering takes place; for instance, machining new parts. There is a large counter lined with drawers here, as well as numerous saws, drills, and other pieces of equipment. You can leave to starboard.
+
+There's a hand vac sitting on the counter.
+
+&gt;[44] open drawer
+You open the machine room drawers, revealing a small key, a roll of electrical tape, a hex-shaped tool, and a fresh fuse.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[45] take all
+portable hand-held vacuum cleaner: Taken.
+small key: Taken.
+roll of electrical tape: Taken.
+hex-shaped tool: Taken.
+fresh fuse: Taken.
+
+&gt;[46] s
+
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;[47] f
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;[48] move trunk
+You push the trunk clear of the door.
+
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+
+[Finally, another person! I'm saved!]
+
+⇒ By the way... you can get help about speaking to other characters by typing "help speech".
+&gt;[49] set gravity control to 1
+You dial the gravity to 1.
+
+&gt;[50] press button
+The door slides open.
+
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+
+⇒ You might try saying hello.
+&gt;[51] d
+
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;[52] open drawer
+You open the kitchen drawer, revealing a knife, a fork, and a spoon.
+
+&gt;[53] take knife
+Taken.
+
+&gt;[54] open closet
+You open the closet, revealing ten MREs and a microwavable dinner.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[55] take dinner
+Taken.
+
+&gt;[56] unplug microwave
+(the microwave oven)
+You unplug the microwave oven.
+
+&gt;[57] vacuum socket
+You vacuum the dust out of the socket.
+
+&gt;[58] plug in microwave
+(the microwave oven)
+You plug in the microwave oven. It beeps three times and displays "Press Start".
+
+You cross out an item ("fix the microwave") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;[59] a
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;[60] s
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+You can also see a cardboard box (empty) and some wrapping paper here.
+
+&gt;[61] get on top bunk
+As you clamber up, it looks like there's something wrong with the cabinet door.
+
+&gt;[62] replace screw
+You unscrew the old screw and replace it with a new one from your toolbox.
+
+You cross out an item ("fix the cabinet") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;[63] get down
+You get off the top bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+You can also see a cardboard box (empty) and some wrapping paper here.
+
+&gt;[64] open cabinet
+You open the starboard-side equipment cabinet, revealing a beacon.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[65] take beacon
+Taken.
+
+&gt;[66] p
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;[67] p
+
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+&gt;[68] open cabinet
+You open the port-side equipment cabinet, revealing an engineering uniform and an Universal Game Emulator.
+
+&gt;[69] x uniform
+(the repair corps uniform)
+You can't see the uniform when you're wearing the vac suit on top of it.
+
+&gt;[70] take paper
+Taken.
+
+&gt;[71] read it
+Scribbled on the paper is the number 9467.
+
+&gt;[72] take universal game emulator
+Taken.
+
+&gt;[73] x unit
+The storage unit consists of top and bottom drawers, with an attached keypad and display. There is a keyhole under the keypad. Both drawers are closed.
+
+&gt;[74] type 9467 on keypad
+As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.
+
+You add an item ("fix the storage unit") to your to-do list.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[75] pry bottom drawer open with knife
+You wedge the knife into the seam and lever the drawer open, revealing the red access card.
+
+&gt;[76] take card
+Taken.
+
+&gt;[77] close drawer
+Which do you mean, the top drawer or the bottom drawer?
+
+&gt;[78] put key into keyhole
+You open the front panel of the keypad, revealing a bundle of wiring. You can see the problem immediately -- two wires with worn insulation are in contact, causing a short-circuit.
+
+&gt;[79] tape wires
+You wrap the wires in electrical tape and close the keypad.
+
+You cross out an item ("fix the storage unit") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;[80] close bottom drawer
+You close the bottom drawer.
+
+&gt;[81] type 9467 on keypad
+The top drawer slides open, revealing a copy of Planetfall.
+
+&gt;[82] take planetfall
+Taken.
+
+&gt;[83] play planetfall on universal
+PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+&gt;[84] z
+Time passes.
+
+&gt;[85] z
+Time passes.
+
+The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet's major exports.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[86] z
+Time passes.
+
+The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
+
+&gt;[87] z
+Time passes.
+
+The ambassador inquires whether you are interested in a game of Bocci.
+
+&gt;[88] z
+Time passes.
+
+The ambassador remarks that all humans look alike to him.
+
+&gt;[89] z
+Time passes.
+
+The ambassador grunts a polite farewell, and disappears up the gangway, leaving a trail of dripping slime.
+
+&gt;[90] z
+Time passes.
+
+&gt;[91] z
+Time passes.
+
+&gt;[92] z
+Time passes.
+
+A massive explosion rocks the ship. Echoes from the explosion resound deafeningly down the halls.
+ The door to port slides open.
+
+
+[No, no, no. This is hitting too close to home. Better quit and focus on saving the ship.]
+
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is open and contains an engineering uniform. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+&gt;[93] s
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;[94] d
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+You can also see a black trunk (closed) here.
+
+&gt;[95] turn locker
+You turn over the locker. Now it's door-side-up.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[96] open locker
+You open the locker.
+
+You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting: an EVA transport line, used for securing objects during extravehicular transit.
+
+&gt;[97] a
+
+Aft Airlock
+You are in the aft airlock. Outside is the blackness of space, speckled with the dying embers of what was once Space Station Omicron-5. Forward leads into the ship.
+
+&gt;[98] out
+
+Outside the Aft Airlock (vacuum)
+You are standing on the hull of the ship, outside the aft airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to fore among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[99] tie eva transport line to hook
+You attach the EVA transport line to the hook.
+[One...]
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[100] f
+
+Hull of the Usagi (vacuum)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.
+
+There is a hook set in the hull here.
+
+You are holding one end of the EVA transport line, which runs aft from here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[101] tie eva transport line to hook
+You attach the EVA transport line to the hook.
+[Two...]
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[102] s
+
+Outside the Engineering Airlock (vacuum)
+You are standing on the hull of the ship, outside the engineering airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+You're holding one end of the EVA transport line, which runs to port from here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[103] tie eva transport line to hook
+You make the final attachment, letting go of the EVA transport line.
+[Three! That was a bit of work. Hope it's useful.]
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[104] p
+
+Hull of the Usagi (vacuum)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.
+
+There is a hook set in the hull here.
+
+The EVA transport line is attached to the hook, and extends aft and starboard from here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[105] a
+
+Outside the Aft Airlock (vacuum)
+You are standing on the hull of the ship, outside the aft airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to fore among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+The EVA transport line is attached to the hook, and from there runs forward.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[106] in
+
+Aft Airlock
+You are in the aft airlock. Outside is the blackness of space, speckled with the dying embers of what was once Space Station Omicron-5. Forward leads into the ship.
+
+&gt;[107] in
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room. It has been turned door-side up. It is open and contains four banged-up suits.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+You can also see a black trunk (closed) here.
+
+&gt;[108] turn off boots
+You switch the Magnetic boots off.
+
+&gt;[109] push jl-758 aft
+You push the brand-new JL-758 to Aft Airlock.
+
+Aft Airlock
+You are in the aft airlock. Outside is the blackness of space, speckled with the dying embers of what was once Space Station Omicron-5. Forward leads into the ship.
+
+You can see a brand-new JL-758 here.
+
+&gt;[110] push jl-758 aft
+You clip the JL-758 to the EVA transport line.
+
+You grab hold of the EVA transport line to keep yourself on the ship. Better turn your mag boots on.
+⇒ If you'd really like to go farther out from the ship, say so with "out".
+You push the brand-new JL-758 to Outside the Aft Airlock (vacuum).
+
+Outside the Aft Airlock (vacuum)
+You are floating in the blackness of space outside of the aft airlock. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to fore among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+The JL-758 is floating here, clipped to the EVA transport line.
+
+The EVA transport line is attached to the hook, and from there runs forward.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[111] push jl-758 aft
+The obvious exits are fore (to hull of the usagi (vacuum)), inside (to aft airlock) and outside.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[112] push jl-758 fore
+You grab hold of the EVA transport line to keep yourself on the ship. Better turn your mag boots on.
+⇒ If you'd really like to go farther out from the ship, say so with "out".
+You push the brand-new JL-758 to Hull of the Usagi (vacuum).
+
+Hull of the Usagi (vacuum)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.
+
+There is a hook set in the hull here.
+
+The JL-758 is floating here, clipped to the EVA transport line.
+
+The EVA transport line is attached to the hook, and extends aft and starboard from here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[113] push jl-758 starboard
+You grab hold of the EVA transport line to keep yourself on the ship. Better turn your mag boots on.
+⇒ If you'd really like to go farther out from the ship, say so with "out".
+You push the brand-new JL-758 to Outside the Engineering Airlock (vacuum).
+
+Outside the Engineering Airlock (vacuum)
+You are floating in the blackness of space outside the engineering airlock. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+The JL-758 is floating here, clipped to the EVA transport line.
+
+The EVA transport line is attached to the hook, and from there runs to port.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[114] push jl-758 in
+You unclip the JL-758 from the EVA transport line.
+
+You push the brand-new JL-758 to Engineering Airlock.
+
+Engineering Airlock
+You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
+
+You can see a brand-new JL-758 here.
+
+&gt;[115] push jl-758 in
+You push the brand-new JL-758 to Engineering Deck.
+
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+You can also see a brand-new JL-758 here.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[116] push jl-758 aft
+You push the brand-new JL-758 to Engine Room.
+
+You slide the old part out from the engine, and slide the new JL-758 in its place.
+
+Engine Room
+This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+
+There is a large screen on the forward wall. It displays nothing right now. There is a large button below the diagram labeled "Test".
+
+You can see a broken JL-758 here.
+
+It seems you completed something ("fix the engine") that wasn't on your to-do list. You note it down.
+
+[Your score has just gone up by one point.]
+
+&gt;[117] f
+
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;[118] f
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+You can see an equipment trunk (closed) here.
+
+&gt;[119] d
+
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;[120] a
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;[121] open door with red card
+You slide the red access card through the slot. Nothing happens.
+[That's weird. It should at least make a buzz.]
+
+You add an item ("fix the captain's door") to your to-do list.
+
+&gt;[122] x panel
+The access panel is set in the bulkhead to the left of the door. It is closed and held fast with a screw.
+
+&gt;[123] open panel
+You open the panel, hanging on to the blue screw that held it shut.
+
+The access panel opens to reveal a row of fuses, one of which is blown.
+
+&gt;[124] take blown fuse
+Taken.
+
+&gt;[125] put fuse in panel
+(the fresh fuse in the access panel)
+You put the fresh fuse into the access panel.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[126] close panel
+When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.
+
+&gt;[127] close panel
+All of your screws are either too big or too small.
+
+&gt;[128] x panel
+The access panel is set in the bulkhead to the left of the door. It is open, leaving an empty hole where the screw was.
+
+The panel holds a row of fresh fuses.
+
+&gt;[129] put gum in hole
+(first taking the chewing gum)
+You unstick the chewing gum from the vac suit.
+
+You push the gum into the hole.
+[I hope this works.]
+
+&gt;[130] close panel
+You drive a screw into the gum and it holds. The panel is now closed.
+
+You hear a series of beeps, and a voice says "Door now operational."
+
+You cross out an item ("fix the captain's door") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;[131] open door with red card
+You slide the red access card through the slot. The Captain's Door slides smoothly open. A pleasant ping indicates it now recognizes you as authorized.
+
+&gt;[132] a
+Welcome, repairperson. Please observe appropriate respect for sensitive materials while in the Captain's quarters.
+
+The Captain's Door closes silently behind you.
+
+Captain's Quarters
+Neat and spartan, this cabin is the very model of a small fighting ship's captain's quarters. An impeccably organized desk is against one wall, while a typically spotless bed sits beneath a portrait of this very ship. You can exit to fore.
+
+&gt;[133] open drawer
+You open the desk drawer, revealing the captain's journal.
+
+&gt;[134] take journal
+Taken.
+
+&gt;[135] read it
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
+The captain's journal is an electronic diary which requires a password to open.
+⇒ For example, say "journal, password walrus" to unlock the journal with the password "walrus".
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[136] journal, password walrus
+The journal beeps once to indicate an invalid login.
+
+&gt;[137] journal, password charon
+The journal chimes pleasantly and the screen fills with text.
+
+&gt;[138] read journal
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
+[I never thought it would come to this, eavesdropping on someone's personal thoughts.]
+
+You page through the journal, skimming over the boring parts detailing the running of the ship. Eventually you come across something more interesting:
+
+"I screwed up last night. I let them spend the night and I think someone noticed. If this got out my career would be over."
+
+A few pages later:
+
+"I'm being blackmailed. I don't know who, but someone messaged me telling me all they know. They know a lot. They made it clear they expect my 'cooperation'."
+
+Numerous later passages detail this cooperation, ranging from simple intelligence gathering to actively working to harm the Space Authority.
+
+[My god...]
+
+&gt;[139] f
+The Captain's Door opens as you approach, and closes silently behind you.
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;[140] f
+
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;[141] u
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+You can see an equipment trunk (closed) here.
+
+A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+
+
+&gt;[142] z
+Time passes.
+
+&gt;[143] hello
+(addressing the caller)
+You call out "Yes! I'm here! I'm here! What's going on?"
+
+The caller responds, "Ahoy there, SS Usagi, good to hear from you. Seems like you're a bit out of sorts, and we'd like to help you out. But before we get into that, who am I speaking to? Tell me about yourself."
+
+You tell the caller that you're from the repair corps.
+
+"Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.
+
+ "So we've got some work to do. I'm Master Sergeant R. Mu Arvax -- you can ask the ship computer about me. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
+
+[Sergeant Screwdriver, guy thinks he's funny.]
+
+"Yes sir!" you proclaim, despite his lame joke.
+
+"Great, great. Now let's get to work.
+
+ "The first thing I need you to do is reboot the system, using the computer. Once you do that, hopefully I'll be able to access ship controls. You'll have to use my access code: say 'compu--"
+
+Master Sergeant R. Mu Arvax's voice breaks up and another voice comes over comms. "SS Usagi, this is Captain Jane Mulgrew, please come in. Repeat, this is Captain Mulgrew of the SS Usagi, Usagi come in."
+
+[Somebody else?]
+
+&gt;[144] hello
+(addressing Captain Jane Mulgrew)
+Captain Mulgrew responds, "Hello there, Usagi. That's my ship you've got there. Be careful with her.
+
+"We've been listening in and we've heard your communications with Arvax. He had us jammed for a while, but we managed to break through and here we are. Now it's very important that you understand this: Arvax is not your friend. His allegiances lie with Deneb IV, not with the Space Authority. He would like nothing more than to see this ship wipe out a few neighborhoods on New Da Nang.
+
+"So what we need you to do is deny Arvax by shutting down any access to the ship's controls from the outside by invoking the emergency protocols. That will put the ship in a state where we can board and take control of the ship. What do you say? Do you have any questions?"
+
+Master Sergeant R. Mu Arvax's voice comes back over the radio: "You there still, Usagi? I think I lost you for a second."
+
+[Oh no, who should I trust?]
+
+&gt;[145] tell arvax about journal
+(the captain's journal)
+"Oh, Captain no... We must act fast if we're going to stop her from claiming even more lives."
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[146] computer, access code 2
+Welcome, Master Sergeant R. Mu Arvax. Logging you in.
+
+&gt;[147] computer, reboot
+Are you sure you wish to reboot?
+[148] y
+
+Beginning reboot. Take all appropriate precautions.
+
+Red alert lights flash throughout the ship.
+
+&gt;[149] z
+Time passes.
+
+&gt;[150] z
+Time passes.
+
+&gt;[151] z
+Time passes.
+
+&gt;[152] z
+Time passes.
+
+Reboot complete.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] test arvax
+[2] test captain
+[3] test tether
+[4] test staging
+[5] test planetfall
+[6] test storage
+[7] test cabinet
+[8] test microwave
+[9] test spacewalk
+[10] test airlock
+[11] f
+[12] f
+[13] u
+[14] a
+[15] u
+[16] s
+[17] take slippers
+[18] look under bed
+[19] get trunk
+[20] open it
+[21] take present
+[22] open it
+[23] take eyes
+[24] p
+[25] d
+[26] drop trunk
+[27] stand on trunk
+[28] take broken sensor
+[29] put optical sensor in panel
+[30] take suit
+[31] wear it
+[32] turn on mag boots
+[33] a
+[34] out
+[35] out
+[36] f
+[37] s
+[38] vent air
+[39] s
+[40] in
+[41] p
+[42] sit in recharger
+[43] p
+[44] open drawer
+[45] take all
+[46] s
+[47] f
+[48] move trunk
+[49] set gravity control to 1
+[50] press button
+[51] d
+[52] open drawer
+[53] take knife
+[54] open closet
+[55] take dinner
+[56] unplug microwave
+[57] vacuum socket
+[58] plug in microwave
+[59] a
+[60] s
+[61] get on top bunk
+[62] replace screw
+[63] get down
+[64] open cabinet
+[65] take beacon
+[66] p
+[67] p
+[68] open cabinet
+[69] x uniform
+[70] take paper
+[71] read it
+[72] take universal game emulator
+[73] x unit
+[74] type 9467 on keypad
+[75] pry bottom drawer open with knife
+[76] take card
+[77] close drawer
+[78] put key into keyhole
+[79] tape wires
+[80] close bottom drawer
+[81] type 9467 on keypad
+[82] take planetfall
+[83] play planetfall on universal
+[84] z
+[85] z
+[86] z
+[87] z
+[88] z
+[89] z
+[90] z
+[91] z
+[92] z
+[93] s
+[94] d
+[95] turn locker
+[96] open locker
+[97] a
+[98] out
+[99] tie eva transport line to hook
+[100] f
+[101] tie eva transport line to hook
+[102] s
+[103] tie eva transport line to hook
+[104] p
+[105] a
+[106] in
+[107] in
+[108] turn off boots
+[109] push jl-758 aft
+[110] push jl-758 aft
+[111] push jl-758 aft
+[112] push jl-758 fore
+[113] push jl-758 starboard
+[114] push jl-758 in
+[115] push jl-758 in
+[116] push jl-758 aft
+[117] f
+[118] f
+[119] d
+[120] a
+[121] open door with red card
+[122] x panel
+[123] open panel
+[124] take blown fuse
+[125] put fuse in panel
+[126] close panel
+[127] close panel
+[128] x panel
+[129] put gum in hole
+[130] close panel
+[131] open door with red card
+[132] a
+[133] open drawer
+[134] take journal
+[135] read it
+[136] journal, password walrus
+[137] journal, password charon
+[138] read journal
+[139] f
+[140] f
+[141] u
+[142] z
+[143] hello
+[144] hello
+[145] tell arvax about journal
+[146] computer, access code 2
+[147] computer, reboot
+[148] y
+[149] z
+[150] z
+[151] z
+[152] z
+</commentary>
+        <children><child nodeId="node-10898"></child>
+        </children>
+    </item>
+    <item nodeId="node-10898">
+        <command xml:space="preserve">             l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+You can see an equipment trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10899"></child>
+        </children>
+    </item>
+    <item nodeId="node-10899">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10900"></child>
+        </children>
+    </item>
+    <item nodeId="node-10900">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+[Better get a move on], you think.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10901"></child>
+        </children>
+    </item>
+    <item nodeId="node-10901">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10902"></child>
+        </children>
+    </item>
+    <item nodeId="node-10902">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10903"></child>
+        </children>
+    </item>
+    <item nodeId="node-10903">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and slammed into the airlock door.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10904"></child>
+        </children>
+    </item>
+    <item nodeId="node-10904">
+        <command xml:space="preserve">wear suit</command>
+        <result xml:space="preserve">(first taking the vac suit)
+You put on the vac suit.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10905"></child>
+        </children>
+    </item>
+    <item nodeId="node-10905">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10906"></child>
+        </children>
+    </item>
+    <item nodeId="node-10906">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10907"></child>
+        </children>
+    </item>
+    <item nodeId="node-10907">
+        <command xml:space="preserve">x cabinet</command>
+        <result xml:space="preserve">A simple black-painted steel cabinet, it is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10908"></child>
+        </children>
+    </item>
+    <item nodeId="node-10908">
+        <command xml:space="preserve">open it</command>
+        <result xml:space="preserve">You open the port-side equipment cabinet, revealing an engineering uniform and an Universal Game Emulator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10909"></child>
+        </children>
+    </item>
+    <item nodeId="node-10909">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">engineering uniform: Taken.
+Universal Game Emulator: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10910"></child>
+        </children>
+    </item>
+    <item nodeId="node-10910">
+        <command xml:space="preserve">x engineering</command>
+        <result xml:space="preserve">Colored the traditional mustard yellow of Engineering, it's really a remarkably ugly uniform.
+
+In the engineering uniform is a piece of note paper.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10911"></child>
+        </children>
+    </item>
+    <item nodeId="node-10911">
+        <command xml:space="preserve">take paper</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10912"></child>
+        </children>
+    </item>
+    <item nodeId="node-10912">
+        <command xml:space="preserve">read it</command>
+        <result xml:space="preserve">Scribbled on the paper is the number 9467.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10913"></child>
+        </children>
+    </item>
+    <item nodeId="node-10913">
+        <command xml:space="preserve">type 9467</command>
+        <result xml:space="preserve">As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.
+
+You add an item ("fix the storage unit") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10914"></child>
+        </children>
+    </item>
+    <item nodeId="node-10914">
+        <command xml:space="preserve">x bottom drawer</command>
+        <result xml:space="preserve">The bottom drawer is labeled "Khotpanya". The bottom drawer juts out by a couple of centimeters.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-8955">
         <command xml:space="preserve">gonear operations</command>
         <result xml:space="preserve">Which do you mean, Operation Dalmatian, Operations Deck, or the door operations manual?
@@ -18517,7 +20079,8 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-7695"></child>
+        <children><child nodeId="node-9944"></child>
+            <child nodeId="node-7695"></child>
         </children>
     </item>
     <item nodeId="node-7695">
@@ -18790,6 +20353,73 @@ When you awake, your head is throbbing and you have no idea how much time has pa
 [I wonder what's going on?]
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9944">
+        <command xml:space="preserve">computer, access code 3</command>
+        <result xml:space="preserve">Welcome, Captain Jane Mulgrew. Logging you in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9945"></child>
+        </children>
+    </item>
+    <item nodeId="node-9945">
+        <command xml:space="preserve">computer, emergency protocols</command>
+        <result xml:space="preserve">Are you sure you wish to invoke the emergency protocols?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9946"></child>
+        </children>
+    </item>
+    <item nodeId="node-9946">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9947"></child>
+        </children>
+    </item>
+    <item nodeId="node-9947">
+        <command xml:space="preserve">computer, emergency protocols</command>
+        <result xml:space="preserve">Are you sure you wish to invoke the emergency protocols?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9948"></child>
+        </children>
+    </item>
+    <item nodeId="node-9948">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">Beginning emergency protocols. Take all appropriate precautions.
+
+Red alert lights flash throughout the ship.
+
+The emergency depressurization siren sounds throughout the ship.
+[Nice of Mulgrew to warn me.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9949"></child>
+        </children>
+    </item>
+    <item nodeId="node-9949">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Chew, chew, chew...
+
+You are in vacuum. We'll spare you the details, but it isn't a pretty way to go.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 10, in 6 turns.
+
+Your death was completely pointless and preventable, and you scored no points. Sigh...
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-5692">

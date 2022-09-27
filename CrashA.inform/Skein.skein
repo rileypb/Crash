@@ -9,7 +9,7 @@
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 15 / Serial number 220925 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Space Station Gangway
 This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
@@ -21,6 +21,7 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
         <children><child nodeId="node-5692"></child>
             <child nodeId="node-7693"></child>
             <child nodeId="node-7202"></child>
+            <child nodeId="node-8955"></child>
             <child nodeId="node-7696"></child>
             <child nodeId="node-8915"></child>
             <child nodeId="node-3431"></child>
@@ -4296,6 +4297,10 @@ Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly l
 
 Press any key...
 
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
 Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
 
@@ -4312,15 +4317,13 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 [I think I spit out my gum.]
 
-Crash
-An Interactive Disaster by Phil Riley
-Release 15 / Serial number 220925 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
-
 &gt;[14] a
 You try to enter the airlock, but the automatic door fails to open for you.
 [It's always just opened in the past.]
 
 You add an item ("fix the airlock door") to your to-do list.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[15] u
 
@@ -4377,6 +4380,8 @@ You try again more carefully with the second eye, and manage to produce an undam
 Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[25] d
 
 Staging Area
@@ -4427,6 +4432,8 @@ You are in the aft airlock. Outside is the blackness of space, speckled with the
 &gt;[34] out
 It's dangerous out there. I recommend saving the game first...
 ⇒ Use "save" to save the game, or go "out" again to continue without saving.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[35] out
 
@@ -4482,6 +4489,7 @@ A hook protrudes from the hull next to the airlock door.
 Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;[40] in
+Welcome back, visitor. I hope your spacewalk was uneventful.
 
 Engineering Airlock
 You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
@@ -4512,6 +4520,8 @@ There's a hand vac sitting on the counter.
 &gt;[44] open drawer
 You open the machine room drawers, revealing a small key, a roll of electrical tape, a hex-shaped tool, and a fresh fuse.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[45] take all
 portable hand-held vacuum cleaner: Taken.
 small key: Taken.
@@ -4537,7 +4547,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 [Finally, another person! I'm saved!]
 
@@ -4551,7 +4561,7 @@ You push the trunk clear of the door.
 &gt;[49] set gravity control to 1
 You dial the gravity to 1.
 
-A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 
 &gt;[50] press button
@@ -4574,6 +4584,8 @@ Taken.
 
 &gt;[54] open closet
 You open the closet, revealing ten MREs and a microwavable dinner.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[55] take dinner
 Taken.
@@ -4630,6 +4642,8 @@ You can also see a cardboard box (empty) and some wrapping paper here.
 &gt;[64] open cabinet
 You open the starboard-side equipment cabinet, revealing a beacon.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[65] take beacon
 Taken.
 
@@ -4666,6 +4680,8 @@ The storage unit consists of top and bottom drawers, with an attached keypad and
 As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.
 
 You add an item ("fix the storage unit") to your to-do list.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[75] pry bottom drawer open with knife
 You wedge the knife into the seam and lever the drawer open, revealing the red access card.
@@ -4712,20 +4728,22 @@ Time passes.
 
 The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet's major exports.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[86] z
 Time passes.
 
-The ambassador remarks that all humans look alike to him.
+The ambassador asks where Admiral Smithers can be found.
 
 &gt;[87] z
 Time passes.
 
-The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
+The ambassador inquires whether you are interested in a game of Bocci.
 
 &gt;[88] z
 Time passes.
 
-The ambassador offers you a bit of celery.
+The ambassador asks if you are performing some sort of religious ceremony.
 
 &gt;[89] z
 Time passes.
@@ -4770,6 +4788,8 @@ You can also see a black trunk (closed) here.
 
 &gt;[95] turn locker
 You turn over the locker. Now it's door-side-up.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[96] open locker
 You open the locker.
@@ -4963,13 +4983,15 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 You can also see a brand-new JL-758 here.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[116] push jl-758 aft
 You push the brand-new JL-758 to Engine Room.
 
 You slide the old part out from the engine, and slide the new JL-758 in its place.
 
 Engine Room
-This where the combustion process is controlled. The aft wall is dominated by the operating panel of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
 
 There is a large screen on the forward wall. It displays nothing right now. There is a large button below the diagram labeled "Test".
 
@@ -4997,7 +5019,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 You can see an equipment trunk (closed) here.
 
-A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+A man's voice comes over comms: "Usagi, are you there?"
 
 
 &gt;[119] d
@@ -5035,6 +5057,8 @@ Taken.
 (the fresh fuse in the access panel)
 You put the fresh fuse into the access panel.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[126] close panel
 When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.
 
@@ -5066,6 +5090,8 @@ You cross out an item ("fix the captain's door") on your to-do list.
 You slide the red access card through the slot. The Captain's Door slides smoothly open. A pleasant ping indicates it now recognizes you as authorized.
 
 &gt;[132] a
+Welcome, repairperson. Please observe appropriate respect for sensitive materials while in the Captain's quarters.
+
 The Captain's Door closes silently behind you.
 
 Captain's Quarters
@@ -5078,8 +5104,12 @@ You open the desk drawer, revealing the captain's journal.
 Taken.
 
 &gt;[135] read it
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
 The captain's journal is an electronic diary which requires a password to open.
 ⇒ For example, say "journal, password walrus" to unlock the journal with the password "walrus".
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[136] journal, password walrus
 The journal beeps once to indicate an invalid login.
@@ -5088,6 +5118,8 @@ The journal beeps once to indicate an invalid login.
 The journal chimes pleasantly and the screen fills with text.
 
 &gt;[138] read journal
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
 [I never thought it would come to this, eavesdropping on someone's personal thoughts.]
 
 You page through the journal, skimming over the boring parts detailing the running of the ship. Eventually you come across something more interesting:
@@ -5127,7 +5159,7 @@ You can see an equipment trunk (closed) here.
 &gt;[142] z
 Time passes.
 
-A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+A man's voice comes over comms: "Usagi, are you there?"
 
 
 &gt;[143] hello
@@ -5140,7 +5172,7 @@ You tell the caller that you're from the repair corps.
 
 "Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.
 
- "So we've got some work to do. I'm Master Sergeant R. Mu Arvax. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
+ "So we've got some work to do. I'm Master Sergeant R. Mu Arvax -- you can ask the ship computer about me. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
 
 [Sergeant Screwdriver, guy thinks he's funny.]
 
@@ -5170,12 +5202,12 @@ Master Sergeant R. Mu Arvax's voice comes back over the radio: "You there still,
 (the captain's journal)
 "Oh, Captain no... We must act fast if we're going to stop her from claiming even more lives."
 
-&gt;[146] computer, access code 2
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
+&gt;[146] computer, access code 2
 Welcome, Master Sergeant R. Mu Arvax. Logging you in.
 
 &gt;[147] computer, reboot
-
 Beginning reboot. Take all appropriate precautions.
 
 Red alert lights flash throughout the ship.
@@ -5191,7 +5223,6 @@ Time passes.
 
 &gt;[151] z
 Time passes.
-
 
 Reboot complete.
 
@@ -5350,6 +5381,7 @@ Reboot complete.
 </commentary>
         <children><child nodeId="node-4045"></child>
             <child nodeId="node-3890"></child>
+            <child nodeId="node-9111"></child>
             <child nodeId="node-2889"></child>
         </children>
     </item>
@@ -5428,6 +5460,158 @@ You add an item ("adjust fuel injection specification") to your to-do list.
         <command xml:space="preserve">ask arvax about engine</command>
         <result xml:space="preserve">(the fusion engine)
 "I'm seeing the engine fully online. Now you need to get the fuel specification right."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9111">
+        <command xml:space="preserve">computer, emergency protocols</command>
+        <result xml:space="preserve">Authorization required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9112"></child>
+        </children>
+    </item>
+    <item nodeId="node-9112">
+        <command xml:space="preserve">computer, access code 3</command>
+        <result xml:space="preserve">Welcome, Captain Jane Mulgrew. Logging you in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9113"></child>
+        </children>
+    </item>
+    <item nodeId="node-9113">
+        <command xml:space="preserve">computer, emergency protocols</command>
+        <result xml:space="preserve">Beginning emergency protocols. Take all appropriate precautions.
+
+Red alert lights flash throughout the ship.
+
+The emergency depressurization siren sounds throughout the ship.
+[Nice of Mulgrew to warn me.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9114"></child>
+        </children>
+    </item>
+    <item nodeId="node-9114">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">There's no one here but you.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9115"></child>
+        </children>
+    </item>
+    <item nodeId="node-9115">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+The depressurization siren stops.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9116"></child>
+        </children>
+    </item>
+    <item nodeId="node-9116">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Emergency protocols complete.
+Approaching New Da Nang. Beginning emergency countdown at 60.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9117"></child>
+        </children>
+    </item>
+    <item nodeId="node-9117">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
+"Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation."
+
+"I'm trying to divert the ship from its collision course with New Da Nang, but there are some problems: the helm is not responding to any commands and the fuel injection specification for the fusion engine is incorrect. 
+
+"To be honest, friend, the readouts I'm seeing about the state of helm control are dire. I'm not sure it can be fixed."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9118"></child>
+        </children>
+    </item>
+    <item nodeId="node-9118">
+        <command xml:space="preserve">computer, access code 2</command>
+        <result xml:space="preserve">Welcome, Master Sergeant R. Mu Arvax. Logging you in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9119"></child>
+        </children>
+    </item>
+    <item nodeId="node-9119">
+        <command xml:space="preserve">computer, reboot</command>
+        <result xml:space="preserve">Beginning reboot. Take all appropriate precautions.
+
+Red alert lights flash throughout the ship.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9120"></child>
+        </children>
+    </item>
+    <item nodeId="node-9120">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9121"></child>
+        </children>
+    </item>
+    <item nodeId="node-9121">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9122"></child>
+        </children>
+    </item>
+    <item nodeId="node-9122">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9123"></child>
+        </children>
+    </item>
+    <item nodeId="node-9123">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Reboot complete.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9124"></child>
+        </children>
+    </item>
+    <item nodeId="node-9124">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+"I'm trying to divert the ship from its collision course with New Da Nang, but there are some problems: the helm is not responding to any commands and the fuel injection specification for the fusion engine is incorrect."
+
+
+You add an item ("adjust fuel injection specification") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17630,6 +17814,82 @@ Time passes.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-8955">
+        <command xml:space="preserve">gonear operations</command>
+        <result xml:space="preserve">Which do you mean, Operation Dalmatian, Operations Deck, or the door operations manual?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8956"></child>
+        </children>
+    </item>
+    <item nodeId="node-8956">
+        <command xml:space="preserve">deck</command>
+        <result xml:space="preserve">
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8957"></child>
+        </children>
+    </item>
+    <item nodeId="node-8957">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">(addressing the caller)
+You call out "Yes! I'm here! I'm here! What's going on?"
+
+The caller responds, "Ahoy there, SS Usagi, good to hear from you. Seems like you're a bit out of sorts, and we'd like to help you out. But before we get into that, who am I speaking to? Tell me about yourself."
+
+You tell the caller that you're from the repair corps.
+
+"Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.
+
+ "So we've got some work to do. I'm Master Sergeant R. Mu Arvax -- you can ask the ship computer about me. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
+
+[Sergeant Screwdriver, guy thinks he's funny.]
+
+"Yes sir!" you proclaim, despite his lame joke.
+
+"Great, great. Now let's get to work.
+
+ "The first thing I need you to do is reboot the system, using the computer. Once you do that, hopefully I'll be able to access ship controls. You'll have to use my access code: say 'compu--"
+
+Master Sergeant R. Mu Arvax's voice breaks up and another voice comes over comms. "SS Usagi, this is Captain Jane Mulgrew, please come in. Repeat, this is Captain Mulgrew of the SS Usagi, Usagi come in."
+
+[Somebody else?]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8958"></child>
+        </children>
+    </item>
+    <item nodeId="node-8958">
+        <command xml:space="preserve">help speech</command>
+        <result xml:space="preserve">There are a few commands that allow you to talk to other characters you meet. These are: 
+
+ - hello: to start talking to someone.
+ - ask &lt;someone&gt; about &lt;something&gt;: ask the character to tell you what it knows about a thing.
+ - goodbye: to stop talking to someone.
+ - tell &lt;someone&gt; about &lt;something&gt;: tell the character what you know about a thing.
+ - yes
+ - no
+
+Note: you cannot talk or ask about a subject with which you are unfamiliar. Thus you cannot get an answer to "ask Frank about Sophie" unless you are aware of Sophie's existence.
+
+To ask a person or thing to do something use the following pattern: "&lt;name&gt;, &lt;action&gt;", for instance, "computer, help."
+
+One useful command is "&lt;name&gt;, repeat", which will cause the named person or thing to repeat the last thing they said, if anything. You can also say "&lt;name&gt;, repeat all", which will cause them to repeat an entire transcript of their speech.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-7202">
         <command xml:space="preserve">gonear engine room</command>
         <result xml:space="preserve">(Engine Room)
@@ -17766,6 +18026,10 @@ Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly l
 
 Press any key...
 
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
 Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
 
@@ -17782,11 +18046,104 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 [I think I spit out my gum.]
 
-Crash
-An Interactive Disaster by Phil Riley
-Release 15 / Serial number 220925 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9128"></child>
+        </children>
+    </item>
+    <item nodeId="node-9128">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
 
 Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9129"></child>
+        </children>
+    </item>
+    <item nodeId="node-9129">
+        <command xml:space="preserve">computer, access code 2</command>
+        <result xml:space="preserve">Welcome, caller. Logging you in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9130"></child>
+        </children>
+    </item>
+    <item nodeId="node-9130">
+        <command xml:space="preserve">computer, reboot</command>
+        <result xml:space="preserve">Beginning reboot. Take all appropriate precautions.
+
+Red alert lights flash throughout the ship.
+
+The air in here has gotten a bit stale.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9131"></child>
+        </children>
+    </item>
+    <item nodeId="node-9131">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+You're starting to feel faint.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9132"></child>
+        </children>
+    </item>
+    <item nodeId="node-9132">
+        <command xml:space="preserve">wear suit</command>
+        <result xml:space="preserve">(first taking the vac suit)
+You put on the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9133"></child>
+        </children>
+    </item>
+    <item nodeId="node-9133">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9134"></child>
+        </children>
+    </item>
+    <item nodeId="node-9134">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Reboot complete.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9135"></child>
+        </children>
+    </item>
+    <item nodeId="node-9135">
+        <command xml:space="preserve">computer, reboot</command>
+        <result xml:space="preserve">You've already rebooted once. That's enough.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>

@@ -2157,7 +2157,7 @@ After saying hello to Arvax when talking about making contact:
 	now arvax knows identity of the player;
 	now arvax is proper-named;
 	print "'Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.[paragraph break]
-	   'So we've got some work to do. I'm [arvax]. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?'[paragraph break]" as arvax near communications console;
+	   'So we've got some work to do. I'm [arvax] -- you can ask the ship computer about me. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?'[paragraph break]" as arvax near communications console;
 	think "Sergeant Screwdriver, guy thinks he's funny.";
 	say "'Yes sir!' you proclaim, despite his lame joke.[paragraph break]"; 
 	talk about mulgrew breaks in;
@@ -3303,7 +3303,19 @@ Every turn while computer-rebooting is true:
 			now the current interlocutor is nothing;
 			say "When you awake, your head is throbbing and you have no idea how much time has passed.";
 			think "I wonder what's going on?";
-		
+
+Instead of asking the shipboard computer to try rebooting when computer-rebooted is true:
+	say "You've already rebooted once. That's enough.";
+	
+Instead of asking the shipboard computer to try rebooting when protocols-activated is true:
+	say "You've already invoked the emergency protocols. Your chance to reboot is gone.";
+	
+Instead of asking the shipboard computer to try invoking emergency protocols when computer-rebooted is true:
+	say "You've already rebooted the system. Your chance to invoke the emergency protocols is gone.";
+	
+Instead of asking the shipboard computer to try invoking emergency protocols when protocols-activated is true:
+	say "You've already invoked the emergency protocols once. That's enough.";
+
 Persuasion rule for asking the shipboard computer to try rebooting:
 	if logged in as arvax is false and logged in as mulgrew is false:
 		print "Authorization required.[line break]" as shipboard computer near player;
@@ -3555,7 +3567,7 @@ Check going down from operations deck when equipment trunk is blocking the midsh
 	say "There's an equipment trunk blocking the door." instead;
 
 
-Section 4 - Engineering Deck
+Section 4 - Engineering Deck	
 
 The suit recharging station is in the Engineering Deck. It is an enterable supporter. "A device labeled 'Suit Recharging Station' is here. It is shaped like a chair with nozzles protruding from either arm." The description is "It looks like a person might sit in it."
 

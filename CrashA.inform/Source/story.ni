@@ -2489,7 +2489,7 @@ To say problems description:
 		say "I'm trying to divert the ship from its collision course with New Da Nang, but there are some problems: [problems]";
 
 After saying hello to Arvax when talking about cs-end-game-reboot:
-	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.'[line break]" as Arvax near communications console;
+	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.'[paragraph break]" as Arvax near communications console;
 	report on ship;
 	reset turns in state;
 
@@ -2509,12 +2509,12 @@ To report on ship:
 			add Adjust fuel injection specification;
 		if the fusion engine is broken:
 			add fix the engine;
-		print "'[problems description].'[paragraph break]" as Arvax near communications console;
+		print "'[problems description].'[line break]" as Arvax near communications console;
 	otherwise if ship is in self-destruct mode:
 		print "'Friend, if I were to start the fusion engine with the fuel injection you've specified, the ship would explode. Are you sure there is no other option to save the people of New Da Nang?'" as Arvax near communications console;
 		tip "If you really want to blow up the ship, enter 'Arvax, self-destruct' to start the countdown from 10, or press the test button in the engine room.";
 	otherwise if last-moves is false:
-		print "'Looks like the ship is ready to fly! Quick! I've set up evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and use the command console! Say [']computer, execute[']'[line break]" as Arvax near communications console;
+		print "'Looks like the ship is ready to fly! Quick! I've plotted evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and use the command console! Say [']computer, execute[']'[line break]" as Arvax near communications console;
 		now last-moves is true;
 		now turns left is 10;
 		think "Not much time!";
@@ -5537,6 +5537,12 @@ Every turn when explosion happened is true and computer-rebooted is false and pr
 	if the remainder after dividing explosion turn by 15 is 0 and location is onboard:
 		print "Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.[line break]" as computer near player;
 		now attention all crew spoken is true;
+	continue the action;
+	
+	
+Every turn when computer-rebooted is true or protocols-activated is true:
+	if the remainder after dividing turn count by 10 is 0 and location is onboard:
+		print "Attention: current trajectory intersects the moon New Da Nang. Please correct course.[line break]" as computer near player;
 	continue the action;
 	
 Chapter 4 - Last Moves

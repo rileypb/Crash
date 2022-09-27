@@ -4340,7 +4340,6 @@ Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
 ⇒ You can enter "hints" at any time for help in progressing in the game.
-
 &gt;[16] s
 
 Starboard-Side Crew Quarters
@@ -4388,8 +4387,6 @@ You try again more carefully with the second eye, and manage to produce an undam
 
 Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
-
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[25] d
 
@@ -4441,9 +4438,6 @@ You are in the aft airlock. Outside is the blackness of space, speckled with the
 &gt;[34] out
 It's dangerous out there. I recommend saving the game first...
 ⇒ Use "save" to save the game, or go "out" again to continue without saving.
-
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
-
 &gt;[35] out
 
 Outside the Aft Airlock (vacuum)
@@ -4504,7 +4498,6 @@ Engineering Airlock
 You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
 
 ⇒ astern: behind or toward the rear of a ship, spaceship or aircraft.
-
 &gt;[41] p
 
 Engineering Deck
@@ -4556,14 +4549,11 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 [Finally, another person! I'm saved!]
 
-⇒ By the way... you can get help about speaking to other characters by typing "help speech".
-
-⇒ You might try saying hello.
-
+⇒ By the way... you can get help about speaking to other characters by typing "help speech".⇒ You might try saying hello.
 &gt;[48] move trunk
 You push the trunk clear of the door.
 
@@ -4594,8 +4584,6 @@ Taken.
 &gt;[54] open closet
 You open the closet, revealing ten MREs and a microwavable dinner.
 
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
-
 &gt;[55] take dinner
 Taken.
 
@@ -4618,6 +4606,8 @@ You cross out an item ("fix the microwave") on your to-do list.
 
 Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[60] s
 
@@ -4650,8 +4640,6 @@ You can also see a cardboard box (empty) and some wrapping paper here.
 
 &gt;[64] open cabinet
 You open the starboard-side equipment cabinet, revealing a beacon.
-
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[65] take beacon
 Taken.
@@ -4737,12 +4725,10 @@ Time passes.
 
 The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet's major exports.
 
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
-
 &gt;[86] z
 Time passes.
 
-The ambassador remarks that all humans look alike to him.
+The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
 
 &gt;[87] z
 Time passes.
@@ -4752,7 +4738,7 @@ The ambassador asks where Admiral Smithers can be found.
 &gt;[88] z
 Time passes.
 
-The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
+The ambassador inquires whether you are interested in a game of Bocci.
 
 &gt;[89] z
 Time passes.
@@ -4761,6 +4747,8 @@ The ambassador grunts a polite farewell, and disappears up the gangway, leaving 
 
 &gt;[90] z
 Time passes.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[91] z
 Time passes.
@@ -4797,8 +4785,6 @@ You can also see a black trunk (closed) here.
 
 &gt;[95] turn locker
 You turn over the locker. Now it's door-side-up.
-
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[96] open locker
 You open the locker.
@@ -4915,7 +4901,6 @@ You clip the JL-758 to the EVA transport line.
 
 You grab hold of the EVA transport line to keep yourself on the ship. Better turn your mag boots on.
 ⇒ If you'd really like to go farther out from the ship, say so with "out".
-
 You push the brand-new JL-758 to Outside the Aft Airlock (vacuum).
 
 Outside the Aft Airlock (vacuum)
@@ -4937,7 +4922,6 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 &gt;[112] push jl-758 fore
 You grab hold of the EVA transport line to keep yourself on the ship. Better turn your mag boots on.
 ⇒ If you'd really like to go farther out from the ship, say so with "out".
-
 You push the brand-new JL-758 to Hull of the Usagi (vacuum).
 
 Hull of the Usagi (vacuum)
@@ -4954,7 +4938,6 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 &gt;[113] push jl-758 starboard
 You grab hold of the EVA transport line to keep yourself on the ship. Better turn your mag boots on.
 ⇒ If you'd really like to go farther out from the ship, say so with "out".
-
 You push the brand-new JL-758 to Outside the Engineering Airlock (vacuum).
 
 Outside the Engineering Airlock (vacuum)
@@ -4992,8 +4975,6 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 You can also see a brand-new JL-758 here.
 
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
-
 &gt;[116] push jl-758 aft
 You push the brand-new JL-758 to Engine Room.
 
@@ -5028,7 +5009,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 You can see an equipment trunk (closed) here.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 
 &gt;[119] d
@@ -5044,6 +5025,8 @@ You hear someone speaking above.
 
 Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[121] open door with red card
 You slide the red access card through the slot. Nothing happens.
@@ -5065,8 +5048,6 @@ Taken.
 &gt;[125] put fuse in panel
 (the fresh fuse in the access panel)
 You put the fresh fuse into the access panel.
-
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[126] close panel
 When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.
@@ -5117,7 +5098,6 @@ The Captain's journal is considered off-limits to non-command personnel. This in
 
 The captain's journal is an electronic diary which requires a password to open.
 ⇒ For example, say "journal, password walrus" to unlock the journal with the password "walrus".
-
 Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[136] journal, password walrus
@@ -5168,7 +5148,7 @@ You can see an equipment trunk (closed) here.
 &gt;[142] z
 Time passes.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
 
 
 &gt;[143] hello
@@ -5211,8 +5191,6 @@ Master Sergeant R. Mu Arvax's voice comes back over the radio: "You there still,
 (the captain's journal)
 "Oh, Captain no... We must act fast if we're going to stop her from claiming even more lives."
 
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
-
 &gt;[146] computer, access code 2
 Welcome, Master Sergeant R. Mu Arvax. Logging you in.
 
@@ -5232,6 +5210,8 @@ Time passes.
 
 &gt;[151] z
 Time passes.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[152] z
 Time passes.
@@ -5394,8 +5374,11 @@ Reboot complete.
 </commentary>
         <children><child nodeId="node-10742"></child>
             <child nodeId="node-10428"></child>
+            <child nodeId="node-11553"></child>
             <child nodeId="node-4045"></child>
+            <child nodeId="node-11399"></child>
             <child nodeId="node-3890"></child>
+            <child nodeId="node-11245"></child>
             <child nodeId="node-9894"></child>
             <child nodeId="node-9111"></child>
             <child nodeId="node-10588"></child>
@@ -5430,7 +5413,162 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2892"></child>
+            <child nodeId="node-11077"></child>
         </children>
+    </item>
+    <item nodeId="node-11077">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11078"></child>
+        </children>
+    </item>
+    <item nodeId="node-11078">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11079"></child>
+        </children>
+    </item>
+    <item nodeId="node-11079">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11080"></child>
+        </children>
+    </item>
+    <item nodeId="node-11080">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11081"></child>
+        </children>
+    </item>
+    <item nodeId="node-11081">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11082"></child>
+        </children>
+    </item>
+    <item nodeId="node-11082">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11083"></child>
+        </children>
+    </item>
+    <item nodeId="node-11083">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Attention: current trajectory intersects the moon New Da Nang. Please correct course.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11084"></child>
+        </children>
+    </item>
+    <item nodeId="node-11084">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11085"></child>
+        </children>
+    </item>
+    <item nodeId="node-11085">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11086"></child>
+        </children>
+    </item>
+    <item nodeId="node-11086">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11087"></child>
+        </children>
+    </item>
+    <item nodeId="node-11087">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11088"></child>
+        </children>
+    </item>
+    <item nodeId="node-11088">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11089"></child>
+        </children>
+    </item>
+    <item nodeId="node-11089">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11090"></child>
+        </children>
+    </item>
+    <item nodeId="node-11090">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11091"></child>
+        </children>
+    </item>
+    <item nodeId="node-11091">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+
+You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2892">
         <command xml:space="preserve">ask arvax about card</command>
@@ -5817,6 +5955,18 @@ A small canister vacuum, with a handle to easily carry it around, and a short ho
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-11245">
+        <command xml:space="preserve">            hello</command>
+        <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+
+You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-3890">
         <command xml:space="preserve">            d</command>
         <result xml:space="preserve">
@@ -5847,6 +5997,19 @@ You add an item ("adjust fuel injection specification") to your to-do list.
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
 "You're back! Great job rebooting the computer -- I'm getting telemetry now."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-11399">
+        <command xml:space="preserve">              hello</command>
+        <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+
+You add an item ("adjust fuel injection specification") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -5945,6 +6108,76 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 "I'm seeing the engine fully online. Now you need to get the fuel specification right."
 
 You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-11553">
+        <command xml:space="preserve">                hello</command>
+        <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11554"></child>
+        </children>
+    </item>
+    <item nodeId="node-11554">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Bridge
+This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.
+ 
+The pilot's and navigator's chairs sit before their respective consoles. The captain's chair, with command console, sits halfway between them and operations further aft.
+
+You hear someone speaking aft of here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11555"></child>
+        </children>
+    </item>
+    <item nodeId="node-11555">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+You can see an equipment trunk (closed) here.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11556"></child>
+        </children>
+    </item>
+    <item nodeId="node-11556">
+        <command xml:space="preserve">ask arvax about ship</command>
+        <result xml:space="preserve">(the ss usagi)
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11557"></child>
+        </children>
+    </item>
+    <item nodeId="node-11557">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11558"></child>
+        </children>
+    </item>
+    <item nodeId="node-11558">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -19894,6 +20127,60 @@ You add an item ("fix the storage unit") to your to-do list.
         <result xml:space="preserve">The bottom drawer is labeled "Khotpanya". The bottom drawer juts out by a couple of centimeters.
 
 Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10915"></child>
+        </children>
+    </item>
+    <item nodeId="node-10915">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">Which do you mean, the top drawer or the bottom drawer?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10916"></child>
+        </children>
+    </item>
+    <item nodeId="node-10916">
+        <command xml:space="preserve">bottom</command>
+        <result xml:space="preserve">The drawer is partially open, but you can't find a purchase on it firm enough to open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10917"></child>
+        </children>
+    </item>
+    <item nodeId="node-10917">
+        <command xml:space="preserve">x keypad</command>
+        <result xml:space="preserve">A standard 0-9 keypad with a "*" and "#". Below the keys is a small keyhole.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10918"></child>
+        </children>
+    </item>
+    <item nodeId="node-10918">
+        <command xml:space="preserve">type</command>
+        <result xml:space="preserve">What do you want to type on?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10919"></child>
+        </children>
+    </item>
+    <item nodeId="node-10919">
+        <command xml:space="preserve">keypad</command>
+        <result xml:space="preserve">The storage unit seems to be broken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10920"></child>
+        </children>
+    </item>
+    <item nodeId="node-10920">
+        <command xml:space="preserve">x unit</command>
+        <result xml:space="preserve">The storage unit consists of top and bottom drawers, with an attached keypad and display. There is a keyhole under the keypad. The top drawer is closed; the bottom drawer juts out by a couple of centimeters.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

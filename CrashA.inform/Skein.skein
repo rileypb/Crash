@@ -14240,6 +14240,10 @@ Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly l
 
 Press any key...
 
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
 Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
 
@@ -14256,15 +14260,13 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 [I think I spit out my gum.]
 
-Crash
-An Interactive Disaster by Phil Riley
-Release 15 / Serial number 220925 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
-
 &gt;[13] a
 You try to enter the airlock, but the automatic door fails to open for you.
 [It's always just opened in the past.]
 
 You add an item ("fix the airlock door") to your to-do list.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[14] u
 
@@ -14321,6 +14323,8 @@ You try again more carefully with the second eye, and manage to produce an undam
 Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[24] d
 
 Staging Area
@@ -14371,6 +14375,8 @@ You are in the aft airlock. Outside is the blackness of space, speckled with the
 &gt;[33] out
 It's dangerous out there. I recommend saving the game first...
 ⇒ Use "save" to save the game, or go "out" again to continue without saving.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[34] out
 
@@ -14426,6 +14432,7 @@ A hook protrudes from the hull next to the airlock door.
 Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;[39] in
+Welcome back, visitor. I hope your spacewalk was uneventful.
 
 Engineering Airlock
 You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
@@ -14456,6 +14463,8 @@ There's a hand vac sitting on the counter.
 &gt;[43] open drawer
 You open the machine room drawers, revealing a small key, a roll of electrical tape, a hex-shaped tool, and a fresh fuse.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[44] take all
 portable hand-held vacuum cleaner: Taken.
 small key: Taken.
@@ -14481,7 +14490,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
 
 [Finally, another person! I'm saved!]
 
@@ -14495,7 +14504,7 @@ You push the trunk clear of the door.
 &gt;[48] set gravity control to 1
 You dial the gravity to 1.
 
-A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
 
 
 &gt;[49] press button
@@ -14518,6 +14527,8 @@ Taken.
 
 &gt;[53] open closet
 You open the closet, revealing ten MREs and a microwavable dinner.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[54] take dinner
 Taken.
@@ -14574,6 +14585,8 @@ You can also see a cardboard box (empty) and some wrapping paper here.
 &gt;[63] open cabinet
 You open the starboard-side equipment cabinet, revealing a beacon.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[64] take beacon
 Taken.
 
@@ -14610,6 +14623,8 @@ The storage unit consists of top and bottom drawers, with an attached keypad and
 As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.
 
 You add an item ("fix the storage unit") to your to-do list.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[74] pry bottom drawer open with knife
 You wedge the knife into the seam and lever the drawer open, revealing the red access card.
@@ -14656,20 +14671,22 @@ Time passes.
 
 The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from down the corridor. He is munching on something resembling an enormous stalk of celery, and he leaves a trail of green slime on the deck. He stops nearby, and you wince as a pool of slime begins forming beneath him on your newly-polished deck. The ambassador wheezes loudly and hands you a brochure outlining his planet's major exports.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[85] z
-Time passes.
-
-The ambassador offers you a bit of celery.
-
-&gt;[86] z
 Time passes.
 
 The ambassador asks where Admiral Smithers can be found.
 
+&gt;[86] z
+Time passes.
+
+The ambassador offers you a bit of celery.
+
 &gt;[87] z
 Time passes.
 
-The ambassador remarks that all humans look alike to him.
+The ambassador inquires whether you are interested in a game of Bocci.
 
 &gt;[88] z
 Time passes.
@@ -14714,6 +14731,8 @@ You can also see a black trunk (closed) here.
 
 &gt;[94] turn locker
 You turn over the locker. Now it's door-side-up.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[95] open locker
 You open the locker.
@@ -14907,13 +14926,15 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 You can also see a brand-new JL-758 here.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[115] push jl-758 aft
 You push the brand-new JL-758 to Engine Room.
 
 You slide the old part out from the engine, and slide the new JL-758 in its place.
 
 Engine Room
-This where the combustion process is controlled. The aft wall is dominated by the operating panel of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
 
 There is a large screen on the forward wall. It displays nothing right now. There is a large button below the diagram labeled "Test".
 
@@ -14979,6 +15000,8 @@ Taken.
 (the fresh fuse in the access panel)
 You put the fresh fuse into the access panel.
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;[125] close panel
 When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.
 
@@ -15010,6 +15033,8 @@ You cross out an item ("fix the captain's door") on your to-do list.
 You slide the red access card through the slot. The Captain's Door slides smoothly open. A pleasant ping indicates it now recognizes you as authorized.
 
 &gt;[131] a
+Welcome, repairperson. Please observe appropriate respect for sensitive materials while in the Captain's quarters.
+
 The Captain's Door closes silently behind you.
 
 Captain's Quarters
@@ -15022,8 +15047,12 @@ You open the desk drawer, revealing the captain's journal.
 Taken.
 
 &gt;[134] read it
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
 The captain's journal is an electronic diary which requires a password to open.
 ⇒ For example, say "journal, password walrus" to unlock the journal with the password "walrus".
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;[135] journal, password walrus
 The journal beeps once to indicate an invalid login.
@@ -15032,6 +15061,8 @@ The journal beeps once to indicate an invalid login.
 The journal chimes pleasantly and the screen fills with text.
 
 &gt;[137] read journal
+The Captain's journal is considered off-limits to non-command personnel. This incident has been logged.
+
 [I never thought it would come to this, eavesdropping on someone's personal thoughts.]
 
 You page through the journal, skimming over the boring parts detailing the running of the ship. Eventually you come across something more interesting:
@@ -15071,7 +15102,7 @@ You can see an equipment trunk (closed) here.
 &gt;[141] z
 Time passes.
 
-A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+A man's voice comes over comms: "Usagi, are you there?"
 
 
 &gt;[142] hello
@@ -15084,7 +15115,7 @@ You tell the caller that you're from the repair corps.
 
 "Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.
 
- "So we've got some work to do. I'm Master Sergeant R. Mu Arvax. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
+ "So we've got some work to do. I'm Master Sergeant R. Mu Arvax -- you can ask the ship computer about me. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
 
 [Sergeant Screwdriver, guy thinks he's funny.]
 
@@ -15113,6 +15144,8 @@ Master Sergeant R. Mu Arvax's voice comes back over the radio: "You there still,
 &gt;[144] tell arvax about journal
 (the captain's journal)
 "Oh, Captain no... We must act fast if we're going to stop her from claiming even more lives."
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;</result>
         <commentary xml:space="preserve">[1] test captain
@@ -15260,7 +15293,11 @@ Master Sergeant R. Mu Arvax's voice comes back over the radio: "You there still,
 [143] hello
 [144] tell arvax about journal
 </commentary>
-        <children><child nodeId="node-3576"></child>
+        <children><child nodeId="node-9580"></child>
+            <child nodeId="node-9434"></child>
+            <child nodeId="node-9282"></child>
+            <child nodeId="node-9739"></child>
+            <child nodeId="node-3576"></child>
         </children>
     </item>
     <item nodeId="node-3576">
@@ -16524,6 +16561,343 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-9739">
+        <command xml:space="preserve">ask computer about asdfasdf</command>
+        <result xml:space="preserve">I'm unable to give you any information about asdfasdf.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9740"></child>
+        </children>
+    </item>
+    <item nodeId="node-9740">
+        <command xml:space="preserve">ask arvax about fjfjf</command>
+        <result xml:space="preserve">"I'm afraid I don't have anything to say about that."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9741"></child>
+        </children>
+    </item>
+    <item nodeId="node-9741">
+        <command xml:space="preserve">tell arvax about fjfjf</command>
+        <result xml:space="preserve">"I'm afraid I don't have anything to say about that."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9282">
+        <command xml:space="preserve">ask arvax for cheese</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9283"></child>
+        </children>
+    </item>
+    <item nodeId="node-9283">
+        <command xml:space="preserve">ask arvax for access code</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9284"></child>
+        </children>
+    </item>
+    <item nodeId="node-9284">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "reset report text rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9285"></child>
+        </children>
+    </item>
+    <item nodeId="node-9285">
+        <command xml:space="preserve">ask arvax for access code</command>
+        <result xml:space="preserve">[Rule "After reading a command" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "Before doing something to Arvax" applies.]
+[Rule "Before" applies.]
+[Rule "new instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "reset turns in state rule" applies.]
+[Rule "standard response rule" applies.]
+[Rule "pre-report rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "post-report rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn when talking about asking mulgrew questions and computer-rebooting is false and protocols-in-progress is false" applies.]
+[Rule "Every turn when explosion happened is true and computer-rebooted is false and protocols-activated is false" applies.]
+[Rule "reset protocol rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "close open doors rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "reset report text rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9286"></child>
+        </children>
+    </item>
+    <item nodeId="node-9286">
+        <command xml:space="preserve">rules off</command>
+        <result xml:space="preserve">[Rule "After reading a command" applies.]
+[Rule "declare everything initially unmentioned rule" applies.]
+Rules tracing now switched off. Type "rules" to switch it on again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9287"></child>
+        </children>
+    </item>
+    <item nodeId="node-9287">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9288"></child>
+        </children>
+    </item>
+    <item nodeId="node-9288">
+        <command xml:space="preserve">ask arvax for access code</command>
+        <result xml:space="preserve">[requesting Master Sergeant R. Mu Arvax for security code]
+[requesting Master Sergeant R. Mu Arvax for security code - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9434">
+        <command xml:space="preserve">           ask arvax for access code</command>
+        <result xml:space="preserve">It's impossible for Master Sergeant R. Mu Arvax to give you anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9580">
+        <command xml:space="preserve">                   ask arvax for access</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9581"></child>
+        </children>
+    </item>
+    <item nodeId="node-9581">
+        <command xml:space="preserve">ask mulgrew for access code</command>
+        <result xml:space="preserve">"It's 3."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9582"></child>
+        </children>
+    </item>
+    <item nodeId="node-9582">
+        <command xml:space="preserve">ask mulgrew for access</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9583"></child>
+        </children>
+    </item>
+    <item nodeId="node-9583">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9584"></child>
+        </children>
+    </item>
+    <item nodeId="node-9584">
+        <command xml:space="preserve">ask mulgrew for access</command>
+        <result xml:space="preserve">[imploring Captain Jane Mulgrew for "access"]
+There is no reply.
+[imploring Captain Jane Mulgrew for "access" - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9585"></child>
+        </children>
+    </item>
+    <item nodeId="node-9585">
+        <command xml:space="preserve">ask arvax for security code</command>
+        <result xml:space="preserve">[requesting Master Sergeant R. Mu Arvax for security code]
+[(1) saying hello to Master Sergeant R. Mu Arvax]
+[(1) saying hello to Master Sergeant R. Mu Arvax - succeeded]
+
+[(1) quizzing Master Sergeant R. Mu Arvax about security code]
+"Just say 'Computer, access code 2'."
+[(1) quizzing Master Sergeant R. Mu Arvax about security code - succeeded]
+
+[requesting Master Sergeant R. Mu Arvax for security code - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9586"></child>
+        </children>
+    </item>
+    <item nodeId="node-9586">
+        <command xml:space="preserve">ask arvax for code</command>
+        <result xml:space="preserve">[requesting Master Sergeant R. Mu Arvax for security code]
+[(1) quizzing Master Sergeant R. Mu Arvax about security code]
+"Just say 'Computer, access code 2'."
+[(1) quizzing Master Sergeant R. Mu Arvax about security code - succeeded]
+
+[requesting Master Sergeant R. Mu Arvax for security code - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9587"></child>
+        </children>
+    </item>
+    <item nodeId="node-9587">
+        <command xml:space="preserve">ask arvax for access</command>
+        <result xml:space="preserve">[imploring Master Sergeant R. Mu Arvax for "access"]
+There is no reply.
+[imploring Master Sergeant R. Mu Arvax for "access" - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9588"></child>
+        </children>
+    </item>
+    <item nodeId="node-9588">
+        <command xml:space="preserve">ask arvax for access code</command>
+        <result xml:space="preserve">[requesting Master Sergeant R. Mu Arvax for security code]
+[(1) quizzing Master Sergeant R. Mu Arvax about security code]
+"Just say 'Computer, access code 2'."
+[(1) quizzing Master Sergeant R. Mu Arvax about security code - succeeded]
+
+[requesting Master Sergeant R. Mu Arvax for security code - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9589"></child>
+        </children>
+    </item>
+    <item nodeId="node-9589">
+        <command xml:space="preserve">ask arvax about access</command>
+        <result xml:space="preserve">[asking Master Sergeant R. Mu Arvax about "access"]
+"I'm afraid I don't have anything to say about that."
+
+"I'm afraid I don't have anything to say about that."
+[asking Master Sergeant R. Mu Arvax about "access" - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9590"></child>
+        </children>
+    </item>
+    <item nodeId="node-9590">
+        <command xml:space="preserve">actions off</command>
+        <result xml:space="preserve">Actions listing off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9591"></child>
+        </children>
+    </item>
+    <item nodeId="node-9591">
+        <command xml:space="preserve">ask arvax about acces</command>
+        <result xml:space="preserve">"I'm afraid I don't have anything to say about that."
+
+"I'm afraid I don't have anything to say about that."
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9592"></child>
+        </children>
+    </item>
+    <item nodeId="node-9592">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "reset report text rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9593"></child>
+        </children>
+    </item>
+    <item nodeId="node-9593">
+        <command xml:space="preserve">ask arvax about acces</command>
+        <result xml:space="preserve">[Rule "After reading a command" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "After deciding the scope of the player when location is Operations" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "Before doing something to Arvax" applies.]
+[Rule "Before" applies.]
+[Rule "reaching inside for Deneb III Naval Command" applies.]
+[Rule "new instead stage rule" applies.]
+[Rule "Instead of asking someone about a topic when end game is not happening" applies.]
+"I'm afraid I don't have anything to say about that."
+
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "reset turns in state rule" applies.]
+[Rule "standard response rule" applies.]
+[Rule "block asking rule" applies.]
+"I'm afraid I don't have anything to say about that."
+[Rule "pre-report rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "post-report rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn when talking about asking mulgrew questions and computer-rebooting is false and protocols-in-progress is false" applies.]
+[Rule "Every turn when explosion happened is true and computer-rebooted is false and protocols-activated is false" applies.]
+[Rule "reset protocol rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "close open doors rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "reset report text rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-8915">
         <command xml:space="preserve">pf</command>
         <result xml:space="preserve">PLANETFALL
@@ -16806,19 +17180,7 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
     </item>
     <item nodeId="node-7696">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">Accessibility off.
-
-
-The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
-
-Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
-
-Space Station Gangway
-This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
-
-[Better get a move on], you think.
-
-⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

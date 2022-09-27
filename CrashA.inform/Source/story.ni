@@ -385,6 +385,18 @@ index (number)	recurs (truth state)	triggered (truth state)	thought (text)
 
 Chapter 3 - Speaking
 
+Check asking someone for something:
+	say "It's impossible for [the noun] to give you anything." instead;
+
+Check requesting someone for something:
+	say "It's impossible for [the noun] to give you anything." instead;
+	
+Check requesting arvax for security code:
+	try quizzing arvax about security code instead;
+	
+Check requesting mulgrew for security code:
+	try quizzing mulgrew about security code instead;
+
 A person has a text called last utterance.
 A person has a list of texts called the speech transcript.
 The shipboard computer has a list of texts called the speech transcript.
@@ -2033,9 +2045,9 @@ Before asking Arvax about "himself":
 Before asking Captain Mulgrew about "herself":
 	try quizzing Captain Mulgrew about Captain Mulgrew instead;
 
-Instead of asking someone about a topic when end game is not happening:
+[Instead of asking someone about a topic when end game is not happening:
 	say "'I'm afraid I don't have anything to say about that.'";
-	reset turns in state instead;
+	reset turns in state instead;]
 	
 Before telling someone about a topic:
 	say "'I'm afraid I don't have anything to say about that.'";

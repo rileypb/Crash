@@ -4547,7 +4547,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 A large equipment trunk lies on the midship door, blocking it.
 
-A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+A man's voice comes over comms: "Usagi, are you there?"
 
 [Finally, another person! I'm saved!]
 
@@ -4733,17 +4733,17 @@ Attention all crew: command functions are offline and the computer is running wi
 &gt;[86] z
 Time passes.
 
-The ambassador asks where Admiral Smithers can be found.
+The ambassador asks if you are performing some sort of religious ceremony.
 
 &gt;[87] z
 Time passes.
 
-The ambassador inquires whether you are interested in a game of Bocci.
+The ambassador remarks that all humans look alike to him.
 
 &gt;[88] z
 Time passes.
 
-The ambassador asks if you are performing some sort of religious ceremony.
+The ambassador inquires whether you are interested in a game of Bocci.
 
 &gt;[89] z
 Time passes.
@@ -5019,7 +5019,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 You can see an equipment trunk (closed) here.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
 
 
 &gt;[119] d
@@ -5381,6 +5381,7 @@ Reboot complete.
 </commentary>
         <children><child nodeId="node-4045"></child>
             <child nodeId="node-3890"></child>
+            <child nodeId="node-9894"></child>
             <child nodeId="node-9111"></child>
             <child nodeId="node-2889"></child>
         </children>
@@ -5612,6 +5613,165 @@ Reboot complete.
 
 
 You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9894">
+        <command xml:space="preserve">ask arvax about asdf</command>
+        <result xml:space="preserve">"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+
+"I'm afraid I don't have anything to say about that."
+
+You add an item ("adjust fuel injection specification") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9895"></child>
+        </children>
+    </item>
+    <item nodeId="node-9895">
+        <command xml:space="preserve">ask arvax about asdf</command>
+        <result xml:space="preserve">"I'm afraid I don't have anything to say about that."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9896"></child>
+        </children>
+    </item>
+    <item nodeId="node-9896">
+        <command xml:space="preserve">ask arvax about asdf</command>
+        <result xml:space="preserve">"I'm afraid I don't have anything to say about that."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9897"></child>
+        </children>
+    </item>
+    <item nodeId="node-9897">
+        <command xml:space="preserve">ask arvax about access code</command>
+        <result xml:space="preserve">"Just say 'Computer, access code 2'."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9898"></child>
+        </children>
+    </item>
+    <item nodeId="node-9898">
+        <command xml:space="preserve">c</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9899"></child>
+        </children>
+    </item>
+    <item nodeId="node-9899">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the portable hand-held vacuum cleaner)
+A small canister vacuum, with a handle to easily carry it around, and a short hose.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9900"></child>
+        </children>
+    </item>
+    <item nodeId="node-9900">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  the captain's journal
+  a blown fuse
+  a copy of Planetfall
+  the red access card
+  an Universal Game Emulator
+  a piece of note paper
+  a beacon
+  a microwavable dinner
+  a knife
+  a hex-shaped tool
+  a roll of electrical tape
+  a small key
+  a portable hand-held vacuum cleaner
+  a vac suit (being worn)
+  a broken sensor
+  Bertie the Bear™
+  some pair of slippers
+  a To-Do list
+  a repair corps uniform (being worn)
+  a toolbox
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9901"></child>
+        </children>
+    </item>
+    <item nodeId="node-9901">
+        <command xml:space="preserve">pronouns</command>
+        <result xml:space="preserve">At the moment, "it" means the portable hand-held vacuum cleaner, "him" means Master Sergeant R. Mu Arvax, "her" is unset, and "them" means the machine room drawers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9902"></child>
+        </children>
+    </item>
+    <item nodeId="node-9902">
+        <command xml:space="preserve">x key</command>
+        <result xml:space="preserve">A small steel key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9903"></child>
+        </children>
+    </item>
+    <item nodeId="node-9903">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the portable hand-held vacuum cleaner)
+A small canister vacuum, with a handle to easily carry it around, and a short hose.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9904"></child>
+        </children>
+    </item>
+    <item nodeId="node-9904">
+        <command xml:space="preserve">x key</command>
+        <result xml:space="preserve">A small steel key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9905"></child>
+        </children>
+    </item>
+    <item nodeId="node-9905">
+        <command xml:space="preserve">pronouns</command>
+        <result xml:space="preserve">At the moment, "it" means the small key, "him" means Master Sergeant R. Mu Arvax, "her" is unset, and "them" means the machine room drawers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9906"></child>
+        </children>
+    </item>
+    <item nodeId="node-9906">
+        <command xml:space="preserve">x it</command>
+        <result xml:space="preserve">A small steel key.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9907"></child>
+        </children>
+    </item>
+    <item nodeId="node-9907">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the portable hand-held vacuum cleaner)
+A small canister vacuum, with a handle to easily carry it around, and a short hose.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -18410,7 +18570,8 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9128"></child>
+        <children><child nodeId="node-9918"></child>
+            <child nodeId="node-9128"></child>
         </children>
     </item>
     <item nodeId="node-9128">
@@ -18439,16 +18600,20 @@ Attention all crew: command functions are offline and the computer is running wi
     </item>
     <item nodeId="node-9130">
         <command xml:space="preserve">computer, reboot</command>
-        <result xml:space="preserve">Beginning reboot. Take all appropriate precautions.
-
-Red alert lights flash throughout the ship.
-
-The air in here has gotten a bit stale.
+        <result xml:space="preserve">Are you sure you wish to reboot?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9131"></child>
+            <child nodeId="node-9914"></child>
+        </children>
+    </item>
+    <item nodeId="node-9914">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+The shipboard computer has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9131"></child>
-        </children>
     </item>
     <item nodeId="node-9131">
         <command xml:space="preserve">d</command>
@@ -18505,6 +18670,124 @@ Reboot complete.
     <item nodeId="node-9135">
         <command xml:space="preserve">computer, reboot</command>
         <result xml:space="preserve">You've already rebooted once. That's enough.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9918">
+        <command xml:space="preserve">computer, access code 2</command>
+        <result xml:space="preserve">Welcome, caller. Logging you in.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9919"></child>
+        </children>
+    </item>
+    <item nodeId="node-9919">
+        <command xml:space="preserve">computer, reboot</command>
+        <result xml:space="preserve">Are you sure you wish to reboot?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9920"></child>
+        </children>
+    </item>
+    <item nodeId="node-9920">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9937"></child>
+            <child nodeId="node-9927"></child>
+        </children>
+    </item>
+    <item nodeId="node-9927">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9928"></child>
+        </children>
+    </item>
+    <item nodeId="node-9928">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9929"></child>
+        </children>
+    </item>
+    <item nodeId="node-9929">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9930"></child>
+        </children>
+    </item>
+    <item nodeId="node-9930">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9937">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9938"></child>
+        </children>
+    </item>
+    <item nodeId="node-9938">
+        <command xml:space="preserve">computer, reboot</command>
+        <result xml:space="preserve">Are you sure you wish to reboot?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9939"></child>
+        </children>
+    </item>
+    <item nodeId="node-9939">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+Beginning reboot. Take all appropriate precautions.
+
+Red alert lights flash throughout the ship.
+
+The air in here has gotten a bit stale.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9940"></child>
+        </children>
+    </item>
+    <item nodeId="node-9940">
+        <command xml:space="preserve">reboot</command>
+        <result xml:space="preserve">You can't reboot yourself.
+
+You're starting to feel faint.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9941"></child>
+        </children>
+    </item>
+    <item nodeId="node-9941">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+You pass out.
+
+ ...
+
+When you awake, your head is throbbing and you have no idea how much time has passed.
+[I wonder what's going on?]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -2450,7 +2450,7 @@ Response of Captain Mulgrew when asked about the security code and talking about
 	print "'It's [Mulgrew code].'[line break]" as captain mulgrew near communications console;
 
 Response of Arvax when asked about subj-rebooting-computer and talking about asking mulgrew questions:
-	print "'Before rebooting, make sure your vac suit is full and on. Life support can go out during a reboot.'[line break]" as Arvax near communications console;
+	print "'Before rebooting, make sure you're wearing a vac suit, and make sure its tank is full. Life support can go out during a reboot.'[line break]" as Arvax near communications console;
 	
 Response of Arvax when asked about emergency protocols and talking about asking mulgrew questions:
 	print "'I can't tell you for sure what those might be, but often they have to do with expelling a hostile presence from the ship. Be careful. I'm beginning to wonder... I know there are captains compromised by the separatists, but I don't know who they are. Beware of trusting anyone too far.'[line break]" as Arvax near communications console;
@@ -3333,19 +3333,23 @@ Persuasion rule for asking the shipboard computer to try rebooting:
 		print "Authorization required.[line break]" as shipboard computer near player;
 		persuasion fails;
 	persuasion succeeds;
-
+		
 Carry out shipboard computer rebooting:
-	Now computer-rebooting is true;
-	talk about cs-end-game-reboot;
-	Now reboot-countdown is 5;
+	say "Are you sure you wish to reboot?";
+	if the player consents:
+		Now computer-rebooting is true;
+		talk about cs-end-game-reboot;
+		Now reboot-countdown is 5;
 	
 Report shipboard computer rebooting:
-	print "Beginning reboot. Take all appropriate precautions.[paragraph break]" as computer near player;
-	say "Red alert lights flash throughout the ship.";
+	if computer-rebooting is true:
+		print "Beginning reboot. Take all appropriate precautions.[paragraph break]" as computer near player;
+		say "Red alert lights flash throughout the ship.";
 	
 After shipboard computer rebooting:
-	Deactivate Table of Trust hints;
-	Continue the action;
+	if computer-rebooting is true:
+		Deactivate Table of Trust hints;
+		Continue the action;
 	
 Invoking emergency protocols is an action applying to nothing. Understand "invoke emergency protocols" as invoking emergency protocols. Understand "emergency protocols" as invoking emergency protocols.
 		
@@ -3359,14 +3363,17 @@ Check player invoking emergency protocols:
 	say "That's something you'll have to ask the computer to do." instead;
 		
 Carry out shipboard computer invoking emergency protocols:
-	Now protocols-in-progress is true;
-	Now reboot-countdown is 4;
-	print "Beginning emergency protocols. Take all appropriate precautions.[paragraph break]" as computer near player;
-	say "Red alert lights flash throughout the ship.";
+	say "Are you sure you wish to invoke the emergency protocols?";
+	if the player consents:
+		Now protocols-in-progress is true;
+		Now reboot-countdown is 4;
+		print "Beginning emergency protocols. Take all appropriate precautions.[paragraph break]" as computer near player;
+		say "Red alert lights flash throughout the ship.";
 	
 After shipboard computer invoking emergency protocols:
-	Deactivate the Table of Trust Hints;
-	Continue the action;
+	if protocols-in-progress is true:
+		Deactivate the Table of Trust Hints;
+		Continue the action;
 
 Every turn while protocols-in-progress is true:
 	decrement reboot-countdown;

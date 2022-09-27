@@ -4066,6 +4066,17 @@ Instead of examining the row of fuses:
 		say "The panel holds a row of fresh fuses.";
 	otherwise:
 		say "The panel holds a row of fuses, with one empty spot.";
+		
+Replacing fuse is an action applying to nothing. Understand "replace fuse" as replacing fuse.
+
+Check replacing fuse:
+	if the fresh fuse is in the aft access panel:
+		say "You've replaced the bad fuse. No need to play with the fuses anymore." instead;
+	if the fresh fuse is not touchable:
+		say "You don't have a suitable fuse." instead;	
+	if the old fuse is not touchable:
+		say "There is no fuse to replace." instead;
+	try inserting fresh fuse into aft access panel instead;
 
 Instead of taking the row of fuses:
 	if the old fuse is in the aft access panel:

@@ -320,7 +320,8 @@ The nozzles on either side of the chair connect with the suit. After a few momen
 [32] p
 [33] sit in recharger
 </commentary>
-        <children><child nodeId="node-11634"></child>
+        <children><child nodeId="node-11680"></child>
+            <child nodeId="node-11634"></child>
         </children>
     </item>
     <item nodeId="node-11634">
@@ -659,6 +660,47 @@ This narrow space is barely enough room for two Marines to prepare and eat a mea
 On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
 
 You hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-11680">
+        <command xml:space="preserve">                               p</command>
+        <result xml:space="preserve">
+Machine Room
+The machine room is where the physical work of Engineering takes place; for instance, machining new parts. There is a large counter lined with drawers here, as well as numerous saws, drills, and other pieces of equipment. You can leave to starboard.
+
+There's a hand vac sitting on the counter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11681"></child>
+        </children>
+    </item>
+    <item nodeId="node-11681">
+        <command xml:space="preserve">take vac</command>
+        <result xml:space="preserve">(the vac suit)
+You already have that.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11682"></child>
+        </children>
+    </item>
+    <item nodeId="node-11682">
+        <command xml:space="preserve">take hand vac</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11683"></child>
+        </children>
+    </item>
+    <item nodeId="node-11683">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">What do you want to take?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

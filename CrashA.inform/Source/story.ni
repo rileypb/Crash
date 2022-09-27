@@ -1326,7 +1326,7 @@ report tying the EVA transport line to a hook:
 		think "Three! That was a bit of work. Hope it's useful.";
 	otherwise:
 		say "You attach the EVA transport line to the hook.";
-		let X be "[attachment count in words]";
+		let X be "[attachment count in words] hook";
 		think "[X in title case]...";
 	
 Before going to aft-airlock-room when player encloses the EVA transport line and the attachment count is 1:
@@ -4893,7 +4893,7 @@ EVA transport line in play is a truth state that varies.
 
 After opening suit locker 2 when EVA transport line in play is false:
 	say "You open the locker.[paragraph break]";
-	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting: an EVA transport line, used for securing objects during extravehicular transit.";
+	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting and take it: an EVA transport line, used for securing objects during extravehicular transit.";
 	now the player carries the EVA transport line;
 	now EVA transport line in play is true;
 

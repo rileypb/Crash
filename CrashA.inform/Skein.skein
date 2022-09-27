@@ -19,7 +19,1034 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-11567"></child>
+            <child nodeId="node-11573"></child>
+            <child nodeId="node-11600"></child>
         </children>
+    </item>
+    <item nodeId="node-11600">
+        <command xml:space="preserve">test spacewalk</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] test airlock
+(Testing.)
+
+&gt;[2] f
+You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;[3] f
+You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;[4] u
+You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and slammed into the airlock door.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;[5] a
+You try to enter the airlock, but the automatic door fails to open for you.
+[It's always just opened in the past.]
+
+You add an item ("fix the airlock door") to your to-do list.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;[6] u
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+&gt;[7] s
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;[8] take slippers
+As you lean to take the slippers, you notice something under the bed.
+
+&gt;[9] look under bed
+You find a black trunk and move it out from under the bottom bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+You can also see a black trunk (closed) here.
+
+&gt;[10] get trunk
+Taken.
+
+&gt;[11] open it
+You open the black trunk, revealing a present.
+
+&gt;[12] take present
+Taken.
+
+&gt;[13] open it
+[I'll go to hell for this, but here goes...]
+
+You rip off the wrapping paper and open the box. Inside is a stuffed bear you recognize as Bertie the Bear™. You discard the paper and box.
+
+&gt;[14] take eyes
+[Am I really going to do this? Yes, yes, I am, apparently.]
+
+You grasp one of the eyes and give it a tug, first softly then harder. Eventually it gives and you extract the eye from the bear. Upon examination you discover that the eye is in fact an optical sensor in camouflage. It looks like you didn't pull it carefully enough, however, because the connector at the end has been damaged.
+
+You try again more carefully with the second eye, and manage to produce an undamaged optical sensor.
+
+&gt;[15] p
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;[16] d
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+&gt;[17] drop trunk
+You place the black trunk near the airlock door.
+
+&gt;[18] stand on trunk
+(first closing the black trunk)
+You get onto the black trunk.
+
+&gt;[19] take broken sensor
+You remove the broken sensor from the panel.
+
+&gt;[20] put optical sensor in panel
+You insert the fresh sensor into the empty socket.
+[There. That should do it.]
+
+You cross out an item ("fix the airlock door") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;[21] take suit
+Taken.
+
+&gt;[22] wear it
+You put on the vac suit.
+
+&gt;[23] turn on mag boots
+You switch the Magnetic boots on.
+
+&gt;[24] a
+(first getting off the black trunk)
+
+Aft Airlock
+You are in the aft airlock. Outside is the blackness of space, speckled with the dying embers of what was once Space Station Omicron-5. Forward leads into the ship.
+
+&gt;[25] out
+It's dangerous out there. I recommend saving the game first...
+⇒ Use "save" to save the game, or go "out" again to continue without saving.
+&gt;[26] out
+
+Outside the Aft Airlock (vacuum)
+You are standing on the hull of the ship, outside the aft airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to fore among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[27] f
+
+Hull of the Usagi (vacuum)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Your path to starboard is blocked by a piece of debris lodged in the hull. [Whatever happened, this was part of it. It's fortunate it didn't penetrate further into the hull.] It's going to be tough to get over; it doesn't look magnetic, so your mag boots won't stick to it. You'll need to be careful.
+
+There is a hook set in the hull here.
+
+It looks like you could break off a small piece of debris.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[28] s
+You attempt to climb over the debris. Just when you think you're over, your foot catches, and you lose your hold. The result: you're floating about a foot from the hull, unable to make contact with your mag boots to pull yourself down. You're barely moving relative to the hull, but you're stuck here. The bright side? You broke down the debris enough that it's no longer a barrier.
+
+[Okay, stay calm. Don't freak out.]
+
+Hull of the Usagi (vacuum, floating)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.
+
+There is a hook set in the hull here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[29] vent air
+You vent a bit of air from your suit. It propels you just a tiny amount toward the hull, but it's enough. One agonizing minute later, you're attached to the hull again.
+
+[Oh thank god! I thought I was a goner.]
+
+Hull of the Usagi (vacuum)
+Here the path runs aft to the aft airlock and starboard to the engineering airlock. Where there used to be a large embedded chunk of debris blocking the path, now there is a scattering of rubble.
+
+There is a hook set in the hull here.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[30] s
+
+Outside the Engineering Airlock (vacuum)
+You are standing on the hull of the ship, outside the engineering airlock, secured by your vac suit's mag boots. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.
+
+A hook protrudes from the hull next to the airlock door.
+
+Your vac suit pings gently to indicate you have expended a unit of air.
+
+&gt;[31] in
+Welcome back, visitor. I hope your spacewalk was uneventful.
+
+Engineering Airlock
+You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
+
+⇒ astern: behind or toward the rear of a ship, spaceship or aircraft.
+&gt;[32] p
+
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;[33] sit in recharger
+The nozzles on either side of the chair connect with the suit. After a few moments, the machine emits a pleasant "ping", the nozzles retract, and you stand up.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] test airlock
+[2] f
+[3] f
+[4] u
+[5] a
+[6] u
+[7] s
+[8] take slippers
+[9] look under bed
+[10] get trunk
+[11] open it
+[12] take present
+[13] open it
+[14] take eyes
+[15] p
+[16] d
+[17] drop trunk
+[18] stand on trunk
+[19] take broken sensor
+[20] put optical sensor in panel
+[21] take suit
+[22] wear it
+[23] turn on mag boots
+[24] a
+[25] out
+[26] out
+[27] f
+[28] s
+[29] vent air
+[30] s
+[31] in
+[32] p
+[33] sit in recharger
+</commentary>
+        <children><child nodeId="node-11634"></child>
+        </children>
+    </item>
+    <item nodeId="node-11634">
+        <command xml:space="preserve">                  a</command>
+        <result xml:space="preserve">
+Engine Room
+This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+
+There is a large screen on the forward wall. It displays nothing right now. There is a large button below the diagram labeled "Test".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11635"></child>
+        </children>
+    </item>
+    <item nodeId="node-11635">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11636"></child>
+        </children>
+    </item>
+    <item nodeId="node-11636">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+A large equipment trunk lies on the midship door, blocking it.
+
+A man's voice comes over comms: "Usagi, are you there?"
+
+[Finally, another person! I'm saved!]
+
+⇒ By the way... you can get help about speaking to other characters by typing "help speech".
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11637"></child>
+        </children>
+    </item>
+    <item nodeId="node-11637">
+        <command xml:space="preserve">push trunk</command>
+        <result xml:space="preserve">You push the trunk clear of the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11638"></child>
+        </children>
+    </item>
+    <item nodeId="node-11638">
+        <command xml:space="preserve">press blue button</command>
+        <result xml:space="preserve">The door slides open.
+
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+
+⇒ You might try saying hello.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11639"></child>
+        </children>
+    </item>
+    <item nodeId="node-11639">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11640"></child>
+        </children>
+    </item>
+    <item nodeId="node-11640">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "reset report text rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11641"></child>
+        </children>
+    </item>
+    <item nodeId="node-11641">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">[Rule "After reading a command" applies.]
+[Rule "After deciding the scope of the player when the current stuck thing of the chewing gum is not the player" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "Before" applies.]
+[Rule "new instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "say goodbye when moving rule" applies.]
+[Rule "move player and vehicle rule" applies.]
+[Rule "move floating objects rule" applies.]
+[Rule "check light in new location rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "After going through the Midship door" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "add report stack entry rule" applies.]
+[Rule "describe room gone into rule" applies.]
+
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+Operations Deck
+[Rule "room description body text rule" applies.]
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "new use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+You can see an equipment trunk (closed) here.
+
+[Rule "check new arrival rule" applies.]
+[Rule "mark items as seen when looking rule" applies.]
+[Rule "describe port bunk contents rule" applies.]
+[Rule "describe starboard bunk contents rule" applies.]
+[Rule "describe chewing gum stuck to unmentioned things rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "pre-report rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "pre-report rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "post-report rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn when ( not talking about asking mulgrew questions ) and computer-rebooting is false and protocols-in-progress is false and last-moves is false" applies.]
+[Rule "For asking for attention by Arvax while current conversation state is making contact" applies.]
+A man's voice comes over comms: "Usagi, are you there?"
+
+[Rule "Arvax reminder text rule" applies.]
+
+[Rule "Every turn when explosion happened is true and computer-rebooted is false and protocols-activated is false" applies.]
+[Rule "reset protocol rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "close open doors rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "reset report text rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11642"></child>
+        </children>
+    </item>
+    <item nodeId="node-11642">
+        <command xml:space="preserve">rules off</command>
+        <result xml:space="preserve">[Rule "After reading a command" applies.]
+[Rule "declare everything initially unmentioned rule" applies.]
+Rules tracing now switched off. Type "rules" to switch it on again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11643"></child>
+        </children>
+    </item>
+    <item nodeId="node-11643">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11644"></child>
+        </children>
+    </item>
+    <item nodeId="node-11644">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+You can see an equipment trunk (closed) here.
+
+A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+
+⇒ You might try saying hello.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11645"></child>
+        </children>
+    </item>
+    <item nodeId="node-11645">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-11573">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">You don't have a suitable fuse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11574"></child>
+        </children>
+    </item>
+    <item nodeId="node-11574">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11575"></child>
+        </children>
+    </item>
+    <item nodeId="node-11575">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11576"></child>
+        </children>
+    </item>
+    <item nodeId="node-11576">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and slammed into the airlock door.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11577"></child>
+        </children>
+    </item>
+    <item nodeId="node-11577">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11578"></child>
+        </children>
+    </item>
+    <item nodeId="node-11578">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">You don't have a suitable fuse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11579"></child>
+        </children>
+    </item>
+    <item nodeId="node-11579">
+        <command xml:space="preserve">purloin fuse</command>
+        <result xml:space="preserve">Which do you mean, the fresh fuse or the blown fuse?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11580"></child>
+        </children>
+    </item>
+    <item nodeId="node-11580">
+        <command xml:space="preserve">fresh</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11581"></child>
+        </children>
+    </item>
+    <item nodeId="node-11581">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">There is no fuse to replace.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11582"></child>
+        </children>
+    </item>
+    <item nodeId="node-11582">
+        <command xml:space="preserve">open panel</command>
+        <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
+
+The access panel opens to reveal a row of fuses, one of which is blown.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11583"></child>
+        </children>
+    </item>
+    <item nodeId="node-11583">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">(first removing the blown fuse)
+You put the fresh fuse into the access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11584"></child>
+        </children>
+    </item>
+    <item nodeId="node-11584">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">You've replaced the bad fuse. No need to play with the fuses anymore.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11585"></child>
+        </children>
+    </item>
+    <item nodeId="node-11585">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11586"></child>
+        </children>
+    </item>
+    <item nodeId="node-11586">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">All of your screws are either too big or too small.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11587"></child>
+        </children>
+    </item>
+    <item nodeId="node-11587">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">You've replaced the bad fuse. No need to play with the fuses anymore.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11588"></child>
+        </children>
+    </item>
+    <item nodeId="node-11588">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11589"></child>
+        </children>
+    </item>
+    <item nodeId="node-11589">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+[Better get a move on], you think.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11590"></child>
+        </children>
+    </item>
+    <item nodeId="node-11590">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11591"></child>
+        </children>
+    </item>
+    <item nodeId="node-11591">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11592"></child>
+        </children>
+    </item>
+    <item nodeId="node-11592">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and slammed into the airlock door.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship. It has chewing gum stuck to it.
+
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11593"></child>
+        </children>
+    </item>
+    <item nodeId="node-11593">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11594"></child>
+        </children>
+    </item>
+    <item nodeId="node-11594">
+        <command xml:space="preserve">repair panel</command>
+        <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11595"></child>
+        </children>
+    </item>
+    <item nodeId="node-11595">
+        <command xml:space="preserve">open panel</command>
+        <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
+
+The access panel opens to reveal a row of fuses, one of which is blown.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11596"></child>
+        </children>
+    </item>
+    <item nodeId="node-11596">
+        <command xml:space="preserve">repair panel</command>
+        <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11597"></child>
+        </children>
+    </item>
+    <item nodeId="node-11597">
+        <command xml:space="preserve">purloin fresh fuse</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11598"></child>
+        </children>
+    </item>
+    <item nodeId="node-11598">
+        <command xml:space="preserve">repair panel</command>
+        <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11599"></child>
+        </children>
+    </item>
+    <item nodeId="node-11599">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">(first removing the blown fuse)
+You put the fresh fuse into the access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-11567">
         <command xml:space="preserve">f</command>

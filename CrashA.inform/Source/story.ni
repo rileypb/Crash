@@ -3656,10 +3656,10 @@ The portable hand-held vacuum cleaner is a thing on the machine room counter. "T
 Understand "hand/-- vac" as the portable hand-held vacuum cleaner.
 The description of the vacuum cleaner is "A small canister vacuum, with a handle to easily carry it around, and a short hose."
 
-Does the player mean doing something to the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely;
+[Does the player mean doing something to the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely;
 
 Does the player mean taking a vac suit when the player is wearing a vac suit: it is very unlikely.
-Does the player mean taking the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely.
+Does the player mean taking the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely.]
 
 Section 7 - Engine Room
 

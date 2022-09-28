@@ -6261,7 +6261,7 @@ Carry out abouting:
 
 Book 21 - Not for Release
 
-DEBUG is true.
+DEBUG is false.
 
 When play begins:
 	if DEBUG is true:

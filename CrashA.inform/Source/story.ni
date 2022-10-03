@@ -24,7 +24,7 @@ The story title is "Crash".
 The story author is "Phil Riley".
 The story headline is "An Interactive Disaster".
 The story genre is "Science Fiction".
-The release number is 15.
+The release number is 16.
 The story creation year is 2022.
 
 DEBUG is a truth state that varies. DEBUG is initially false.
@@ -2490,7 +2490,6 @@ To say problems description:
 
 After saying hello to Arvax when talking about cs-end-game-reboot:
 	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.'[paragraph break]" as Arvax near communications console;
-	report on ship;
 	reset turns in state;
 
 To decide whether ship is in self-destruct mode:
@@ -6205,7 +6204,7 @@ hint	used (a number)
 Table of Fuel Injection Hints
 hint	used (a number)
 "Take a look at the engine diagram in the engine room."	
-"Read about the SS Usagi's engine using the data terminal."	
+"Ask the computer about the SS Usagi's engine."	
 "You should be able to find a description of the fuel you need to make."	
 "Setting the inputs correctly on the diagram will create that fuel."	
 "The shipboard computer can tell you how to create all of the different substances, which can help you make Liquid Copernicium, the correct fuel."	
@@ -6261,7 +6260,7 @@ Carry out abouting:
 
 Book 21 - Not for Release
 
-DEBUG is false.
+DEBUG is true.
 
 When play begins:
 	if DEBUG is true:

@@ -2651,6 +2651,12 @@ Does the player mean quizzing arvax about the fusion engine:
 
 Book 11 - The Computer
 
+Instead of examining the shipboard computer when the location is onboard:
+	say "The computer isn't really here.";
+
+Instead of examining the shipboard computer when the location is offboard:
+	say "The computer is only available onboard the ship.";
+
 After deciding the scope of the player (this is the computer is everywhere rule):
 	Place shipboard computer in scope;
 

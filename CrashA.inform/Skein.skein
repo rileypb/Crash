@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1002">
+<Skein rootNode="node-1194">
     <generator>Inform Mac Client (Inform version )</generator>
-    <item nodeId="node-1002">
+    <item nodeId="node-1194">
         <command xml:space="preserve">CrashA</command>
         <result xml:space="preserve">
 
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 16 / Serial number 221002 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 16 / Serial number 221014 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Space Station Gangway
 This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
@@ -18,14 +18,22 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1047"></child>
-            <child nodeId="node-1088"></child>
-            <child nodeId="node-1020"></child>
-            <child nodeId="node-1089"></child>
-            <child nodeId="node-1003"></child>
+        <children><child nodeId="node-1285"></child>
+            <child nodeId="node-1273"></child>
+            <child nodeId="node-1246"></child>
+            <child nodeId="node-1212"></child>
+            <child nodeId="node-1195"></child>
+            <child nodeId="node-1934"></child>
         </children>
     </item>
-    <item nodeId="node-1003">
+    <item nodeId="node-1934">
+        <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">The computer isn't really here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1195">
         <command xml:space="preserve">test spacewalk</command>
         <result xml:space="preserve">(Testing.)
 
@@ -322,11 +330,11 @@ The nozzles on either side of the chair connect with the suit. After a few momen
 [32] p
 [33] sit in recharger
 </commentary>
-        <children><child nodeId="node-1016"></child>
-            <child nodeId="node-1004"></child>
+        <children><child nodeId="node-1208"></child>
+            <child nodeId="node-1196"></child>
         </children>
     </item>
-    <item nodeId="node-1004">
+    <item nodeId="node-1196">
         <command xml:space="preserve">                  a</command>
         <result xml:space="preserve">
 Engine Room
@@ -336,10 +344,10 @@ There is a large screen on the forward wall. It displays nothing right now. Ther
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1005"></child>
+        <children><child nodeId="node-1197"></child>
         </children>
     </item>
-    <item nodeId="node-1005">
+    <item nodeId="node-1197">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -355,10 +363,10 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1006"></child>
+        <children><child nodeId="node-1198"></child>
         </children>
     </item>
-    <item nodeId="node-1006">
+    <item nodeId="node-1198">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Operations Deck
@@ -373,19 +381,19 @@ A man's voice comes over comms: "Usagi, are you there?"
 ⇒ By the way... you can get help about speaking to other characters by typing "help speech".
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1007"></child>
+        <children><child nodeId="node-1199"></child>
         </children>
     </item>
-    <item nodeId="node-1007">
+    <item nodeId="node-1199">
         <command xml:space="preserve">push trunk</command>
         <result xml:space="preserve">You push the trunk clear of the door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1008"></child>
+        <children><child nodeId="node-1200"></child>
         </children>
     </item>
-    <item nodeId="node-1008">
+    <item nodeId="node-1200">
         <command xml:space="preserve">press blue button</command>
         <result xml:space="preserve">The door slides open.
 
@@ -394,10 +402,10 @@ A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 ⇒ You might try saying hello.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1009"></child>
+        <children><child nodeId="node-1201"></child>
         </children>
     </item>
-    <item nodeId="node-1009">
+    <item nodeId="node-1201">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Galley
@@ -409,20 +417,20 @@ You hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1010"></child>
+        <children><child nodeId="node-1202"></child>
         </children>
     </item>
-    <item nodeId="node-1010">
+    <item nodeId="node-1202">
         <command xml:space="preserve">rules</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 [Rule "reset report text rule" applies.]
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1011"></child>
+        <children><child nodeId="node-1203"></child>
         </children>
     </item>
-    <item nodeId="node-1011">
+    <item nodeId="node-1203">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">[Rule "After reading a command" applies.]
 [Rule "After deciding the scope of the player when the current stuck thing of the chewing gum is not the player" applies.]
@@ -608,10 +616,10 @@ A man's voice comes over comms: "Usagi, are you there?"
 [Rule "reset report text rule" applies.]
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
+        <children><child nodeId="node-1204"></child>
         </children>
     </item>
-    <item nodeId="node-1012">
+    <item nodeId="node-1204">
         <command xml:space="preserve">rules off</command>
         <result xml:space="preserve">[Rule "After reading a command" applies.]
 [Rule "declare everything initially unmentioned rule" applies.]
@@ -619,10 +627,10 @@ Rules tracing now switched off. Type "rules" to switch it on again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1013"></child>
+        <children><child nodeId="node-1205"></child>
         </children>
     </item>
-    <item nodeId="node-1013">
+    <item nodeId="node-1205">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Galley
@@ -634,10 +642,10 @@ You hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1206"></child>
         </children>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1206">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Operations Deck
@@ -650,10 +658,10 @@ A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
 ⇒ You might try saying hello.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1015"></child>
+        <children><child nodeId="node-1207"></child>
         </children>
     </item>
-    <item nodeId="node-1015">
+    <item nodeId="node-1207">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Galley
@@ -666,7 +674,7 @@ You hear someone speaking above.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1016">
+    <item nodeId="node-1208">
         <command xml:space="preserve">                               p</command>
         <result xml:space="preserve">
 Machine Room
@@ -676,10 +684,10 @@ There's a hand vac sitting on the counter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1017"></child>
+        <children><child nodeId="node-1209"></child>
         </children>
     </item>
-    <item nodeId="node-1017">
+    <item nodeId="node-1209">
         <command xml:space="preserve">take vac</command>
         <result xml:space="preserve">(the vac suit)
 You already have that.
@@ -688,26 +696,26 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
+        <children><child nodeId="node-1210"></child>
         </children>
     </item>
-    <item nodeId="node-1018">
+    <item nodeId="node-1210">
         <command xml:space="preserve">take hand vac</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1019"></child>
+        <children><child nodeId="node-1211"></child>
         </children>
     </item>
-    <item nodeId="node-1019">
+    <item nodeId="node-1211">
         <command xml:space="preserve">take</command>
         <result xml:space="preserve">What do you want to take?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1212">
         <command xml:space="preserve">test reboot</command>
         <result xml:space="preserve">(Testing.)
 
@@ -1856,11 +1864,11 @@ Reboot complete.
 [151] z
 [152] z
 </commentary>
-        <children><child nodeId="node-2061"></child>
-            <child nodeId="node-1242"></child>
+        <children><child nodeId="node-1242"></child>
+            <child nodeId="node-1213"></child>
         </children>
     </item>
-    <item nodeId="node-1242">
+    <item nodeId="node-1213">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "You're back! Great job rebooting the computer -- I'm getting telemetry now."
@@ -1872,88 +1880,88 @@ You add an item ("adjust fuel injection specification") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1243"></child>
+        <children><child nodeId="node-1214"></child>
         </children>
     </item>
-    <item nodeId="node-1243">
+    <item nodeId="node-1214">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1244"></child>
+        <children><child nodeId="node-1215"></child>
         </children>
     </item>
-    <item nodeId="node-1244">
+    <item nodeId="node-1215">
         <command xml:space="preserve">talk to arvax</command>
         <result xml:space="preserve">You are already talking to Master Sergeant R. Mu Arvax.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1245"></child>
+        <children><child nodeId="node-1216"></child>
         </children>
     </item>
-    <item nodeId="node-1245">
+    <item nodeId="node-1216">
         <command xml:space="preserve">unfo</command>
         <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1246"></child>
+        <children><child nodeId="node-1217"></child>
         </children>
     </item>
-    <item nodeId="node-1246">
+    <item nodeId="node-1217">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1247"></child>
+        <children><child nodeId="node-1218"></child>
         </children>
     </item>
-    <item nodeId="node-1247">
+    <item nodeId="node-1218">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1248"></child>
+        <children><child nodeId="node-1219"></child>
         </children>
     </item>
-    <item nodeId="node-1248">
+    <item nodeId="node-1219">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1249"></child>
+        <children><child nodeId="node-1220"></child>
         </children>
     </item>
-    <item nodeId="node-1249">
+    <item nodeId="node-1220">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1250"></child>
+        <children><child nodeId="node-1221"></child>
         </children>
     </item>
-    <item nodeId="node-1250">
+    <item nodeId="node-1221">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1251"></child>
+        <children><child nodeId="node-1222"></child>
         </children>
     </item>
-    <item nodeId="node-1251">
+    <item nodeId="node-1222">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
@@ -1965,10 +1973,10 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1252"></child>
+        <children><child nodeId="node-1223"></child>
         </children>
     </item>
-    <item nodeId="node-1252">
+    <item nodeId="node-1223">
         <command xml:space="preserve">reboot</command>
         <result xml:space="preserve">You can't reboot yourself.
 
@@ -1976,10 +1984,10 @@ Reboot complete.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1253"></child>
+        <children><child nodeId="node-1224"></child>
         </children>
     </item>
-    <item nodeId="node-1253">
+    <item nodeId="node-1224">
         <command xml:space="preserve">talk to arvax</command>
         <result xml:space="preserve">"You're back! Great job rebooting the computer -- I'm getting telemetry now."
 
@@ -1989,20 +1997,20 @@ You add an item ("adjust fuel injection specification") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1254"></child>
+        <children><child nodeId="node-1225"></child>
         </children>
     </item>
-    <item nodeId="node-1254">
+    <item nodeId="node-1225">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1255"></child>
+        <children><child nodeId="node-1226"></child>
         </children>
     </item>
-    <item nodeId="node-1255">
+    <item nodeId="node-1226">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Operations Deck
 This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
@@ -2013,27 +2021,27 @@ You can see an equipment trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1256"></child>
+        <children><child nodeId="node-1227"></child>
         </children>
     </item>
-    <item nodeId="node-1256">
+    <item nodeId="node-1227">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1257"></child>
+        <children><child nodeId="node-1228"></child>
         </children>
     </item>
-    <item nodeId="node-1257">
+    <item nodeId="node-1228">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">Are you sure you want to restart? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1258"></child>
+        <children><child nodeId="node-1229"></child>
         </children>
     </item>
-    <item nodeId="node-1258">
+    <item nodeId="node-1229">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">
 
@@ -2049,10 +2057,10 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1259"></child>
+        <children><child nodeId="node-1230"></child>
         </children>
     </item>
-    <item nodeId="node-1259">
+    <item nodeId="node-1230">
         <command xml:space="preserve">test reboot</command>
         <result xml:space="preserve">(Testing.)
 
@@ -3201,10 +3209,10 @@ Reboot complete.
 [151] z
 [152] z
 </commentary>
-        <children><child nodeId="node-1412"></child>
+        <children><child nodeId="node-1231"></child>
         </children>
     </item>
-    <item nodeId="node-1412">
+    <item nodeId="node-1231">
         <command xml:space="preserve">talk to arvax</command>
         <result xml:space="preserve">"You're back! Great job rebooting the computer -- I'm getting telemetry now."
 
@@ -3214,74 +3222,74 @@ You add an item ("adjust fuel injection specification") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1413"></child>
+        <children><child nodeId="node-1232"></child>
         </children>
     </item>
-    <item nodeId="node-1413">
+    <item nodeId="node-1232">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1414"></child>
+        <children><child nodeId="node-1233"></child>
         </children>
     </item>
-    <item nodeId="node-1414">
+    <item nodeId="node-1233">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1415"></child>
+        <children><child nodeId="node-1234"></child>
         </children>
     </item>
-    <item nodeId="node-1415">
+    <item nodeId="node-1234">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1416"></child>
+        <children><child nodeId="node-1235"></child>
         </children>
     </item>
-    <item nodeId="node-1416">
+    <item nodeId="node-1235">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1417"></child>
+        <children><child nodeId="node-1236"></child>
         </children>
     </item>
-    <item nodeId="node-1417">
+    <item nodeId="node-1236">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1418"></child>
+        <children><child nodeId="node-1237"></child>
         </children>
     </item>
-    <item nodeId="node-1418">
+    <item nodeId="node-1237">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">Are you sure you want to restart? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1419"></child>
+        <children><child nodeId="node-1238"></child>
         </children>
     </item>
-    <item nodeId="node-1419">
+    <item nodeId="node-1238">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">Please answer yes or no.&gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1420"></child>
+        <children><child nodeId="node-1239"></child>
         </children>
     </item>
-    <item nodeId="node-1420">
+    <item nodeId="node-1239">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">
 
@@ -3297,10 +3305,10 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1421"></child>
+        <children><child nodeId="node-1240"></child>
         </children>
     </item>
-    <item nodeId="node-1421">
+    <item nodeId="node-1240">
         <command xml:space="preserve">test reboot</command>
         <result xml:space="preserve">(Testing.)
 
@@ -4449,10 +4457,10 @@ Reboot complete.
 [151] z
 [152] z
 </commentary>
-        <children><child nodeId="node-1574"></child>
+        <children><child nodeId="node-1241"></child>
         </children>
     </item>
-    <item nodeId="node-1574">
+    <item nodeId="node-1241">
         <command xml:space="preserve">                 ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "You're back! Great job rebooting the computer -- I'm getting telemetry now."
@@ -4466,7 +4474,7 @@ You add an item ("adjust fuel injection specification") to your to-do list.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-2061">
+    <item nodeId="node-1242">
         <command xml:space="preserve">                         a</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -4480,10 +4488,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2062"></child>
+        <children><child nodeId="node-1243"></child>
         </children>
     </item>
-    <item nodeId="node-2062">
+    <item nodeId="node-1243">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Engine Room
@@ -4495,17 +4503,17 @@ You can see a broken JL-758 here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2063"></child>
+        <children><child nodeId="node-1244"></child>
         </children>
     </item>
-    <item nodeId="node-2063">
+    <item nodeId="node-1244">
         <command xml:space="preserve">hint</command>
         <result xml:space="preserve">Some players may find the temptation to rely on hints overwhelming, and you may prefer to remove temptation by disabling hints for the rest of this game. If you do so, however, you will not be able to access the hints unless you restart. Do you wish to disable hints? &gt;&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2064"></child>
+        <children><child nodeId="node-1245"></child>
         </children>
     </item>
-    <item nodeId="node-2064">
+    <item nodeId="node-1245">
         <command xml:space="preserve">no</command>
         <result xml:space="preserve">
 
@@ -4522,16 +4530,16 @@ You can see a broken JL-758 here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1020">
+    <item nodeId="node-1246">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">You don't have a suitable fuse.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1021"></child>
+        <children><child nodeId="node-1247"></child>
         </children>
     </item>
-    <item nodeId="node-1021">
+    <item nodeId="node-1247">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
 
@@ -4547,10 +4555,10 @@ A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboa
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1022"></child>
+        <children><child nodeId="node-1248"></child>
         </children>
     </item>
-    <item nodeId="node-1022">
+    <item nodeId="node-1248">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
 
@@ -4562,10 +4570,10 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
+        <children><child nodeId="node-1249"></child>
         </children>
     </item>
-    <item nodeId="node-1023">
+    <item nodeId="node-1249">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">You climb the la--
 
@@ -4615,10 +4623,10 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
+        <children><child nodeId="node-1250"></child>
         </children>
     </item>
-    <item nodeId="node-1024">
+    <item nodeId="node-1250">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -4629,46 +4637,46 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1025"></child>
+        <children><child nodeId="node-1251"></child>
         </children>
     </item>
-    <item nodeId="node-1025">
+    <item nodeId="node-1251">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">You don't have a suitable fuse.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1026"></child>
+        <children><child nodeId="node-1252"></child>
         </children>
     </item>
-    <item nodeId="node-1026">
+    <item nodeId="node-1252">
         <command xml:space="preserve">purloin fuse</command>
         <result xml:space="preserve">Which do you mean, the fresh fuse or the blown fuse?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1027"></child>
+        <children><child nodeId="node-1253"></child>
         </children>
     </item>
-    <item nodeId="node-1027">
+    <item nodeId="node-1253">
         <command xml:space="preserve">fresh</command>
         <result xml:space="preserve">[Purloined.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1028"></child>
+        <children><child nodeId="node-1254"></child>
         </children>
     </item>
-    <item nodeId="node-1028">
+    <item nodeId="node-1254">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">There is no fuse to replace.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
+        <children><child nodeId="node-1255"></child>
         </children>
     </item>
-    <item nodeId="node-1029">
+    <item nodeId="node-1255">
         <command xml:space="preserve">open panel</command>
         <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
 
@@ -4676,63 +4684,63 @@ The access panel opens to reveal a row of fuses, one of which is blown.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
+        <children><child nodeId="node-1256"></child>
         </children>
     </item>
-    <item nodeId="node-1030">
+    <item nodeId="node-1256">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">(first removing the blown fuse)
 You put the fresh fuse into the access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1031"></child>
+        <children><child nodeId="node-1257"></child>
         </children>
     </item>
-    <item nodeId="node-1031">
+    <item nodeId="node-1257">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">You've replaced the bad fuse. No need to play with the fuses anymore.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1032"></child>
+        <children><child nodeId="node-1258"></child>
         </children>
     </item>
-    <item nodeId="node-1032">
+    <item nodeId="node-1258">
         <command xml:space="preserve">close panel</command>
         <result xml:space="preserve">When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
+        <children><child nodeId="node-1259"></child>
         </children>
     </item>
-    <item nodeId="node-1033">
+    <item nodeId="node-1259">
         <command xml:space="preserve">close panel</command>
         <result xml:space="preserve">All of your screws are either too big or too small.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1034"></child>
+        <children><child nodeId="node-1260"></child>
         </children>
     </item>
-    <item nodeId="node-1034">
+    <item nodeId="node-1260">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">You've replaced the bad fuse. No need to play with the fuses anymore.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1035"></child>
+        <children><child nodeId="node-1261"></child>
         </children>
     </item>
-    <item nodeId="node-1035">
+    <item nodeId="node-1261">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">Are you sure you want to restart? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1036"></child>
+        <children><child nodeId="node-1262"></child>
         </children>
     </item>
-    <item nodeId="node-1036">
+    <item nodeId="node-1262">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">
 
@@ -4748,10 +4756,10 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1037"></child>
+        <children><child nodeId="node-1263"></child>
         </children>
     </item>
-    <item nodeId="node-1037">
+    <item nodeId="node-1263">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
 
@@ -4767,10 +4775,10 @@ A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboa
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1038"></child>
+        <children><child nodeId="node-1264"></child>
         </children>
     </item>
-    <item nodeId="node-1038">
+    <item nodeId="node-1264">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
 
@@ -4782,10 +4790,10 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1039"></child>
+        <children><child nodeId="node-1265"></child>
         </children>
     </item>
-    <item nodeId="node-1039">
+    <item nodeId="node-1265">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">You climb the la--
 
@@ -4835,10 +4843,10 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1040"></child>
+        <children><child nodeId="node-1266"></child>
         </children>
     </item>
-    <item nodeId="node-1040">
+    <item nodeId="node-1266">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -4849,19 +4857,19 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1041"></child>
+        <children><child nodeId="node-1267"></child>
         </children>
     </item>
-    <item nodeId="node-1041">
+    <item nodeId="node-1267">
         <command xml:space="preserve">repair panel</command>
         <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
+        <children><child nodeId="node-1268"></child>
         </children>
     </item>
-    <item nodeId="node-1042">
+    <item nodeId="node-1268">
         <command xml:space="preserve">open panel</command>
         <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
 
@@ -4869,37 +4877,37 @@ The access panel opens to reveal a row of fuses, one of which is blown.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1043"></child>
+        <children><child nodeId="node-1269"></child>
         </children>
     </item>
-    <item nodeId="node-1043">
+    <item nodeId="node-1269">
         <command xml:space="preserve">repair panel</command>
         <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
+        <children><child nodeId="node-1270"></child>
         </children>
     </item>
-    <item nodeId="node-1044">
+    <item nodeId="node-1270">
         <command xml:space="preserve">purloin fresh fuse</command>
         <result xml:space="preserve">[Purloined.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1045"></child>
+        <children><child nodeId="node-1271"></child>
         </children>
     </item>
-    <item nodeId="node-1045">
+    <item nodeId="node-1271">
         <command xml:space="preserve">repair panel</command>
         <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1046"></child>
+        <children><child nodeId="node-1272"></child>
         </children>
     </item>
-    <item nodeId="node-1046">
+    <item nodeId="node-1272">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">(first removing the blown fuse)
 You put the fresh fuse into the access panel.
@@ -4907,7 +4915,7 @@ You put the fresh fuse into the access panel.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1273">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Accessibility off.
 
@@ -4924,10 +4932,10 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 ⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1884"></child>
+        <children><child nodeId="node-1274"></child>
         </children>
     </item>
-    <item nodeId="node-1884">
+    <item nodeId="node-1274">
         <command xml:space="preserve">test reboot</command>
         <result xml:space="preserve">(Testing.)
 
@@ -5908,11 +5916,150 @@ Master Sergeant R. Mu Arvax: "Hey, friend, we need to reboot the computer soon b
 [11] f
 [12] f
 [13] u
+[14] a
+[15] u
+[16] s
+[17] take slippers
+[18] look under bed
+[19] get trunk
+[20] open it
+[21] take present
+[22] open it
+[23] take eyes
+[24] p
+[25] d
+[26] drop trunk
+[27] stand on trunk
+[28] take broken sensor
+[29] put optical sensor in panel
+[30] take suit
+[31] wear it
+[32] turn on mag boots
+[33] a
+[34] out
+[35] out
+[36] f
+[37] s
+[38] vent air
+[39] s
+[40] in
+[41] p
+[42] sit in recharger
+[43] p
+[44] open drawer
+[45] take all
+[46] s
+[47] f
+[48] move trunk
+[49] set gravity control to 1
+[50] press button
+[51] d
+[52] open drawer
+[53] take knife
+[54] open closet
+[55] take dinner
+[56] unplug microwave
+[57] vacuum socket
+[58] plug in microwave
+[59] a
+[60] s
+[61] get on top bunk
+[62] replace screw
+[63] get down
+[64] open cabinet
+[65] take beacon
+[66] p
+[67] p
+[68] open cabinet
+[69] x uniform
+[70] take paper
+[71] read it
+[72] take universal game emulator
+[73] x unit
+[74] type 9467 on keypad
+[75] pry bottom drawer open with knife
+[76] take card
+[77] close drawer
+[78] put key into keyhole
+[79] tape wires
+[80] close bottom drawer
+[81] type 9467 on keypad
+[82] take planetfall
+[83] play planetfall on universal
+[84] z
+[85] z
+[86] z
+[87] z
+[88] z
+[89] z
+[90] z
+[91] z
+[92] z
+[93] s
+[94] d
+[95] turn locker
+[96] open locker
+[97] a
+[98] out
+[99] tie eva transport line to hook
+[100] f
+[101] tie eva transport line to hook
+[102] s
+[103] tie eva transport line to hook
+[104] p
+[105] a
+[106] in
+[107] in
+[108] turn off boots
+[109] push jl-758 aft
+[110] push jl-758 aft
+[111] push jl-758 aft
+[112] push jl-758 fore
+[113] push jl-758 starboard
+[114] push jl-758 in
+[115] push jl-758 in
+[116] push jl-758 aft
+[117] f
+[118] f
+[119] d
+[120] a
+[121] open door with red card
+[122] x panel
+[123] open panel
+[124] take blown fuse
+[125] put fuse in panel
+[126] close panel
+[127] close panel
+[128] x panel
+[129] put gum in hole
+[130] close panel
+[131] open door with red card
+[132] a
+[133] open drawer
+[134] take journal
+[135] read it
+[136] journal, password walrus
+[137] journal, password charon
+[138] read journal
+[139] f
+[140] f
+[141] u
+[142] z
+[143] hello
+[144] hello
+[145] tell arvax about journal
+[146] computer, access code 2
+[147] computer, reboot
+[148] y
+[149] z
+[150] z
+[151] z
+[152] z
 </commentary>
-        <children><child nodeId="node-1898"></child>
+        <children><child nodeId="node-1275"></child>
         </children>
     </item>
-    <item nodeId="node-1898">
+    <item nodeId="node-1275">
         <command xml:space="preserve">                 a</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -5926,10 +6073,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1899"></child>
+        <children><child nodeId="node-1276"></child>
         </children>
     </item>
-    <item nodeId="node-1899">
+    <item nodeId="node-1276">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Engine Room
@@ -5941,28 +6088,28 @@ You can see a broken JL-758 here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1900"></child>
+        <children><child nodeId="node-1277"></child>
         </children>
     </item>
-    <item nodeId="node-1900">
+    <item nodeId="node-1277">
         <command xml:space="preserve">x screen</command>
         <result xml:space="preserve">The diagram screen is black.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1901"></child>
+        <children><child nodeId="node-1278"></child>
         </children>
     </item>
-    <item nodeId="node-1901">
+    <item nodeId="node-1278">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1902"></child>
+        <children><child nodeId="node-1279"></child>
         </children>
     </item>
-    <item nodeId="node-1902">
+    <item nodeId="node-1279">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -5976,10 +6123,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1903"></child>
+        <children><child nodeId="node-1280"></child>
         </children>
     </item>
-    <item nodeId="node-1903">
+    <item nodeId="node-1280">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Operations Deck
@@ -5989,10 +6136,10 @@ You can see an equipment trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1904"></child>
+        <children><child nodeId="node-1281"></child>
         </children>
     </item>
-    <item nodeId="node-1904">
+    <item nodeId="node-1281">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Bridge
@@ -6004,10 +6151,10 @@ You hear someone speaking aft of here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1905"></child>
+        <children><child nodeId="node-1282"></child>
         </children>
     </item>
-    <item nodeId="node-1905">
+    <item nodeId="node-1282">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Operations Deck
@@ -6017,10 +6164,10 @@ You can see an equipment trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1906"></child>
+        <children><child nodeId="node-1283"></child>
         </children>
     </item>
-    <item nodeId="node-1906">
+    <item nodeId="node-1283">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Operations Deck
 This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
@@ -6031,15 +6178,15 @@ Master Sergeant R. Mu Arvax: "Hey, friend, we need to reboot the computer soon b
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1907"></child>
+        <children><child nodeId="node-1284"></child>
         </children>
     </item>
-    <item nodeId="node-1907">
+    <item nodeId="node-1284">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">Are you sure you want to restart? </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1047">
+    <item nodeId="node-1285">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
 
@@ -6055,10 +6202,10 @@ A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboa
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1048"></child>
+        <children><child nodeId="node-1286"></child>
         </children>
     </item>
-    <item nodeId="node-1048">
+    <item nodeId="node-1286">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
 
@@ -6070,10 +6217,10 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1049"></child>
+        <children><child nodeId="node-1287"></child>
         </children>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1287">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">You climb the la--
 
@@ -6123,10 +6270,10 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
+        <children><child nodeId="node-1288"></child>
         </children>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1288">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -6137,10 +6284,10 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1051"></child>
+        <children><child nodeId="node-1289"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1289">
         <command xml:space="preserve">open panel</command>
         <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
 
@@ -6148,10 +6295,10 @@ The access panel opens to reveal a row of fuses, one of which is blown.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
+        <children><child nodeId="node-1290"></child>
         </children>
     </item>
-    <item nodeId="node-1052">
+    <item nodeId="node-1290">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">You don't have a suitable fuse.
 

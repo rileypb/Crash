@@ -1,6 +1,6 @@
 ! Blurb file created by Inform build 6M62
 
-status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/rileypb/dev/Inform/Crash/CrashA.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app_old.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/rileypb/dev/Inform/Crash/CrashA.inform/Build/StatusCblorb.html"
 
 
 ! Identification
@@ -34,7 +34,7 @@ auxiliary "/Users/rileypb/dev/Inform/Crash/CrashA.materials/crash.pdf" "Illustra
 placeholder [ENCODEDSTORYFILE] = "Crash.gblorb.js"
 template path "/Users/rileypb/dev/Inform/Crash/CrashA.materials/Templates"
 template path "/Users/rileypb/Library/Inform/Templates"
-template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+template path "/Applications/Inform.app_old.app/Contents/Resources/Internal/Templates"
 placeholder [INTERPRETERSCRIPTS] = " "
 interpreter "Quixe" "g"
 base64 "/Users/rileypb/dev/Inform/Crash/CrashA.inform/Build/output.ulx" to "/Users/rileypb/dev/Inform/Crash/CrashA.materials/Release/interpreter/Crash.gblorb.js"
@@ -43,7 +43,7 @@ base64 "/Users/rileypb/dev/Inform/Crash/CrashA.inform/Build/output.ulx" to "/Use
 
 template path "/Users/rileypb/dev/Inform/Crash/CrashA.materials/Templates"
 template path "/Users/rileypb/Library/Inform/Templates"
-template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+template path "/Applications/Inform.app_old.app/Contents/Resources/Internal/Templates"
 css
 website "Standard"
 status instruction ||&nbsp;<a href="source:story.ni#line18"><img border=0 src=inform:/doc_images/Reveal.tif></a>||

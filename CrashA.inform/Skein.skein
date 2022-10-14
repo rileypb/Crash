@@ -28,6 +28,43 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
     </item>
     <item nodeId="node-1934">
         <command xml:space="preserve">x computer</command>
+        <result xml:space="preserve">The computer is only available onboard the ship.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1937"></child>
+        </children>
+    </item>
+    <item nodeId="node-1937">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1938"></child>
+        </children>
+    </item>
+    <item nodeId="node-1938">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1939"></child>
+        </children>
+    </item>
+    <item nodeId="node-1939">
+        <command xml:space="preserve">x computer</command>
         <result xml:space="preserve">The computer isn't really here.
 
 &gt;</result>

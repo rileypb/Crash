@@ -380,6 +380,7 @@ index (number)	recurs (truth state)	triggered (truth state)	thought (text)
 16	false	false	"Cute dog."
 17	false	false	"I always wanted one of these."
 18	false	false	"What? No feelies?"
+19	false	false	"Oh god, this is it."
 
 
 
@@ -2581,11 +2582,11 @@ Response of Arvax when asked-or-told about usagi and talking about cs-end-game-p
 To report on ship-protocols:
 	if turns left < 20:
 		print "[line break]'I'm sorry... you're going to have to destroy the ship. We're out of time.'[line break]" as Arvax near communications console;
-		think "Oh god, this is it.";
+		think thought 19;
 		rule succeeds;
 	if player aware of melted helm is true:
 		print "'I'm sorry, I don't think the helm can be fixed -- not with the time you have left. You're going to have to destroy the ship.'[line break]" as Arvax near communications console;
-		think "Oh god, this is it.";
+		think thought 19;
 	otherwise:
 		print "'[problems description]. [paragraph break]'To be honest, friend, the readouts I'm seeing about the state of helm control are dire. I'm not sure it can be fixed.'[line break]" as Arvax near communications console;
 
@@ -2958,11 +2959,10 @@ Before you is the aft airlock of the Usagi, beckoning you in.[first time]
 Room of Stuff is fore of Space Station Gangway. "dummy description"
 
 The Bridge is a room. "This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. [view of space]
-[line break]The pilot's and navigator's chairs sit before their respective consoles. The captain's chair, with command console, sits halfway between them and operations further aft.
+[line break]The pilot's and navigator's chairs sit before the large helm console. The captain's chair, with command console, sits halfway between them and operations further aft.
 
 You hear someone speaking aft of here."
 
-Understand "helm" as The Bridge.
 
 To say view of space:
 	if last-moves is true:
@@ -3156,7 +3156,8 @@ Instead of telling the shipboard computer about something when location is the b
 
 Player aware of melted helm is a truth state that varies
 
-The access panel keyhole is part of the helm access panel. It is scenery. "It's a small hex-shaped hole."
+The access panel keyhole is part of the helm access panel. It is privately-named. It is scenery. The printed name is "keyhole".  "It's a small hex-shaped hole."
+Understand "keyhole" as the access panel keyhole.
 
 To say state of helm access panel:
 	If the helm access panel is closed:
@@ -3177,12 +3178,12 @@ Instead of inserting the hex-shaped tool into the access panel keyhole:
 The helm table is a thing in the bridge. It is scenery. "The helm is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel [state of helm access panel].". Understand "sloped/-- table", "cryptic/-- readouts", "touch/-- controls" as the helm.
 The helm access panel is a container which is a part of the helm table. It is closed, locked, and openable. It has carrying capacity 0. The helm access panel has matching key the hex-shaped tool. The description is "The access panel is a rectangle of the same plastic that makes up the rest of the table. There is a hex-shaped keyhole in it." Understand "helm/-- access/-- panel" as helm access panel.
 
-The helm wiring is scenery in the helm access panel. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" as the helm wiring. The description of the helm wiring is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
+The helm wiring is scenery in the helm access panel. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" and "maze" as the helm wiring. The description of the helm wiring is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
 
-The aperture is a part of the helm access panel. Understand "hole", "keyhole", "lock" as aperture.
+[The aperture is a part of the helm access panel. Understand "hole", "keyhole", "lock" as aperture.
 
 Instead of inserting the hex-shaped tool into the aperture:
-	try unlocking the helm access panel with the hex-shaped tool;
+	try unlocking the helm access panel with the hex-shaped tool;]
 	
 Instead of inserting the hex-shaped tool into the helm access panel:
 	try unlocking the helm access panel with the hex-shaped tool;
@@ -4361,6 +4362,15 @@ The port top drawer contains a copy of Planetfall.
 The port keyhole is part of the port keypad. It is scenery.
 "A pretty typical keyhole, maybe smaller than most."
 
+Understand "unlock [something]" as unlocking it with.
+
+Rule for supplying a missing second noun while unlocking:
+	if the noun is the port keypad or the noun is the starboard keypad and the player carries the small key: 
+		say "(with the small key)";
+		now the second noun is the small key;
+	otherwise:
+		say "You must specify what you want to unlock [the noun] with.";
+
 Instead of inserting the small key into the port keyhole:
 	try unlocking the port keypad with the small key;
 
@@ -4473,6 +4483,14 @@ Report typing a topic on the port keypad when the port-side storage unit is stor
 		say ", revealing ";
 		list the contents of the port top drawer;
 		say ".";
+		
+Report typing a topic on the port keypad when the port-side storage unit is storage-fixed and drawer opened of typing it on is false:
+	say "The storage unit buzzes and the display lights up 'ERROR'.";
+	stop the action;
+	
+Report contentlessly typing on the port keypad when the port-side storage unit is storage-fixed:
+	say "The storage unit buzzes and the display lights up 'ERROR'.";
+	stop the action;
 
 Carry out contentlessly typing on the port keypad when port-side storage unit is storage-breaking:
 	now the port bottom drawer is half-open;	
@@ -4535,12 +4553,8 @@ Instead of examining the port keypad when the port keypad is open:
 		say "Inside the keypad is a bundle of wiring. Two wires with worn insulation are in contact, causing a short-circuit.";
 	otherwise:
 		say "Inside the keypad is a bundle of wiring.";
-	
-	
-[Instead of unlocking the port keypad with the small key when the port-side storage unit is storage-broken and the player does not carry the electrical tape:
-	say "You open the front panel of the keypad. You can see the problem immediately -- two wires with worn insulation are in contact, causing a short-circuit. Unfortunately you don't have anything to fix it with, so for now you close the front panel.";]
 
-The wires are scenery in the port keypad. "Two of the wires are crossed, leading to a short circuit.".	
+The wires are scenery in the port keypad. "Two of the wires are crossed, leading to a short circuit.". Understand "wiring" and "keypad wiring" and "keypad wires" as the wires.	
 
 Instead of putting the electrical tape on the wires:
 	now the port-side storage unit is storage-fixed;
@@ -6326,6 +6340,8 @@ Carry out refilling:
 planetfalling is an action out of world. Understand "pf" as planetfalling.
 Carry out planetfalling:
 	start playing planetfall;
+	
+test wiring1 with "f/f/u/u/p/purloin small key/unlock keypad";
 
 Test airlock with "f/f/u/a/u/s/take slippers/look under bed/get trunk/open it/take present/open it/take eyes/p/d/drop trunk/stand on trunk/take broken sensor/put optical sensor in panel".
 
@@ -6353,7 +6369,7 @@ test fuel with "test reboot/ask arvax about ship/a/a/x diagram/ask computer abou
 
 test win with "test fuel/f/f/ask arvax about ship/f/touch command console/computer, execute"
 
-test protocols with "test arvax/computer, access code 3/computer, emergency protocols/y"
+test protocols with "test arvax/computer, access code 3/computer, emergency protocols/y/z/z/z"
 
 test explode with "test protocols/ask arvax about ship/f/open helm panel with hex-shaped tool/x panel/open it/a/tell arvax about helm/ask arvax about ship/a/a/x diagram/ask computer about void matter/tc > 4/ask computer about tc/ah > 3/ask computer about rm/un > 1/tc > 2/press test".
 

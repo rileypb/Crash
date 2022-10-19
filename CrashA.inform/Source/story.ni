@@ -571,6 +571,10 @@ Carry out examining the chewing gum when the gum is stuck to the repair corps un
 	say "You know it's on the repair corps uniform, but you can't see it with the vac suit over it.";
 	rule succeeds;
 
+Carry out examining the chewing gum when the gum is stuck to the engineering uniform and the player is wearing the engineering uniform and player is wearing a vac suit:
+	say "You know it's on the engineering uniform, but you can't see it with the vac suit over it.";
+	rule succeeds;
+
 Carry out examining the chewing gum:
 	if the chewing gum is currently chewed:
 		if boarding the ship is happening:

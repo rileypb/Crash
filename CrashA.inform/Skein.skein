@@ -9,7 +9,7 @@
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 17 / Serial number 221017 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 18 / Serial number 221017 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Space Station Gangway
 This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
@@ -11913,7 +11913,8 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 ⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
+        <children><child nodeId="node-3471"></child>
+            <child nodeId="node-1086"></child>
         </children>
     </item>
     <item nodeId="node-1086">
@@ -13167,6 +13168,13 @@ Master Sergeant R. Mu Arvax: "Hey, friend, we need to reboot the computer soon b
         <result xml:space="preserve">Are you sure you want to restart? </result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-3471">
+        <command xml:space="preserve">blow a bubble</command>
+        <result xml:space="preserve">You blow a nice big bubble. What fun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-2201">
         <command xml:space="preserve">gonear pilot's console</command>
         <result xml:space="preserve">I only understood you as far as wanting to gonear the pilot's chair.
@@ -13587,7 +13595,7 @@ Press any key...
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 15 / Serial number 220926 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 18 / Serial number 221017 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
@@ -13607,7 +13615,8 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1100"></child>
+        <children><child nodeId="node-3475"></child>
+            <child nodeId="node-1100"></child>
         </children>
     </item>
     <item nodeId="node-1100">
@@ -13638,6 +13647,155 @@ The access panel opens to reveal a row of fuses, one of which is blown.
     <item nodeId="node-1102">
         <command xml:space="preserve">replace fuse</command>
         <result xml:space="preserve">You don't have a suitable fuse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3475">
+        <command xml:space="preserve">take gum</command>
+        <result xml:space="preserve">You unstick the chewing gum from the vac suit.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3476"></child>
+        </children>
+    </item>
+    <item nodeId="node-3476">
+        <command xml:space="preserve">stick it to repair uniform</command>
+        <result xml:space="preserve">You stick the chewing gum to the repair corps uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3477"></child>
+        </children>
+    </item>
+    <item nodeId="node-3477">
+        <command xml:space="preserve">wear suite</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3478"></child>
+        </children>
+    </item>
+    <item nodeId="node-3478">
+        <command xml:space="preserve">wear suit</command>
+        <result xml:space="preserve">(first taking the vac suit)
+You put on the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3479"></child>
+        </children>
+    </item>
+    <item nodeId="node-3479">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Not much to see other than the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3480"></child>
+        </children>
+    </item>
+    <item nodeId="node-3480">
+        <command xml:space="preserve">x gum</command>
+        <result xml:space="preserve">You know it's on the repair corps uniform, but you can't see it with the vac suit over it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3481"></child>
+        </children>
+    </item>
+    <item nodeId="node-3481">
+        <command xml:space="preserve">remove vac suit</command>
+        <result xml:space="preserve">You take off the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3482"></child>
+        </children>
+    </item>
+    <item nodeId="node-3482">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Nice uniform, but you should get the gum off of it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3483"></child>
+        </children>
+    </item>
+    <item nodeId="node-3483">
+        <command xml:space="preserve">x uniform</command>
+        <result xml:space="preserve">The repair corps uniform is a smart hunter green color, with a patch featuring a hammer and a wrench, crossed. It would look impressive if it weren't for the chewing gum stuck to it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3484"></child>
+        </children>
+    </item>
+    <item nodeId="node-3484">
+        <command xml:space="preserve">chew uniform</command>
+        <result xml:space="preserve">That's really not something to chew.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3485"></child>
+        </children>
+    </item>
+    <item nodeId="node-3485">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a vac suit
+  a To-Do list
+  a repair corps uniform (being worn) with chewing gum stuck to it
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3486"></child>
+        </children>
+    </item>
+    <item nodeId="node-3486">
+        <command xml:space="preserve">chew gum</command>
+        <result xml:space="preserve">You can't chew the gum when it's stuck to the repair corps uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3487"></child>
+        </children>
+    </item>
+    <item nodeId="node-3487">
+        <command xml:space="preserve">take it</command>
+        <result xml:space="preserve">You unstick the chewing gum from the repair corps uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3488"></child>
+        </children>
+    </item>
+    <item nodeId="node-3488">
+        <command xml:space="preserve">chew it</command>
+        <result xml:space="preserve">You put the chewing gum in your mouth.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3489"></child>
+        </children>
+    </item>
+    <item nodeId="node-3489">
+        <command xml:space="preserve">throw gum</command>
+        <result xml:space="preserve">[I'd rather not step in it.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3490"></child>
+        </children>
+    </item>
+    <item nodeId="node-3490">
+        <command xml:space="preserve">throw gum</command>
+        <result xml:space="preserve">[I'd rather not step in it.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

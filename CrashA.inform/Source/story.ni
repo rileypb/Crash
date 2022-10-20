@@ -381,6 +381,7 @@ index (number)	recurs (truth state)	triggered (truth state)	thought (text)
 17	false	false	"I always wanted one of these."
 18	false	false	"What? No feelies?"
 19	false	false	"Oh god, this is it."
+20	false	false	"It's always just opened in the past."
 
 
 
@@ -1234,6 +1235,33 @@ The present is a thing contained in the black trunk's inside. The description is
 
 Bertie the Bear is a thing. The printed name is "Bertie the Bear™". The description is "Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals.[if the eyes are nowhere] This bear seems to be missing his eyes.[otherwise] This bear's blindly staring eyes are unnerving.[end if]".
 The eyes are parts of Bertie the Bear. The description of the eyes is "They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.". Understand "optical" and "sensors", "sensor", "eye" as the eyes.
+
+Bertie the bear is addressable.
+The can't greet inanimate objects rule does nothing when the noun is bertie the bear.
+
+to out of batteries: 
+	say "Bertie the Bear™ has no batteries, apparently.";	
+	
+greeting response for bertie the bear:
+	out of batteries;
+instead of saying hello to bertie the bear:
+	out of batteries;
+Instead of saying goodbye to bertie the bear:
+	out of batteries;
+Instead of asking bertie the bear about something:
+	out of batteries;
+Instead of quizzing bertie the bear about something:
+	out of batteries;
+Instead of telling bertie the bear about something:
+	out of batteries;
+Instead of informing bertie the bear about something:
+	out of batteries;
+Instead of requesting bertie the bear for something:
+	out of batteries;
+Instead of imploring bertie the bear for something:
+	out of batteries;
+Instead of answering bertie the bear that something:
+	out of batteries;
 
 Instead of taking off the eyes:
 	try taking the eyes instead;
@@ -2657,7 +2685,7 @@ Does the player mean quizzing arvax about the fusion engine:
 Book 11 - The Computer
 
 Instead of examining the shipboard computer when the location is onboard:
-	say "The computer isn't really here.";
+	say "You can't see the computer.";
 
 Instead of examining the shipboard computer when the location is offboard:
 	say "The computer is only available onboard the ship.";
@@ -2839,7 +2867,7 @@ Pollux star	"Pollux is the brightest star in the Earth constellation of Gemini."
 Fuel Injection	"Starship fuel injection is the process of 'injecting' one substance into another, creating a third substance at a higher energy level. See 'Substance Injection'[familiarize substance injection]."
 Explosion	"There seems to have been some sort of explosion on Space Station Omicron-5 that ejected the SS Usagi from dock."
 Beacon	"A radio beacon broadcasts a radio signal on a dedicated frequency which by Space Authority regulations is continuously monitored by all space vessels."
-Location of the ship	"[if computer-rebooted is true]We are currently on a collision course with the moon New Da Nang[otherwise]Unable to access navigation system. Please reboot the computer[end if]."
+Location of the ship	"[if computer-rebooted is true]We are currently on a collision course with the moon New Da Nang[otherwise if explosion happened is true]Unable to access navigation system. Please reboot the computer[otherwise]The ship is docked at Space Station Omicron-5[end if]."
 Gangway	"An inflatable gangway is standard equipment at space stations when docking ships."
 Aft Airlock	"The aft airlock of the SS Usagi is a standard class B starship airlock, featuring auto-pressurization and auto-depressurization."
 Engineering Airlock	"The engineering airlock of the SS Usagi is a standard class B starship airlock, featuring auto-pressurization and auto-depressurization."
@@ -2922,10 +2950,10 @@ Definition: a thing is mutually known if it is known and there is a dt-subject o
 		
 The unsuccessful persuasion of inanimate objects rule is not listed in any rulebook.
 
-Check asking something (called T) about a topic when T is not a person and T is not the shipboard computer:
+Check asking something (called T) about a topic when T is not a person and T is not the shipboard computer and T is not Bertie the Bear:
 	say "Talking to [the T] is unlikely to prove rewarding." instead;
 
-Check quizzing something (called T) about something when T is not a person and T is not the shipboard computer:
+Check quizzing something (called T) about something when T is not a person and T is not the shipboard computer and T is not Bertie the Bear:
 	say "Talking to [the T] is unlikely to prove rewarding." instead;
 
 Section 1 - Backdrops
@@ -2935,9 +2963,9 @@ The Gangway-backdrop is in Space Station Gangway, Aft-Airlock-Room, and Staging 
 Understand "pressurized" and "bridge" and "gangway" as gangway-backdrop.
 
 The Space Station Omicron-5 is a backdrop. "Space Station Omicron-5 is a huge spindle-shaped structure, spinning eternally to generate the coriolis force that simulates gravity."
-The Space Station Omicron-5 is in Space Station Gangway, Aft-Airlock-Room, and Staging Area.
+The Space Station Omicron-5 is in Space Station Gangway, Aft-Airlock-Room, Staging Area, Spacewalk 1, Spacewalk 2, and Spacewalk 3.
 
-The SS Usagi is a backdrop. "[If location is space station gangway]The SS Usagi looks ungainly, as a vessel that travels in vacuum typically does, but it's truly a beautiful ship. The aft airlock faces you.[otherwise if location is onboard and boarding the ship is not happening]The SS Usagi is quiet, its engines still, even as it hurtles through space.[otherwise if location is onboard]The SS Usagi is quiet except for the hum of its life support system.[otherwise]As an out-of-atmosphere vessel, The SS Usagi has a hull dotted with the many devices and machines that keep the ship running.[end if]". Understand "ship" and "spaceship" and "starship" as SS Usagi. Understand "hull" as SS Usagi when the location is offboard and the location is not Space Station Gangway.
+The SS Usagi is a backdrop. "[If location is space station gangway]The SS Usagi looks ungainly, as a vessel that travels in vacuum typically does, but it's truly a beautiful ship. The aft airlock faces you.[otherwise if location is onboard and boarding the ship is not happening]The SS Usagi is quiet, its engines still, even as it hurtles through space.[otherwise if location is onboard]The SS Usagi is quiet except for the hum of its life support system.[otherwise]As an out-of-atmosphere vessel, The SS Usagi has a hull dotted with the many devices and machines that keep the ship running.[end if]". Understand "ship" and "spaceship" and "starship" as SS Usagi. 
 
 When play begins:
 	move the SS Usagi backdrop to all rooms;
@@ -2983,7 +3011,7 @@ To say arvax tip:
 
 Engineering Deck is aft of Operations Deck. "The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system. 
 
-The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are other exits to aft and port.
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are doorways aft and port, to the engine room and machine room respectively.
 
 You hear someone speaking to fore."
 
@@ -3663,13 +3691,16 @@ Understand "hex" and "hex shaped" as the hex-shaped tool.
 The fresh fuse is in the machine room drawers. The description is "A small yellow cartridge fuse." Understand "new fuse" as the fresh fuse.
 
 The portable hand-held vacuum cleaner is a thing on the machine room counter. "There's a hand vac sitting on the counter."
-Understand "hand/-- vac" as the portable hand-held vacuum cleaner.
+Understand "hand", "vac" as the portable hand-held vacuum cleaner.
 The description of the vacuum cleaner is "A small canister vacuum, with a handle to easily carry it around, and a short hose."
 
 [Does the player mean doing something to the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely;
 
 Does the player mean taking a vac suit when the player is wearing a vac suit: it is very unlikely.
 Does the player mean taking the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely.]
+
+MachineRoomStuff is scenery in the Machine Room. "The machine room boasts an impressive array of tools, none of which you have call to use for now." 
+Understand "saws", "saw", "drills", "drill", "equipment", "tools", "machinery" as MachineRoomStuff.
 
 Section 7 - Engine Room
 
@@ -4731,6 +4762,9 @@ The starboard-side bed is in the starboard-side crew quarters. it is privately-n
 The starboard-side top bunk is a part of the starboard-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the starboard-side top bunk. 
 The starboard-side bottom bunk is a part of the starboard-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "bottom bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "bottom bunk" as the starboard-side bottom bunk.
 
+Instead of climbing the starboard-side bed:
+	try entering the starboard-side top bunk;
+
 This is the describe starboard bunk contents rule:
 	if the location is the starboard-side crew quarters:
 		if nothing is on the starboard-side top bunk and nothing is on the starboard-side bottom bunk:
@@ -4826,7 +4860,7 @@ The sticky note is a thing in the starboard-side crew quarters. The description 
 
 The readable text of the sticky note is "[description]". It is readable.
 
-A pair of slippers are a wearable thing in the starboard-side crew quarters. They are plural-named. The description is "These seem comfy.". "A pair of slippers peeks out from under the bed." 
+Some slippers are a wearable thing in the starboard-side crew quarters. They are plural-named. The description is "These seem comfy.". "A pair of slippers peeks out from under the bed." 
 
 After taking the slippers when the black trunk underlies the starboard-side bottom bunk for the first time:
 	say "As you lean to take the slippers, you notice something under the bed.";
@@ -4933,6 +4967,12 @@ The laser rifle is in the munitions compartment. The description is "A red and b
 Instead of examining the Aft Airlock when the location is Staging Area: 
 	say "You can see the aft airlock through a window in the airlock door[if explosion happened is false]. Beyond the airlock is the gangway back to Space Station Omicron-5[otherwise]. Beyond the airlock is the blackness of space, speckled with the dying embers of what was once Space Station Omicron-5[end if].";
 	
+Instead of opening the Aft Airlock when the location is Staging Area:
+	say "No need. Just go aft.";
+	
+Instead of opening the Airlock Inner Door when the location is Staging Area:
+	say "No need. Just go aft.";
+	
 The aft ladder is a backdrop. It is in staging area and Junction. "An ordinary metal ladder, it connects the staging area to the crew quarters."
 
 The air scrubber intake is a thing in Staging Area. It is undescribed. It is fixed in place. "This is an aperture through which air is pulled for recycling. Even if you knew how, you wouldn't dare open it for fear of wrecking the air scrubber."
@@ -4942,7 +4982,7 @@ Rule for writing a paragraph about the air scrubber intake:
 
 Instead of going from Staging Area to Aft-Airlock-Room when Aft Airlock Inner Door Broken is true:
 	say "You try to enter the airlock, but the automatic door fails to open for you.";
-	think "It's always just opened in the past.";
+	think thought 20;
 	add fix the airlock door;
 	
 The inner side of the airlock inner door is in the staging area. It is privately-named. It is scenery. The printed name is "Airlock door". Understand "Airlock" and "door" and "inner" as the inner side of the airlock inner door. "The airlock door is an imposing solid barrier between vacuum and safety. It is colored yellow with red warning symbols on it. Above the door is a panel of electronic components."
@@ -5018,6 +5058,11 @@ The printed name of Spacewalk 2 is "Hull of the Usagi". The description of Space
 There is a hook set in the hull here.";
 
 The outer hull is a backdrop. It is in spacewalk 1, spacewalk 2, and spacewalk 3. The description is "The hull is covered with all kinds of machinery, antennae, radio dishes, and heat sinks. You should probably leave them alone. Your skills as a mechanic don't extend to specialized spaceship repair."
+
+Understand "machinery", "antennae", "antenna", "antennas", "radio/-- dishes", "heat sinks" as hull.
+
+Instead of doing something other than examining to the hull:
+	say "You should probably leave that alone.";
 
 The large piece of debris is a thing in Spacewalk 2. It is scenery. The description is "This approximately 4' diameter chunk of debris seems to be made up of plastic and other non-metallic materials. It must have been travelling at quite a speed to embed itself in the hull like it did.".
 
@@ -5544,7 +5589,7 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	say line break;
 	say banner text;
 	let VS be a random vac suit that is in Staging Area;
-	now the current stuck thing of the chewing gum is VS;
+	now the current stuck thing of the chewing gum is the repair uniform;
 	now the chewing gum is not currently chewed;
 	now the chewing gum is in the room of stuff;
 	try looking;

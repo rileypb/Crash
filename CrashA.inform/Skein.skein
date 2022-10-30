@@ -18,16 +18,80 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3892"></child>
-            <child nodeId="node-3890"></child>
-            <child nodeId="node-1003"></child>
-            <child nodeId="node-3894"></child>
+        <children><child nodeId="node-1003"></child>
+            <child nodeId="node-5972"></child>
+            <child nodeId="node-5975"></child>
+            <child nodeId="node-6463"></child>
         </children>
     </item>
-    <item nodeId="node-3894">
-        <command xml:space="preserve">say lkkk</command>
-        <result xml:space="preserve">(to the shipboard computer)
-You can only talk to the computer on board the ship.
+    <item nodeId="node-6463">
+        <command xml:space="preserve">x gum</command>
+        <result xml:space="preserve">It still tastes pretty good.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5975">
+        <command xml:space="preserve">take alll</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5976"></child>
+        </children>
+    </item>
+    <item nodeId="node-5976">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5972">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">But you don't see anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5973"></child>
+        </children>
+    </item>
+    <item nodeId="node-5973">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "reset report text rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5974"></child>
+        </children>
+    </item>
+    <item nodeId="node-5974">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">[Rule "After reading a command" applies.]
+[Rule "After deciding the scope of the player when the location is offboard" applies.]
+[Rule "computer is everywhere rule" applies.]
+[Rule "very unlikely to mean taking what's already carried rule" applies.]
+[Rule "very unlikely to mean taking what's already carried rule" applies.]
+[Rule "very unlikely to mean taking what's already carried rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude scenery from take all rule" applies.]
+[Rule "exclude scenery from take all rule" applies.]
+[Rule "exclude scenery from take all rule" applies.]
+[Rule "exclude scenery from take all rule" applies.]
+[Rule "exclude scenery from take all rule" applies.]
+[Rule "exclude scenery from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude people from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+[Rule "exclude indirect possessions from take all rule" applies.]
+But you don't see anything.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -36,40 +100,11 @@ You can only talk to the computer on board the ship.
         <command xml:space="preserve">say asdfa</command>
         <result xml:space="preserve">(to the shipboard computer)
 You can only talk to the computer on board the ship.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1004"></child>
-            <child nodeId="node-3807"></child>
         </children>
-    </item>
-    <item nodeId="node-3807">
-        <command xml:space="preserve">say "fff</command>
-        <result xml:space="preserve">(to the shipboard computer)
-"I'm afraid I don't have anything to say about that."
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3808"></child>
-        </children>
-    </item>
-    <item nodeId="node-3808">
-        <command xml:space="preserve">actions</command>
-        <result xml:space="preserve">Actions listing on.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3809"></child>
-        </children>
-    </item>
-    <item nodeId="node-3809">
-        <command xml:space="preserve">say f</command>
-        <result xml:space="preserve">(to the shipboard computer)
-[answering the shipboard computer that "f"]
-"I'm afraid I don't have anything to say about that."
-[answering the shipboard computer that "f" - succeeded]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1004">
         <command xml:space="preserve">hello</command>
@@ -216,8 +251,6 @@ Attention all crew: command functions are offline and the computer is running wi
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You already have that.
 
-The chewing gum has become stuck to the To-Do list.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1013"></child>
@@ -234,7 +267,7 @@ The chewing gum has become stuck to the To-Do list.
     </item>
     <item nodeId="node-1014">
         <command xml:space="preserve">chew it</command>
-        <result xml:space="preserve">You can't chew the gum when it's stuck to the To-Do list.
+        <result xml:space="preserve">You put the chewing gum in your mouth.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -540,7 +573,8 @@ You try again more carefully with the second eye, and manage to produce an undam
   Bertie the Bear™
   some slippers
   a vac suit (being worn)
-  a To-Do list with chewing gum stuck to it
+  some chewing gum (being chewed)
+  a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
@@ -595,7 +629,8 @@ Attention all crew: command functions are offline and the computer is running wi
   Bertie the Bear™
   some slippers
   a vac suit (being worn)
-  a To-Do list with chewing gum stuck to it
+  some chewing gum (being chewed)
+  a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
@@ -621,7 +656,8 @@ Attention all crew: command functions are offline and the computer is running wi
   a new optical sensor
   some slippers
   a vac suit (being worn)
-  a To-Do list with chewing gum stuck to it
+  some chewing gum (being chewed)
+  a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
@@ -656,7 +692,8 @@ Attention all crew: command functions are offline and the computer is running wi
   a new optical sensor
   some slippers
   a vac suit (being worn)
-  a To-Do list with chewing gum stuck to it
+  some chewing gum (being chewed)
+  a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
@@ -943,8 +980,7 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3886"></child>
-            <child nodeId="node-1079"></child>
+        <children><child nodeId="node-1079"></child>
         </children>
     </item>
     <item nodeId="node-1079">
@@ -1952,7 +1988,7 @@ A man's voice comes over comms: "Usagi, are you there?"
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Chew, chew, chew...
 
-A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
 
 
 &gt;</result>
@@ -1973,7 +2009,7 @@ A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Chew, chew, chew...
 
-A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 ⇒ You might try saying hello.
 &gt;</result>
@@ -2071,7 +2107,7 @@ Attention all crew: command functions are offline and the computer is running wi
         <command xml:space="preserve">push trunk</command>
         <result xml:space="preserve">You push the trunk clear of the door.
 
-Captain Mulgrew: "Calling the SS Usagi..."
+Captain Mulgrew: "Did I lose you, Usagi?"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2217,7 +2253,7 @@ This is where all of the support activity for the bridge occurs. There are large
 
 You can see an equipment trunk (closed) here.
 
-Captain Mulgrew: "What'll it be, Usagi?"
+Captain Mulgrew: "Calling the SS Usagi..."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2321,62 +2357,7 @@ You can also see a black trunk (closed) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2158"></child>
-            <child nodeId="node-3370"></child>
         </children>
-    </item>
-    <item nodeId="node-3370">
-        <command xml:space="preserve">x component panel</command>
-        <result xml:space="preserve">The locker isn't close enough to the airlock door for you to see the component panel well.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3780"></child>
-        </children>
-    </item>
-    <item nodeId="node-3780">
-        <command xml:space="preserve">take fuse</command>
-        <result xml:space="preserve">You already have that.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3781"></child>
-        </children>
-    </item>
-    <item nodeId="node-3781">
-        <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a fresh fuse
-  a hex-shaped tool
-  a roll of electrical tape
-  a small key
-  a portable hand-held vacuum cleaner
-  some slippers
-  a vac suit (being worn)
-  some chewing gum (being chewed)
-  a To-Do list
-  a repair corps uniform (being worn)
-  a toolbox
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3782"></child>
-        </children>
-    </item>
-    <item nodeId="node-3782">
-        <command xml:space="preserve">take sensor</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3783"></child>
-        </children>
-    </item>
-    <item nodeId="node-3783">
-        <command xml:space="preserve">x panel</command>
-        <result xml:space="preserve">The locker isn't close enough to the airlock door for you to see the component panel well.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2158">
         <command xml:space="preserve">open it</command>
@@ -2441,12 +2422,75 @@ A puffy yellow suit with an attached helmet and magnetic boots. The gloves are m
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2762"></child>
+        <children><child nodeId="node-5048"></child>
         </children>
     </item>
-    <item nodeId="node-2762">
+    <item nodeId="node-5048">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">(first getting off the vac suit locker)
+
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5049"></child>
+        </children>
+    </item>
+    <item nodeId="node-5049">
+        <command xml:space="preserve">open panel</command>
+        <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
+
+The access panel opens to reveal a row of fuses, one of which is blown.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5050"></child>
+        </children>
+    </item>
+    <item nodeId="node-5050">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Junction
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5051"></child>
+        </children>
+    </item>
+    <item nodeId="node-5051">
+        <command xml:space="preserve">unscrew panel</command>
+        <result xml:space="preserve">You open the panel, hanging on to the blue screw that held it shut.
+
+The access panel opens to reveal a row of fuses, one of which is blown.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5052"></child>
+        </children>
+    </item>
+    <item nodeId="node-5052">
+        <command xml:space="preserve">screw panel</command>
+        <result xml:space="preserve">[Why should I close it when I haven't fixed it yet?]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5053"></child>
+        </children>
+    </item>
+    <item nodeId="node-5053">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">[Why should I close it when I haven't fixed it yet?]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5054"></child>
+        </children>
+    </item>
+    <item nodeId="node-5054">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
+  a blue screw
   an EVA transport line
   a fresh fuse
   a hex-shaped tool
@@ -2462,189 +2506,374 @@ A puffy yellow suit with an attached helmet and magnetic boots. The gloves are m
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3167"></child>
+        <children><child nodeId="node-5055"></child>
         </children>
     </item>
-    <item nodeId="node-3167">
-        <command xml:space="preserve">pry open the toolbox with the broken suit</command>
-        <result xml:space="preserve">It's not clear how you would pry the toolbox open.
+    <item nodeId="node-5055">
+        <command xml:space="preserve">replace fuse</command>
+        <result xml:space="preserve">(first removing the blown fuse)
+You put the fresh fuse into the access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3168"></child>
+        <children><child nodeId="node-5056"></child>
         </children>
     </item>
-    <item nodeId="node-3168">
+    <item nodeId="node-5056">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5057"></child>
+        </children>
+    </item>
+    <item nodeId="node-5057">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">All of your screws are either too big or too small.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5058"></child>
+            <child nodeId="node-5280"></child>
+        </children>
+    </item>
+    <item nodeId="node-5280">
+        <command xml:space="preserve">put gum on panel</command>
+        <result xml:space="preserve">(first spitting out the chewing gum)
+You stick the chewing gum to the access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5281"></child>
+        </children>
+    </item>
+    <item nodeId="node-5281">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">All of your screws are either too big or too small.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5282"></child>
+        </children>
+    </item>
+    <item nodeId="node-5282">
+        <command xml:space="preserve">take gum</command>
+        <result xml:space="preserve">You unstick the chewing gum from the access panel.
+
+The chewing gum has become stuck to the blown fuse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5283"></child>
+        </children>
+    </item>
+    <item nodeId="node-5283">
+        <command xml:space="preserve">stick panel with gum</command>
+        <result xml:space="preserve">Good idea, but it seems something needs to be screwed into the hole somehow.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5284"></child>
+        </children>
+    </item>
+    <item nodeId="node-5284">
+        <command xml:space="preserve">close panel with gum</command>
+        <result xml:space="preserve">Good idea, but it seems something needs to be screwed into the hole somehow.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5285"></child>
+        </children>
+    </item>
+    <item nodeId="node-5285">
+        <command xml:space="preserve">close foo with lfasdf</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5286"></child>
+        </children>
+    </item>
+    <item nodeId="node-5286">
+        <command xml:space="preserve">close bear with panel</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5287"></child>
+        </children>
+    </item>
+    <item nodeId="node-5287">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
+  a blown fuse with chewing gum stuck to it
   an EVA transport line
-  a fresh fuse
   a hex-shaped tool
   a roll of electrical tape
   a small key
   a portable hand-held vacuum cleaner
   some slippers
   a vac suit (being worn)
-  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3169"></child>
+        <children><child nodeId="node-5288"></child>
         </children>
     </item>
-    <item nodeId="node-3169">
-        <command xml:space="preserve">put the toolbox in the broken suit</command>
-        <result xml:space="preserve">[No. That's my life right there.]
+    <item nodeId="node-5288">
+        <command xml:space="preserve">close tool with tape</command>
+        <result xml:space="preserve">Which do you mean, the hex-shaped tool or the toolbox?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3170"></child>
+        <children><child nodeId="node-5729"></child>
         </children>
     </item>
-    <item nodeId="node-3170">
-        <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  an EVA transport line
-  a fresh fuse
-  a hex-shaped tool
-  a roll of electrical tape
-  a small key
-  a portable hand-held vacuum cleaner
-  some slippers
-  a vac suit (being worn)
-  some chewing gum (being chewed)
-  a To-Do list
-  a repair corps uniform (being worn)
-  a toolbox
+    <item nodeId="node-5729">
+        <command xml:space="preserve">hex</command>
+        <result xml:space="preserve">I'm not sure how to do that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3171"></child>
+        <children><child nodeId="node-5730"></child>
         </children>
     </item>
-    <item nodeId="node-3171">
-        <command xml:space="preserve">put the list in the broken suit</command>
-        <result xml:space="preserve">You need that to write on.
+    <item nodeId="node-5730">
+        <command xml:space="preserve">repair toolbox with gum</command>
+        <result xml:space="preserve">I'm not sure how to do that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3172"></child>
+        <children><child nodeId="node-5731"></child>
         </children>
     </item>
-    <item nodeId="node-3172">
-        <command xml:space="preserve">put the key in the broken suit</command>
-        <result xml:space="preserve">That can't contain things.
+    <item nodeId="node-5731">
+        <command xml:space="preserve">repair panel with gum</command>
+        <result xml:space="preserve">Good idea, but it seems something needs to be screwed into the hole somehow.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3173"></child>
+        <children><child nodeId="node-5732"></child>
         </children>
     </item>
-    <item nodeId="node-3173">
-        <command xml:space="preserve">x broken suit</command>
-        <result xml:space="preserve">The broken vac suits aren't important.
+    <item nodeId="node-5732">
+        <command xml:space="preserve">take gum</command>
+        <result xml:space="preserve">You unstick the chewing gum from the blown fuse.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3174"></child>
+        <children><child nodeId="node-5733"></child>
         </children>
     </item>
-    <item nodeId="node-3174">
-        <command xml:space="preserve">stand on locker</command>
-        <result xml:space="preserve">But you're already on the vac suit locker.
+    <item nodeId="node-5733">
+        <command xml:space="preserve">chew it</command>
+        <result xml:space="preserve">[Eww. That gum has gotten gross. No way.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3175"></child>
+        <children><child nodeId="node-5734"></child>
         </children>
     </item>
-    <item nodeId="node-3175">
-        <command xml:space="preserve">x locker</command>
-        <result xml:space="preserve">The locker has been flipped door-side-up.
+    <item nodeId="node-5734">
+        <command xml:space="preserve">stick gum to vac suit</command>
+        <result xml:space="preserve">You stick the chewing gum to the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3582"></child>
+        <children><child nodeId="node-5735"></child>
         </children>
     </item>
-    <item nodeId="node-3582">
-        <command xml:space="preserve">x component panel</command>
-        <result xml:space="preserve">The component panel is too high.
+    <item nodeId="node-5735">
+        <command xml:space="preserve">put gum in hole</command>
+        <result xml:space="preserve">(first taking the chewing gum)
+You unstick the chewing gum from the vac suit.
+
+You push the gum into the hole.
+[I hope this works.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-3886">
-        <command xml:space="preserve">say gasdfsad</command>
-        <result xml:space="preserve">(to the shipboard computer)
-"I'm afraid I don't have anything to say about that."
-
-Your vac suit pings gently to indicate you have expended a unit of air.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3887"></child>
+        <children><child nodeId="node-5736"></child>
         </children>
     </item>
-    <item nodeId="node-3887">
-        <command xml:space="preserve">actions</command>
-        <result xml:space="preserve">Actions listing on.
+    <item nodeId="node-5736">
+        <command xml:space="preserve">take gum</command>
+        <result xml:space="preserve">Try as you might, you can't get the gum out of the hole.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3888"></child>
+        <children><child nodeId="node-5965"></child>
+            <child nodeId="node-6462"></child>
         </children>
     </item>
-    <item nodeId="node-3888">
-        <command xml:space="preserve">say gasdfsad</command>
-        <result xml:space="preserve">(to the shipboard computer)
-[answering the shipboard computer that "gasdfsad"]
-"I'm afraid I don't have anything to say about that."
-[answering the shipboard computer that "gasdfsad" - succeeded]
-
-Your vac suit pings gently to indicate you have expended a unit of air.
+    <item nodeId="node-6462">
+        <command xml:space="preserve">x gum</command>
+        <result xml:space="preserve">It's a used wad of pink chewing gum. It used to taste like grape, but now it tastes of nothing. It's stuck in the screw hole of the access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3889"></child>
+        <children><child nodeId="node-6693"></child>
         </children>
     </item>
-    <item nodeId="node-3889">
-        <command xml:space="preserve">ask the computer about ship</command>
-        <result xml:space="preserve">(the ss usagi)
-[quizzing the shipboard computer about the ss usagi]
-You can only talk to the computer on board the ship.
-
-[quizzing the shipboard computer about the ss usagi - failed]
-
-Your vac suit pings gently to indicate you have expended a unit of air.
+    <item nodeId="node-6693">
+        <command xml:space="preserve">stick panel with gum</command>
+        <result xml:space="preserve">Good idea, but it seems something needs to be screwed into the hole somehow.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6694"></child>
+        </children>
     </item>
-    <item nodeId="node-3890">
-        <command xml:space="preserve">say asdf</command>
-        <result xml:space="preserve">(to the shipboard computer)
-can't quiz the computer off the ship rule response (A)
+    <item nodeId="node-6694">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">You drive a screw into the gum and it holds. The panel is now closed.
+
+You hear a series of beeps, and a voice says "Door now operational."
+
+It seems you completed something ("fix the captain's door") that wasn't on your to-do list. You note it down.
+
+[Your score has just gone up by one point.]
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6695"></child>
+        </children>
     </item>
-    <item nodeId="node-3892">
-        <command xml:space="preserve">asdf</command>
+    <item nodeId="node-6695">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Junction
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6696"></child>
+        </children>
+    </item>
+    <item nodeId="node-6696">
+        <command xml:space="preserve">screw panel</command>
+        <result xml:space="preserve">You drive a screw into the gum and it holds. The panel is now closed.
+
+You hear a series of beeps, and a voice says "Door now operational."
+
+It seems you completed something ("fix the captain's door") that wasn't on your to-do list. You note it down.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6697"></child>
+        </children>
+    </item>
+    <item nodeId="node-6697">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Junction
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6698"></child>
+        </children>
+    </item>
+    <item nodeId="node-6698">
+        <command xml:space="preserve">fasten panel</command>
+        <result xml:space="preserve">What do you want to fasten the access panel to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6699"></child>
+        </children>
+    </item>
+    <item nodeId="node-6699">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Junction
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6700"></child>
+        </children>
+    </item>
+    <item nodeId="node-6700">
+        <command xml:space="preserve">fix panel</command>
+        <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6701"></child>
+        </children>
+    </item>
+    <item nodeId="node-6701">
+        <command xml:space="preserve">unfo</command>
         <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3893"></child>
+    </item>
+    <item nodeId="node-5965">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">fresh fuse: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5966"></child>
         </children>
     </item>
-    <item nodeId="node-3893">
-        <command xml:space="preserve">say ff</command>
-        <result xml:space="preserve">(to the shipboard computer)
-You can only talk to the computer on board the ship.
+    <item nodeId="node-5966">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">But you don't see anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5058">
+        <command xml:space="preserve">close panel with gum</command>
+        <result xml:space="preserve">I only understood you as far as wanting to close the access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5059"></child>
+        </children>
+    </item>
+    <item nodeId="node-5059">
+        <command xml:space="preserve">put gum on panel</command>
+        <result xml:space="preserve">(first spitting out the chewing gum)
+You stick the chewing gum to the access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5060"></child>
+        </children>
+    </item>
+    <item nodeId="node-5060">
+        <command xml:space="preserve">take it</command>
+        <result xml:space="preserve">You unstick the chewing gum from the access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5061"></child>
+        </children>
+    </item>
+    <item nodeId="node-5061">
+        <command xml:space="preserve">put gum in panel</command>
+        <result xml:space="preserve">The used chewing gum doesn't belong in the access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5062"></child>
+        </children>
+    </item>
+    <item nodeId="node-5062">
+        <command xml:space="preserve">x panel</command>
+        <result xml:space="preserve">The access panel is set in the bulkhead to the left of the door. It is open, leaving an empty hole where the screw was.
+
+The panel holds a row of fresh fuses.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>

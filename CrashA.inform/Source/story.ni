@@ -586,6 +586,8 @@ Carry out examining the chewing gum:
 		say "It's a used wad of pink chewing gum. It used to taste like grape, but now it tastes of nothing";
 		if the current stuck thing of the chewing gum is not the player:
 			say ". It's stuck to [the current stuck thing of the chewing gum]";
+		otherwise if the hole is gummed-up:
+			say ". It's stuck in the screw hole of the access panel";
 		say ".";
 	rule succeeds;
 
@@ -1718,14 +1720,13 @@ A thing can be screwable. A thing can be screwed or unscrewed. A thing is usuall
 
 Understand the command "screw" as something new. Understand the command "unscrew" as something new.
 
-Screwing is an action applying to one thing. Understand "screw [something]" as screwing. Understand "fasten [something]" as screwing. Understand "close [something]" as screwing.
+Screwing is an action applying to one thing. Understand "screw [something]" as screwing. [Understand "fasten [something]" as screwing.] [Understand "close [something]" as screwing.]
 
-Check screwing a screwable thing (this is the basic screw check rule):
-	if the second noun is screwed:
-		say "[The second noun] is already screwed." instead;
+Check screwing a screwable thing when the noun is screwed (this is the basic screw check rule):
+	say "[The noun] is already screwed." instead;
 	
 Check screwing something which is not screwable:
-	say "There's nowhere on [the second noun] to put a screw.";
+	say "There's nowhere on [the noun] to put a screw." instead;
 
 Unscrewing is an action applying to one thing. Understand "unscrew [something]" as unscrewing.
 
@@ -4160,6 +4161,17 @@ Carry out screwing the aft access panel when the aft access panel is unscrewed a
 	say "When you try to close the access panel, the blue screw slips from your grasp, bounces once, rolls, and falls down the ladder well. At the bottom of the ladder, it bounces once more, right through the grill of an air scrubber intake. That screw's long gone.";
 	now the blue screw is nowhere;
 	now the air scrubber intake is not undescribed;
+	
+closing it with is an action applying to two things. Understand "close [something] with [something]" and "stick [something] with [something]" and "fix [something] with [something]" and "repair [something] with [something]" as closing it with.
+
+Instead of closing the aft access panel with the chewing gum:
+	say "Good idea, but it seems something needs to be screwed into the hole somehow.";
+	
+Instead of closing the aft access panel with the electrical tape:
+	say "Good idea, but it seems something needs to be screwed into the hole somehow.";
+	
+Instead of closing something with something:
+	say "I'm not sure how to do that.";
 
 Check screwing the aft access panel when the aft access panel is unscrewed and the player does not enclose the blue screw and the hole is not gummed-up (this is the check screw size rule):
 	say "All of your screws are either too big or too small.";
@@ -4168,7 +4180,7 @@ Carry out screwing the aft access panel when the hole is gummed-up:
 	now the aft access panel is closed;
 	now the aft access panel is screwed;
 	now the captain's door is not broken;
-	Tick off fix the door;
+	Tick off fix the door;	
 	
 Report screwing the aft access panel when the hole is gummed-up:
 	say "You drive a screw into the gum and it holds. The panel is now closed.[paragraph break]";
@@ -4187,9 +4199,15 @@ Instead of inserting the chewing gum into the hole:
 	if the gum is not enclosed by the player:
 		rule fails;
 	now the hole is gummed-up;
-	now the chewing gum is nowhere;
+	now the chewing gum is in the room of stuff;
 	say "You push the gum into the hole.";
 	think "I hope this works.";
+	
+After deciding the scope of the player when the hole is gummed-up and the aft access panel is open and the player is in junction:
+	place the chewing gum in scope;
+	
+Instead of taking the gum when the hole is gummed-up and the aft access panel is open and the player is in junction:
+	say "Try as you might, you can't get the gum out of the hole.";
 
 Section 10 - Captain's Quarters
 
@@ -5142,6 +5160,9 @@ Instead of going when floating is true:
 	
 Instead of jumping when floating is true and the location is an offboard room:
 	say "You can't jump when you're not standing on anything.";
+	
+Instead of doing something to the hook 2 when floating is true:
+	say "The hook is just out of reach.";
 
 Instead of throwing something when floating is true and mag-boots-on:
 	Say "You throw [the noun] away from the ship. It propels you just a tiny amount toward the hull, but it's enough. One agonizing minute later, you're attached to the hull again.[paragraph break]";
@@ -6110,7 +6131,6 @@ Carry out helping with commands:
 	- [bold type]spit out[roman type][line break]
 	- [bold type]stick (something) to[roman type][line break]
 	- [bold type]type[roman type][line break]
-	- [bold type]unbolt[roman type][line break]
 	- [bold type]unplug[roman type][line break]
 	- [bold type]vacuum[roman type][line break]
 	- [bold type]vent[roman type][line break]

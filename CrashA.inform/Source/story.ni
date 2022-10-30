@@ -52,6 +52,8 @@ Captain Jane Mulgrew is a woman.
 
 ShowPrePostReportStack is always false.
 
+The description of the light-meter is "dummy description". [light-meter is in Exit Lister. Putting this here to shut up Property Checking.]
+
 Chapter 1 - Stolen from Essentials
 
 A fact is a kind of thing. A fact is seen.
@@ -547,7 +549,7 @@ Magnetic boots are part of every vac suit.
 Gloves are a kind of thing. The description is "Rather than being optimized for manual dexterity, these gloves are shaped to more easily wield a laser rifle.".
 Gloves are a part of every vac suit.
 A nozzle is a kind of thing. A nozzle is a part of every vac suit. The description is "This is useful for venting air from the suit.".
-An air gauge is a kind of thing. An air gauge is a part of every vac suit. 
+An air gauge is a kind of thing. An air gauge is a part of every vac suit. The description is "see instead of examining".
 
 Instead of examining an air gauge which is part of a vac suit (called VS):
 	say "The gauge indicates the suit has [remaining air of VS] units of air left.".
@@ -1988,13 +1990,10 @@ The pliers are a part of the toolbox. They are plural-named.
 
 The fasteners are a part of the toolbox. They are plural-named. Understand "screws", "bolts" as the fasteners.
 
-A tool-thing is a kind of thing. The screwdriver, wrench, pliers, and fasteners are tool-things.
+A tool-thing is a kind of thing. The screwdriver, wrench, pliers, and fasteners are tool-things. The description is "All of your tools are top quality.".
 	
 Instead of taking a tool-thing:
 	say "You'll take [regarding the noun][them] out when you need [them].";
-	
-Instead of examining a tool-thing:
-	say "All of your tools are top quality.";
 	
 Instead of dropping a tool-thing:
 	say "No, you'd rather keep all of your tools close by.";
@@ -2823,11 +2822,11 @@ Pollux VI is a subject. The description is "subject".
 Irion is a subject. The description is "subject". Understand "Irion invaders" as Irion.
 Engine status is a subject. The description is "subject". Understand "drive" as engine status.
 Gravity-subject is a subject. It is privately-named. The description is "subject". The printed name is "gravity". Understand "gravity" as gravity-subject.
-Corporal Delores Franck is a subject. It is unfamiliar.
-Gunnery Sergeant Somchai Khotpanya is a subject. It is unfamiliar.
-Private First Class Friedrich Jäger is a subject. It is unfamiliar.
-Private Akin Abimbola is a subject. It is unfamiliar.
-Destroying the ship is a subject. Understand "destruction", "destruct", "self-destruct", "scuttle", "scuttling", "blowing up" as destroying the ship;
+Corporal Delores Franck is a subject. It is unfamiliar. The description is "subject".
+Gunnery Sergeant Somchai Khotpanya is a subject. It is unfamiliar. The description is "subject".
+Private First Class Friedrich Jäger is a subject. It is unfamiliar. The description is "subject".
+Private Akin Abimbola is a subject. It is unfamiliar. The description is "subject".
+Destroying the ship is a subject. Understand "destruction", "destruct", "self-destruct", "scuttle", "scuttling", "blowing up" as destroying the ship. The description is "subject".
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
@@ -3878,10 +3877,10 @@ Instead of inserting an MRE into the microwave oven:
 Instead of inserting something that is not the microwavable dinner into the microwave oven:
 	say "That's not something you can heat in the microwave.";
 
-The closet is a container in the Galley. It is scenery. It is closed and openable. "A closet with a folding door, set into the bulkhead."
-The folding door is a part of the closet.
+The closet is a container in the Galley. It is scenery. It is closed and openable. "A closet with a folding door, set into the bulkhead. It is [if closet is open]open[otherwise]closed[end if]."
+The folding door is a part of the closet. The description is "The folding door is part of the closet. It is [if closet is open]open[otherwise]closed[end if].".
 
-Instead of doing something to the folding door:
+Instead of doing something other than examining to the folding door:
 	now the noun is the closet;
 	try the current action;
 
@@ -4237,7 +4236,7 @@ The captain's bed is a supporter in the captain's quarters. It is enterable. It 
 
 The captain's desk is a thing in the captain's quarters. It is scenery. The description is "The Captain's desk is a simple institutional metal desk with a single drawer, [state and contents of desk drawer]. On the desk are two framed photos, one of a dog, who by his tag must be named 'Pluto', and another of an astronaut planting a flag on Earth's moon.".
 
-The photo of Pluto is scenery in the captain's quarters. Understand "dog", "picture" as the photo of pluto.
+The photo of Pluto is scenery in the captain's quarters. Understand "dog", "picture" as the photo of pluto. The description is "see instead of examining".
 
 Instead of examining the photo of Pluto:
 	say "Pluto is a beagle with a wise, knowing look on his face.";
@@ -4405,7 +4404,7 @@ The description of the port-side storage unit is "The storage unit consists of t
 
 The description of the port keypad is "A standard 0-9 keypad with a '*' and '#'. Below the keys is a small keyhole.".
 
-The port top drawer contains a copy of Planetfall.
+The port top drawer contains a copy of Planetfall. The description of copy of Planetfall is "The box says 'STELLAR PATROL: SPECIAL ASSIGNMENT FORCE. But even your expert technical training won't save you now.'". 
 
 The port keyhole is part of the port keypad. It is scenery.
 "A pretty typical keyhole, maybe smaller than most."
@@ -5011,7 +5010,7 @@ Instead of climbing the ladder when the location is junction:
 Instead of climbing suit locker 2:
 	try entering suit locker 2; 
 
-The air scrubber intake is a thing in Staging Area. It is undescribed. It is fixed in place. "This is an aperture through which air is pulled for recycling. Even if you knew how, you wouldn't dare open it for fear of wrecking the air scrubber."
+The air scrubber intake is a thing in Staging Area. It is undescribed. It is fixed in place. The description is "This is an aperture through which air is pulled for recycling. Even if you knew how, you wouldn't dare open it for fear of wrecking the air scrubber."
 
 Rule for writing a paragraph about the air scrubber intake:
 	say "There is an air scrubber intake in the wall here.";
@@ -5324,10 +5323,10 @@ Check quitting the game when the location is in-planetfall:
 
 A room can be in-planetfall.
 
-The ensign seventh class is a person. It is neuter. It is in Deck Nine.
+The ensign seventh class is a person. It is neuter. It is in Deck Nine. The description is "dummy description".
 The ensign seventh class wears the Patrol uniform.
 The ensign seventh class wears the chronometer.
-The ensign seventh class carries the Patrol-issue self-contained multi-purpose scrub brush.
+The ensign seventh class carries the Patrol-issue self-contained multi-purpose scrub brush. The description of the scrub brush is "I see nothing special about the Patrol-issue self-contained multi-purpose scrub brush.".
 
 Table of Planetfall Status
 left	central	right
@@ -5362,7 +5361,10 @@ The Patrol-issue self-contained multi-purpose scrub brush is a thing.
 
 The brochure is a readable thing. The readable text is "'The leading export of Blow’k-bibben-Gordo is the adventure game[line break][line break]          *** PLANETFALL ***
 
-written by S. Eric Meretzky.[line break]Buy one today. Better yet, buy a thousand.'";
+written by S. Eric Meretzky.[line break]Buy one today. Better yet, buy a thousand.'". The description is "read it".
+
+instead of examining the brochure:
+	try reading the brochure;
 
 Chapter 1 - Rooms
 
@@ -5378,8 +5380,8 @@ Instead of opening the escape pod bulkhead:
 Reactor Lobby is starboard of Deck Nine. "The corridor widens here as it nears the main drive area. To starboard is the Ion Reactor that powers the vessel, and aft of here is the Auxiliary Control Room. The corridor continues to port."
 It is in-planetfall.
 
-Escape Pod is a room. It is in-planetfall.
-The escape pod bulkhead is a door. It is port of Deck Nine and starboard of Escape Pod.
+Escape Pod is a room. It is in-planetfall. "dummy description".
+The escape pod bulkhead is a door. It is port of Deck Nine and starboard of Escape Pod. The description is "The escape pod bulkhead is closed.".
 
 Planetfall Gangway is above Deck Nine. The printed name is "Gangway". It is in-planetfall. "This is a steep metal gangway connecting Deck Eight, above, and Deck Nine, below."
 
@@ -5387,7 +5389,7 @@ Deck Eight is above Gangway. It is in-planetfall. "This is a featureless corrido
 
 Brig is a room. It is in-planetfall. "You are in the Feinstein’s brig. Graffiti cover the walls. The cell door to the south is locked."
 
-The cell door is a door. The cell door is starboard of brig.
+The cell door is a door. The cell door is starboard of brig. The description is "I see nothing special about the door.".
 
 Instead of opening cell door:
 	say "No way, Jose.";
@@ -5395,7 +5397,7 @@ Instead of opening cell door:
 Instead of going starboard from brig:
 	say "The cell door is locked.";
 	
-The graffiti is scenery in brig. It is readable. 
+The graffiti is scenery in brig. It is readable. The description is "I see nothing special about the graffi."
 The readable text is "All the graffiti seem to be about Blather. One of the least obscene items reads:
 
 There once was a krip, name of Blather[line break]
@@ -5406,7 +5408,7 @@ And ship you off to those stinking fawg-infested tar-pools of Krather.'
 
 It’s not a very good limerick, is it?"
 
-The floor is a backdrop. 
+The floor is a backdrop. The description is "I see nothing special about the floor.".
 
 When play begins: 
 	Move the floor backdrop to all in-planetfall rooms;
@@ -5493,7 +5495,7 @@ The description is "The ambassador has around twenty eyes, seven of which are cu
 Every turn when the alien ambassador is in deck nine and the player is in deck nine:
 	increment turns in location of alien ambassador;
 
-Slime is a thing in Deck Nine. It is undescribed.
+Slime is a thing in Deck Nine. It is undescribed. The description is "It looks like slime. Aren’t you glad you didn’t step in it?".
 
 Instead of doing something to the slime when the ambassador has not been in deck nine:
 	say "What slime?";
@@ -5706,7 +5708,7 @@ Book 16 - Contraptions and Puzzles
 Chapter 1 - Fuel Mixing Puzzle
 
 A substance has a text called symbol. A substance can be inputtable.
-An input is kind of thing.
+An input is kind of thing. The description is "dummy description".
 
 Injection Recipes is a map of any to substance that varies.
 Engine Inputs is a map of input to substance that varies.
@@ -5931,14 +5933,14 @@ Instead of examining engine diagram when accessible is true and engine diagram i
 	
 	
 
-Empty-space is a substance. The symbol is "--". 
-Void Matter is a substance. The symbol is "VM". Understand "VM" as Void Matter.
-Oganesson is a substance. The symbol is "Og". Understand "Og" as Oganesson. Oganesson is inputtable.
-Unobtainium is a substance. The symbol is "Un". Understand "Un" and "unobtanium" as Unobtainium. Unobtainium is inputtable.
-Red Matter is a substance. The symbol is "RM". Understand "RM" as Red Matter. Red Matter is inputtable.
-Liquid Copernicium is a substance. The symbol is "LC". Understand "LC" as Liquid Copernicium.
-Anti-Helium is a substance. The symbol is "AH". Understand "AH" as Anti-Helium. Anti-Helium is inputtable.
-Tachyon Crystals is a substance. The symbol is "TC". Understand "TC" as a Tachyon Crystals. Tachyon Crystals are inputtable.
+Empty-space is a substance. The symbol is "--".  The description is "dummy description".
+Void Matter is a substance. The symbol is "VM". Understand "VM" as Void Matter.  The description is "dummy description".
+Oganesson is a substance. The symbol is "Og". Understand "Og" as Oganesson. Oganesson is inputtable.  The description is "dummy description".
+Unobtainium is a substance. The symbol is "Un". Understand "Un" and "unobtanium" as Unobtainium. Unobtainium is inputtable.  The description is "dummy description".
+Red Matter is a substance. The symbol is "RM". Understand "RM" as Red Matter. Red Matter is inputtable.  The description is "dummy description".
+Liquid Copernicium is a substance. The symbol is "LC". Understand "LC" as Liquid Copernicium.  The description is "dummy description".
+Anti-Helium is a substance. The symbol is "AH". Understand "AH" as Anti-Helium. Anti-Helium is inputtable.  The description is "dummy description".
+Tachyon Crystals is a substance. The symbol is "TC". Understand "TC" as a Tachyon Crystals. Tachyon Crystals are inputtable.  The description is "dummy description".
 
 To (s1 - a substance) injected into (s2 - a substance) creates (product - a substance):
 	let reagents be s1 and s2 as a couple;
@@ -6367,7 +6369,7 @@ Carry out abouting:
 	say "Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Peter Gross, Drew Cook, Stu Dobbie, and Jade.";
 	say "Special thanks to Laura Taalman for so many great ideas and improvements.";
 	say line break;
-	say "Also Steve Meretsky.";
+	say "Also Steve Meretzky.";
 
 Book 21 - Not for Release
 
@@ -6378,7 +6380,7 @@ When play begins:
 		Now Arvax's security code is 2;
 		Now Mulgrew's security code is 3;
 		
-[include property checking by emily short;]
+include property checking by emily short;
 		
 Show blank subjects is always false.
 

@@ -1283,6 +1283,8 @@ The cardboard box is a container. The description is "A plain cardboard box, big
 Instead of opening the present:
 	think "I'll go to hell for this, but here goes...";
 	say "You rip off the wrapping paper and open the box. Inside is a stuffed bear you recognize as Bertie the Bear™. You discard the paper and box.";
+	if the gum is stuck to the present:
+		now the current stuck thing of the chewing gum is the wrapping paper;
 	now the present is nowhere;
 	now the player carries Bertie the Bear;
 	now the wrapping paper is in the location;
@@ -1568,7 +1570,7 @@ The brand-new JL-758 is in the Staging Area. Understand "engine", "hunk", "metal
 
 The electrical contacts are part of the brand-new JL-758. They are plural-named. The description of the electrical contacts is "It looks like the JL-758 is meant to be put under something, so that it makes contact with some other device.".
 
-The openings are part of the brand-new JL-758. They are plural-named. The description of the openings is "A thick cord is threaded through the openings.".
+The openings are part of the brand-new JL-758. They are plural-named. The description of the openings is "A thick cord is threaded through the openings.". Understand "opening" as the openings.
 
 The description of the brand-new JL-758 is "This is a wide, low, trapezoidal hunk of metal bearing the marking JL-758 on one side. Numerous electrical contacts dot the upper surface. Someone has threaded a thick cord with clips on both ends through some openings on the top and side.".
 
@@ -3820,7 +3822,7 @@ The microwave oven is a container in the Galley. It is scenery. It is openable a
 
 The microwave oven can be plugged-in or unplugged. The microwave oven is plugged-in.
 The start button is a button that is a part of the microwave oven. "It's a red button. It says 'Start'." 
-Understand "red button" as the start button.
+Understand "red", "button" as the start button.
 The microwave front display is part of the microwave oven. The description is "[microwave display]."
 
 To say socket description:
@@ -4345,7 +4347,7 @@ The piece of note paper is readable. The description is "[the readable text]". T
 
 Rule for printing room description details of the engineering uniform: omit contents in listing;
 
-The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "The Universal Game Emulator, or 'UGE', can play any game ever produced for any system.".  Understand "console", "UGE", "MAME" as Universal Game Emulator.
+The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "The Universal Game Emulator, or 'UGE', can play any game ever produced for any system, provided you have a disk, cartridge, dvd, sd card, or memory crystal with the game executable.".  Understand "console", "UGE", "MAME" as Universal Game Emulator.
 
 The port-side bed is in the port-side crew quarters. it is privately-named. The printed name is "bunk bed". It is scenery. The description is "A fairly typical military bunk bed." Understand "bunk" and "bed" as the port-side bed.
 The port-side top bunk is a part of the port-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the port-side top bunk. 
@@ -6162,6 +6164,7 @@ hint	used (a number)
 Table of cabinet hints
 hint	used (a number)
 "You might want to look at this problem from a different perspective."	
+"Perhaps from above."	
 
 Table of open unit hints
 hint	used (a number)

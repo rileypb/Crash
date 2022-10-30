@@ -2692,6 +2692,9 @@ After reading a command:
 	if "[the player's command]" is "computer, help":
 		change the text of the player's command to "ask shipboard computer about shipboard computer";
 
+Instead of answering the shipboard computer that a topic when the location is offboard:
+	say "[text of the can't quiz the computer off the ship rule response (A)][line break]";
+
 Instead of quizzing the shipboard computer about something when the location is offboard (this is the can't quiz the computer off the ship rule):
 	say "You can only talk to the computer on board the ship." (A);
 	
@@ -3048,7 +3051,7 @@ To say suit locker description:
 	if suit locker 2 is door-side down:
 		say ", with its door to the ground.";
 	otherwise:
-		say ". It has been turned door-side up. It is [state and contents of suit locker 2].";
+		say ". It has been turned door-side up.";
 
 Staging Area is below Junction.
 "This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. [if explosion happened is false]It houses a number of vac suits in [open state of suit locker 1] locker, and various munitions in locked compartments set into the walls. [otherwise]Locked compartments set into the walls hold various munitions. [end if]A ladder leads up into the rest of the ship.[if explosion happened is true]
@@ -4070,6 +4073,8 @@ Instead of taking the cookware:
 
 The midship ladder is a backdrop. The midship ladder is in Galley and Operations Deck. "It's an ordinary metal ladder. It connects the Galley to the Operations Deck. It has a small gap halfway up to accomodate the midship door."
 
+
+
 Section 9 - Junction
 
 The aft access panel is a container in the junction. It is scenery. It is closed.The printed name is "access panel". It is screwable and screwed. "The access panel is set in the bulkhead to the left of the door[if aft access panel is screwed]. It is closed and held fast with a screw[otherwise]. It is open, leaving an empty hole where the screw was[end if]." 
@@ -4899,9 +4904,9 @@ Section 14 - Staging Area
 
 The suit locker 1 is a container in Staging Area. It is privately-named. The printed name is "vac suit locker". It is scenery. It contains five vac suits. Understand "vac/-- suit/-- locker" as suit locker 1. The description is "The locker is made of some composite material, all black. It is [if suit locker 1 is open]open[otherwise]closed[end if].". It is open and openable.
 
-A banged-up suit is a kind of thing. It is wearable. The description is "This vac suit has been banged up enough to be unreliable as protection against vacuum.". Understand "broken" and "unreliable" as a banged-up suit.
+The banged-up suit is a thing. It is wearable. The description is "This vac suit has been banged up enough to be unreliable as protection against vacuum.". Understand "broken" and "unreliable" and "vac" as the banged-up suit.
 
-The suit locker 2 is a container. It is privately-named. It is flippable. It is closed and openable. The printed name is "vac suit locker". It is scenery. Understand "vac/-- suit/-- locker" as suit locker 2. "[If suit locker 2 is door-side down]The vac suit locker has fallen with its door to the ground. It looks pretty heavy[otherwise]The locker has been flipped door-side-up[end if]." It contains four banged-up suits. Suit locker 2 can be door-side down. It is door-side down. It is closed and openable.
+The suit locker 2 is a supporter. It is enterable. It is privately-named. It is flippable. The printed name is "vac suit locker". It is scenery. Understand "vac/-- suit/-- locker" as suit locker 2. "[If suit locker 2 is door-side down]The vac suit locker has fallen with its door to the ground. It looks pretty heavy[otherwise]The locker has been flipped door-side-up[end if]."  Suit locker 2 can be door-side down. It is door-side down. 
 
 Instead of pushing suit locker 2 when gravity > 1:
 	say "The locker is too heavy to move.";
@@ -4946,11 +4951,17 @@ After dropping black trunk in Staging Area:
 	
 EVA transport line in play is a truth state that varies.
 
-After opening suit locker 2 when EVA transport line in play is false:
-	say "You open the locker.[paragraph break]";
-	say "You search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting and take it: an EVA transport line, used for securing objects during extravehicular transit.";
+Instead of opening suit locker 2 when EVA transport line in play is false:
+	say "You open the locker and search through the contents of the locker. It's mostly broken vac suits, but you discover something interesting and take it: an EVA transport line, used for securing objects during extravehicular transit. You close the locker again.";
 	now the player carries the EVA transport line;
 	now EVA transport line in play is true;
+	now the banged-up suit is in staging area. It is undescribed.
+	
+Instead of opening suit locker 2 when EVA transport line in play is true:
+	say "You open the locker and search through the contents of the locker. It's all just broken vac suits. You close the locker again.";
+	
+Instead of doing something to the banged-up suit:
+	say "The broken vac suits aren't important.";
 
 One vac suit is in staging area. It is undescribed.
 
@@ -4973,6 +4984,15 @@ Instead of opening the Airlock Inner Door when the location is Staging Area:
 	
 The aft ladder is a backdrop. It is in staging area and Junction. "An ordinary metal ladder, it connects the staging area to the crew quarters."
 
+Instead of climbing the ladder when the location is the staging area:
+	try going up;
+	
+Instead of climbing the ladder when the location is junction:
+	try going down;
+	
+Instead of climbing suit locker 2:
+	try entering suit locker 2; 
+
 The air scrubber intake is a thing in Staging Area. It is undescribed. It is fixed in place. "This is an aperture through which air is pulled for recycling. Even if you knew how, you wouldn't dare open it for fear of wrecking the air scrubber."
 
 Rule for writing a paragraph about the air scrubber intake:
@@ -4987,12 +5007,15 @@ The inner side of the airlock inner door is in the staging area. It is privately
 
 The component panel is a thing in the staging area. The description is "dummy description". It is scenery. Understand "electronic" and "components" and "socket" as component panel.
 
-Instead of doing something to the component panel when the player is not on the black trunk:
+Instead of doing something to the component panel when the player is not on the black trunk and the player is not on suit locker 2:
 	say "[The component panel] is too high.";
 	
-Before doing something when the second noun is the component panel and the player is not on the black trunk:
+Before doing something when the second noun is the component panel and the player is not on the black trunk and the player is not on the suit locker 2:
 	say "[The component panel] is too high.";
 	stop the action;
+	
+Instead of examining the component panel when the player is on suit locker 2:
+	say "The locker isn't close enough to the airlock door for you to see the component panel well.";
 
 Instead of examining the component panel when the player is on the black trunk:
 	if the broken sensor is in the room of stuff:
@@ -5494,7 +5517,7 @@ Chapter 3 - Opening Moves
 Before looking for the second time:
 	say "[line break]The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone. 
 	
-	Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.";
+	Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.";
 
 Section 1 - Moving through the Aft Airlock
 
@@ -5564,7 +5587,7 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	say "[paragraph break]Press any key...";
 	if DEBUG is false:
 		wait for any key;
-	say "[line break]Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and slammed into the airlock door. 
+	say "[line break]Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and lies face down on the floor. 
 	
 	[think]Thank god I wasn't in the way of that.[run paragraph on][think end]
 

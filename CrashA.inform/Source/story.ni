@@ -1994,30 +1994,12 @@ Instead of taking a tool-thing:
 	
 Instead of examining a tool-thing:
 	say "All of your tools are top quality.";
-
-[The toolbox contains a wrench, a flat blade screwdriver, a microwave heating element, and a box of assorted fasteners. ]
-[The description is "Your toolbox is a black metal box with a lid. It is [if toolbox is closed]closed[otherwise]open[end if].";]
-
-[The description of the wrench is "A standard adjustable wrench."
-The description of the flat blade screwdriver is "A standard flat blade screwdriver.".]
-
-[The description of the microwave heating element is "[if the microwave oven is broken]You've brought this along in case it's the component you need to fix the microwave oven.[otherwise]You brought this along in case it was the component you needed to fix the microwave oven. Turned out not to be the case, but that's fine.[end if]"]
-
-[The box of assorted fasteners is a container. It is closed and openable. The description is "It's a small plastic box perfect for holding screws and the like."
-
-The box of assorted fasteners contains a small bolt, a medium bolt, a large bolt, a tiny screw, a small screw, a medium screw, and a large screw.
-The small bolt, medium bolt, and large bolt are bolts.
-The tiny screw, small screw, medium screw, and large screw are screws.
-
-The description of the small bolt is "This a pretty ordinary small bolt."
-The description of the medium bolt is "This a pretty ordinary medium bolt."
-The description of the large bolt is "This a pretty ordinary large bolt."
-The description of the tiny screw is "This a pretty ordinary tiny screw, of the sort you might use for electronic appliances."
-The description of the small screw is "This a pretty ordinary small screw."
-The description of the medium screw is "This a pretty ordinary medium screw."
-The description of the large screw is "This a pretty ordinary large screw."]
-
-[The carrying capacity of the player is 10.]
+	
+Instead of dropping a tool-thing:
+	say "No, you'd rather keep all of your tools close by.";
+	
+Instead of inserting a tool-thing into something:
+	say "No, you'd rather keep all of your tools close by.";
 
 To decide whether gum is stuck to (T - an object):
 	if current stuck thing of the chewing gum is T:
@@ -2025,7 +2007,6 @@ To decide whether gum is stuck to (T - an object):
 	decide no;
 	
 The description of the player is "see instead of examining".
-
 
 Instead of examining the player:
 	If the player wears a vac suit: 
@@ -2046,7 +2027,14 @@ Instead of examining the player:
 		say ".";					
 	otherwise:
 		let slippers description be "The slippers are nice, though[if the current stuck thing of the chewing gum is the slippers], even with that gum stuck to them[end if]";
-		say "You're wearing nothing but your underwear. Aren't you cold[run paragraph on][if the player wears the slippers]? [slippers description].[otherwise]?[end if][paragraph break]";
+		say "You're wearing nothing but your underwear. Aren't you cold[run paragraph on][if the player wears the slippers]? [slippers description].[otherwise]?[end if]";
+
+To decide whether the player is naked:
+	if the player is wearing something that is not the slippers:
+		decide no;
+	decide yes;		
+
+The underwear is a part of the player. The description is "[if the player is naked]Yellow polkadots. Nice[otherwise]You can't see your underwear since you're wearing something over it[end if].";
 		
 
 Chapter 1 - Wearing things
@@ -4543,11 +4531,19 @@ Check contentlessly typing on the port keypad when the port-side storage unit is
 	
 Prying it open with is an action applying to two things. Understand "pry [something] with [something]" and "pry [something] open with [something]" and "pry open [something] with [something]" and "jimmy [something] with [something]" and "jimmy [something] open with [something]" and "jimmy open [something] with [something]" as prying it open with.
 
-Instead of unlocking port bottom drawer with knife:
+Instead of unlocking port bottom drawer with knife when the port bottom drawer is half-open:
 	try prying the port bottom drawer open with knife;
 	
-Instead of inserting the knife into the port bottom drawer:
+Instead of inserting the knife into the port bottom drawer when the port bottom drawer is half-open:
 	try prying the port bottom drawer open with knife;
+	
+Before unlocking port bottom drawer with screwdriver when the port bottom drawer is half-open:
+	try prying the port bottom drawer open with screwdriver;
+	stop the action;
+	
+Before inserting the screwdriver into the port bottom drawer when the port bottom drawer is half-open:
+	try prying the port bottom drawer open with screwdriver;
+	stop the action;
 	
 Instead of unlocking port top drawer with knife when the port bottom drawer has been open:
 	say "You're not going to make that trick work twice.";

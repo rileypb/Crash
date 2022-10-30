@@ -18,9 +18,268 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1760"></child>
+        <children><child nodeId="node-1793"></child>
             <child nodeId="node-1003"></child>
+            <child nodeId="node-1925"></child>
         </children>
+    </item>
+    <item nodeId="node-1925">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Nice uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1926"></child>
+        </children>
+    </item>
+    <item nodeId="node-1926">
+        <command xml:space="preserve">x underwear</command>
+        <result xml:space="preserve">You can't see your underwear since you're wearing something over it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1927"></child>
+        </children>
+    </item>
+    <item nodeId="node-1927">
+        <command xml:space="preserve">remove uniform</command>
+        <result xml:space="preserve">You take off the repair corps uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1928"></child>
+        </children>
+    </item>
+    <item nodeId="node-1928">
+        <command xml:space="preserve">x underwear</command>
+        <result xml:space="preserve">Yellow polkadots. Nice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1929"></child>
+        </children>
+    </item>
+    <item nodeId="node-1929">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed locker door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1930"></child>
+        </children>
+    </item>
+    <item nodeId="node-1930">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1931"></child>
+        </children>
+    </item>
+    <item nodeId="node-1931">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and slammed into the airlock door.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 18 / Serial number 221029 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship.
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1932"></child>
+        </children>
+    </item>
+    <item nodeId="node-1932">
+        <command xml:space="preserve">take vac suit</command>
+        <result xml:space="preserve">Taken.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1933"></child>
+        </children>
+    </item>
+    <item nodeId="node-1933">
+        <command xml:space="preserve">wear it</command>
+        <result xml:space="preserve">You put on the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1934"></child>
+        </children>
+    </item>
+    <item nodeId="node-1934">
+        <command xml:space="preserve">x underwear</command>
+        <result xml:space="preserve">You can't see your underwear since you're wearing something over it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1935"></child>
+        </children>
+    </item>
+    <item nodeId="node-1935">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1936"></child>
+        </children>
+    </item>
+    <item nodeId="node-1936">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1937"></child>
+        </children>
+    </item>
+    <item nodeId="node-1937">
+        <command xml:space="preserve">take slippers</command>
+        <result xml:space="preserve">As you lean to take the slippers, you notice something under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1938"></child>
+        </children>
+    </item>
+    <item nodeId="node-1938">
+        <command xml:space="preserve">wear them</command>
+        <result xml:space="preserve">You can't wear those over the mag boots.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1939"></child>
+        </children>
+    </item>
+    <item nodeId="node-1939">
+        <command xml:space="preserve">remove vac suit</command>
+        <result xml:space="preserve">You take off the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1940"></child>
+        </children>
+    </item>
+    <item nodeId="node-1940">
+        <command xml:space="preserve">wear slippers</command>
+        <result xml:space="preserve">You put on the slippers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1941"></child>
+        </children>
+    </item>
+    <item nodeId="node-1941">
+        <command xml:space="preserve">x underwear</command>
+        <result xml:space="preserve">Yellow polkadots. Nice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1942"></child>
+        </children>
+    </item>
+    <item nodeId="node-1942">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">You're wearing nothing but your underwear. Aren't you cold? The slippers are nice, though.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1943"></child>
+        </children>
+    </item>
+    <item nodeId="node-1943">
+        <command xml:space="preserve">wear uniform</command>
+        <result xml:space="preserve">You put on the repair corps uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1944"></child>
+        </children>
+    </item>
+    <item nodeId="node-1944">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Nice uniform, even with the slippers, but you should get the gum off of it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1945"></child>
+        </children>
+    </item>
+    <item nodeId="node-1945">
+        <command xml:space="preserve">x underwear</command>
+        <result xml:space="preserve">You can't see your underwear since you're wearing something over it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1003">
         <command xml:space="preserve">say asdfa</command>
@@ -834,1785 +1093,7 @@ You cross out an item ("fix the airlock door") on your to-do list.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1073"></child>
-            <child nodeId="node-1751"></child>
-            <child nodeId="node-1575"></child>
         </children>
-    </item>
-    <item nodeId="node-1575">
-        <command xml:space="preserve">u</command>
-        <result xml:space="preserve">(first getting off the black trunk)
-
-Junction
-This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1576"></child>
-        </children>
-    </item>
-    <item nodeId="node-1576">
-        <command xml:space="preserve">f</command>
-        <result xml:space="preserve">
-Galley
-This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
-
-On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
-
-You faintly hear someone speaking above.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1577"></child>
-        </children>
-    </item>
-    <item nodeId="node-1577">
-        <command xml:space="preserve">press red</command>
-        <result xml:space="preserve">Nothing happens, but it's unclear why.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1658"></child>
-        </children>
-    </item>
-    <item nodeId="node-1658">
-        <command xml:space="preserve">a</command>
-        <result xml:space="preserve">
-Junction
-This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1659"></child>
-        </children>
-    </item>
-    <item nodeId="node-1659">
-        <command xml:space="preserve">p</command>
-        <result xml:space="preserve">
-Port-Side Crew Quarters
-All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1660"></child>
-        </children>
-    </item>
-    <item nodeId="node-1660">
-        <command xml:space="preserve">open cabinet</command>
-        <result xml:space="preserve">You open the port-side equipment cabinet, revealing an engineering uniform and an Universal Game Emulator.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1661"></child>
-        </children>
-    </item>
-    <item nodeId="node-1661">
-        <command xml:space="preserve">play emulator</command>
-        <result xml:space="preserve">You must supply a second noun.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1662"></child>
-        </children>
-    </item>
-    <item nodeId="node-1662">
-        <command xml:space="preserve">trace 5</command>
-        <result xml:space="preserve">[Parser tracing set to level 5.]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1663"></child>
-        </children>
-    </item>
-    <item nodeId="node-1663">
-        <command xml:space="preserve">play emulator</command>
-        <result xml:space="preserve">[ "play" play / "emulator" emulator ]
-[Parsing for the verb 'play' (2 lines)]
-
-[line 0 * noun -&gt; A121_playing_it_on]
- [line 0 token 1 word 2 : noun]
-  [Object list from word 2]
-  [Calling NounDomain on location and actor]
-   [NounDomain called at word 2
-   seeking definite object
-    Trying the fore (1188603) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the aft (1188635) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the port (1188667) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the starboard (1188699) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the up (1188731) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the down (1188763) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the inside (1188795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the outside (1188827) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the ss usagi (1191259) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wall (1190427) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the ceiling (1190395) at word 2
-    Trying yourself (1190491) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the port-side equipment cabinet (1195643) at word 2
-    Trying the engineering uniform (1195675) at word 2
-    Trying the piece of note paper (1195707) at word 2
-    Trying the Universal Game Emulator (1195739) at word 2
-Parse_name called
-Pass 1: 1 Pass 2: 1 Pass 3: 1
-    Matched (1)
-    Trying the cabinet door (1196731) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bunk bed (1195771) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the top bunk (1196763) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom bunk (1196795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the crew personal storage unit (1195803) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the keypad (1196827) at word 2
-    Trying the port keyhole (1197051) at word 2
-    Trying the display (1196891) at word 2
-    Trying the top drawer (1196923) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom drawer (1196987) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the slippers (1196027) at word 2
-    Trying the vac suit (1190075) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the helmet (1198331) at word 2
-    Trying the Magnetic boots (1198363) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1198395) at word 2
-    Trying the nozzle (1198427) at word 2
-    Trying the air gauge (1198459) at word 2
-    Trying the chewing gum (1190523) at word 2
-    Trying the To-Do list (1190555) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the repair corps uniform (1190587) at word 2
-    Trying the repair corps patch (1190651) at word 2
-    Trying the toolbox (1190619) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the screwdriver (1190683) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wrench (1190715) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the pliers (1190747) at word 2
-    Trying the fasteners (1190779) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the shipboard computer (1188955) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-   [ND made 1 matches]
-  [ND returned the Universal Game Emulator]
-  [token resulted in success]
- [line 0 token 2 word 3 : END]
-[Line successfully parsed]
-
-You must supply a second noun.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1664"></child>
-        </children>
-    </item>
-    <item nodeId="node-1664">
-        <command xml:space="preserve">purloin planetfall</command>
-        <result xml:space="preserve">[ "purloin" purloin / "planetfall" planetfal ]
-[Parsing for the verb 'purloin' (1 lines)]
-
-[line 0 * scope=Routine(507648) -&gt; XPurloin]
- [line 0 token 1 word 2 : scope=Routine(507648)]
-  [Scope routine called at stage 1]
-  [Scope routine returned multiple-flag of 1]
-  [Object list from word 2]
-  [Calling NounDomain on location and actor]
-   [NounDomain called at word 2
-   seeking definite object
-  [Scope routine called at stage 2]
-    Trying the fore (1188603) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the aft (1188635) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the port (1188667) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the starboard (1188699) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the up (1188731) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the down (1188763) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the inside (1188795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the outside (1188827) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the light-meter (1188859) at word 2
-    Trying Fuel injection specification (1188891) at word 2
-    Trying the Room of Stuff (1188923) at word 2
-    Trying the shipboard computer (1188955) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Captain Jane Mulgrew (1188987) at word 2
-    Trying win (1189019) at word 2
-    Trying pointless death (1189051) at word 2
-    Trying crash (1189083) at word 2
-    Trying noble suicide (1189115) at word 2
-    Trying cowardice (1189147) at word 2
-    Trying lost the ship (1189179) at word 2
-    Trying Vacuum-suit (1189211) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying fix the microwave (1189243) at word 2
-    Trying fix the cabinet (1189275) at word 2
-    Trying fix the captain's door (1189307) at word 2
-    Trying fix the storage unit (1189339) at word 2
-    Trying fix the airlock door (1189371) at word 2
-    Trying adjust fuel injection specification (1189403) at word 2
-    Trying fix the engine (1189435) at word 2
-    Trying the null card (1189467) at word 2
-    Trying the black trunk (1189499) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom bunk (1189531) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the black trunk (1189563) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the present (1189595) at word 2
-    Trying the new optical sensor (1189627) at word 2
-    Trying Bertie the Bear™ (1189659) at word 2
-    Trying the eyes (1189691) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wrapping paper (1189723) at word 2
-    Trying the cardboard box (1189755) at word 2
-    Trying the EVA transport line (1189787) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Staging Area (1189819) at word 2
-    Trying the brand-new JL-758 (1189851) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit locker (1189883) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1189915) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1189947) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1189979) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1190011) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1190043) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1190075) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the munitions compartment (1190107) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the laser rifle (1190139) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the air scrubber intake (1190171) at word 2
-    Trying the Airlock door (1190203) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the component panel (1190235) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the electrical contacts (1190267) at word 2
-    Trying the openings (1190299) at word 2
-    Trying the woven cord (1190331) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the interior (1190363) at word 2
-    Trying the ceiling (1190395) at word 2
-    Trying the wall (1190427) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Space Station Gangway (1190459) at word 2
-    Trying yourself (1190491) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the chewing gum (1190523) at word 2
-    Trying the To-Do list (1190555) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the repair corps uniform (1190587) at word 2
-    Trying the toolbox (1190619) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the repair corps patch (1190651) at word 2
-    Trying the screwdriver (1190683) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wrench (1190715) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the pliers (1190747) at word 2
-    Trying the fasteners (1190779) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Navigator (1190811) at word 2
-    Trying the Pilot (1190843) at word 2
-    Trying null state (1190875) at word 2
-    Trying making contact (1190907) at word 2
-    Trying establishing the situation (1190939) at word 2
-    Trying waiting for yes (1190971) at word 2
-    Trying mulgrew breaks in (1191003) at word 2
-    Trying cs-end-game-reboot (1191035) at word 2
-    Trying cs-end-game-protocols (1191067) at word 2
-    Trying Identity of the player (1191099) at word 2
-    Trying Asking Mulgrew Questions (1191131) at word 2
-    Trying Emergency protocols (1191163) at word 2
-    Trying mulgrew's-code (1191195) at word 2
-    Trying security code (1191227) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the ss usagi (1191259) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying engine status (1191291) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Destroying the ship (1191323) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Deneb System (1191355) at word 2
-    Trying Deneb IV (1191387) at word 2
-    Trying Deneb II (1191419) at word 2
-    Trying Deneb sector (1191451) at word 2
-    Trying the Space Marines (1191483) at word 2
-    Trying Operation Dalmatian (1191515) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Delphi Engine Controls Aleph-Null (1191547) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Luna Spacewerks Parsec VI (1191579) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Element Copernicium (1191611) at word 2
-    Trying Substance Injection (1191643) at word 2
-    Trying Delphi Engine Controls LLC (1191675) at word 2
-    Trying Orion Marine Academy (1191707) at word 2
-    Trying Deneb III planet (1191739) at word 2
-    Trying Space Authority (1191771) at word 2
-    Trying the Space Force (1191803) at word 2
-    Trying Pollux star (1191835) at word 2
-    Trying Location of the ship (1191867) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Deneb separatists (1191899) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying New Da Nang (1191931) at word 2
-    Trying Access key (1191963) at word 2
-    Trying the Sun (1191995) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Earth (1192027) at word 2
-    Trying the moon (1192059) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Mercury (1192091) at word 2
-    Trying Venus (1192123) at word 2
-    Trying Mars (1192155) at word 2
-    Trying Jupiter (1192187) at word 2
-    Trying Europa (1192219) at word 2
-    Trying Saturn (1192251) at word 2
-    Trying Tethys (1192283) at word 2
-    Trying Uranus (1192315) at word 2
-    Trying Neptune (1192347) at word 2
-    Trying Pluto (1192379) at word 2
-    Trying Cygnus (1192411) at word 2
-    Trying Milky Way (1192443) at word 2
-    Trying Life support (1192475) at word 2
-    Trying Hull Integrity (1192507) at word 2
-    Trying Pollux III (1192539) at word 2
-    Trying Pollux VI (1192571) at word 2
-    Trying Irion (1192603) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying gravity (1192635) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Corporal Delores Franck (1192667) at word 2
-    Trying Gunnery Sergeant Somchai Khotpanya (1192699) at word 2
-    Trying Private First Class Friedrich Jäger (1192731) at word 2
-    Trying Private Akin Abimbola (1192763) at word 2
-    Trying subj-rebooting-computer (1192795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the gangway (1192827) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Aft Airlock (1192859) at word 2
-    Trying the Space Station Omicron-5 (1192891) at word 2
-    Trying Outside the Aft Airlock (vacuum) (1192923) at word 2
-    Trying the hook (1192955) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Hull of the Usagi (vacuum) (1192987) at word 2
-    Trying the hook (1193019) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the large piece of debris (1193051) at word 2
-    Trying the small piece of debris (1193083) at word 2
-    Trying Outside the Engineering Airlock (vacuum) (1193115) at word 2
-    Trying the hook (1193147) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying deep space (1193179) at word 2
-    Trying Bridge (1193211) at word 2
-    Trying the viewscreen (1193243) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the pilot's chair (1193275) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the navigator's chair (1193307) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the captain's chair (1193339) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the helm table (1193371) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Deneb (star) (1193403) at word 2
-    Trying Aft Airlock (1193435) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Operations Deck (1193467) at word 2
-    Trying the communications console (1193499) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Fore blue button (1193531) at word 2
-    Trying the equipment trunk (1193563) at word 2
-    Trying the environmental console (1193595) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the temperature control (1193627) at word 2
-    Trying the pressure control (1193659) at word 2
-    Trying the power systems console (1193691) at word 2
-    Trying Engineering Deck (1193723) at word 2
-    Trying the suit recharging station (1193755) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the engineering console (1193787) at word 2
-    Trying the engineering monitors (1193819) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Engineering Airlock (1193851) at word 2
-    Trying Machine Room (1193883) at word 2
-    Trying the machine room counter (1193915) at word 2
-    Trying the portable hand-held vacuum cleaner (1193947) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the machine room drawers (1193979) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the small key (1194011) at word 2
-    Trying the roll of electrical tape (1194043) at word 2
-    Trying the hex-shaped tool (1194075) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the fresh fuse (1194107) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying MachineRoomStuff (1194139) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Engine Room (1194171) at word 2
-    Trying the fusion engine (1194203) at word 2
-    Trying the engine diagram (1194235) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the test button (1194267) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the engine room monitors (1194299) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the broken JL-758 (1194331) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the operating panel (1194363) at word 2
-    Trying Midship Door (1194395) at word 2
-    Trying Galley (1194427) at word 2
-    Trying the kitchen counter (1194459) at word 2
-    Trying the kitchen drawer (1194491) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the knife (1194523) at word 2
-    Trying the fork (1194555) at word 2
-    Trying the spoon (1194587) at word 2
-    Trying the left stool (1194619) at word 2
-    Trying the right stool (1194651) at word 2
-    Trying the microwave oven (1194683) at word 2
-    Trying the wall socket (1194715) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the closet (1194747) at word 2
-    Trying the MRE (1194779) at word 2
-    Trying the MRE (1194811) at word 2
-    Trying the MRE (1194843) at word 2
-    Trying the MRE (1194875) at word 2
-    Trying the MRE (1194907) at word 2
-    Trying the MRE (1194939) at word 2
-    Trying the MRE (1194971) at word 2
-    Trying the MRE (1195003) at word 2
-    Trying the MRE (1195035) at word 2
-    Trying the MRE (1195067) at word 2
-    Trying the microwavable dinner (1195099) at word 2
-    Trying the control panel (1195131) at word 2
-    Trying the door operations manual (1195163) at word 2
-    Trying the pots and pans (1195195) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Junction (1195227) at word 2
-    Trying the access panel (1195259) at word 2
-    Trying the blown fuse (1195291) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the row of fuses (1195323) at word 2
-    Trying the Captain's Door (1195355) at word 2
-    Trying the Captain's Door's slot (1195387) at word 2
-    Trying Captain's Quarters (1195419) at word 2
-    Trying the captain's bed (1195451) at word 2
-    Trying the captain's desk (1195483) at word 2
-    Trying the photo of Pluto (1195515) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the moon photo (1195547) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the portrait of the ship (1195579) at word 2
-    Trying Port-Side Crew Quarters (1195611) at word 2
-    Trying the port-side equipment cabinet (1195643) at word 2
-    Trying the engineering uniform (1195675) at word 2
-    Trying the piece of note paper (1195707) at word 2
-    Trying the Universal Game Emulator (1195739) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bunk bed (1195771) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the crew personal storage unit (1195803) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Starboard-Side Crew Quarters (1195835) at word 2
-    Trying the starboard-side equipment cabinet (1195867) at word 2
-    Trying the beacon (1195899) at word 2
-    Trying the bunk bed (1195931) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the crew personal storage unit (1195963) at word 2
-    Trying the sticky note (1195995) at word 2
-    Trying the slippers (1196027) at word 2
-    Trying the command console (1196059) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the keyhole (1196091) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the helm access panel (1196123) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wiring (1196155) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the gravity control (1196187) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Deneb III Naval Command (1196219) at word 2
-    Trying the caller (1196251) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Engineering airlock (1196283) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying space (1196315) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the galley's blue button (1196347) at word 2
-    Trying the start button (1196379) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the microwave front display (1196411) at word 2
-    Trying the folding door (1196443) at word 2
-    Trying the cooked dinner (1196475) at word 2
-    Trying the plug (1196507) at word 2
-    Trying the midship ladder (1196539) at word 2
-    Trying the hole (1196571) at word 2
-    Trying the blue screw (1196603) at word 2
-    Trying the desk drawer (1196635) at word 2
-    Trying the captain's journal (1196667) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Captain's Affair (1196699) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the cabinet door (1196731) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the top bunk (1196763) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom bunk (1196795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the keypad (1196827) at word 2
-    Trying the wires (1196859) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the display (1196891) at word 2
-    Trying the top drawer (1196923) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the copy of Planetfall (1196955) at word 2
-    Matched (1)
-    Trying the bottom drawer (1196987) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the red access card (1197019) at word 2
-    Trying the port keyhole (1197051) at word 2
-    Trying Typing it on (1197083) at word 2
-    Trying the cabinet door (1197115) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the crooked screw (1197147) at word 2
-    Trying the top bunk (1197179) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the keypad (1197211) at word 2
-    Trying the display (1197243) at word 2
-    Trying the top drawer (1197275) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom drawer (1197307) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the starboard keyhole (1197339) at word 2
-    Trying the helmet (1197371) at word 2
-    Trying the Magnetic boots (1197403) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197435) at word 2
-    Trying the nozzle (1197467) at word 2
-    Trying the air gauge (1197499) at word 2
-    Trying the helmet (1197531) at word 2
-    Trying the Magnetic boots (1197563) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197595) at word 2
-    Trying the nozzle (1197627) at word 2
-    Trying the air gauge (1197659) at word 2
-    Trying the helmet (1197691) at word 2
-    Trying the Magnetic boots (1197723) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197755) at word 2
-    Trying the nozzle (1197787) at word 2
-    Trying the air gauge (1197819) at word 2
-    Trying the helmet (1197851) at word 2
-    Trying the Magnetic boots (1197883) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197915) at word 2
-    Trying the nozzle (1197947) at word 2
-    Trying the air gauge (1197979) at word 2
-    Trying the helmet (1198011) at word 2
-    Trying the Magnetic boots (1198043) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1198075) at word 2
-    Trying the nozzle (1198107) at word 2
-    Trying the air gauge (1198139) at word 2
-    Trying the vac suit locker (1198171) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198203) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198235) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198267) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198299) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the helmet (1198331) at word 2
-    Trying the Magnetic boots (1198363) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1198395) at word 2
-    Trying the nozzle (1198427) at word 2
-    Trying the air gauge (1198459) at word 2
-    Trying the aft ladder (1198491) at word 2
-    Trying the broken sensor (1198523) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the explosion (1198555) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the outer hull (1198587) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Farther From Ship (1198619) at word 2
-    Trying Deck Nine (1198651) at word 2
-    Trying the ensign seventh class (1198683) at word 2
-    Trying the Patrol uniform (1198715) at word 2
-    Trying the ID card (1198747) at word 2
-    Trying the chronometer (1198779) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Patrol-issue self-contained multi-purpose scrub brush (1198811) at word 2
-    Trying Slime (1198843) at word 2
-    Trying the brochure (1198875) at word 2
-    Trying Reactor Lobby (1198907) at word 2
-    Trying Escape Pod (1198939) at word 2
-    Trying the escape pod bulkhead (1198971) at word 2
-    Trying Gangway (1199003) at word 2
-    Matched (1)
-    Trying Deck Eight (1199035) at word 2
-    Trying Brig (1199067) at word 2
-    Trying the cell door (1199099) at word 2
-    Trying the graffiti (1199131) at word 2
-    Trying the floor (1199163) at word 2
-    Trying Ensign First Class Blather (1199195) at word 2
-    Trying the alien ambassador (1199227) at word 2
-    Trying Empty-space (1199259) at word 2
-    Trying Void Matter (1199291) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Oganesson (1199323) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Unobtainium (1199355) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Red Matter (1199387) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Liquid Copernicium (1199419) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Anti-Helium (1199451) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Tachyon Crystals (1199483) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Input 1 (1199515) at word 2
-    Trying Input 2 (1199547) at word 2
-    Trying Input 3 (1199579) at word 2
-    Trying Input 4 (1199611) at word 2
-    Trying the special vac suit (1199643) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the special vac suit's helmet (1199675) at word 2
-    Trying the special vac suit's Magnetic boots (1199707) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the special vac suit's Gloves (1199739) at word 2
-    Trying the special vac suit's nozzle (1199771) at word 2
-    Trying the special vac suit's air gauge (1199803) at word 2
-   [ND made 2 matches]
-   [Adjudicating match list of size 2 in context 2
-   definite object
-   Scoring match list: indef mode 0 type 0, satisfying 0 requirements:
-
-     The copy of Planetfall (1196955) in the top drawer : 2136 points
-
-     Gangway (1199003) in nothing : 2136 points
-   Grouped into 2 possibilities by name:
-   The copy of Planetfall (1196955)  ---  group 1
-   Gangway (1199003)  ---  group 2
-   Unable to choose best group, so ask player.]
-Which do you mean, the copy of Planetfall or Gangway?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1665"></child>
-        </children>
-    </item>
-    <item nodeId="node-1665">
-        <command xml:space="preserve">gangway</command>
-        <result xml:space="preserve">  [token resulted in re-parse request]
-[ "purloin" purloin / "gangway" gangway / "planetfall" planetfal ]
-[Parsing for the verb 'purloin' (1 lines)]
-
-[line 0 * scope=Routine(507648) -&gt; XPurloin]
- [line 0 token 1 word 2 : scope=Routine(507648)]
-  [Scope routine called at stage 1]
-  [Scope routine returned multiple-flag of 1]
-  [Object list from word 2]
-  [Calling NounDomain on location and actor]
-   [NounDomain called at word 2
-   seeking definite object
-  [Scope routine called at stage 2]
-    Trying the fore (1188603) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the aft (1188635) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the port (1188667) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the starboard (1188699) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the up (1188731) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the down (1188763) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the inside (1188795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the outside (1188827) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the light-meter (1188859) at word 2
-    Trying Fuel injection specification (1188891) at word 2
-    Trying the Room of Stuff (1188923) at word 2
-    Trying the shipboard computer (1188955) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Captain Jane Mulgrew (1188987) at word 2
-    Trying win (1189019) at word 2
-    Trying pointless death (1189051) at word 2
-    Trying crash (1189083) at word 2
-    Trying noble suicide (1189115) at word 2
-    Trying cowardice (1189147) at word 2
-    Trying lost the ship (1189179) at word 2
-    Trying Vacuum-suit (1189211) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying fix the microwave (1189243) at word 2
-    Trying fix the cabinet (1189275) at word 2
-    Trying fix the captain's door (1189307) at word 2
-    Trying fix the storage unit (1189339) at word 2
-    Trying fix the airlock door (1189371) at word 2
-    Trying adjust fuel injection specification (1189403) at word 2
-    Trying fix the engine (1189435) at word 2
-    Trying the null card (1189467) at word 2
-    Trying the black trunk (1189499) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom bunk (1189531) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the black trunk (1189563) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the present (1189595) at word 2
-    Trying the new optical sensor (1189627) at word 2
-    Trying Bertie the Bear™ (1189659) at word 2
-    Trying the eyes (1189691) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wrapping paper (1189723) at word 2
-    Trying the cardboard box (1189755) at word 2
-    Trying the EVA transport line (1189787) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Staging Area (1189819) at word 2
-    Trying the brand-new JL-758 (1189851) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit locker (1189883) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1189915) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1189947) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1189979) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1190011) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1190043) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the vac suit (1190075) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the munitions compartment (1190107) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the laser rifle (1190139) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the air scrubber intake (1190171) at word 2
-    Trying the Airlock door (1190203) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the component panel (1190235) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the electrical contacts (1190267) at word 2
-    Trying the openings (1190299) at word 2
-    Trying the woven cord (1190331) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the interior (1190363) at word 2
-    Trying the ceiling (1190395) at word 2
-    Trying the wall (1190427) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Space Station Gangway (1190459) at word 2
-    Matched (1)
-    Trying yourself (1190491) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the chewing gum (1190523) at word 2
-    Trying the To-Do list (1190555) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the repair corps uniform (1190587) at word 2
-    Trying the toolbox (1190619) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the repair corps patch (1190651) at word 2
-    Trying the screwdriver (1190683) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wrench (1190715) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the pliers (1190747) at word 2
-    Trying the fasteners (1190779) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Navigator (1190811) at word 2
-    Trying the Pilot (1190843) at word 2
-    Trying null state (1190875) at word 2
-    Trying making contact (1190907) at word 2
-    Trying establishing the situation (1190939) at word 2
-    Trying waiting for yes (1190971) at word 2
-    Trying mulgrew breaks in (1191003) at word 2
-    Trying cs-end-game-reboot (1191035) at word 2
-    Trying cs-end-game-protocols (1191067) at word 2
-    Trying Identity of the player (1191099) at word 2
-    Trying Asking Mulgrew Questions (1191131) at word 2
-    Trying Emergency protocols (1191163) at word 2
-    Trying mulgrew's-code (1191195) at word 2
-    Trying security code (1191227) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the ss usagi (1191259) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying engine status (1191291) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Destroying the ship (1191323) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Deneb System (1191355) at word 2
-    Trying Deneb IV (1191387) at word 2
-    Trying Deneb II (1191419) at word 2
-    Trying Deneb sector (1191451) at word 2
-    Trying the Space Marines (1191483) at word 2
-    Trying Operation Dalmatian (1191515) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Delphi Engine Controls Aleph-Null (1191547) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Luna Spacewerks Parsec VI (1191579) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Element Copernicium (1191611) at word 2
-    Trying Substance Injection (1191643) at word 2
-    Trying Delphi Engine Controls LLC (1191675) at word 2
-    Trying Orion Marine Academy (1191707) at word 2
-    Trying Deneb III planet (1191739) at word 2
-    Trying Space Authority (1191771) at word 2
-    Trying the Space Force (1191803) at word 2
-    Trying Pollux star (1191835) at word 2
-    Trying Location of the ship (1191867) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Deneb separatists (1191899) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying New Da Nang (1191931) at word 2
-    Trying Access key (1191963) at word 2
-    Trying the Sun (1191995) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Earth (1192027) at word 2
-    Trying the moon (1192059) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Mercury (1192091) at word 2
-    Trying Venus (1192123) at word 2
-    Trying Mars (1192155) at word 2
-    Trying Jupiter (1192187) at word 2
-    Trying Europa (1192219) at word 2
-    Trying Saturn (1192251) at word 2
-    Trying Tethys (1192283) at word 2
-    Trying Uranus (1192315) at word 2
-    Trying Neptune (1192347) at word 2
-    Trying Pluto (1192379) at word 2
-    Trying Cygnus (1192411) at word 2
-    Trying Milky Way (1192443) at word 2
-    Trying Life support (1192475) at word 2
-    Trying Hull Integrity (1192507) at word 2
-    Trying Pollux III (1192539) at word 2
-    Trying Pollux VI (1192571) at word 2
-    Trying Irion (1192603) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying gravity (1192635) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Corporal Delores Franck (1192667) at word 2
-    Trying Gunnery Sergeant Somchai Khotpanya (1192699) at word 2
-    Trying Private First Class Friedrich Jäger (1192731) at word 2
-    Trying Private Akin Abimbola (1192763) at word 2
-    Trying subj-rebooting-computer (1192795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the gangway (1192827) at word 2
-Parse_name called
-Pass 1: 1 Pass 2: 1 Pass 3: 1
-    Matched (1)
-    Trying Aft Airlock (1192859) at word 2
-    Trying the Space Station Omicron-5 (1192891) at word 2
-    Trying Outside the Aft Airlock (vacuum) (1192923) at word 2
-    Trying the hook (1192955) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Hull of the Usagi (vacuum) (1192987) at word 2
-    Trying the hook (1193019) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the large piece of debris (1193051) at word 2
-    Trying the small piece of debris (1193083) at word 2
-    Trying Outside the Engineering Airlock (vacuum) (1193115) at word 2
-    Trying the hook (1193147) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying deep space (1193179) at word 2
-    Trying Bridge (1193211) at word 2
-    Trying the viewscreen (1193243) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the pilot's chair (1193275) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the navigator's chair (1193307) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the captain's chair (1193339) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the helm table (1193371) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Deneb (star) (1193403) at word 2
-    Trying Aft Airlock (1193435) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Operations Deck (1193467) at word 2
-    Trying the communications console (1193499) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Fore blue button (1193531) at word 2
-    Trying the equipment trunk (1193563) at word 2
-    Trying the environmental console (1193595) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the temperature control (1193627) at word 2
-    Trying the pressure control (1193659) at word 2
-    Trying the power systems console (1193691) at word 2
-    Trying Engineering Deck (1193723) at word 2
-    Trying the suit recharging station (1193755) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the engineering console (1193787) at word 2
-    Trying the engineering monitors (1193819) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Engineering Airlock (1193851) at word 2
-    Trying Machine Room (1193883) at word 2
-    Trying the machine room counter (1193915) at word 2
-    Trying the portable hand-held vacuum cleaner (1193947) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the machine room drawers (1193979) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the small key (1194011) at word 2
-    Trying the roll of electrical tape (1194043) at word 2
-    Trying the hex-shaped tool (1194075) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the fresh fuse (1194107) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying MachineRoomStuff (1194139) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Engine Room (1194171) at word 2
-    Trying the fusion engine (1194203) at word 2
-    Trying the engine diagram (1194235) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the test button (1194267) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the engine room monitors (1194299) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the broken JL-758 (1194331) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the operating panel (1194363) at word 2
-    Trying Midship Door (1194395) at word 2
-    Trying Galley (1194427) at word 2
-    Trying the kitchen counter (1194459) at word 2
-    Trying the kitchen drawer (1194491) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the knife (1194523) at word 2
-    Trying the fork (1194555) at word 2
-    Trying the spoon (1194587) at word 2
-    Trying the left stool (1194619) at word 2
-    Trying the right stool (1194651) at word 2
-    Trying the microwave oven (1194683) at word 2
-    Trying the wall socket (1194715) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the closet (1194747) at word 2
-    Trying the MRE (1194779) at word 2
-    Trying the MRE (1194811) at word 2
-    Trying the MRE (1194843) at word 2
-    Trying the MRE (1194875) at word 2
-    Trying the MRE (1194907) at word 2
-    Trying the MRE (1194939) at word 2
-    Trying the MRE (1194971) at word 2
-    Trying the MRE (1195003) at word 2
-    Trying the MRE (1195035) at word 2
-    Trying the MRE (1195067) at word 2
-    Trying the microwavable dinner (1195099) at word 2
-    Trying the control panel (1195131) at word 2
-    Trying the door operations manual (1195163) at word 2
-    Trying the pots and pans (1195195) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Junction (1195227) at word 2
-    Trying the access panel (1195259) at word 2
-    Trying the blown fuse (1195291) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the row of fuses (1195323) at word 2
-    Trying the Captain's Door (1195355) at word 2
-    Trying the Captain's Door's slot (1195387) at word 2
-    Trying Captain's Quarters (1195419) at word 2
-    Trying the captain's bed (1195451) at word 2
-    Trying the captain's desk (1195483) at word 2
-    Trying the photo of Pluto (1195515) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the moon photo (1195547) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the portrait of the ship (1195579) at word 2
-    Trying Port-Side Crew Quarters (1195611) at word 2
-    Trying the port-side equipment cabinet (1195643) at word 2
-    Trying the engineering uniform (1195675) at word 2
-    Trying the piece of note paper (1195707) at word 2
-    Trying the Universal Game Emulator (1195739) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bunk bed (1195771) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the crew personal storage unit (1195803) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Starboard-Side Crew Quarters (1195835) at word 2
-    Trying the starboard-side equipment cabinet (1195867) at word 2
-    Trying the beacon (1195899) at word 2
-    Trying the bunk bed (1195931) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the crew personal storage unit (1195963) at word 2
-    Trying the sticky note (1195995) at word 2
-    Trying the slippers (1196027) at word 2
-    Trying the command console (1196059) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the keyhole (1196091) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the helm access panel (1196123) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the wiring (1196155) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the gravity control (1196187) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Deneb III Naval Command (1196219) at word 2
-    Trying the caller (1196251) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Engineering airlock (1196283) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying space (1196315) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the galley's blue button (1196347) at word 2
-    Trying the start button (1196379) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the microwave front display (1196411) at word 2
-    Trying the folding door (1196443) at word 2
-    Trying the cooked dinner (1196475) at word 2
-    Trying the plug (1196507) at word 2
-    Trying the midship ladder (1196539) at word 2
-    Trying the hole (1196571) at word 2
-    Trying the blue screw (1196603) at word 2
-    Trying the desk drawer (1196635) at word 2
-    Trying the captain's journal (1196667) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Captain's Affair (1196699) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the cabinet door (1196731) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the top bunk (1196763) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom bunk (1196795) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the keypad (1196827) at word 2
-    Trying the wires (1196859) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the display (1196891) at word 2
-    Trying the top drawer (1196923) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the copy of Planetfall (1196955) at word 2
-    Trying the bottom drawer (1196987) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the red access card (1197019) at word 2
-    Trying the port keyhole (1197051) at word 2
-    Trying Typing it on (1197083) at word 2
-    Trying the cabinet door (1197115) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the crooked screw (1197147) at word 2
-    Trying the top bunk (1197179) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the keypad (1197211) at word 2
-    Trying the display (1197243) at word 2
-    Trying the top drawer (1197275) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the bottom drawer (1197307) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the starboard keyhole (1197339) at word 2
-    Trying the helmet (1197371) at word 2
-    Trying the Magnetic boots (1197403) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197435) at word 2
-    Trying the nozzle (1197467) at word 2
-    Trying the air gauge (1197499) at word 2
-    Trying the helmet (1197531) at word 2
-    Trying the Magnetic boots (1197563) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197595) at word 2
-    Trying the nozzle (1197627) at word 2
-    Trying the air gauge (1197659) at word 2
-    Trying the helmet (1197691) at word 2
-    Trying the Magnetic boots (1197723) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197755) at word 2
-    Trying the nozzle (1197787) at word 2
-    Trying the air gauge (1197819) at word 2
-    Trying the helmet (1197851) at word 2
-    Trying the Magnetic boots (1197883) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1197915) at word 2
-    Trying the nozzle (1197947) at word 2
-    Trying the air gauge (1197979) at word 2
-    Trying the helmet (1198011) at word 2
-    Trying the Magnetic boots (1198043) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1198075) at word 2
-    Trying the nozzle (1198107) at word 2
-    Trying the air gauge (1198139) at word 2
-    Trying the vac suit locker (1198171) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198203) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198235) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198267) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the banged-up suit (1198299) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the helmet (1198331) at word 2
-    Trying the Magnetic boots (1198363) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Gloves (1198395) at word 2
-    Trying the nozzle (1198427) at word 2
-    Trying the air gauge (1198459) at word 2
-    Trying the aft ladder (1198491) at word 2
-    Trying the broken sensor (1198523) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the explosion (1198555) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the outer hull (1198587) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Farther From Ship (1198619) at word 2
-    Trying Deck Nine (1198651) at word 2
-    Trying the ensign seventh class (1198683) at word 2
-    Trying the Patrol uniform (1198715) at word 2
-    Trying the ID card (1198747) at word 2
-    Trying the chronometer (1198779) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the Patrol-issue self-contained multi-purpose scrub brush (1198811) at word 2
-    Trying Slime (1198843) at word 2
-    Trying the brochure (1198875) at word 2
-    Trying Reactor Lobby (1198907) at word 2
-    Trying Escape Pod (1198939) at word 2
-    Trying the escape pod bulkhead (1198971) at word 2
-    Trying Gangway (1199003) at word 2
-    Matched (2)
-    Trying Deck Eight (1199035) at word 2
-    Trying Brig (1199067) at word 2
-    Trying the cell door (1199099) at word 2
-    Trying the graffiti (1199131) at word 2
-    Trying the floor (1199163) at word 2
-    Trying Ensign First Class Blather (1199195) at word 2
-    Trying the alien ambassador (1199227) at word 2
-    Trying Empty-space (1199259) at word 2
-    Trying Void Matter (1199291) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Oganesson (1199323) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Unobtainium (1199355) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Red Matter (1199387) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Liquid Copernicium (1199419) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Anti-Helium (1199451) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Tachyon Crystals (1199483) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying Input 1 (1199515) at word 2
-    Trying Input 2 (1199547) at word 2
-    Trying Input 3 (1199579) at word 2
-    Trying Input 4 (1199611) at word 2
-    Trying the special vac suit (1199643) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the special vac suit's helmet (1199675) at word 2
-    Trying the special vac suit's Magnetic boots (1199707) at word 2
-Parse_name called
-Pass 1: 0 Pass 2: 0 Pass 3: 0
-    Trying the special vac suit's Gloves (1199739) at word 2
-    Trying the special vac suit's nozzle (1199771) at word 2
-    Trying the special vac suit's air gauge (1199803) at word 2
-   [ND made 1 matches]
-  [ND returned Gangway]
-  [token resulted in success]
- [line 0 token 2 word 4 : END]
-[Line successfully parsed]
-
-[Purloined.]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1666"></child>
-        </children>
-    </item>
-    <item nodeId="node-1666">
-        <command xml:space="preserve">trace off</command>
-        <result xml:space="preserve">[ "trace" trace / "off" off ]
-[Parsing for the verb 'trace' (4 lines)]
-
-[line 0 * -&gt; TraceOn]
- [line 0 token 1 word 2 : END]
-
-[line 1 * number -&gt; TraceLevel]
- [line 1 token 1 word 2 : number]
-  [token resulted in failure with error type 3]
-
-[line 2 * 'on' -&gt; TraceOn]
-[line rejected for not ending with correct preposition]
-
-[line 3 * 'off' -&gt; TraceOff]
- [line 3 token 1 word 2 : 'off']
-  [token resulted in success]
- [line 3 token 2 word 3 : END]
-[Line successfully parsed]
-Trace off.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1667"></child>
-        </children>
-    </item>
-    <item nodeId="node-1667">
-        <command xml:space="preserve">play planetfall</command>
-        <result xml:space="preserve">You must supply a second noun.
-
-Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1668"></child>
-        </children>
-    </item>
-    <item nodeId="node-1668">
-        <command xml:space="preserve">play planetfall on the uge</command>
-        <result xml:space="preserve">&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1669"></child>
-        </children>
-    </item>
-    <item nodeId="node-1669">
-        <command xml:space="preserve">play planetfall on uge</command>
-        <result xml:space="preserve">&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1670"></child>
-        </children>
-    </item>
-    <item nodeId="node-1670">
-        <command xml:space="preserve">actions</command>
-        <result xml:space="preserve">Actions listing on.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1671"></child>
-        </children>
-    </item>
-    <item nodeId="node-1671">
-        <command xml:space="preserve">play planetfall on uge</command>
-        <result xml:space="preserve">[playing Gangway on the Universal Game Emulator]
-[playing Gangway on the Universal Game Emulator - succeeded]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1672"></child>
-        </children>
-    </item>
-    <item nodeId="node-1672">
-        <command xml:space="preserve">i</command>
-        <result xml:space="preserve">[taking inventory]
-You are carrying:
-  Gangway (providing light)
-  some slippers
-  a vac suit (being worn)
-  some chewing gum (being chewed)
-  a To-Do list
-  a repair corps uniform (being worn)
-  a toolbox
-
-[taking inventory - succeeded]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1673"></child>
-        </children>
-    </item>
-    <item nodeId="node-1673">
-        <command xml:space="preserve">purloin copy of planetfall</command>
-        <result xml:space="preserve">[Purloined.]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1674"></child>
-        </children>
-    </item>
-    <item nodeId="node-1674">
-        <command xml:space="preserve">play planetfall on uge</command>
-        <result xml:space="preserve">Which do you mean, the copy of Planetfall or Gangway?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1675"></child>
-        </children>
-    </item>
-    <item nodeId="node-1675">
-        <command xml:space="preserve">copy</command>
-        <result xml:space="preserve">[playing the copy of Planetfall on the Universal Game Emulator]
-PLANETFALL
-Infocom interactive fiction - a science fiction story
-Copyright (c) 1983 by Infocom, Inc. All rights reserved.
-PLANETFALL is a registered trademark of Infocom, Inc.
-Release 39 / Serial number 880501
-
-Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
-
-[your former self playing the copy of Planetfall on the Universal Game Emulator - succeeded]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1676"></child>
-        </children>
-    </item>
-    <item nodeId="node-1676">
-        <command xml:space="preserve">quit</command>
-        <result xml:space="preserve">[quitting the game]
-You stop playing Planetfall. Time to save the ship.
-
-[(1) looking]
-Port-Side Crew Quarters
-All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is open and contains an engineering uniform and an Universal Game Emulator. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
-
-[(1) looking - succeeded]
-
-[the ensign seventh class quitting the game - succeeded]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1677"></child>
-        </children>
-    </item>
-    <item nodeId="node-1677">
-        <command xml:space="preserve">i\</command>
-        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1678"></child>
-        </children>
-    </item>
-    <item nodeId="node-1678">
-        <command xml:space="preserve">i</command>
-        <result xml:space="preserve">[taking inventory]
-You are carrying:
-  a copy of Planetfall
-  Gangway (providing light)
-  some slippers
-  a vac suit (being worn)
-  some chewing gum (being chewed)
-  a To-Do list
-  a repair corps uniform (being worn)
-  a toolbox
-
-[taking inventory - succeeded]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1679"></child>
-        </children>
-    </item>
-    <item nodeId="node-1679">
-        <command xml:space="preserve">play slippers on uge</command>
-        <result xml:space="preserve">[playing the slippers on the Universal Game Emulator]
-The slippers is not a game.
-[playing the slippers on the Universal Game Emulator - failed the can only play games rule]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1680"></child>
-        </children>
-    </item>
-    <item nodeId="node-1680">
-        <command xml:space="preserve">actions off</command>
-        <result xml:space="preserve">Actions listing off.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1751">
-        <command xml:space="preserve">p</command>
-        <result xml:space="preserve">The obvious exits are aft (to aft airlock), up (to junction) and outside (to aft airlock).
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1752"></child>
-        </children>
-    </item>
-    <item nodeId="node-1752">
-        <command xml:space="preserve">open cabinet</command>
-        <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1753"></child>
-        </children>
-    </item>
-    <item nodeId="node-1753">
-        <command xml:space="preserve">u</command>
-        <result xml:space="preserve">(first getting off the black trunk)
-
-Junction
-This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1754"></child>
-        </children>
-    </item>
-    <item nodeId="node-1754">
-        <command xml:space="preserve">p</command>
-        <result xml:space="preserve">
-Port-Side Crew Quarters
-All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1755"></child>
-        </children>
-    </item>
-    <item nodeId="node-1755">
-        <command xml:space="preserve">open cabinet</command>
-        <result xml:space="preserve">You open the port-side equipment cabinet, revealing an engineering uniform and an Universal Game Emulator.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1756"></child>
-        </children>
-    </item>
-    <item nodeId="node-1756">
-        <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">engineering uniform: Taken.
-Universal Game Emulator: Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1757"></child>
-        </children>
-    </item>
-    <item nodeId="node-1757">
-        <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  an Universal Game Emulator
-  an engineering uniform
-    a piece of note paper
-  some slippers
-  a vac suit (being worn)
-  some chewing gum (being chewed)
-  a To-Do list
-  a repair corps uniform (being worn)
-  a toolbox
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1758"></child>
-        </children>
-    </item>
-    <item nodeId="node-1758">
-        <command xml:space="preserve">restart</command>
-        <result xml:space="preserve">Are you sure you want to restart? </result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1759"></child>
-        </children>
-    </item>
-    <item nodeId="node-1759">
-        <command xml:space="preserve">y</command>
-        <result xml:space="preserve">
-
-
-Crash
-An Interactive Disaster by Phil Riley
-Release 18 / Serial number 221029 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
-
-Space Station Gangway
-This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
-
-[Better get a move on], you think.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1073">
         <command xml:space="preserve">a</command>
@@ -3796,7 +2277,7 @@ Attention all crew: command functions are offline and the computer is running wi
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1760">
+    <item nodeId="node-1793">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
 
@@ -3812,10 +2293,10 @@ A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboa
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1761"></child>
+        <children><child nodeId="node-1794"></child>
         </children>
     </item>
-    <item nodeId="node-1761">
+    <item nodeId="node-1794">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
 
@@ -3827,10 +2308,10 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1762"></child>
+        <children><child nodeId="node-1795"></child>
         </children>
     </item>
-    <item nodeId="node-1762">
+    <item nodeId="node-1795">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">You climb the la--
 
@@ -3879,10 +2360,10 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1763"></child>
+        <children><child nodeId="node-1796"></child>
         </children>
     </item>
-    <item nodeId="node-1763">
+    <item nodeId="node-1796">
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You unstick the chewing gum from the repair corps uniform.
 
@@ -3890,24 +2371,31 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1764"></child>
+        <children><child nodeId="node-1797"></child>
         </children>
     </item>
-    <item nodeId="node-1764">
+    <item nodeId="node-1797">
+        <command xml:space="preserve">chew it</command>
+        <result xml:space="preserve">You put the chewing gum in your mouth.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1798"></child>
+        </children>
+    </item>
+    <item nodeId="node-1798">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
 ⇒ You can enter "hints" at any time for help in progressing in the game.
-The chewing gum has become stuck to the toolbox.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1765"></child>
+        <children><child nodeId="node-1799"></child>
         </children>
     </item>
-    <item nodeId="node-1765">
+    <item nodeId="node-1799">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Port-Side Crew Quarters
@@ -3915,10 +2403,40 @@ All crew members who aren't the captain sleep in this or the opposite-side bunk 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1766"></child>
+        <children><child nodeId="node-1800"></child>
         </children>
     </item>
-    <item nodeId="node-1766">
+    <item nodeId="node-1800">
+        <command xml:space="preserve">type 876</command>
+        <result xml:space="preserve">As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.
+
+You add an item ("fix the storage unit") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1801"></child>
+        </children>
+    </item>
+    <item nodeId="node-1801">
+        <command xml:space="preserve">open bottom drawer with screwdriver</command>
+        <result xml:space="preserve">The screwdriver is too large to pry open the bottom drawer.
+[Dang. I really thought that would work.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1822"></child>
+        </children>
+    </item>
+    <item nodeId="node-1822">
+        <command xml:space="preserve">put screwdrive in bottom drawer</command>
+        <result xml:space="preserve">The screwdriver is too large to pry open the bottom drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1823"></child>
+        </children>
+    </item>
+    <item nodeId="node-1823">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Junction
@@ -3926,129 +2444,217 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1767"></child>
+        <children><child nodeId="node-1824"></child>
         </children>
     </item>
-    <item nodeId="node-1767">
-        <command xml:space="preserve">s</command>
+    <item nodeId="node-1824">
+        <command xml:space="preserve">f</command>
         <result xml:space="preserve">
-Starboard-Side Crew Quarters
-All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
 
-In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
 
-A pair of slippers peeks out from under the bed.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1768"></child>
-        </children>
-    </item>
-    <item nodeId="node-1768">
-        <command xml:space="preserve">look under bed</command>
-        <result xml:space="preserve">You find a black trunk and move it out from under the bottom bunk.
-
-Starboard-Side Crew Quarters
-All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
-
-In a shocking lapse of military precision, there is a sticky note attached to the bed post.
-
-A pair of slippers peeks out from under the bed.
-
-You can also see a black trunk (closed) here.
+You faintly hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1769"></child>
+        <children><child nodeId="node-1825"></child>
         </children>
     </item>
-    <item nodeId="node-1769">
-        <command xml:space="preserve">open trunk</command>
-        <result xml:space="preserve">You open the black trunk, revealing a present.
+    <item nodeId="node-1825">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the kitchen drawer, revealing a knife, a fork, and a spoon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1770"></child>
+        <children><child nodeId="node-1826"></child>
         </children>
     </item>
-    <item nodeId="node-1770">
-        <command xml:space="preserve">take gum</command>
-        <result xml:space="preserve">You unstick the chewing gum from the toolbox.
+    <item nodeId="node-1826">
+        <command xml:space="preserve">take knife</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1771"></child>
+        <children><child nodeId="node-1827"></child>
         </children>
     </item>
-    <item nodeId="node-1771">
-        <command xml:space="preserve">stick gum to present</command>
-        <result xml:space="preserve">You stick the chewing gum to the present.
+    <item nodeId="node-1827">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">The obvious exits are aft (to junction) and up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1772"></child>
+        <children><child nodeId="node-1828"></child>
         </children>
     </item>
-    <item nodeId="node-1772">
-        <command xml:space="preserve">x present</command>
-        <result xml:space="preserve">This is a box wrapped in paper obviously intended for a child. Written on the outside is the message "To Mitchell, Happy Second Birthday! Love, Uncle Fred"
-
-Some chewing gum is stuck to the present.
+    <item nodeId="node-1828">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1773"></child>
+        <children><child nodeId="node-1829"></child>
         </children>
     </item>
-    <item nodeId="node-1773">
-        <command xml:space="preserve">open it</command>
-        <result xml:space="preserve">[I'll go to hell for this, but here goes...]
-
-You rip off the wrapping paper and open the box. Inside is a stuffed bear you recognize as Bertie the Bear™. You discard the paper and box.
+    <item nodeId="node-1829">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1774"></child>
-            <child nodeId="node-1790"></child>
+        <children><child nodeId="node-1830"></child>
         </children>
     </item>
-    <item nodeId="node-1790">
+    <item nodeId="node-1830">
+        <command xml:space="preserve">pry open bottom drawer</command>
+        <result xml:space="preserve">What do you want to pry open the bottom drawer with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1831"></child>
+        </children>
+    </item>
+    <item nodeId="node-1831">
+        <command xml:space="preserve">knife</command>
+        <result xml:space="preserve">You wedge the knife into the seam and lever the drawer open, revealing the red access card.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1832"></child>
+        </children>
+    </item>
+    <item nodeId="node-1832">
+        <command xml:space="preserve">put screwdriver in bottom drawer</command>
+        <result xml:space="preserve">No, you'd rather keep all of your tools close by.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1833"></child>
+            <child nodeId="node-1920"></child>
+        </children>
+    </item>
+    <item nodeId="node-1920">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Nice uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1921"></child>
+        </children>
+    </item>
+    <item nodeId="node-1921">
+        <command xml:space="preserve">remove uniform</command>
+        <result xml:space="preserve">You take off the repair corps uniform.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1922"></child>
+        </children>
+    </item>
+    <item nodeId="node-1922">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">You're wearing nothing but your underwear. Aren't you cold?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1923"></child>
+        </children>
+    </item>
+    <item nodeId="node-1923">
+        <command xml:space="preserve">stick gum to me</command>
+        <result xml:space="preserve">[Eww, no! I don't want gum stuck to me!]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1924"></child>
+        </children>
+    </item>
+    <item nodeId="node-1924">
+        <command xml:space="preserve">x underwear</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1833">
+        <command xml:space="preserve">put knife in bottom drawer</command>
+        <result xml:space="preserve">You put the knife into the bottom drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1834"></child>
+        </children>
+    </item>
+    <item nodeId="node-1834">
         <command xml:space="preserve">l</command>
-        <result xml:space="preserve">Starboard-Side Crew Quarters
-All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
-
-In a shocking lapse of military precision, there is a sticky note attached to the bed post.
-
-A pair of slippers peeks out from under the bed.
-
-You can also see a cardboard box (empty), some wrapping paper with chewing gum stuck to it, and a black trunk (empty) here.
+        <result xml:space="preserve">Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1835"></child>
+        </children>
     </item>
-    <item nodeId="node-1774">
+    <item nodeId="node-1835">
+        <command xml:space="preserve">x bottom drawer</command>
+        <result xml:space="preserve">The bottom drawer is labeled "Khotpanya". It is open and contains a knife and the red access card.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1836"></child>
+        </children>
+    </item>
+    <item nodeId="node-1836">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  Bertie the Bear™
+  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
   a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1775"></child>
+        <children><child nodeId="node-1861"></child>
         </children>
     </item>
-    <item nodeId="node-1775">
-        <command xml:space="preserve">l</command>
-        <result xml:space="preserve">Starboard-Side Crew Quarters
-All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+    <item nodeId="node-1861">
+        <command xml:space="preserve">x screwdriver</command>
+        <result xml:space="preserve">All of your tools are top quality.
 
-In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1862"></child>
+        </children>
+    </item>
+    <item nodeId="node-1862">
+        <command xml:space="preserve">take screwdriver</command>
+        <result xml:space="preserve">You'll take it out when you need it.
 
-A pair of slippers peeks out from under the bed.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1863"></child>
+        </children>
+    </item>
+    <item nodeId="node-1863">
+        <command xml:space="preserve">drop it</command>
+        <result xml:space="preserve">No, you'd rather keep all of your tools close by.
 
-You can also see a cardboard box (empty), some wrapping paper, and a black trunk (empty) here.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1864"></child>
+        </children>
+    </item>
+    <item nodeId="node-1864">
+        <command xml:space="preserve">drop screwdriver</command>
+        <result xml:space="preserve">No, you'd rather keep all of your tools close by.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

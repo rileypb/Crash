@@ -109,9 +109,9 @@ Chapter 2 - Tips
 
 To tip (message - a text):
 	if accessible is true:
-		say "Tip: [message]";
+		say "Tip: [message][line break]";
 	otherwise:
-		say "[unicode 8658] [message]";
+		say "[unicode 8658] [message][line break]";
 		
 Chapter 3 - The Status Line
 
@@ -144,6 +144,8 @@ When play begins:
 Chapter 4 - Error messages
 
 The parser error internal rule response (R) is "I'm not sure what you're trying to say. I might just not recognize the words you're using.".
+
+The action processing internal rule response (H) is "I don't understand. You need to specify another object."
 
 Book 3 - Going the wrong way
 
@@ -1960,6 +1962,10 @@ Rule for supplying a missing second noun while playing copy of Planetfall on:
 		say "You have nothing to play that on.";
 		rule fails;
 
+Rule for supplying a missing second noun when the noun is the universal game emulator:
+	say "You need to say 'play <game> on UGE'. Note that you actually have to have the game you want to play. The UGE doesn't come with any games installed.";
+	rule fails;
+
 Book 9 - The Player
 
 The player is in Space Station Gangway.
@@ -2921,6 +2927,7 @@ EVA transport line	"An EVA transport line is used to transport a heavy or unwiel
 Destroying the ship	"Information on self-destruct methods is not available."
 copy of Planetfall	"Planetfall is a beloved classic of interactive science fiction from the 20th century."
 Ensign First Class Blather	"A total megakrip!"
+Galley	"The galley of the SS Usagi is a standard Space Marines two-person kitchen equipped with a microwave oven. Please note that the stools cannot be unbolted."
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:
 	say ">>>> [Obj].";
@@ -2953,7 +2960,7 @@ Section 1 - Backdrops
 
 The Gangway-backdrop is a backdrop. The printed name is "gangway". "The gangway between the space station and the SS Usagi is an inflated tube between two airlocks. Beyond its walls is the vastness of space."
 The Gangway-backdrop is in Space Station Gangway, Aft-Airlock-Room, and Staging Area.
-Understand "pressurized" and "bridge" and "gangway" as gangway-backdrop.
+Understand "pressurized" and "bridge" and "gangway" and "tube" and "inflated" as gangway-backdrop.
 
 The Space Station Omicron-5 is a backdrop. "Space Station Omicron-5 is a huge spindle-shaped structure, spinning eternally to generate the coriolis force that simulates gravity."
 The Space Station Omicron-5 is in Space Station Gangway, Aft-Airlock-Room, Staging Area, Spacewalk 1, Spacewalk 2, and Spacewalk 3.
@@ -3423,7 +3430,8 @@ After going to operations deck for the first time:
 	deactivate table of midship door hints;
 	continue the action;
 
-Fore blue button is a button in operations. It is scenery. "It's a blue button."
+Fore blue button is a button in operations. It is scenery. It is privately-named. The printed name is "blue button". "It's a blue button."
+Understand "blue" and "button" as fore blue button.
 
 The equipment trunk is a container in Operations. The equipment trunk blocks the Midship Door. It is closed, locked, and lockable. "A large equipment trunk lies on the midship door, blocking it." [The mass of the equipment trunk is 150.] The description is "It's a large black trunk with an electronic lock. You need the correct code to open it."
 
@@ -3809,11 +3817,11 @@ To say microwave display:
 	otherwise:
 		say "The front display shows 'Press Start'";
 
-The microwave oven is a container in the Galley. It is scenery. It is openable and closed. "The microwave is [if open]open[otherwise]closed[end if]. [if unplugged]Its cord is unplugged.[otherwise]It's plugged into a socket inset in the countertop.[end if] [microwave display]. A large red button below the display says 'Start'."
+The microwave oven is a container in the Galley. It is scenery. It is openable and closed. "The microwave is [if open]open[otherwise]closed[end if]. [if unplugged]Its cord is unplugged.[otherwise]It's plugged into a socket inset in the countertop.[end if] [microwave display]. A large red button below the display says 'Cook'."
 
 The microwave oven can be plugged-in or unplugged. The microwave oven is plugged-in.
-The start button is a button that is a part of the microwave oven. "It's a red button. It says 'Start'." 
-Understand "red", "button" as the start button.
+The Cook button is a button that is a part of the microwave oven. "It's a red button. It says 'Cook'." 
+Understand "red", "button" as the Cook button.
 The microwave front display is part of the microwave oven. The description is "[microwave display]."
 
 To say socket description:
@@ -3950,21 +3958,21 @@ Check unplugging something that is not the microwave oven:
 Unplugging is an action applying to one thing. Understand "unplug [something]" as unplugging.
 Plugging in is an action applying to one thing. Understand "plug in/-- [something]" as plugging in. Understand "plug [something] in" as plugging in.
 
-Check pressing the start button when the microwave oven is unplugged:
-	say "Nothing happens, probably because the microwave oven is unplugged." instead;
+Check pressing the Cook button when the microwave oven is unplugged:
+	say "You press the Cook button on the microwave oven. Nothing happens, probably because the microwave oven is unplugged." instead;
 
-Check pressing the start button when the microwave oven is plugged-in and the socket is plugged-up:
-	say "Nothing happens, but it's unclear why." instead;
+Check pressing the Cook button when the microwave oven is plugged-in and the socket is plugged-up:
+	say "You press the Cook button on the microwave oven. Nothing happens, but it's unclear why." instead;
 	
-Check pressing the start button when the microwave oven is open:
+Check pressing the Cook button when the microwave oven is open:
 	say "(first closing the microwave oven)[command clarification break]";
 	silently try closing the microwave oven;
 	
-Carry out pressing the start button when the microwave oven is not broken and the microwavable dinner is in the microwave oven:
+Carry out pressing the Cook button when the microwave oven is not broken and the microwavable dinner is in the microwave oven:
 	now the microwavable dinner is nowhere;
 	now the cooked dinner is in the microwave oven;
 	
-Report pressing the start button when the microwave oven is not broken:
+Report pressing the Cook button when the microwave oven is not broken:
 	say "The oven runs for a minute, beeps twice, and is quiet.";
 	rule succeeds;
 
@@ -3974,7 +3982,7 @@ Check starting something that is not the microwave:
 	say "That's not something you can start." instead;
 
 check starting the microwave:
-	try pressing the start button instead;
+	try pressing the Cook button instead;
 
 eaten already is a truth state that varies.
 
@@ -4027,7 +4035,7 @@ After going through the Midship door:
 	continue the action;			
 		
 The control panel is thing in the galley. It is scenery. "The control panel features a prominent blue button for opening the door above. The door operations manual dangles on a chain from the panel."
-The galley's blue button is part of the control panel. The description is "It's a button. It's blue."
+The galley's blue button is part of the control panel. It is privately-named. The printed name is "blue button". Understand "blue" and "button" as the galley's blue button. The description is "It's a button. It's blue."
 
 The door operations manual is a thing in the galley. It is scenery. 
 The door operations manual is readable. The readable text is "[description of the door operations manual]";
@@ -4103,7 +4111,7 @@ Instead of examining the row of fuses:
 	otherwise:
 		say "The panel holds a row of fuses, with one empty spot.";
 		
-Replacing fuse is an action applying to nothing. Understand "replace fuse" as replacing fuse.
+Replacing fuse is an action applying to nothing. Understand "replace blown/new/old/fresh/-- fuse" as replacing fuse.
 
 Check replacing fuse:
 	if the fresh fuse is in the aft access panel:
@@ -4124,6 +4132,9 @@ Instead of taking the row of fuses:
 		say "You've removed the bad fuse. Now worry about finding a replacement.";
 		
 The blue screw is a thing. The description is "It's a fairly small screw, covered in blue enamel."
+
+Instead of taking the blue screw when the blue screw is in the room of stuff:
+	say "You'll need to unscrew it first.";
 
 After deciding the scope of the player when the player is in junction and the aft access panel is closed  and the aft access panel is screwed and the captain's door is broken:
 	place the blue screw in scope;
@@ -4349,6 +4360,9 @@ The port-side cabinet door is a part of the port-side equipment cabinet. It is p
 
 The port-side equipment cabinet contains the engineering uniform. The engineering uniform is a wearable container. It contains a piece of note paper.
 The description of the engineering uniform is "Colored the traditional mustard yellow of Engineering, it's really a remarkably ugly uniform.".
+
+Does the player mean taking the repair uniform when the player is wearing the repair uniform:
+	it is very unlikely;
 
 Rule for deciding whether all includes the piece of note paper when the piece of note paper is contained in the engineering uniform:
 	It does not.
@@ -4688,7 +4702,7 @@ The beacon is in the starboard-side equipment cabinet. The description is "A dev
 After entering the starboard-side top bunk when the starboard-side equipment cabinet is unrepaired:
 	say "As you clamber up, it looks like there's something wrong with the cabinet door.";
 
-The crooked screw is contained in the starboard-side cabinet door. The description is "The screw is bent beyond repair.".
+The crooked screw is in the room of stuff. The description is "The screw is bent beyond repair.".
 
 Instead of opening the starboard-side equipment cabinet when the starboard-side equipment cabinet is unrepaired:
 	say "The door is stuck one-quarter open. You try to open the cabinet the rest of the way, but the door is jammed.";
@@ -4702,7 +4716,10 @@ Instead of examining the starboard-side cabinet door when the starboard-side equ
 Instead of examining the starboard-side equipment cabinet when the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
 	say "You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.";
 	
-Replacing screw is an action applying to nothing. Understand "replace the/-- screw" as replacing screw.
+After deciding the scope of the player when the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
+	place the crooked screw in scope;
+	
+Replacing screw is an action applying to nothing. Understand "replace the/-- crooked/-- screw" as replacing screw.
 Check replacing screw:
 	say "I'm not sure what you're referring to.";
 

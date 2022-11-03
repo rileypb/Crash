@@ -11,7 +11,7 @@ Typing it on has no description.
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 18 / Serial number 221030 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 18 / Serial number 221102 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Space Station Gangway
 This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
@@ -20,7 +20,8 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-7536"></child>
+        <children><child nodeId="node-10811"></child>
+            <child nodeId="node-7536"></child>
         </children>
     </item>
     <item nodeId="node-7536">
@@ -367,7 +368,7 @@ Press any key...
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 18 / Serial number 221030 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 18 / Serial number 221102 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
@@ -404,6 +405,8 @@ Attention all crew: command functions are offline and the computer is running wi
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You unstick the chewing gum from the repair corps uniform.
 
+The chewing gum has become stuck to the toolbox.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-7610"></child>
@@ -411,7 +414,7 @@ Attention all crew: command functions are offline and the computer is running wi
     </item>
     <item nodeId="node-7610">
         <command xml:space="preserve">chew it</command>
-        <result xml:space="preserve">You put the chewing gum in your mouth.
+        <result xml:space="preserve">You can't chew the gum when it's stuck to the toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -497,10 +500,9 @@ This is a busy place when the ship is populated. To port and starboard are the c
     <item nodeId="node-7748">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
-  a toolbox
+  a toolbox with chewing gum stuck to it
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -597,10 +599,9 @@ You cross out an item ("fix the cabinet") on your to-do list.
         <result xml:space="preserve">You are carrying:
   some slippers
   a sticky note
-  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
-  a toolbox
+  a toolbox with chewing gum stuck to it
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -663,10 +664,9 @@ You cross out an item ("fix the cabinet") on your to-do list.
         <result xml:space="preserve">You are carrying:
   some slippers
   a sticky note
-  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
-  a toolbox
+  a toolbox with chewing gum stuck to it
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -677,9 +677,6 @@ You cross out an item ("fix the cabinet") on your to-do list.
         <command xml:space="preserve">put all on bunk</command>
         <result xml:space="preserve">slippers: Putting things on the bunk bed would achieve nothing.
 sticky note: Putting things on the bunk bed would achieve nothing.
-chewing gum: (first spitting out the chewing gum)
-You stick the chewing gum to the bunk bed.
-
 To-Do list: You need that to write on.
 
 toolbox: [No. That's my life right there.]
@@ -693,8 +690,6 @@ toolbox: [No. That's my life right there.]
         <command xml:space="preserve">x bunk</command>
         <result xml:space="preserve">A fairly typical military bunk bed.
 
-Some chewing gum is stuck to the bunk bed.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-8156"></child>
@@ -702,7 +697,9 @@ Some chewing gum is stuck to the bunk bed.
     </item>
     <item nodeId="node-8156">
         <command xml:space="preserve">take gum</command>
-        <result xml:space="preserve">You unstick the chewing gum from the bunk bed.
+        <result xml:space="preserve">You unstick the chewing gum from the toolbox.
+
+The chewing gum has become stuck to the To-Do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -732,9 +729,7 @@ All crew members who aren't the captain sleep in this or the opposite-side bunk 
     </item>
     <item nodeId="node-8159">
         <command xml:space="preserve">put all on bottom bunk</command>
-        <result xml:space="preserve">used chewing gum: You stick the chewing gum to the bottom bunk.
-
-slippers: Done.
+        <result xml:space="preserve">slippers: Done.
 sticky note: Done.
 To-Do list: You need that to write on.
 
@@ -752,8 +747,6 @@ All crew members who aren't the captain sleep in this or the opposite-side bunk 
 
 You see a sticky note and some slippers on the bottom bunk.
 
-The bottom bunk has chewing gum stuck to it.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-8161"></child>
@@ -761,7 +754,7 @@ The bottom bunk has chewing gum stuck to it.
     </item>
     <item nodeId="node-8161">
         <command xml:space="preserve">stick gum to bottom bunk</command>
-        <result xml:space="preserve">(first removing the chewing gum from the bottom bunk)
+        <result xml:space="preserve">(first removing the chewing gum from the To-Do list)
 You stick the chewing gum to the bottom bunk.
 
 &gt;</result>
@@ -889,9 +882,6 @@ slippers: Taken.
         <command xml:space="preserve">take gum then stick it to the repair uniform</command>
         <result xml:space="preserve">You unstick the chewing gum from the slippers.
 
-The chewing gum has become stuck to the toolbox.
-
-(first removing the chewing gum from the toolbox)
 You stick the chewing gum to the repair corps uniform.
 
 &gt;</result>
@@ -953,8 +943,6 @@ All crew members who aren't the captain sleep in this or the opposite-side bunk 
     <item nodeId="node-8263">
         <command xml:space="preserve">open cabinet</command>
         <result xml:space="preserve">You open the port-side equipment cabinet, revealing an engineering uniform and an Universal Game Emulator.
-
-The chewing gum has become stuck to the To-Do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1031,6 +1019,8 @@ This is a busy place when the ship is populated. To port and starboard are the c
         <result xml:space="preserve">
 Port-Side Crew Quarters
 All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is open and contains an Universal Game Emulator. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+The chewing gum has become stuck to the toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1137,9 +1127,9 @@ Attention all crew: command functions are offline and the computer is running wi
     a piece of note paper
   some slippers (being worn)
   a sticky note
-  a To-Do list with chewing gum stuck to it
+  a To-Do list
   a repair corps uniform (being worn)
-  a toolbox
+  a toolbox with chewing gum stuck to it
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1245,201 +1235,537 @@ You faintly hear someone speaking above.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9132"></child>
+        <children><child nodeId="node-10551"></child>
         </children>
     </item>
-    <item nodeId="node-9132">
+    <item nodeId="node-10551">
         <command xml:space="preserve">clean socket with suit</command>
-        <result xml:space="preserve">You vacuum the wall socket a little.
+        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9361"></child>
+        <children><child nodeId="node-10665"></child>
         </children>
     </item>
-    <item nodeId="node-9361">
+    <item nodeId="node-10665">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Galley
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9362"></child>
+        <children><child nodeId="node-10303"></child>
         </children>
     </item>
-    <item nodeId="node-9362">
-        <command xml:space="preserve">vent suit</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
+    <item nodeId="node-10303">
+        <command xml:space="preserve">drop suit</command>
+        <result xml:space="preserve">(first taking the vac suit off)
+Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9363"></child>
+        <children><child nodeId="node-10304"></child>
         </children>
     </item>
-    <item nodeId="node-9363">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
+    <item nodeId="node-10304">
+        <command xml:space="preserve">clean socket with suit</command>
+        <result xml:space="preserve">(first taking the vac suit)
+You blow the dust out of the socket with the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9364"></child>
+        <children><child nodeId="node-10305"></child>
         </children>
     </item>
-    <item nodeId="node-9364">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
+    <item nodeId="node-10305">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Galley
+[Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9365"></child>
+        <children><child nodeId="node-10306"></child>
         </children>
     </item>
-    <item nodeId="node-9365">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
+    <item nodeId="node-10306">
+        <command xml:space="preserve">take suit</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9366"></child>
+        <children><child nodeId="node-10307"></child>
         </children>
     </item>
-    <item nodeId="node-9366">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
+    <item nodeId="node-10307">
+        <command xml:space="preserve">clean socket with suit</command>
+        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9367"></child>
+        <children><child nodeId="node-10308"></child>
         </children>
     </item>
-    <item nodeId="node-9367">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
+    <item nodeId="node-10308">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Galley
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10309"></child>
+        </children>
+    </item>
+    <item nodeId="node-10309">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10310"></child>
+        </children>
+    </item>
+    <item nodeId="node-10310">
+        <command xml:space="preserve">drop suit</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10311"></child>
+        </children>
+    </item>
+    <item nodeId="node-10311">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You faintly hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10312"></child>
+        </children>
+    </item>
+    <item nodeId="node-10312">
+        <command xml:space="preserve">clean socket with suit</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10678"></child>
+        </children>
+    </item>
+    <item nodeId="node-10678">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+You can see a vac suit here.
 
 Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9368"></child>
+        <children><child nodeId="node-10679"></child>
         </children>
     </item>
-    <item nodeId="node-9368">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
+    <item nodeId="node-10679">
+        <command xml:space="preserve">get suit</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9369"></child>
+        <children><child nodeId="node-10680"></child>
         </children>
     </item>
-    <item nodeId="node-9369">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9370"></child>
-        </children>
-    </item>
-    <item nodeId="node-9370">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9371"></child>
-        </children>
-    </item>
-    <item nodeId="node-9371">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9372"></child>
-        </children>
-    </item>
-    <item nodeId="node-9372">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9373"></child>
-        </children>
-    </item>
-    <item nodeId="node-9373">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9374"></child>
-        </children>
-    </item>
-    <item nodeId="node-9374">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9375"></child>
-        </children>
-    </item>
-    <item nodeId="node-9375">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9376"></child>
-        </children>
-    </item>
-    <item nodeId="node-9376">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">You let a unit of air out of the suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9377"></child>
-        </children>
-    </item>
-    <item nodeId="node-9377">
-        <command xml:space="preserve">g</command>
-        <result xml:space="preserve">There is no air left in the suit to vent.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9378"></child>
-        </children>
-    </item>
-    <item nodeId="node-9378">
+    <item nodeId="node-10680">
         <command xml:space="preserve">clean socket with suit</command>
-        <result xml:space="preserve">You vacuum the wall socket a little.
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9379"></child>
+        <children><child nodeId="node-10681"></child>
         </children>
     </item>
-    <item nodeId="node-9379">
-        <command xml:space="preserve">actions</command>
-        <result xml:space="preserve">Actions listing on.
+    <item nodeId="node-10681">
+        <command xml:space="preserve">vent air</command>
+        <result xml:space="preserve">You let a unit of air out of the suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-9380"></child>
+        <children><child nodeId="node-10957"></child>
         </children>
     </item>
-    <item nodeId="node-9380">
-        <command xml:space="preserve">clean socket with suit</command>
-        <result xml:space="preserve">[cleaning the wall socket with the vac suit]
-[(1) venting]
-There is no air left in the suit to vent.
-[(1) venting - failed the check venting when the player is wearing a vac suit and suit is empty]
+    <item nodeId="node-10957">
+        <command xml:space="preserve">vent air at me</command>
+        <result xml:space="preserve">You blow a little air at yourself. Nothing much seems to happen.
 
-You vent a little more air, but there's no more dust.
-[cleaning the wall socket with the vac suit - succeeded]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10958"></child>
+        </children>
+    </item>
+    <item nodeId="node-10958">
+        <command xml:space="preserve">x air gauge</command>
+        <result xml:space="preserve">The gauge indicates the suit has 14 units of air left.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10959"></child>
+        </children>
+    </item>
+    <item nodeId="node-10959">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You faintly hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10960"></child>
+        </children>
+    </item>
+    <item nodeId="node-10960">
+        <command xml:space="preserve">vent air at socket</command>
+        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10961"></child>
+        </children>
+    </item>
+    <item nodeId="node-10961">
+        <command xml:space="preserve">vent air at socket</command>
+        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10962"></child>
+        </children>
+    </item>
+    <item nodeId="node-10962">
+        <command xml:space="preserve">vent air at socket</command>
+        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10963"></child>
+        </children>
+    </item>
+    <item nodeId="node-10963">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Galley
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10964"></child>
+        </children>
+    </item>
+    <item nodeId="node-10964">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Galley
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10965"></child>
+        </children>
+    </item>
+    <item nodeId="node-10965">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Galley
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10966"></child>
+        </children>
+    </item>
+    <item nodeId="node-10966">
+        <command xml:space="preserve">showme socket</command>
+        <result xml:space="preserve">(the wall socket)
+wall socket - thing
+location: in Galley
+singular-named, improper-named; unlit, inedible, fixed in place, scenery, seen, familiar, screwed; plugged-up
+list grouping key: none
+printed name: "wall socket"
+printed plural name: none
+indefinite article: none
+description: "It's an ordinary grounded wall socket. Upon close inspection, you notice that it's clogged up with dust."
+initial appearance: none
+last utterance: none
+readable text: none
+voice locale: yourself
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10967"></child>
+        </children>
+    </item>
+    <item nodeId="node-10967">
+        <command xml:space="preserve">vent air at socket</command>
+        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10968"></child>
+        </children>
+    </item>
+    <item nodeId="node-10968">
+        <command xml:space="preserve">showme socket</command>
+        <result xml:space="preserve">(the wall socket)
+wall socket - thing
+location: in Galley
+singular-named, improper-named; unlit, inedible, fixed in place, scenery, seen, familiar, screwed; list grouping key: none
+printed name: "wall socket"
+printed plural name: none
+indefinite article: none
+description: "It's an ordinary grounded wall socket."
+initial appearance: none
+last utterance: none
+readable text: none
+voice locale: yourself
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-10811">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10812"></child>
+        </children>
+    </item>
+    <item nodeId="node-10812">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10813"></child>
+        </children>
+    </item>
+    <item nodeId="node-10813">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and lies face down on the floor.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 18 / Serial number 221102 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship.
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10814"></child>
+        </children>
+    </item>
+    <item nodeId="node-10814">
+        <command xml:space="preserve">take suit</command>
+        <result xml:space="preserve">Taken.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10815"></child>
+        </children>
+    </item>
+    <item nodeId="node-10815">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10816"></child>
+        </children>
+    </item>
+    <item nodeId="node-10816">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10817"></child>
+        </children>
+    </item>
+    <item nodeId="node-10817">
+        <command xml:space="preserve">look under bed</command>
+        <result xml:space="preserve">You find a black trunk and move it out from under the bottom bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+You can also see a black trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10818"></child>
+        </children>
+    </item>
+    <item nodeId="node-10818">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the black trunk, revealing a present.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10819"></child>
+        </children>
+    </item>
+    <item nodeId="node-10819">
+        <command xml:space="preserve">push suit in trunk</command>
+        <result xml:space="preserve">The storage unit buzzes and the display lights up "ERROR".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10820"></child>
+        </children>
+    </item>
+    <item nodeId="node-10820">
+        <command xml:space="preserve">put suit in trunk</command>
+        <result xml:space="preserve">You put the vac suit into the black trunk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10821"></child>
+        </children>
+    </item>
+    <item nodeId="node-10821">
+        <command xml:space="preserve">take trunk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10822"></child>
+        </children>
+    </item>
+    <item nodeId="node-10822">
+        <command xml:space="preserve">close it</command>
+        <result xml:space="preserve">You close the black trunk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10823"></child>
+        </children>
+    </item>
+    <item nodeId="node-10823">
+        <command xml:space="preserve">vent air</command>
+        <result xml:space="preserve">You don't have a vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10824"></child>
+        </children>
+    </item>
+    <item nodeId="node-10824">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the black trunk, revealing a vac suit and a present.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10825"></child>
+        </children>
+    </item>
+    <item nodeId="node-10825">
+        <command xml:space="preserve">vent air</command>
+        <result xml:space="preserve">You don't have a vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10826"></child>
+        </children>
+    </item>
+    <item nodeId="node-10826">
+        <command xml:space="preserve">take suit</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-10827"></child>
+        </children>
+    </item>
+    <item nodeId="node-10827">
+        <command xml:space="preserve">vent air</command>
+        <result xml:space="preserve">You let a unit of air out of the suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

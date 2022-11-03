@@ -1791,14 +1791,14 @@ To decide whether suit is empty:
 		decide yes;
 	decide no;
 
-check venting when the player is not wearing a vac suit:
-	say "You're not wearing a vac suit!" instead;
+check venting when the player does not carry a vac suit:
+	say "You don't have a vac suit." instead;
 	
-check venting when the player is wearing a vac suit and suit is empty:
+check venting when the player carries a vac suit and suit is empty:
 	say "There is no air left in the suit to vent." instead;
 	
 carry out venting:
-	let VS be a random vac suit worn by the player;
+	let VS be a random vac suit carried by the player;
 	decrement the remaining air of VS;
 	
 report venting:
@@ -3843,19 +3843,37 @@ Instead of inserting something into the wall socket:
 	say "No.[paragraph break]";
 	tip "Hey kids, never stick anything into an electrical outlet!";
 	
-Cleaning it with is an action applying to two things. Understand "clean [something] with [something]" as cleaning it with. Understand "vacuum [something] with [something]" as cleaning it with. Understand "unclog [something] with [something]" as cleaning it with.
+Cleaning it with is an action applying to one thing and one carried thing. Understand "clean [something] with [something]" as cleaning it with. Understand "vacuum [something] with [something]" as cleaning it with. Understand "unclog [something] with [something]" as cleaning it with.
 Vacuuming is an action applying to one thing. Understand "vacuum [something]" as vacuuming.
 
 Instead of vacuuming something:
-	if the player encloses the portable vacuum:
+	if the player carries the portable vacuum:
 		try cleaning the noun with the portable vacuum;
 		rule succeeds;
 	otherwise:
 		say "You don't have a vacuum cleaner.";
 		
-check cleaning something with something:
-	if the second noun is not the portable vacuum:
+Check cleaning something with something:
+	if the second noun is not the portable vacuum and the second noun is not a vac suit:
 		say "[The second noun] cannot be used as a vacuum cleaner." instead;
+		
+
+		
+Check cleaning the wall socket with a vac suit (called VS):
+	if the remaining air of VS is 0:
+		say "There is no air left in the suit to vent." instead;
+		
+Carry out cleaning the wall socket with a vac suit (called VS):
+	decrement the remaining air of VS;
+	now the wall socket is not plugged-up;
+
+Report cleaning the wall socket with a vac suit (called VS) when the socket was plugged-up:
+	say "You blow the dust out of the socket with the vac suit[if the remaining air of VS is 0]. The vac suit is now empty[end if].";
+	rule succeeds;
+
+Report cleaning the wall socket with a vac suit (called VS) when the socket was not plugged-up:
+	say "You blow some more air into the socket, but there's no more dust[if the remaining air of VS is 0]. The vac suit is now empty[end if].";
+	rule succeeds;
 
 Carry out cleaning the wall socket with the portable vacuum:
 	now the wall socket is not plugged-up;
@@ -3878,6 +3896,22 @@ Instead of blowing into the wall socket:
 	
 Report blowing into something:
 	say "Blowing into [the noun] accomplishes nothing.";
+	
+Venting air at is an action applying to one thing. Understand "vent air/suit at/in/into [something]" as venting air at.
+
+Check venting air at something when the player does not carry a vac suit:
+	say "You don't have a vac suit." instead;
+	
+check venting air at something when the player carries a vac suit and suit is empty:
+	say "There is no air left in the suit to vent." instead;
+	
+carry out venting air at the wall socket:
+	let VS be a random vac suit carried by the player;
+	try cleaning the wall socket with VS;
+
+report venting air at something that is not the wall socket:
+	let VS be a random vac suit carried by the player;
+	say "You blow a little air at [the noun]. Nothing much seems to happen[if the remaining air of VS is 0]. The vac suit is now empty[end if]."
 
 Instead of inserting an MRE into the microwave oven:
 	say "MREs are self-heating; there's no need to microwave them.";

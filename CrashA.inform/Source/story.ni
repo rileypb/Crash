@@ -4744,6 +4744,18 @@ Instead of opening the starboard-side equipment cabinet when the starboard-side 
 Instead of examining the starboard-side cabinet door when the starboard-side equipment cabinet is unrepaired and the player is not on the starboard-side top bunk and the player is not on the black trunk:
 	say "You look closely, but you can't see anything from here that would stop the door from opening all the way.";
 	
+Instead of unscrewing the starboard-side equipment cabinet when the player is not on the starboard-side top bunk and the player is not on the black trunk:
+	say "You can't see anything to unscrew from this angle. There are probably screws you can't reach inside the cabinet.";
+	
+Instead of unscrewing the starboard-side cabinet door when the player is not on the starboard-side top bunk and the player is not on the black trunk:
+	say "You can't see anything to unscrew from this angle. There are probably screws you can't reach inside the cabinet.";
+	
+Instead of unscrewing the starboard-side equipment cabinet when the player is on the starboard-side top bunk or the player is on the black trunk:
+	try replacing screw;
+	
+Instead of unscrewing the starboard-side cabinet door when the player is on the starboard-side top bunk or the player is on the black trunk:
+	try replacing screw;
+	
 Instead of examining the starboard-side cabinet door when the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
 	say "You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.";
 
@@ -4767,7 +4779,7 @@ Instead of fixing the screw when the location is starboard-side crew quarters an
 	try replacing screw;
 	
 Instead of replacing screw when the location is starboard-side crew quarters and the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
-	say "You unscrew the old screw and replace it with a new one from your toolbox.";
+	say "You unscrew the old, crooked screw and replace it with a new one from your toolbox.";
 	now the crooked screw is nowhere;
 	now the starboard-side equipment cabinet is repaired;
 	tick off fix the cabinet;
@@ -4783,51 +4795,6 @@ Instead of fixing the starboard-side equipment cabinet when the starboard-side e
 
 Instead of fixing the starboard-side cabinet door when the starboard-side equipment cabinet is unrepaired and (the player is on the starboard-side top bunk or the player is on the black trunk):
 	try replacing screw instead;
-	
-[To repair cabinet door:
-	if the current stuck thing of the chewing gum is the tiny screw:
-		now the current stuck thing of the chewing gum is the player;
-		now the player carries the chewing gum;
-		say ". You pull the chewing gum off the tiny screw, ";
-	otherwise:
-		say ". You find the tiny screw, ";
-	say "and fix the door.";
-	now the starboard-side equipment cabinet is repaired;
-	tick off fix the cabinet;
-	
-skip reporting is a truth state that varies.
-
-carry out entering the starboard-side top bunk when the starboard-side equipment cabinet is unrepaired:
-	if the player encloses the screwdriver and the player encloses the tiny screw:
-		repair cabinet door; 
-	
-report entering the starboard-side top bunk when the starboard-side equipment cabinet is unrepaired:
-	say "Upon climbing onto the top bunk, you can see that the top hinge of the cabinet door has a crooked screw. That screw is partially-stripped, so you'll need to replace it";
-	if the player does not enclose the screwdriver:
-		say 	". Unfortunately you don't have a screwdriver with which to fix it.";
-	otherwise if the player does not enclose the tiny screw:
-		say ". However, you don't have the right size replacement screw.";
-	otherwise:
-		repair cabinet door;
-		
-After doing something when the player is on the starboard-side top bunk and the starboard-side equipment cabinet is unrepaired:
-	if the player encloses the screwdriver and the player encloses the tiny screw:
-		say "Now you have everything you need to fix the cabinet door";
-		repair cabinet door;
-	
-After entering the black trunk when the starboard-side equipment cabinet is unrepaired:
-	say "Upon climbing onto the trunk, you can see that the top hinge of the cabinet door has a crooked screw. That screw is partially-stripped, so you'll need to replace it";
-	if the player does not enclose the screwdriver:
-		say 	". Unfortunately you don't have a screwdriver with which to fix it.";
-	otherwise if the player does not enclose the tiny screw:
-		say ". However, you don't have the right size replacement screw.";
-	otherwise:
-		repair cabinet door;
-		
-After doing something when the player is on the black trunk and the starboard-side equipment cabinet is unrepaired:
-	if the player encloses the screwdriver and the player encloses the tiny screw:
-		say "Now you have everything you need to fix the cabinet door";
-		repair cabinet door;]
 
 The starboard-side bed is in the starboard-side crew quarters. it is privately-named. The printed name is "bunk bed". It is scenery. The description is "A fairly typical military bunk bed." Understand "bunk" and "bed" and "post" as the starboard-side bed.
 The starboard-side top bunk is a part of the starboard-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the starboard-side top bunk. 

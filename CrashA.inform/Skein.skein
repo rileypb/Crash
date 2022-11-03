@@ -405,8 +405,6 @@ Attention all crew: command functions are offline and the computer is running wi
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You unstick the chewing gum from the repair corps uniform.
 
-The chewing gum has become stuck to the toolbox.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-7610"></child>
@@ -414,7 +412,7 @@ The chewing gum has become stuck to the toolbox.
     </item>
     <item nodeId="node-7610">
         <command xml:space="preserve">chew it</command>
-        <result xml:space="preserve">You can't chew the gum when it's stuck to the toolbox.
+        <result xml:space="preserve">You put the chewing gum in your mouth.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -500,9 +498,10 @@ This is a busy place when the ship is populated. To port and starboard are the c
     <item nodeId="node-7748">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
+  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
-  a toolbox with chewing gum stuck to it
+  a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -599,9 +598,10 @@ You cross out an item ("fix the cabinet") on your to-do list.
         <result xml:space="preserve">You are carrying:
   some slippers
   a sticky note
+  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
-  a toolbox with chewing gum stuck to it
+  a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -664,9 +664,10 @@ You cross out an item ("fix the cabinet") on your to-do list.
         <result xml:space="preserve">You are carrying:
   some slippers
   a sticky note
+  some chewing gum (being chewed)
   a To-Do list
   a repair corps uniform (being worn)
-  a toolbox with chewing gum stuck to it
+  a toolbox
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -677,6 +678,9 @@ You cross out an item ("fix the cabinet") on your to-do list.
         <command xml:space="preserve">put all on bunk</command>
         <result xml:space="preserve">slippers: Putting things on the bunk bed would achieve nothing.
 sticky note: Putting things on the bunk bed would achieve nothing.
+chewing gum: (first spitting out the chewing gum)
+You stick the chewing gum to the bunk bed.
+
 To-Do list: You need that to write on.
 
 toolbox: [No. That's my life right there.]
@@ -690,6 +694,8 @@ toolbox: [No. That's my life right there.]
         <command xml:space="preserve">x bunk</command>
         <result xml:space="preserve">A fairly typical military bunk bed.
 
+Some chewing gum is stuck to the bunk bed.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-8156"></child>
@@ -697,9 +703,7 @@ toolbox: [No. That's my life right there.]
     </item>
     <item nodeId="node-8156">
         <command xml:space="preserve">take gum</command>
-        <result xml:space="preserve">You unstick the chewing gum from the toolbox.
-
-The chewing gum has become stuck to the To-Do list.
+        <result xml:space="preserve">You unstick the chewing gum from the bunk bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -729,7 +733,9 @@ All crew members who aren't the captain sleep in this or the opposite-side bunk 
     </item>
     <item nodeId="node-8159">
         <command xml:space="preserve">put all on bottom bunk</command>
-        <result xml:space="preserve">slippers: Done.
+        <result xml:space="preserve">used chewing gum: You stick the chewing gum to the bottom bunk.
+
+slippers: Done.
 sticky note: Done.
 To-Do list: You need that to write on.
 
@@ -747,6 +753,8 @@ All crew members who aren't the captain sleep in this or the opposite-side bunk 
 
 You see a sticky note and some slippers on the bottom bunk.
 
+The bottom bunk has chewing gum stuck to it.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-8161"></child>
@@ -754,7 +762,7 @@ You see a sticky note and some slippers on the bottom bunk.
     </item>
     <item nodeId="node-8161">
         <command xml:space="preserve">stick gum to bottom bunk</command>
-        <result xml:space="preserve">(first removing the chewing gum from the To-Do list)
+        <result xml:space="preserve">(first removing the chewing gum from the bottom bunk)
 You stick the chewing gum to the bottom bunk.
 
 &gt;</result>
@@ -822,6 +830,8 @@ slippers: Taken.
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You unstick the chewing gum from the slippers.
 
+The chewing gum has become stuck to the slippers.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-8168"></child>
@@ -829,7 +839,7 @@ slippers: Taken.
     </item>
     <item nodeId="node-8168">
         <command xml:space="preserve">chew it</command>
-        <result xml:space="preserve">[Eww. That gum has gotten gross. No way.]
+        <result xml:space="preserve">You can't chew the gum when it's stuck to the slippers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -839,8 +849,7 @@ slippers: Taken.
     <item nodeId="node-8169">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  some used chewing gum
-  some slippers
+  some slippers with chewing gum stuck to them
   a sticky note
   a To-Do list
   a repair corps uniform (being worn)
@@ -853,7 +862,8 @@ slippers: Taken.
     </item>
     <item nodeId="node-8170">
         <command xml:space="preserve">stick gum to slippers</command>
-        <result xml:space="preserve">You stick the chewing gum to the slippers.
+        <result xml:space="preserve">(first removing the chewing gum from the slippers)
+You stick the chewing gum to the slippers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -965,6 +975,8 @@ Taken.
 Junction
 This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
 
+The chewing gum has become stuck to the toolbox.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-8354"></child>
@@ -1019,8 +1031,6 @@ This is a busy place when the ship is populated. To port and starboard are the c
         <result xml:space="preserve">
 Port-Side Crew Quarters
 All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is open and contains an Universal Game Emulator. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
-
-The chewing gum has become stuck to the toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1445,96 +1455,65 @@ You faintly hear someone speaking above.
     </item>
     <item nodeId="node-10961">
         <command xml:space="preserve">vent air at socket</command>
-        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
+        <result xml:space="preserve">You blow some more air into the socket, but there's no more dust.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-10962"></child>
+        <children><child nodeId="node-11103"></child>
         </children>
     </item>
-    <item nodeId="node-10962">
-        <command xml:space="preserve">vent air at socket</command>
-        <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-10963"></child>
-        </children>
-    </item>
-    <item nodeId="node-10963">
+    <item nodeId="node-11103">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Galley
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-10964"></child>
+        <children><child nodeId="node-11104"></child>
         </children>
     </item>
-    <item nodeId="node-10964">
+    <item nodeId="node-11104">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Galley
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-10965"></child>
+        <children><child nodeId="node-11105"></child>
         </children>
     </item>
-    <item nodeId="node-10965">
-        <command xml:space="preserve">undo</command>
-        <result xml:space="preserve">Galley
-[Previous turn undone.]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-10966"></child>
-        </children>
-    </item>
-    <item nodeId="node-10966">
-        <command xml:space="preserve">showme socket</command>
-        <result xml:space="preserve">(the wall socket)
-wall socket - thing
-location: in Galley
-singular-named, improper-named; unlit, inedible, fixed in place, scenery, seen, familiar, screwed; plugged-up
-list grouping key: none
-printed name: "wall socket"
-printed plural name: none
-indefinite article: none
-description: "It's an ordinary grounded wall socket. Upon close inspection, you notice that it's clogged up with dust."
-initial appearance: none
-last utterance: none
-readable text: none
-voice locale: yourself
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-10967"></child>
-        </children>
-    </item>
-    <item nodeId="node-10967">
-        <command xml:space="preserve">vent air at socket</command>
+    <item nodeId="node-11105">
+        <command xml:space="preserve">clean socket with suit</command>
         <result xml:space="preserve">You blow the dust out of the socket with the vac suit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-10968"></child>
+        <children><child nodeId="node-11106"></child>
         </children>
     </item>
-    <item nodeId="node-10968">
-        <command xml:space="preserve">showme socket</command>
-        <result xml:space="preserve">(the wall socket)
-wall socket - thing
-location: in Galley
-singular-named, improper-named; unlit, inedible, fixed in place, scenery, seen, familiar, screwed; list grouping key: none
-printed name: "wall socket"
-printed plural name: none
-indefinite article: none
-description: "It's an ordinary grounded wall socket."
-initial appearance: none
-last utterance: none
-readable text: none
-voice locale: yourself
+    <item nodeId="node-11106">
+        <command xml:space="preserve">g</command>
+        <result xml:space="preserve">You blow some more air into the socket, but there's no more dust.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11107"></child>
+        </children>
+    </item>
+    <item nodeId="node-11107">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Galley
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11108"></child>
+        </children>
+    </item>
+    <item nodeId="node-11108">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Galley
+[Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1571,7 +1550,351 @@ What looks like part of an engine is stowed in a corner.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-10813"></child>
+            <child nodeId="node-11111"></child>
         </children>
+    </item>
+    <item nodeId="node-11111">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">There's no one here to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11112"></child>
+        </children>
+    </item>
+    <item nodeId="node-11112">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and lies face down on the floor.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 18 / Serial number 221102 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship.
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11113"></child>
+        </children>
+    </item>
+    <item nodeId="node-11113">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11114"></child>
+        </children>
+    </item>
+    <item nodeId="node-11114">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a To-Do list
+  a repair corps uniform (being worn) with chewing gum stuck to it
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11115"></child>
+        </children>
+    </item>
+    <item nodeId="node-11115">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Nice uniform, but you should get the gum off of it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11116"></child>
+        </children>
+    </item>
+    <item nodeId="node-11116">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11117"></child>
+        </children>
+    </item>
+    <item nodeId="node-11117">
+        <command xml:space="preserve">unscrew cabinet</command>
+        <result xml:space="preserve">You can't see anything to unscrew from this angle. There are probably screws you can't reach inside the cabinet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11118"></child>
+        </children>
+    </item>
+    <item nodeId="node-11118">
+        <command xml:space="preserve">unscrew cabinet door</command>
+        <result xml:space="preserve">You can't see anything to unscrew from this angle. There are probably screws you can't reach inside the cabinet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11119"></child>
+        </children>
+    </item>
+    <item nodeId="node-11119">
+        <command xml:space="preserve">repair cabinet</command>
+        <result xml:space="preserve">This is a hard one. You'll have to be more specific about how you do that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11120"></child>
+        </children>
+    </item>
+    <item nodeId="node-11120">
+        <command xml:space="preserve">climb bunk</command>
+        <result xml:space="preserve">As you clamber up, it looks like there's something wrong with the cabinet door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11121"></child>
+        </children>
+    </item>
+    <item nodeId="node-11121">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11122"></child>
+        </children>
+    </item>
+    <item nodeId="node-11122">
+        <command xml:space="preserve">unscrew door</command>
+        <result xml:space="preserve">You unscrew the old screw and replace it with a new one from your toolbox.
+
+You cross out an item ("fix the cabinet") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11137"></child>
+        </children>
+    </item>
+    <item nodeId="node-11137">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Starboard-Side Crew Quarters
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11138"></child>
+        </children>
+    </item>
+    <item nodeId="node-11138">
+        <command xml:space="preserve">take screw</command>
+        <result xml:space="preserve">You unscrew the old screw and replace it with a new one from your toolbox.
+
+You cross out an item ("fix the cabinet") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11139"></child>
+        </children>
+    </item>
+    <item nodeId="node-11139">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a To-Do list
+  a repair corps uniform (being worn) with chewing gum stuck to it
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11140"></child>
+        </children>
+    </item>
+    <item nodeId="node-11140">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Starboard-Side Crew Quarters
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11141"></child>
+        </children>
+    </item>
+    <item nodeId="node-11141">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You get off the top bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11142"></child>
+        </children>
+    </item>
+    <item nodeId="node-11142">
+        <command xml:space="preserve">take screwe</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11143"></child>
+        </children>
+    </item>
+    <item nodeId="node-11143">
+        <command xml:space="preserve">take screw</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11144"></child>
+        </children>
+    </item>
+    <item nodeId="node-11144">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">The only obvious exit is port (to junction).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11145"></child>
+        </children>
+    </item>
+    <item nodeId="node-11145">
+        <command xml:space="preserve">get on bed</command>
+        <result xml:space="preserve">You get onto the top bunk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11146"></child>
+        </children>
+    </item>
+    <item nodeId="node-11146">
+        <command xml:space="preserve">take screw</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11147"></child>
+        </children>
+    </item>
+    <item nodeId="node-11147">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a To-Do list
+  a repair corps uniform (being worn) with chewing gum stuck to it
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11148"></child>
+        </children>
+    </item>
+    <item nodeId="node-11148">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Starboard-Side Crew Quarters (in the bunk bed)
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11149"></child>
+        </children>
+    </item>
+    <item nodeId="node-11149">
+        <command xml:space="preserve">x cabinet</command>
+        <result xml:space="preserve">A simple black-painted steel cabinet, it is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11150"></child>
+        </children>
+    </item>
+    <item nodeId="node-11150">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">It's a simple black-painted steel door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11151"></child>
+        </children>
+    </item>
+    <item nodeId="node-11151">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You get off the top bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11152"></child>
+        </children>
+    </item>
+    <item nodeId="node-11152">
+        <command xml:space="preserve">open cabinet</command>
+        <result xml:space="preserve">You open the starboard-side equipment cabinet, revealing a beacon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-10813">
         <command xml:space="preserve">u</command>

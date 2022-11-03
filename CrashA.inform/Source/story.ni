@@ -1933,7 +1933,12 @@ Fixing is an action applying to one thing. Understand "fix [something]" and "rep
 Check fixing something (this is the block fixing rule):
 	say "This is a hard one. You'll have to be more specific about how you do that." instead;
 	
-Chapter 12 - Playing
+Chapter 12 - Removing
+
+Instead of taking off something when the noun is not wearable:
+	say "Please note that I understand that verb to mean to remove a piece of clothing.";
+	
+Chapter 13 - Playing
 
 Played Planetfall already is a truth state that varies.
 
@@ -1965,6 +1970,7 @@ Rule for supplying a missing second noun while playing copy of Planetfall on:
 Rule for supplying a missing second noun when the noun is the universal game emulator:
 	say "You need to say 'play <game> on UGE'. Note that you actually have to have the game you want to play. The UGE doesn't come with any games installed.";
 	rule fails;
+
 
 Book 9 - The Player
 

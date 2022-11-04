@@ -13,7 +13,7 @@ Include Data Structures by Dannii Willis.
 Include Nautical Directions by Philip Riley.
 
 Use the serial comma and the American dialect.
-Use scoring. The maximum score is 10.
+Use scoring. The maximum score is 11.
 
 Release along with cover art ("A cartoon spaceship.").
 Release along with a website.
@@ -524,7 +524,7 @@ Book 7 - Things
 
 A vac suit is a kind of wearable thing. The initial appearance is "A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship."
 
-A vac suit has a number called remaining air. The remaining air is usually 15.
+A vac suit has a number called remaining air. The remaining air is usually 20.
 
 Understand "vacuum" as a vac suit. The description of a vac suit is "A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently [if switched on]on.[otherwise]off.[end if] A gauge indicates the suit has [remaining air] units of air left." 
 
@@ -859,6 +859,7 @@ fix the storage unit is a to-do item. The associated hints is table of fix unit 
 fix the airlock door is a to-do item. The associated hints is table of airlock door hints. The description is "fixing the aft airlock door".
 adjust fuel injection specification is a to-do item. The associated hints is table of fuel injection hints. The description is "adjusting the fuel injection specification correctly".
 fix the engine is a to-do item. The associated hints is table of engine hints. The description is "fixing the fusion engine".
+close the vent is a to-do item. The associated hints is table of vent hints. The description is "closing the vent".
 
 The To-Do list has a list of objects called the to-dos. The printed name is "To-Do list".
 The To-Do list has a list of objects called the dones. 
@@ -1312,7 +1313,7 @@ Carry out examining the EVA transport line:
 			follow the spacewalk 1 EVA transport line description rule;
 		otherwise if location is spacewalk 2:
 			follow the spacewalk 2 EVA transport line description rule;
-		otherwise if location is spacewalk 3:
+		otherwise if location is spacewalk 3				:
 			follow the spacewalk 3 EVA transport line description rule;
 	rule succeeds;
 
@@ -2808,7 +2809,7 @@ The Space Force is a subject. The description is "subject".
 Pollux star is a subject. The description is "subject".
 [Explosion is a subject. It is not familiar. The description is "subject".]
 Location of the ship is a subject. The description is "subject". Understand "navigation", "navigate", "course", "trajectory" as location of the ship.
-Captain Jane Mulgrew is a woman. The description is "dummy description".
+Captain Jane Mulgrew is a woman. The description is "dummy description". She is familiar.
 The Deneb separatists is a subject. The description is "subject". Understand "terrorists", "rebels" as Deneb separatists.
 New Da Nang is a subject. The description is "subject".
 Access key is a subject. The description is "subject".
@@ -3863,8 +3864,6 @@ Check cleaning something with something:
 	if the second noun is not the portable vacuum and the second noun is not a vac suit:
 		say "[The second noun] cannot be used as a vacuum cleaner." instead;
 		
-
-		
 Check cleaning the wall socket with a vac suit (called VS):
 	if the remaining air of VS is 0:
 		say "There is no air left in the suit to vent." instead;
@@ -3932,10 +3931,11 @@ Instead of doing something other than examining to the folding door:
 	now the noun is the closet;
 	try the current action;
 
-An MRE is a kind of thing. An MRE is edible. The description is "A regulation Meal Ready-to-Eat. One perk of not going on missions is you don't have to eat these things." The indefinite article is "an". [The mass of an MRE is 0.5].
+An MRE is a kind of thing. An MRE is edible. The description is "A regulation Meal Ready-to-Eat. One perk of not going on missions is you don't have to eat these things." The indefinite article is "an".
 10 MREs is in the closet. 
 
 A microwavable dinner is in the closet. The description is "Spiced ham in some kind of sauce. Ugh."
+Understand "meal" as the microwavable dinner.
 A cooked dinner is a thing. It is edible. The description is "Spiced ham in some kind of sauce, heated. Ugh."
 Report eating the cooked dinner:
 	say "You eat the cooked dinner. It's as uninspiring as you imagined.";
@@ -4512,7 +4512,7 @@ After closing the port keypad:
 	continue the action;
 
 The description of the Port top drawer is "The top drawer is labeled 'Franck'. It is [state and contents of port top drawer]."
-The description of the Port bottom drawer is "The bottom drawer is labeled 'Khotpanya'. [if the port bottom drawer is open]It is [state and contents of port bottom drawer].[otherwise if the port bottom drawer is half-open]It juts out by a couple of centimeters.[otherwise]The bottom drawer is closed.[end if]"
+The description of the Port bottom drawer is "The bottom drawer is labeled 'Khotpanya'. [if the port bottom drawer is open]It is [state and contents of port bottom drawer].[otherwise if the port bottom drawer is half-open]It juts out by a couple of centimeters, about enough to insert something thin.[otherwise]The bottom drawer is closed.[end if]"
 
 After examining the starboard top drawer:
 	now Delores Franck is familiar;
@@ -4537,6 +4537,9 @@ Instead of opening the port bottom drawer when the port bottom drawer is half-op
 	
 Instead of opening the port bottom drawer:
 	say "That can only be opened by typing the correct code on the keypad.";
+	
+Instead of pushing the port bottom drawer when the port bottom drawer is half-open:
+	say "The drawer seems jammed.";
 
 The port bottom drawer can be half-open. The port keypad can be blown.
 
@@ -4732,7 +4735,7 @@ Instead of going nowhere from port-side crew quarters when player is on the port
 
 Section 12 - Starboard-Side Crew Quarters
 
-The starboard-side equipment cabinet is a container in starboard-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, it is [state and contents of starboard-side equipment cabinet]."
+The starboard-side equipment cabinet is a container in starboard-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, it is [state and contents of starboard-side equipment cabinet]. It's about the same height as the bunk bed it's next to."
 The starboard-side cabinet door is a part of the starboard-side equipment cabinet. It is privately-named. The printed name is "cabinet door". Understand "cabinet/-- door" as starboard-side cabinet door. The description is "It's a simple black-painted steel door.".
 
 The starboard-side equipment cabinet can be unrepaired or repaired. The starboard-side equipment cabinet is unrepaired. 
@@ -5246,7 +5249,9 @@ The printed name of Spacewalk 3 is "Outside the Engineering Airlock".
 
 Spacewalk 2 is fore from Spacewalk 1.
 
-Spacewalk 3 is starboard from Spacewalk 2. "[if not mag-boots-on]You are floating in the blackness of space outside the engineering airlock.[otherwise]You are standing on the hull of the ship, outside the engineering airlock, secured by your vac suit's mag boots.[end if] Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.
+Spacewalk 3 is starboard from Spacewalk 2. "[if not mag-boots-on]You are floating in the blackness of space outside the engineering airlock.[otherwise]You are standing on the hull of the ship, outside the engineering airlock, secured by your vac suit's mag boots.[end if] Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.[if external vent is stuck]
+
+Near your feet is a six-inch hole in the hull labeled 'Caution: Stand back during venting.' The hole is almost entirely closed by a sliding cover, but a small gap remains, held open by a tiny piece of debris.[end if]
 
 A hook protrudes from the hull next to the airlock door.";
 
@@ -5322,6 +5327,16 @@ After going to a room (called R2) when player is wearing vac suit and not mag-bo
 		activate table of vacuum hints;
 		now the final result is pointless death;
 		End the story saying "You float forever in the vastness of space"; 
+		
+External vent is in Spacewalk 3. It is scenery. The external vent can be either stuck or unstuck. The external vent is stuck. The description is "[if stuck]The hole is almost entirely closed by a sliding cover, but a small gap remains, held open by a tiny piece of debris.[otherwise]The hole is now entirely closed.[end if]".
+
+The tiny piece of debris is in the external vent.
+
+After taking the tiny piece of debris when the external vent is stuck:
+	say "The vent slides all the way shut.";
+	now the external vent is unstuck;
+	tick off close the vent;
+	continue the action;
 
 Section 16 - Regions
 
@@ -5682,8 +5697,11 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 Every turn when explosion happened is true and computer-rebooted is false and protocols-activated is false:
 	Increment explosion turn;
 	if the remainder after dividing explosion turn by 15 is 0 and location is onboard:
-		print "Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.[line break]" as computer near player;
+		print "Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required. There is also an oxygen leak due to a jammed vent cover on the external hull.[line break]" as computer near player;
 		now attention all crew spoken is true;
+		if close the vent is not listed in the dones of the to-do list and close the vent is not listed in the to-dos of the to-do list:
+			add close the vent;
+			say "[line break]You add an item ('close the vent') to your to-do list.";
 	continue the action;
 	
 	
@@ -6207,6 +6225,7 @@ title	subtable
 "What's wrong with the helm?"	Table of Helm Hints Protocols
 "How do I set the fuel injection?"	Table of Fuel Injection Hints
 "How do I fix the engine?"	Table of Engine Hints
+"How do I close the vent?"	Table of Vent Hints
 "How do I move the engine stabilizer?"	Table of Moving Engine Hints
 "Can I survive blowing up the ship?"	Table of Surviving Self-destruction Hints
 "How do I get past the midship door?"	Table of Midship Door Hints
@@ -6354,6 +6373,11 @@ hint	used (a number)
 "How about the big engine part in the staging area?"	
 "Move it into this room, and then you can slide it in as a replacement."
 
+Table of Vent Hints	
+hint	used (a number)
+"The vent is on the external hull. You'll have to go out there to fix it."	
+"To do that, you need a vac suit. Lucky there's one just lying around."	
+
 Table of Moving Engine Hints
 hint	used (a number)
 "The engine cannot be lifted or moved. It's too heavy."	
@@ -6460,9 +6484,9 @@ Carry out planetfalling:
 	
 test wiring1 with "f/f/u/u/p/purloin small key/unlock keypad";
 
-Test airlock with "f/f/u/a/u/s/take slippers/look under bed/get trunk/open it/take present/open it/take eyes/p/d/drop trunk/stand on trunk/take broken sensor/put optical sensor in panel".
+Test airlock with "f/f/u/a/take gum/chew gum/u/s/take slippers/look under bed/get trunk/open it/take present/open it/take eyes/p/d/drop trunk/stand on trunk/take broken sensor/put optical sensor in panel".
 
-test spacewalk with "test airlock/take suit/wear it/turn on mag boots/a/out/out/f/s/vent air/s/in/p/sit in recharger"
+test spacewalk with "test airlock/take suit/wear it/turn on mag boots/a/out/out/f/s/vent air/s/take tiny debris/in/p/sit in recharger"
 
 test microwave with "test spacewalk/p/open drawer/take all/s/f/move trunk/set gravity control to 1/press button/d/open drawer/take knife/open closet/take dinner/unplug microwave/vacuum socket/plug in microwave"
 

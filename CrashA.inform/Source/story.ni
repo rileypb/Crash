@@ -2840,13 +2840,14 @@ Gunnery Sergeant Somchai Khotpanya is a subject. It is unfamiliar. The descripti
 Private First Class Friedrich Jäger is a subject. It is unfamiliar. The description is "subject".
 Private Akin Abimbola is a subject. It is unfamiliar. The description is "subject".
 Destroying the ship is a subject. Understand "destruction", "destruct", "self-destruct", "scuttle", "scuttling", "blowing up" as destroying the ship. The description is "subject".
+Luna Spacewerks Company is a subject. It is unfamiliar.
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
 Table of Computer Subjects
 dt-subject (a thing)	dt-text-mulgrew (a text)	dt-text-arvax (a text)
 Arvax	"Classified personnel data on [Arvax]: Master Sergeant Arvax has had a distinguished career in the Space Marines, but has come under scrutiny in recent years for alleged sympathies with separatist factions on Deneb IV. Military Intelligence has so far declined to move on Arvax, but urges commanding officers to exercise discretion in their dealings with him, and to remain vigilant for any suspicious behavior."	"Classified personnel data on [Arvax]: Master Sergeant Arvax has had a distinguished career in the Space Marines, with a top-secret deployment with Military Intelligence. He is currently posing as a separatist sympathizer on Deneb IV."
-SS Usagi	"The SS Usagi is a light frigate in the Deneb system, with a crew of five including the captain. It is currently helmed by Captain Jane Mulgrew.[familiarize Captain Jane Mulgrew] The ship's main drive is a Luna Spacewerks Parsec VI.[familiarize Luna Spacewerks Parsec VI][familiarize Luna Spacewerks]"	--
+SS Usagi	"The SS Usagi is a light frigate in the Deneb system, with a crew of five including the captain. It is currently helmed by Captain Jane Mulgrew.[familiarize Captain Jane Mulgrew] The ship's main drive is a Luna Spacewerks Parsec VI.[familiarize Luna Spacewerks Parsec VI][familiarize Luna Spacewerks Company]"	--
 Captain Jane Mulgrew	"Captain Mulgrew is one of the most decorated captains in the Deneb sector.[familiarize Deneb sector] She was the second-youngest graduate of the Orion Marine Academy[familiarize Orion Marine Academy]. She received command of the SS Usagi[familiarize SS Usagi] after successfully leading the retaking of the capital of Pollux VI from Irion invaders from the moon of Pollux III."	--
 Deneb System	"The planetary system orbiting the star Deneb consists of seven planets, of which the second and fourth are suitable for large-scale settlement, though they are not habitable without artificial intervention. There are sizable human populations on Deneb II[familiarize Deneb II] and Deneb IV[familiarize Deneb IV], as well as on the moon New Da Nang[familiarize New Da Nang]. There is also a small military settlement on Deneb III[familiarize Deneb III planet]."	--
 Deneb IV	"Deneb IV, founded by anti-corporate ideologues who split off from Deneb II, has from the start had a popular separatist movement.[familiarize Deneb II]"	--
@@ -2857,7 +2858,7 @@ Deneb III planet	"A small rocky planet without atmosphere used as a Space Marine
 Space Station Omicron-5	"Space Station Omicron-5 is the the Deneb system outpost of the Space Authority. It is one of the largest space stations of the Space Authority."
 Delphi Engine Controls Aleph-Null	"The Aleph-Null, by Delphi Engine Controls LLC[familiarize Delphi Engine Controls LLC], is a starship engine fuel injection process controller. It allows the mixture of up to five fuel components to create an energized product suitable for powering a starship drive. The Aleph-Null works by the method of substance injection[familiarize substance injection]."
 Substance Injection	"A process by which one substance is 'injected' into another to create a product substance. This is an asymmetric operation, in that injecting substance A into substance B generally yields a different result than injecting substance B into substance A. Note that most injection combinations result in no product substance, as the resulting matter decays too rapidly to capture."	--
-Luna Spacewerks Parsec VI	"The Luna Spacewerks Parsec VI is a starship engine used mainly by the Space Authority to drive light frigate class vessels. It is powered by Liquid Copernicium[familiarize Liquid Copernicium]."	--
+Luna Spacewerks Parsec VI	"The Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Company] is a starship engine used mainly by the Space Authority to drive light frigate class vessels. It is powered by Liquid Copernicium[familiarize Liquid Copernicium]."	--
 Liquid Copernicium	"Liquid Copernicium is the liquid form of the element Copernicium[familiarize Copernicium]. It is a common starship fuel. It can be created by injecting Oganesson[familiarize Oganesson] into Red Matter[familiarize Red Matter]."	--
 Element Copernicium	"Copernicium is an element with atomic number 112. It has symbol [bold type]Cn[roman type]. Its liquid form[familiarize liquid copernicium] is a common starship fuel. The melting point of Copernicium is 15 ºC, and its boiling point is 73 ºC."
 Anti-Helium	"Anti-Helium is the anti-matter equivalent of Helium, possessing two positrons and two antiprotons. It is most notably used in the creation of Unobtainium[familiarize unobtainium] and Tachyon Crystals[familiarize tachyon crystals]."
@@ -2900,9 +2901,9 @@ Deneb Separatists	"Anti-corporate ideologues advocating for Deneb IV's independe
 New Da Nang	"New Da Nang is a moon of Deneb II. It is the home of famous composer Orenascopol Thrax."
 The Moon	"The moon of Earth, often called simply 'The Moon', is famously the first extraterrestrial body inhabited by humans."
 Bertie the Bear	"Bertie the Bear™ is a children's toy sold by Interstellar Kids Incorporated. It is notable for its superior optical recognition."	--
-Deneb sector	"The portion of space containing the stars Deneb, XB-546J, GF-195A, and numerous other minor stars."
+Deneb sector	"A portion of space containing the stars Deneb, XB-546J, GF-195A, and numerous other minor stars."
 Vacuum-suit	"A vacuum suit is required equipment for EVAs (extra-vehicular activities). The vacuum suits on board the SS Usagi are model V13 manufactured by Polaris Equipment Corp. They feature automated pressurization and depressurization, as well as manually-activated magnetic boots. The V13 is rated as medium in terms of air capacity."
-JL-758	"The JL-758 is a widely-used model of engine stabilizer produced by Luna Spacewerks."
+JL-758	"The JL-758 is a widely-used model of engine stabilizer produced by Luna Spacewerks[familiarize Luna Spacewerks Company]."
 laser rifle	"The Syrinx 52-K is a laser rifle widely used on Space Marine vessels."
 air scrubber intake	"An air scrubber is a vital part of any shipboard air supply. The scrubber removes biological and other particles from the air before it is recycled."
 To-Do list	"Every well-organized individual can benefit from an up-to-date to-do list."
@@ -2913,17 +2914,16 @@ Environmental console	"The environmental console contains the controls that deal
 Communications console	"The communications console is used for all communications, including long-range subspace and short-range radio communications."
 Power systems console	"The power systems console controls the power for the entire craft allowing, for instance, for power to be rerouted away from non-essential systems and to more essential systems such as life support or defensive systems."
 Engine diagram	"The Delphi Engine Controls Aleph-Null is a fuel injection controller. It controls the process by which different substances are combined to produce the desired fuel. Since many fuels, such as Liquid Copernicium[familiarize Liquid Copernicium], have short half-lives, they must be produced shortly before use. Hence the necessity of the fuel injection controller."
-Luna Spacewerks	"A ship propulsion manufacturer on Earth's moon."
 Midship door	"Many small fighting ships have a midship door, designed to slow the spread of fires, protect against ship-wide depressurization, and to defend against boarders."
 Cygnus	"As seen from Earth, Cygnus is a northern constellation on the plane of the [familiarize Milky Way]Milky Way. It derives its name from the Latinized Greek word for swan."
 Milky Way	"The Milky Way is the galaxy that includes the Solar System, and the systems of Deneb and Pollux, for instance."
 Life Support	"Life support systems are all functioning satisfactorily."
-Fusion Engine	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
+Fusion Engine	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Company][familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
 Hull Integrity	"Despite the recent battering from the destruction of Space Station Omicron-5, hull integrity remains at 90%."
 Pollux III	"Pollux III, now uninhabitable due to intense radiation, was once the home of the Irion race, who now live on the single moon of Pollux III."
 Irion	"A sentient race of silicon-based insectoids originally from Pollux III. Their homeworld was destroyed in an industrial accident, leaving only the Irion who had settled on their planet's moon."
 Pollux VI	"A human-settled planet which is contested by the Irion."
-Engine status	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
+Engine status	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Company][familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
 Gravity-subject	"The gravity is currently set to [gravity]."
 Corporal Delores Franck	"Corporal Delores Franck is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
 Gunnery Sergeant Somchai Khotpanya	"Gunnery Sergeant Somchai Khotpanya is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
@@ -2935,6 +2935,20 @@ Destroying the ship	"Information on self-destruct methods is not available."
 copy of Planetfall	"Planetfall is a beloved classic of interactive science fiction from the 20th century."
 Ensign First Class Blather	"A total megakrip!"
 Galley	"The galley of the SS Usagi is a standard Space Marines two-person kitchen equipped with a microwave oven. Please note that the stools cannot be unbolted."
+Microwave oven	"The galley of the SS Usagi is equipped with a microwave oven."
+Luna Spacewerks Company	"Based on the moon of Earth, Luna Spacewerks is a leading supplier of engine parts to the Space Marines."
+Ladder	"A ladder is a common vertical transport device."
+Chewing gum	"Warning: Do NOT swallow chewing gum."
+suit locker 1	"There is a vac suit locker in the Staging Area. Sometimes things other than vac suits are stored there."
+suit locker 2	"There is a vac suit locker in the Staging Area. Sometimes things other than vac suits are stored there."
+To-Do List	"It is not uncommon for a person to write a list of things they need to do, so that they may check them off one-by-one."
+Toolbox	"A toolbox is an essential part of any repair person's job. Don't put it down, no matter what."
+Screwdriver	"Essential for driving screws."
+Wrench	"Strangely, the SS Usagi carries no wrenches on board."
+Pliers	"These are used to ply, as the name implies. Ha, 'im-plies'. Very clever."
+Component Panel	"The panel above some airlock doors contains optical sensors to detect crew and automatically open the door."
+Captain's Door	"The captain's door is a standard Model X red door, opened via a card swipe."
+
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:
 	say ">>>> [Obj].";
@@ -5664,6 +5678,7 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 	[think]How am I going to get off this ship?[run paragraph on][think end]";
 	Now Explosion Happened is true;
 	Now suit locker 1 is nowhere;
+	Now suit locker 1 is unfamiliar;
 	Now suit locker 2 is in Staging Area;
 	Now every vac suit that is in Staging Area is not undescribed;
 	say "[paragraph break]Press any key...";
@@ -5726,7 +5741,7 @@ executing is an action applying to nothing. Understand "execute" as executing.
 Persuasion rule when asking the shipboard computer to try executing when location is bridge and command mode activated is true:
 	now last-moves is false;
 	print "Yes, Captain. Executing evasive maneuvers.[paragraph break]" as shipboard computer near captain's chair;
-	say "The ship pulls out of its dive toward New Da Nang, delivering a g-force that forces the breath out of you despite the intertial dampers. Soon you are turned around and headed for open space.";
+	say "The ship pulls out of its dive toward New Da Nang, delivering a g-force that forces the breath out of you despite the intertial dampers. Soon you are turned around and headed for open space.[paragraph break]";
 	print "Diverting communications to the bridge.[line break]" as shipboard computer near captain's chair;
 	say "[line break]Arvax comes over comms: 'Directing SS Usagi to Deneb III. Rendezvous with retrieval crew in approximately twenty-eight minutes.
 	
@@ -6518,4 +6533,4 @@ test nobly with "test explode/z/z/z/z/z/z/z/z/z/z".
 
 test escape with "test explode/f/s/out".
 
-test walkthrough with "f/f/u/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/in/in/sit in chair/f/hello/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/y/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/f/x command console/touch it/computer, execute".
+test walkthrough with "f/f/u/take gum/chew gum/wear vac suit/u/p/open cabinet/x engineering uniform/read paper/type 9467 on keypad/read list/x storage unit/open bottom drawer/x universal game emulator/s/s/read note/take slippers/look under bed/open trunk/open present/x bear/x eyes/take eyes/take trunk/p/d/drop trunk/a/x door/x panel/stand on trunk/x panel/take broken sensor/put new sensor in panel/a/a/turn on boots/a/f/s/x suit/vent suit/s/take tiny debris/in/in/sit in chair/f/hello/hello/ask arvax about mulgrew/ask mulgrew about dalmatian/computer, access code 2/ask computer about dalmatian/a/p/take vac/open drawer/take all/s/a/x engine/f/f/push trunk/press blue button/d/x microwave/unplug microwave/x socket/vacuum socket/plug in microwave/open drawer/take knife/a/p/x unit/open bottom drawer/open bottom drawer with knife/take card/close bottom drawer/x unit/x keypad/open keypad with key/tape wires/s/a/open door with card/x door/open panel/take blown fuse/put fresh fuse in panel/close panel/close panel/put gum in hole/close panel/open door with card/a/x desk/x dog/x moon/open drawer/take journal/read it/journal, password walrus/ask computer about pluto/journal, password charon/read diary/f/s/get on bed/x cabinet/replace screw/p/f/u/set gravity control to 1/jump/d/a/d/x engine part/x cord/x locker/push it/open it/a/a/attach line to hook/f/attach line to hook/s/attach line to hook/p/a/in/in/push engine a/g/push engine f/push it s/push it in/push it p/push engine a/read list/computer, reboot/y/f/f/ask arvax about ship/z/z/ask arvax about ship/a/a/x diagram/ask computer about LC/Og > 4/ask computer about RM/TC > 3/ask computer about Un/AH > 2/Og > 1/f/f/ask arvax about ship/f/x command console/touch it/computer, execute".

@@ -3538,7 +3538,7 @@ To decide what text is the direction description of (dir - a direction):
 To print (speech text - a text) as (speaker - a thing) near (locale - a thing) with transcript (T - a truth state):
 	let X be number of moves from the location to the location of the locale, using even locked doors;	
 	let ST be the substituted form of speech text;	
-	if locale is in the location:
+	if locale is enclosed by the location:
 		if the speaker is shipboard computer:
 			say fixed letter spacing;
 		say ST;

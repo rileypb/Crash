@@ -2841,6 +2841,8 @@ Private First Class Friedrich Jäger is a subject. It is unfamiliar. The descrip
 Private Akin Abimbola is a subject. It is unfamiliar. The description is "subject".
 Destroying the ship is a subject. Understand "destruction", "destruct", "self-destruct", "scuttle", "scuttling", "blowing up" as destroying the ship. The description is "subject".
 Luna Spacewerks Company is a subject. It is unfamiliar.
+The microwave oven is familiar.
+The starboard-side equipment cabinet is familiar.
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
@@ -2935,7 +2937,7 @@ Destroying the ship	"Information on self-destruct methods is not available."
 copy of Planetfall	"Planetfall is a beloved classic of interactive science fiction from the 20th century."
 Ensign First Class Blather	"A total megakrip!"
 Galley	"The galley of the SS Usagi is a standard Space Marines two-person kitchen equipped with a microwave oven. Please note that the stools cannot be unbolted."
-Microwave oven	"The galley of the SS Usagi is equipped with a microwave oven."
+Microwave oven	"The galley of the SS Usagi is equipped with a microwave oven[if the wall socket is plugged-up]. It is currently non-functional[end if]."
 Luna Spacewerks Company	"Based on the moon of Earth, Luna Spacewerks is a leading supplier of engine parts to the Space Marines."
 Ladder	"A ladder is a common vertical transport device."
 Chewing gum	"Warning: Do NOT swallow chewing gum."
@@ -2948,6 +2950,7 @@ Wrench	"Strangely, the SS Usagi carries no wrenches on board."
 Pliers	"These are used to ply, as the name implies. Ha, 'im-plies'. Very clever."
 Component Panel	"The panel above some airlock doors contains optical sensors to detect crew and automatically open the door."
 Captain's Door	"The captain's door is a standard Model X red door, opened via a card swipe."
+starboard-side equipment cabinet	"[if The starboard-side equipment cabinet is unrepaired]Crew report the door of the starboard-side equipment cabinet is jammed[otherwise]The previously stuck door has been repaired[end if]."
 
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:

@@ -1286,6 +1286,8 @@ Instead of removing the eyes from bertie the bear:
 
 The wrapping paper is a thing. The indefinite article is "some". The description is "The paper, which is adorned with cartoon animals in primary colors prancing around the words 'Happy Birthday', is ripped beyond repair."
 The cardboard box is a container. The description is "A plain cardboard box, big enough to hold Bertie the Bear™."
+Instead of entering the cardboard box:
+	say "The cardboard box is too small to get inside and too flimsy to stand on.";
 
 Instead of opening the present:
 	think "I'll go to hell for this, but here goes...";
@@ -2855,7 +2857,7 @@ Deneb System	"The planetary system orbiting the star Deneb consists of seven pla
 Deneb IV	"Deneb IV, founded by anti-corporate ideologues who split off from Deneb II, has from the start had a popular separatist movement.[familiarize Deneb II]"	--
 Operation Dalmatian  	""	"Operation Dalmatian is a top secret operation to infiltrate the Deneb IV separatist movement. The primary operative is [Arvax], who has been playing double agent to ingratiate himself with the terrorist leadership. Among other successes, he has confirmed that as many as three Space Marine captains are compromised by the separatists, although he has not been able to positively identify these captains."
 Deneb II	"Once the jewel of Deneb sector and a paradise of natural splendor, over the last two centuries Deneb II has succumbed to creeping corporatization. The resulting degrading of the ecosphere is a primary reason for the exodus to Deneb IV and the separatist movement which has followed."
-subj-rebooting-computer	"Rebooting the ship's computer during a mission is a risky operation that should only be attempted when absolutely necessary. It can be accomplished the ship computer given the necessary authorization. Due to the risk of short-term shutdown of critical systems during a reboot, vac suits should always be worn during the operation."
+subj-rebooting-computer	"Rebooting the ship's computer during a mission is a risky operation that should only be attempted when absolutely necessary. It can be accomplished through the ship computer given the necessary authorization. Due to the risk of short-term shutdown of critical systems during a reboot, vac suits should always be worn during the operation."
 Deneb III planet	"A small rocky planet without atmosphere used as a Space Marines outpost."
 Space Station Omicron-5	"Space Station Omicron-5 is the the Deneb system outpost of the Space Authority. It is one of the largest space stations of the Space Authority."
 Delphi Engine Controls Aleph-Null	"The Aleph-Null, by Delphi Engine Controls LLC[familiarize Delphi Engine Controls LLC], is a starship engine fuel injection process controller. It allows the mixture of up to five fuel components to create an energized product suitable for powering a starship drive. The Aleph-Null works by the method of substance injection[familiarize substance injection]."
@@ -2951,6 +2953,8 @@ Pliers	"These are used to ply, as the name implies. Ha, 'im-plies'. Very clever.
 Component Panel	"The panel above some airlock doors contains optical sensors to detect crew and automatically open the door."
 Captain's Door	"The captain's door is a standard Model X red door, opened via a card swipe."
 starboard-side equipment cabinet	"[if The starboard-side equipment cabinet is unrepaired]Crew report the door of the starboard-side equipment cabinet is jammed[otherwise]The previously stuck door has been repaired[end if]."
+yourself	"Members of the Omicron-5 repair corps are responsible for the upkeep of Space Marines ships in dock."
+Universal Game Emulator	"The Universal Game Emulator is able to play any game ever made; however, you must possess the game cassette, disk, cartridge, or other storage medium to play such a game. The UGE does not possess storage to hold games."
 
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:
@@ -3190,12 +3194,9 @@ The pilot's chair and the navigator's chair are crew chairs in the bridge.
 Understand "pilot chair/--" as pilot's chair. Understand "navigator chair/--" as navigator's chair.
 
 The captain's chair is a supporter in the bridge. It is scenery. It is enterable. "Functional yet comfortable, it is every inch the chair of a commander. On the arm of the captain's chair is the command console, with which the captain commands the shipboard computer.". Understand "captain chair" as captain's chair.
-The command console is a part of the captain's chair. The description is "The command console displays the red outline of a hand." Understand "captain's/captain console" as command console. 
+The command console is a part of the captain's chair. The description is "The command console displays the red outline of a hand." Understand "captain's/captain/command console", "red/-- outline", "hand" as command console. 
 
-After examining the command console for the first time:
-	tip "You can 'touch command console' to touch your palm to it.";
-
-After examining the command console for the second time:
+After examining the command console:
 	tip "You can 'touch command console' to touch your palm to it.";
 	
 Instead of touching the command console:
@@ -3234,7 +3235,7 @@ Instead of inserting the hex-shaped tool into the access panel keyhole:
 The helm table is a thing in the bridge. It is scenery. "The helm is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel [state of helm access panel].". Understand "sloped/-- table", "cryptic/-- readouts", "touch/-- controls" as the helm.
 The helm access panel is a container which is a part of the helm table. It is closed, locked, and openable. It has carrying capacity 0. The helm access panel has matching key the hex-shaped tool. The description is "The access panel is a rectangle of the same plastic that makes up the rest of the table. There is a hex-shaped keyhole in it." Understand "helm/-- access/-- panel" as helm access panel.
 
-The helm wiring is scenery in the helm access panel. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" and "maze" as the helm wiring. The description of the helm wiring is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
+The helm wiring is scenery in the helm access panel. It is privately-named. The printed name is "wiring". Understand "wiring" and "circuit" and "circuits" and "boards" and "maze" and "wires" as the helm wiring. The description of the helm wiring is "[if protocols-activated is true]It's ruined.[otherwise]There's a lot of it.[end if]";
 
 [The aperture is a part of the helm access panel. Understand "hole", "keyhole", "lock" as aperture.
 
@@ -3466,7 +3467,7 @@ Check taking the equipment trunk when gravity is 1:
 	say "You could probably lift the trunk in this low gravity, if it weren't so cumbersome." instead;
 
 instead of doing something other than pushing to the equipment trunk for the third time:
-	say "Really, the equipment trunk isn't important to the story. But by all means, continue to fiddle with it.";
+	tip "Really, the equipment trunk isn't important to the story.";
 
 The environmental console is a thing in Operations. It is scenery. The description is "[The environmental console] contains the controls that deal with the comfort of the occupants, including temperature, pressure, and gravity. [description of the gravity control]".
 
@@ -4111,7 +4112,7 @@ Instead of taking the manual:
 	say "It is chained securely to the control panel. Best leave it.";
 	
 Randomly shouting is an action applying to nothing. Understand "shout", "yell", "scream" as randomly shouting.
-Knocking on is an action applying to one thing. Understand "knock on [something]", "pound on [something]", "bang on [something]" as knocking on.
+Knocking on is an action applying to one thing. Understand "knock on/-- [something]", "pound on/-- [something]", "bang on/-- [something]", "rap on/-- [something]" as knocking on.
 
 Check knocking on something:
 	say "There's no point in knocking on that.";
@@ -4127,6 +4128,9 @@ Does the player mean knocking on the midship door when the player is in the Gall
 
 Instead of randomly shouting while player is in galley:
 	say "Whoever is talking doesn't seem to hear you.";
+	
+Report randomly shouting:
+	say "You make some noise. You feel a lot better now.";
 	
 Instead of hailing while player is in galley:
 	say "Whoever is talking doesn't seem to hear you.";
@@ -4310,7 +4314,7 @@ Instead of examining the photo of Pluto:
 	say "Pluto is a beagle with a wise, knowing look on his face.";
 	think thought 16;
 
-The moon photo is scenery in the captain's quarters. "The iconic photo of Neil Armstrong standing next to the American flag.". Understand "flag", "picture", "Armstrong", "Neil", "astronaut" as the moon photo.
+The moon photo is scenery in the captain's quarters. "The iconic photo of Buzz Aldrin standing next to the American flag.". Understand "flag", "picture", "Aldrin", "Buzz", "astronaut" as the moon photo.
 
 The desk drawer is a container. It is part of the captain's desk. It is openable and closed. The description is "[description of the desk]"
 
@@ -4428,7 +4432,7 @@ The piece of note paper is readable. The description is "[the readable text]". T
 
 Rule for printing room description details of the engineering uniform: omit contents in listing;
 
-The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "The Universal Game Emulator, or 'UGE', can play any game ever produced for any system, provided you have a disk, cartridge, dvd, sd card, or memory crystal with the game executable.".  Understand "console", "UGE", "MAME" as Universal Game Emulator.
+The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "The Universal Game Emulator, or 'UGE', can play any game ever produced for any system, provided you have a cassette, disk, cartridge, dvd, sd card, or memory crystal with the game executable.".  Understand "UGE", "MAME" as Universal Game Emulator.
 
 The port-side bed is in the port-side crew quarters. it is privately-named. The printed name is "bunk bed". It is scenery. The description is "A fairly typical military bunk bed." Understand "bunk" and "bed" as the port-side bed.
 The port-side top bunk is a part of the port-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the port-side top bunk. 
@@ -4913,6 +4917,8 @@ After unlocking the starboard keypad with the small key:
 After opening the starboard keypad:
 	say "You open the front panel of the keypad, revealing a bundle of wiring.";
 	
+The starboard wires are scenery in the starboard keypad. "The wires look intact and functional.". Understand "wiring" and "keypad wiring" and "keypad wires" as the starboard wires.	
+	
 After closing the starboard keypad:
 	now the starboard keypad is locked;
 	continue the action;
@@ -5075,6 +5081,9 @@ Before doing something when the second noun is the component panel and the playe
 	say "[The component panel] is too high.";
 	stop the action;
 	
+Does the player mean taking the eyes when the player is on the black trunk and the broken sensor is in the room of stuff and the location is the staging area:
+	It is very unlikely;
+	
 Instead of examining the component panel when the player is on suit locker 2:
 	say "The locker isn't close enough to the airlock door for you to see the component panel well.";
 
@@ -5113,6 +5122,7 @@ Instead of replacing sensor when the black trunk is in the staging area and the 
 	now aft airlock inner door broken is false;
 	tick off fix the airlock door;
 	now the optical sensor is nowhere;
+	now the player carries the broken sensor;
 	say "You remove the broken sensor and insert the fresh sensor into the empty socket.";
 	think "There. That should do it.";	
 	
@@ -6281,7 +6291,8 @@ Table of fix unit hints
 hint	used (a number)
 "Yeah, you broke it, now you've gotta fix it."	
 "Spoiler: it has to do with the keyhole on the keypad. You did examine it, right?"	
-"Don't come back until you have the key."	
+"Don't come back until you have the key."
+"The key is on the other side of the ship."	
 "Okay, you got the key, now open it."	
 "Tell me you got the electrical tape when you picked up the key..."
 
@@ -6302,7 +6313,8 @@ Table of captain door hints
 hint	used (a number)
 "Look around for something that will allow us to work on the door."	
 "Open the panel."	
-"Looks like we need a new fuse. Have you found one?"	
+"Looks like we need a new fuse. Have you found one?"
+"If you haven't reached the other side of the ship yet, stop here."		
 "Okay great, you found a fuse and replaced the old one. Now close the panel."	
 "Butter fingers. But that's okay because you have lots of screws in your toolbox."	
 "None of them fit, dang. But maybe you can make one fit."		

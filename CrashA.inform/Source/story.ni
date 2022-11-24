@@ -1587,6 +1587,9 @@ The woven cord is part of the brand-new JL-758. The description is "It looks lik
 
 The brand-new JL-758 is pushable between rooms. 
 
+Instead of pushing the brand-new JL-758:
+	say "Which direction do you want to push it in?";
+
 Instead of taking the brand-new JL-758:
 	say "That's far too heavy";
 	if gravity < 5:
@@ -2839,7 +2842,7 @@ Engine status is a subject. The description is "subject". Understand "drive" as 
 Gravity-subject is a subject. It is privately-named. The description is "subject". The printed name is "gravity". Understand "gravity" as gravity-subject.
 Corporal Delores Franck is a subject. It is unfamiliar. The description is "subject".
 Gunnery Sergeant Somchai Khotpanya is a subject. It is unfamiliar. The description is "subject".
-Private First Class Friedrich Jäger is a subject. It is unfamiliar. The description is "subject".
+Private First Class Friedrich Jäger is a subject. It is unfamiliar. The description is "subject". Understand "Jager" as Private First Class Friedrich Jäger.
 Private Akin Abimbola is a subject. It is unfamiliar. The description is "subject".
 Destroying the ship is a subject. Understand "destruction", "destruct", "self-destruct", "scuttle", "scuttling", "blowing up" as destroying the ship. The description is "subject".
 Luna Spacewerks Company is a subject. It is unfamiliar.
@@ -3223,6 +3226,16 @@ To say state of helm access panel:
 		say "which is open, revealing a maze of wiring and circuit boards";
 	otherwise:
 		say "which is open, revealing a fused mass of wiring and circuit boards";	
+		now player aware of melted helm is true;
+		
+Instead of searching the helm access panel when helm access panel is closed:
+	say "The helm access panel is currently closed.";
+	
+Instead of searching the helm access panel when helm access panel is open:
+	if protocols-activated is false:
+		say "The helm access panel contains a maze of wiring and circuit boards";
+	otherwise:
+		say "The helm access panel contains a fused mass of wiring and circuit boards";	
 		now player aware of melted helm is true;
 		
 After closing the helm access panel:
@@ -3725,7 +3738,7 @@ The description of the vacuum cleaner is "A small canister vacuum, with a handle
 Does the player mean taking a vac suit when the player is wearing a vac suit: it is very unlikely.
 Does the player mean taking the portable hand-held vacuum cleaner when the player is wearing a vac suit: it is very likely.]
 
-MachineRoomStuff is scenery in the Machine Room. "The machine room boasts an impressive array of tools, none of which you have call to use for now." 
+MachineRoomStuff is scenery in the Machine Room. It is privately-named. "The machine room boasts an impressive array of tools, none of which you have call to use for now." 
 Understand "saws", "saw", "drills", "drill", "equipment", "tools", "machinery" as MachineRoomStuff.
 
 Section 7 - Engine Room
@@ -3738,7 +3751,7 @@ The description of Engine Room is "This where the combustion process is controll
 
 The engine diagram is in the Engine Room. It is scenery. The description is "This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label 'Delphi Engine Controls Aleph-Null'. Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings."
 
-Understand "screen" as engine diagram. 
+Understand "controller", "Aleph-Null", "screen" as engine diagram.
 
 The engine diagram is readable. 
 
@@ -4240,6 +4253,9 @@ Instead of closing the aft access panel with the chewing gum:
 	
 Instead of closing the aft access panel with the electrical tape:
 	say "Good idea, but it seems something needs to be screwed into the hole somehow.";
+
+Instead of taping the aft access panel:
+	say "Good idea, but it seems something needs to be screwed into the hole somehow.";
 	
 Instead of closing something with something:
 	say "I'm not sure how to do that.";
@@ -4264,6 +4280,9 @@ Instead of closing the aft access panel:
 	try screwing the aft access panel;
 
 Instead of inserting the chewing gum into the hole:
+	if the player encloses the blue screw:
+		say "But that's where the blue screw is supposed to go!";
+		rule fails;
 	if the gum is not enclosed by the player:			
 		say "(first taking the chewing gum)[command clarification break]";
 		silently try taking the chewing gum;
@@ -5060,7 +5079,7 @@ Instead of climbing the ladder when the location is junction:
 Instead of climbing suit locker 2:
 	try entering suit locker 2; 
 
-The air scrubber intake is a thing in Staging Area. It is undescribed. It is fixed in place. The description is "This is an aperture through which air is pulled for recycling. Even if you knew how, you wouldn't dare open it for fear of wrecking the air scrubber."
+The air scrubber intake is a thing in Staging Area. It is undescribed. It is fixed in place. The description is "This is an aperture through which air is pulled for recycling. Even if you knew how, you wouldn't dare open it for fear of wrecking the air scrubber. One thing you know: if a screw, blue or otherwise, fell into the intake, you'd never get it back, and you should probably just move on with your life.".
 
 Rule for writing a paragraph about the air scrubber intake:
 	say "There is an air scrubber intake in the wall here.";
@@ -5725,7 +5744,7 @@ Instead of going up when location is Staging Area during Boarding the Ship:
 Every turn when explosion happened is true and computer-rebooted is false and protocols-activated is false:
 	Increment explosion turn;
 	if the remainder after dividing explosion turn by 15 is 0 and location is onboard:
-		print "Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required. There is also an oxygen leak due to a jammed vent cover on the external hull.[line break]" as computer near player;
+		print "Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required[if the external vent is stuck]. There is also an oxygen leak due to a jammed vent cover on the external hull[end if].[line break]" as computer near player;
 		now attention all crew spoken is true;
 		if close the vent is not listed in the dones of the to-do list and close the vent is not listed in the to-dos of the to-do list:
 			add close the vent;

@@ -3233,9 +3233,9 @@ Instead of searching the helm access panel when helm access panel is closed:
 	
 Instead of searching the helm access panel when helm access panel is open:
 	if protocols-activated is false:
-		say "The helm access panel contains a maze of wiring and circuit boards";
+		say "The helm access panel contains a maze of wiring and circuit boards.";
 	otherwise:
-		say "The helm access panel contains a fused mass of wiring and circuit boards";	
+		say "The helm access panel contains a fused mass of wiring and circuit boards.";	
 		now player aware of melted helm is true;
 		
 After closing the helm access panel:
@@ -3510,6 +3510,11 @@ Carry out examining communications console:
 	rule succeeds;
 
 The power systems console is a thing in Operations. It is scenery. The description is "[The power systems console] controls the power for the entire craft allowing, for instance, for power to be rerouted away from non-essential systems and to more essential systems such as life support or defensive systems."
+
+Rerouting power is an action applying to nothing. Understand "reroute the/-- power" as rerouting power.
+
+Instead of rerouting power:
+	say "You lack the necessary expertise to do that safely.";
 
 Instead of examining midship door when location is operations:
 	say "[description of midship door] Set in the frame of the door is a blue button."
@@ -4191,7 +4196,7 @@ Check replacing fuse:
 	if the fresh fuse is in the aft access panel:
 		say "You've replaced the bad fuse. No need to play with the fuses anymore." instead;
 	if the fresh fuse is not touchable:
-		say "You don't have a suitable fuse." instead;	
+		say "You don't have a suitable fresh fuse." instead;	
 	if the old fuse is not touchable:
 		say "There is no fuse to replace." instead;
 	try inserting fresh fuse into aft access panel instead;

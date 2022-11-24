@@ -24,6 +24,8 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1058"></child>
             <child nodeId="node-1035"></child>
+            <child nodeId="node-1511"></child>
+            <child nodeId="node-1342"></child>
             <child nodeId="node-1034"></child>
             <child nodeId="node-1027"></child>
             <child nodeId="node-1003"></child>
@@ -2044,6 +2046,152 @@ You can't see any such thing.
 </commentary>
         <children></children>
     </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">screw panel</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">gonear galley</command>
+        <result xml:space="preserve">
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You faintly hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">screw panel</command>
+        <result xml:space="preserve">There's nowhere on the control panel to put a screw.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">close panel</command>
+        <result xml:space="preserve">It isn't something you can close.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1346"></child>
+        </children>
+    </item>
+    <item nodeId="node-1346">
+        <command xml:space="preserve">screw panel</command>
+        <result xml:space="preserve">There's nowhere on the control panel to put a screw.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1511">
+        <command xml:space="preserve">gonear operations</command>
+        <result xml:space="preserve">Which do you mean, Operation Dalmatian, Operations Deck, or the door operations manual?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1512"></child>
+        </children>
+    </item>
+    <item nodeId="node-1512">
+        <command xml:space="preserve">deck</command>
+        <result xml:space="preserve">
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1513"></child>
+        </children>
+    </item>
+    <item nodeId="node-1513">
+        <command xml:space="preserve">x bridge</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1514"></child>
+        </children>
+    </item>
+    <item nodeId="node-1514">
+        <command xml:space="preserve">x console</command>
+        <result xml:space="preserve">Which do you mean, the communications console, the environmental console, or the power systems console?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1515"></child>
+        </children>
+    </item>
+    <item nodeId="node-1515">
+        <command xml:space="preserve">x comms</command>
+        <result xml:space="preserve">The communications console is used for all communications, including long-range subspace and short-range radio communications. A readout displays the connections on each channel: "channel 1 -- Deneb III Marine Command, channel 2 -- No Connection, channel 3 -- No Connection."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1516"></child>
+        </children>
+    </item>
+    <item nodeId="node-1516">
+        <command xml:space="preserve">x power systems</command>
+        <result xml:space="preserve">The power systems console controls the power for the entire craft allowing, for instance, for power to be rerouted away from non-essential systems and to more essential systems such as life support or defensive systems.
+
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
+
+[Finally, another person! I'm saved!]
+
+⇒ By the way... you can get help about speaking to other characters by typing "help speech".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1523"></child>
+        </children>
+    </item>
+    <item nodeId="node-1523">
+        <command xml:space="preserve">rerout</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1524"></child>
+        </children>
+    </item>
+    <item nodeId="node-1524">
+        <command xml:space="preserve">reroute</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1525"></child>
+        </children>
+    </item>
+    <item nodeId="node-1525">
+        <command xml:space="preserve">reroute power</command>
+        <result xml:space="preserve">You lack the necessary expertise to do that safely.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1035">
         <command xml:space="preserve">gonear command console</command>
         <result xml:space="preserve">
@@ -2060,7 +2208,8 @@ You hear someone speaking aft of here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1036"></child>
+        <children><child nodeId="node-1348"></child>
+            <child nodeId="node-1036"></child>
         </children>
     </item>
     <item nodeId="node-1036">
@@ -2274,6 +2423,877 @@ The helm is a sloped table covered with cryptic readouts and touch controls. In 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">purloin hex</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">open helm with key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">x helm</command>
+        <result xml:space="preserve">(the helm table)
+The helm is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel which is closed. A hex-shaped aperture is probably the locking mechanism.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">open helm with hex</command>
+        <result xml:space="preserve">(the helm table with the hex-shaped tool)
+That doesn't seem to be something you can unlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">open access with hex</command>
+        <result xml:space="preserve">You unlock the helm access panel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">open it</command>
+        <result xml:space="preserve">Opening the helm access panel reveals an array of wiring and circuit boards.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">look in it</command>
+        <result xml:space="preserve">The helm access panel contains a maze of wiring and circuit boards
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">test reboot</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] test arvax
+(Testing.)
+
+&gt;[2] test captain
+(Testing.)
+
+&gt;[3] test tether
+(Testing.)
+
+&gt;[4] test staging
+(Testing.)
+
+&gt;[5] test planetfall
+(Testing.)
+
+&gt;[6] test storage
+(Testing.)
+
+&gt;[7] test cabinet
+(Testing.)
+
+&gt;[8] test microwave
+(Testing.)
+
+&gt;[9] test spacewalk
+(Testing.)
+
+&gt;[10] test airlock
+(Testing.)
+
+&gt;[11] f
+The only obvious exit is aft.
+
+&gt;[12] f
+The only obvious exit is aft.
+
+&gt;[13] u
+The only obvious exit is aft.
+
+&gt;[14] a
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;[15] take gum
+[The gum's still got flavor. I don't want to spit it out yet.]
+
+A man's voice comes over comms: "Usagi, are you there?"
+
+[Finally, another person! I'm saved!]
+
+⇒ By the way... you can get help about speaking to other characters by typing "help speech".
+
+&gt;[16] chew gum
+You are already chewing the chewing gum.
+
+&gt;[17] u
+The obvious exits are fore (to bridge), aft and down.
+
+A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+
+⇒ You might try saying hello.
+
+&gt;[18] s
+The obvious exits are fore (to bridge), aft and down.
+
+&gt;[19] take slippers
+You can't see any such thing.
+
+&gt;[20] look under bed
+You can't see any such thing.
+
+&gt;[21] get trunk
+The trunk is far too heavy to lift by yourself.
+
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
+
+
+&gt;[22] open it
+It seems to be locked.
+
+&gt;[23] take present
+You can't see any such thing.
+
+&gt;[24] open it
+⇒ Really, the equipment trunk isn't important to the story.
+
+A man's voice comes over comms: "Usagi, are you there?"
+
+⇒ You might try saying hello.
+
+&gt;[25] take eyes
+You can't see any such thing.
+
+&gt;[26] p
+The obvious exits are fore (to bridge), aft and down.
+
+&gt;[27] d
+There's an equipment trunk blocking the door.
+
+A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+
+
+&gt;[28] drop trunk
+The equipment trunk is already here.
+
+&gt;[29] stand on trunk
+That's not something you can stand on.
+
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
+
+⇒ You might try saying hello.
+
+&gt;[30] take broken sensor
+You can't see any such thing.
+
+&gt;[31] put optical sensor in panel
+You can't see any such thing.
+
+&gt;[32] take suit
+You can't see any such thing.
+
+&gt;[33] wear it
+(first taking the equipment trunk)
+The trunk is far too heavy to lift by yourself.
+
+&gt;[34] turn on mag boots
+You can't see any such thing.
+
+&gt;[35] a
+
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are doorways aft and port, to the engine room and machine room respectively.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;[36] out
+Welcome back, visitor. I hope your spacewalk was uneventful.
+
+Engineering Airlock
+You are in the engineering airlock. Outside, the space to starboard looks so empty and peaceful it's hard to imagine the awful sight astern.
+
+⇒ astern: behind or toward the rear of a ship, spaceship or aircraft.
+
+&gt;[37] out
+
+Outside the Engineering Airlock (vacuum)
+You are floating in the blackness of space outside the engineering airlock. Most of the hull is taken up by the protrusions of various machinery, antennae, radio dishes, and heat sinks. There is a clear path to port among the obstructions. You can also go in to the airlock.
+
+Near your feet is a six-inch hole in the hull labeled "Caution: Stand back during venting." The hole is almost entirely closed by a sliding cover, but a small gap remains, held open by a tiny piece of debris.
+
+A hook protrudes from the hull next to the airlock door.
+
+You are in vacuum. We'll spare you the details, but it isn't a pretty way to go.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 11, in 25 turns.
+
+Your death was completely pointless and preventable, and you scored no points. Sigh...
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [38] f
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [39] s
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [40] vent air
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [41] s
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [42] take tiny debris
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [43] in
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [44] p
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [45] sit in recharger
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [46] p
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [47] open drawer
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [48] take all
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [49] s
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [50] f
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [51] move trunk
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [52] set gravity control to 1
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [53] press button
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [54] d
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [55] open drawer
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [56] take knife
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [57] open closet
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [58] take dinner
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [59] unplug microwave
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [60] vacuum socket
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [61] plug in microwave
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [62] a
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [63] s
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [64] get on top bunk
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [65] replace screw
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [66] get down
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [67] open cabinet
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [68] take beacon
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [69] p
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [70] p
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [71] open cabinet
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [72] x uniform
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [73] take paper
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [74] read it
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [75] take universal game emulator
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [76] x unit
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [77] type 9467 on keypad
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [78] pry bottom drawer open with knife
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [79] take card
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [80] close drawer
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [81] put key into keyhole
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [82] tape wires
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [83] close bottom drawer
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [84] type 9467 on keypad
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [85] take planetfall
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [86] play planetfall on universal
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [87] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [88] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [89] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [90] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [91] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [92] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [93] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [94] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [95] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [96] s
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [97] d
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [98] turn locker
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [99] open locker
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [100] a
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [101] out
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [102] tie eva transport line to hook
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [103] f
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [104] tie eva transport line to hook
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [105] s
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [106] tie eva transport line to hook
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [107] p
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [108] a
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [109] in
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [110] in
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [111] turn off boots
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [112] push jl-758 aft
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [113] push jl-758 aft
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [114] push jl-758 aft
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [115] push jl-758 fore
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [116] push jl-758 starboard
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [117] push jl-758 in
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [118] push jl-758 in
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [119] push jl-758 aft
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [120] f
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [121] f
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [122] d
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [123] a
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [124] open door with red card
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [125] x panel
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [126] open panel
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [127] take blown fuse
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [128] put fuse in panel
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [129] close panel
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [130] close panel
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [131] x panel
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [132] put gum in hole
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [133] close panel
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [134] open door with red card
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [135] a
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [136] open drawer
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [137] take journal
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [138] read it
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [139] journal, password walrus
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [140] journal, password charon
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [141] read journal
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [142] f
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [143] f
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [144] u
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [145] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [146] hello
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [147] hello
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [148] tell arvax about journal
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [149] computer, access code 2
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [150] computer, reboot
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [151] y
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [152] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [153] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [154] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; [155] z
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve">[1] test arvax
+[2] test captain
+[3] test tether
+[4] test staging
+[5] test planetfall
+[6] test storage
+[7] test cabinet
+[8] test microwave
+[9] test spacewalk
+[10] test airlock
+[11] f
+[12] f
+[13] u
+[14] a
+[15] take gum
+[16] chew gum
+[17] u
+[18] s
+[19] take slippers
+[20] look under bed
+[21] get trunk
+[22] open it
+[23] take present
+[24] open it
+[25] take eyes
+[26] p
+[27] d
+[28] drop trunk
+[29] stand on trunk
+[30] take broken sensor
+[31] put optical sensor in panel
+[32] take suit
+[33] wear it
+[34] turn on mag boots
+[35] a
+[36] out
+[37] out
+[38] f
+[39] s
+[40] vent air
+[41] s
+[42] take tiny debris
+[43] in
+[44] p
+[45] sit in recharger
+[46] p
+[47] open drawer
+[48] take all
+[49] s
+[50] f
+[51] move trunk
+[52] set gravity control to 1
+[53] press button
+[54] d
+[55] open drawer
+[56] take knife
+[57] open closet
+[58] take dinner
+[59] unplug microwave
+[60] vacuum socket
+[61] plug in microwave
+[62] a
+[63] s
+[64] get on top bunk
+[65] replace screw
+[66] get down
+[67] open cabinet
+[68] take beacon
+[69] p
+[70] p
+[71] open cabinet
+[72] x uniform
+[73] take paper
+[74] read it
+[75] take universal game emulator
+[76] x unit
+[77] type 9467 on keypad
+[78] pry bottom drawer open with knife
+[79] take card
+[80] close drawer
+[81] put key into keyhole
+[82] tape wires
+[83] close bottom drawer
+[84] type 9467 on keypad
+[85] take planetfall
+[86] play planetfall on universal
+[87] z
+[88] z
+[89] z
+[90] z
+[91] z
+[92] z
+[93] z
+[94] z
+[95] z
+[96] s
+[97] d
+[98] turn locker
+[99] open locker
+[100] a
+[101] out
+[102] tie eva transport line to hook
+[103] f
+[104] tie eva transport line to hook
+[105] s
+[106] tie eva transport line to hook
+[107] p
+[108] a
+[109] in
+[110] in
+[111] turn off boots
+[112] push jl-758 aft
+[113] push jl-758 aft
+[114] push jl-758 aft
+[115] push jl-758 fore
+[116] push jl-758 starboard
+[117] push jl-758 in
+[118] push jl-758 in
+[119] push jl-758 aft
+[120] f
+[121] f
+[122] d
+[123] a
+[124] open door with red card
+[125] x panel
+[126] open panel
+[127] take blown fuse
+[128] put fuse in panel
+[129] close panel
+[130] close panel
+[131] x panel
+[132] put gum in hole
+[133] close panel
+[134] open door with red card
+[135] a
+[136] open drawer
+[137] take journal
+[138] read it
+[139] journal, password walrus
+[140] journal, password charon
+[141] read journal
+[142] f
+[143] f
+[144] u
+[145] z
+[146] hello
+[147] hello
+[148] tell arvax about journal
+[149] computer, access code 2
+[150] computer, reboot
+[151] y
+[152] z
+[153] z
+[154] z
+[155] z
+</commentary>
+        <children></children>
     </item>
     <item nodeId="node-1058">
         <command xml:space="preserve">f</command>

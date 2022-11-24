@@ -536,9 +536,7 @@ Instead of examining a vac suit (called VS):
 	think thought 17;
 	if VS is the current stuck thing of the chewing gum:
 		say "There is some chewing gum stuck to the vac suit.";
-	if tipped venting is false:
-		tip "You can vent air by using 'vent suit.'";
-		now tipped venting is true;
+	tip "You can vent air by using 'vent suit.'";
 
 Vacuum-suit is a subject. It is privately-named. The description is "subject". Understand "vac", "vacuum" and "suit" as vacuum-suit.
 Does the player mean wearing vacuum-suit: It is very unlikely.
@@ -1245,6 +1243,10 @@ The eyes are parts of Bertie the Bear. The description of the eyes is "They're w
 
 Bertie the bear is addressable.
 The can't greet inanimate objects rule does nothing when the noun is bertie the bear.
+
+Persuasion rule when the actor is Bertie the bear:
+	out of batteries;
+	persuasion fails;
 
 to out of batteries: 
 	say "Bertie the Bear™ has no batteries, apparently.";	
@@ -2554,7 +2556,7 @@ To report on ship:
 		print "'Friend, if I were to start the fusion engine with the fuel injection you've specified, the ship would explode. Are you sure there is no other option to save the people of New Da Nang?'" as Arvax near communications console;
 		tip "If you really want to blow up the ship, enter 'Arvax, self-destruct' to start the countdown from 10, or press the test button in the engine room.";
 	otherwise if last-moves is false:
-		print "'Looks like the ship is ready to fly! Quick! I've plotted evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and use the command console! Say [']computer, execute[']'[line break]" as Arvax near communications console;
+		print "'Looks like the ship is ready to fly! Quick! I've plotted evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and touch the command console to activate command mode! Say [']computer, execute[']'[line break]" as Arvax near communications console;
 		now last-moves is true;
 		now turns left is 10;
 		think "Not much time!";
@@ -2691,6 +2693,10 @@ Does the player mean quizzing arvax about the fusion engine:
 	It is very likely;
 
 Book 11 - The Computer
+
+[Persuasion rule when actor is the shipboard computer:
+	say "Try 'computer, help' if you are having difficulty talking to the computer.";
+	persuasion fails;]
 
 Instead of examining the shipboard computer when the location is onboard:
 	say "You can't see the computer.";
@@ -2890,7 +2896,7 @@ Access Panel	"Typically, starship doors have access panels. The contents of such
 Chewing Gum	"Chewing gum is expressly forbidden on all Space Authority vessels."
 Gangway-backdrop	"A gangway is an inflatable bridge used to transfer people and equipment to and from space vessels."
 Orion Marine Academy	"Orion Marine Academy, located in the Betelgeuse system, is generally considered the second-most prestigious military academy after the original Space Authority Academy on Earth."
-The Sun	"Sol, the home star of the human race, has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Sol also has numerous dwarf planets, of which the best known is Pluto, once classified as a planet."
+The Sun	"A small unregarded yellow sun far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy. Sol, the home star of the human race, has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Sol also has numerous dwarf planets, of which the best known is Pluto, once classified as a planet."
 Earth	"The home planet of the human race, third planet from the star Sol. It is one of only a handful of habitable planets discovered by the human race."
 Mercury	"The first planet from Sol, its high temperatures make it hostile to all life."
 Venus	"The second planet from Sol, its atmosphere of carbon dioxide and sulfuric acid makes it uninhabitable, even if it wasn't the hottest planet in the Sol system."
@@ -2901,7 +2907,7 @@ Saturn	"The second-largest planet in the solar system, and the sixth from the su
 Tethys	"The fifteenth moon of Saturn, it is made primarily of water ice with a small fraction of rock."
 Uranus	"The seventh planet from the sun, Uranus is an ice giant."
 Neptune	"The eighth and last planet from the sun, Neptune is an ice giant."
-Pluto	"Once considered the ninth planet, Pluto is now considered a dwarf planet. Along with many of the trans-Neptunian dwarf planets, Pluto is part of the solar system's defensive 'early warning' system, with a listening post on its largest moon, Charon."
+Pluto	"Once considered the ninth planet, Pluto is now classified as a dwarf planet. Along with many of the trans-Neptunian dwarf planets, Pluto is part of the solar system's defensive 'early warning' system, with a listening post on its largest moon, Charon."
 Emergency Protocols	"It is standard practice for a ship's captain to establish a set of emergency actions to be used in the event the ship is compromised. Typically such 'emergency protocols' include measures to incapacitate, eject, or kill intruders, as well as to render the ship unusable by such invaders."
 Space Marines	"The Space Marines is an arm of the Space Force."
 Deneb Separatists	"Anti-corporate ideologues advocating for Deneb IV's independence from the Space Authority."
@@ -2994,7 +3000,7 @@ The Gangway-backdrop is in Space Station Gangway, Aft-Airlock-Room, and Staging 
 Understand "pressurized" and "bridge" and "gangway" and "tube" and "inflated" as gangway-backdrop.
 
 The Space Station Omicron-5 is a backdrop. "Space Station Omicron-5 is a huge spindle-shaped structure, spinning eternally to generate the coriolis force that simulates gravity."
-The Space Station Omicron-5 is in Space Station Gangway, Aft-Airlock-Room, Staging Area, Spacewalk 1, Spacewalk 2, and Spacewalk 3.
+The Space Station Omicron-5 is in Space Station Gangway, Aft-Airlock-Room, Staging Area, Spacewalk 1, Spacewalk 2, Spacewalk 3, and the Bridge.
 
 The SS Usagi is a backdrop. "[If location is space station gangway]The SS Usagi looks ungainly, as a vessel that travels in vacuum typically does, but it's truly a beautiful ship. The aft airlock faces you.[otherwise if location is onboard and boarding the ship is not happening]The SS Usagi is quiet, its engines still, even as it hurtles through space.[otherwise if location is onboard]The SS Usagi is quiet except for the hum of its life support system.[otherwise]As an out-of-atmosphere vessel, The SS Usagi has a hull dotted with the many devices and machines that keep the ship running.[end if]". Understand "ship" and "spaceship" and "starship" as SS Usagi. 
 
@@ -3214,10 +3220,19 @@ Instead of informing the shipboard computer about something when location is the
 Instead of telling the shipboard computer about something when location is the bridge:
 	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;
 
-Player aware of melted helm is a truth state that varies
+Player aware of melted helm is a truth state that varies.
+
+Check closing the helm:
+	try closing the helm access panel instead;
+
+Check opening the helm:
+	try opening the helm access panel instead;
+	
+Check unlocking the helm with something:
+	try unlocking the helm access panel with the second noun instead;
 
 The access panel keyhole is part of the helm access panel. It is privately-named. It is scenery. The printed name is "keyhole".  "It's a small hex-shaped hole."
-Understand "keyhole" as the access panel keyhole.
+Understand "keyhole", "aperture", "hex-shaped/-- hole" as the access panel keyhole.
 
 To say state of helm access panel:
 	If the helm access panel is closed:
@@ -3450,7 +3465,7 @@ Every turn while protocols-in-progress is true:
 	decrement reboot-countdown;
 	if reboot-countdown is 0:
 		now protocols-in-progress is false;
-		now turns left is 60;
+		now turns left is 100;
 		now end-game is true;
 		now protocols-activated is true;
 		talk about cs-end-game-protocols;
@@ -3471,7 +3486,7 @@ After going to operations deck for the first time:
 Fore blue button is a button in operations. It is scenery. It is privately-named. The printed name is "blue button". "It's a blue button."
 Understand "blue" and "button" as fore blue button.
 
-The equipment trunk is a container in Operations. The equipment trunk blocks the Midship Door. It is closed, locked, and lockable. "A large equipment trunk lies on the midship door, blocking it." [The mass of the equipment trunk is 150.] The description is "It's a large black trunk with an electronic lock. You need the correct code to open it."
+The equipment trunk is a container in Operations. The equipment trunk blocks the Midship Door. It is closed, locked, and lockable. "A large equipment trunk lies on the midship door, blocking it." [The mass of the equipment trunk is 150.] The description is "It's a large black trunk with an electronic lock. Generally you need a special RF device to open one of these."
 
 Check taking the equipment trunk when gravity > 1:
 	say "The trunk is far too heavy to lift by yourself." instead;
@@ -3517,7 +3532,7 @@ Instead of rerouting power:
 	say "You lack the necessary expertise to do that safely.";
 
 Instead of examining midship door when location is operations:
-	say "[description of midship door] Set in the frame of the door is a blue button."
+	say "[description of midship door] Set in the frame of the door is a blue button[if the equipment trunk blocks the midship door]. A large equipment trunk is lying on the door, blocking it[end if]."
 	
 The gravity control is a part of the environmental console. The description is "The gravity dial can be set from 1 to 10. It is set to [gravity].". Understand "gravity/-- dial" as gravity control.
 
@@ -5232,6 +5247,10 @@ Instead of going starboard from Spacewalk 2 when Got Past Debris is false and fl
 	activate the table of floating hints;
 	try looking;
 	
+Understand "grab [something]" as taking.
+Instead of taking the hook 2:
+	say "The hook is just a little too far away to grab.";
+	
 Instead of going when floating is true:
 	say "Floating as you are, you can't move in any direction.";
 	
@@ -5381,7 +5400,7 @@ After going to a room (called R2) when player is wearing vac suit and not mag-bo
 		
 External vent is in Spacewalk 3. It is scenery. The external vent can be either stuck or unstuck. The external vent is stuck. The description is "[if stuck]The hole is almost entirely closed by a sliding cover, but a small gap remains, held open by a tiny piece of debris.[otherwise]The hole is now entirely closed.[end if]".
 
-The tiny piece of debris is in the external vent.
+The tiny piece of debris is in the external vent. The description is "It's like a small piece of debris, only smaller.".
 
 After taking the tiny piece of debris when the external vent is stuck:
 	say "The vent slides all the way shut.";
@@ -6468,7 +6487,7 @@ Carry out abouting:
 	say banner text;
 	say the list of extension credits;
 	say paragraph break;
-	say "Thanks for great playtesting goes to: Garry Warrick, Mike Russo, Peter Gross, Drew Cook, Stu Dobbie, and Jade.";
+	say "Thanks for great playtesting goes to: Garry Francis, Mike Russo, Peter Gross, Drew Cook, Stu Dobbie, and Jade.";
 	say "Special thanks to Laura Taalman for so many great ideas and improvements.";
 	say line break;
 	say "Also Steve Meretzky.";
@@ -6482,7 +6501,7 @@ When play begins:
 		Now Arvax's security code is 2;
 		Now Mulgrew's security code is 3;
 		
-include property checking by emily short;
+include property checking by emily short.
 		
 Show blank subjects is always false.
 

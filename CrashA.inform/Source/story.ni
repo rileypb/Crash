@@ -2556,7 +2556,7 @@ To report on ship:
 		print "'Friend, if I were to start the fusion engine with the fuel injection you've specified, the ship would explode. Are you sure there is no other option to save the people of New Da Nang?'" as Arvax near communications console;
 		tip "If you really want to blow up the ship, enter 'Arvax, self-destruct' to start the countdown from 10, or press the test button in the engine room.";
 	otherwise if last-moves is false:
-		print "'Looks like the ship is ready to fly! Quick! I've plotted evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and touch the command console to activate command mode! Say [']computer, execute[']'[line break]" as Arvax near communications console;
+		print "'Looks like the ship is ready to fly! Quick! I've plotted evasive maneuvers but the command needs to be given from the bridge! I've reenabled command mode! Get to the bridge and touch the command console to activate it! Say [']computer, execute[']'[line break]" as Arvax near communications console;
 		now last-moves is true;
 		now turns left is 10;
 		think "Not much time!";
@@ -3215,16 +3215,16 @@ After examining the command console:
 	tip "You can 'touch command console' to touch your palm to it.";
 	
 Instead of touching the command console:
-	print "Unauthorized access attempted. This event has been logged by security.[line break]" as shipboard computer near captain's chair;
+	print "Command mode is presently unavailable.[line break]" as shipboard computer near captain's chair;
 	
-Instead of answering the shipboard computer that something when location is the bridge:
+[Instead of answering the shipboard computer that something when location is the bridge:
 	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;
 	
 Instead of informing the shipboard computer about something when location is the bridge:
 	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;
 	
 Instead of telling the shipboard computer about something when location is the bridge:
-	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;
+	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;]
 
 Player aware of melted helm is a truth state that varies.
 
@@ -3312,9 +3312,9 @@ After deciding the scope of the player when location is Bridge and computer-rebo
 	
 Rebooting is an action applying to nothing. Understand "reboot" as rebooting.
 
-Persuasion rule when asking the shipboard computer to try doing something other than helping and location is bridge and command mode activated is false:
+[Persuasion rule when asking the shipboard computer to try doing something other than helping and location is bridge and command mode activated is false:
 	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;
-	persuasion fails;
+	persuasion fails;]
 
 Check player rebooting:
 	say "You can't reboot yourself." instead;
@@ -3991,7 +3991,7 @@ Instead of inserting something that is not the microwavable dinner into the micr
 	say "That's not something you can heat in the microwave.";
 
 The closet is a container in the Galley. It is scenery. It is closed and openable. "A closet with a folding door, set into the bulkhead. It is [if closet is open]open[otherwise]closed[end if]."
-The folding door is a part of the closet. The description is "The folding door is part of the closet. It is [if closet is open]open[otherwise]closed[end if].".
+The folding door is a part of the closet. The description is "The folding door is part of the closet. It is [if closet is open]open, revealing a plethora of MREs[otherwise]closed[end if].".
 
 Instead of doing something other than examining to the folding door:
 	now the noun is the closet;
@@ -3999,6 +3999,12 @@ Instead of doing something other than examining to the folding door:
 
 An MRE is a kind of thing. An MRE is edible. The description is "A regulation Meal Ready-to-Eat. One perk of not going on missions is you don't have to eat these things." The indefinite article is "an".
 10 MREs is in the closet. 
+
+Instead of doing something other than examining to the MREs:
+	say "The MREs are not important to the story.";
+
+Instead of doing something other than examining to the microwavable dinner:
+	say "The microwavable dinner is not important to the story.";
 
 A microwavable dinner is in the closet. The description is "Spiced ham in some kind of sauce. Ugh."
 Understand "meal" as the microwavable dinner.
@@ -5218,37 +5224,12 @@ Instead of doing something other than examining to the hull:
 
 The large piece of debris is a thing in Spacewalk 2. It is scenery. The description is "This approximately 4' diameter chunk of debris seems to be made up of plastic and other non-metallic materials. It must have been travelling at quite a speed to embed itself in the hull like it did.".
 
-The small piece of debris is a thing in Spacewalk 2. "It looks like you could break off a small piece of debris." The description is "It seems like a chunk of what might have been terracotta tile before it was blown up.";
-
-Instead of attacking or taking the small piece of debris when the small piece of debris is not handled: 
-	say "You break off a piece of the debris.";
-	now the player carries the small piece of debris;
-	
-Breaking off is an action applying to one thing. Understand "break off [the small piece of debris]" as breaking off.
-
-Check breaking off the small piece of debris:
-	if location is spacewalk 2 and the small piece of debris is handled:
-		say "There are no more easy pieces to break off." instead;
-	otherwise if the location is not spacewalk 2:
-		say "There is nothing here to break off." instead;
-
-Carry out breaking off the small piece of debris:
-	now the player carries the small piece of debris;
-	
-Report breaking off the small piece of debris:
-	Say "You break off a piece of the debris.";
-	
-Does the player mean climbing the small piece of debris:
-	It is very unlikely;
 	
 Does the player mean climbing the large piece of debris:
 	It is very likely;
 	
 Does the player mean climbing the explosion:
 	It is very unlikely;
-	
-Instead of climbing the small piece of debris:
-	Try going starboard;
 	
 Instead of climbing the large piece of debris:
 	Try going starboard;
@@ -5263,8 +5244,6 @@ Instead of going starboard from Spacewalk 2 when Got Past Debris is false and fl
 	Now broke debris is true;
 	Now room modifier is "floating";
 	Now the large piece of debris is nowhere;
-	if the small piece of debris is not handled:
-		now the small piece of debris is nowhere;
 	activate the table of floating hints;
 	try looking;
 	
@@ -5421,7 +5400,7 @@ After going to a room (called R2) when player is wearing vac suit and not mag-bo
 		
 External vent is in Spacewalk 3. It is scenery. The external vent can be either stuck or unstuck. The external vent is stuck. The description is "[if stuck]The hole is almost entirely closed by a sliding cover, but a small gap remains, held open by a tiny piece of debris.[otherwise]The hole is now entirely closed.[end if]".
 
-The tiny piece of debris is in the external vent. The description is "It's like a small piece of debris, only smaller.".
+The tiny piece of debris is in the external vent. The description is "It's a very small piece of debris, likely from the destruction of the space station.".
 
 After taking the tiny piece of debris when the external vent is stuck:
 	say "The vent slides all the way shut.";
@@ -5814,6 +5793,10 @@ Instead of touching the command console when last-moves is true:
 	now command mode activated is true;
 
 executing is an action applying to nothing. Understand "execute" as executing.
+
+Persuasion rule when asking the shipboard computer to try executing when location is bridge and command mode activated is false:
+	print "Command mode is presently unavailable.[line break]" as computer near player;
+	persuasion fails;
 
 Persuasion rule when asking the shipboard computer to try executing when location is bridge and command mode activated is true:
 	now last-moves is false;

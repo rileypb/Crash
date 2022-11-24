@@ -7,12 +7,6 @@
         <result xml:space="preserve">
 
 
-Luna Spacewerks Company has no description.
-Orenascopol Thrax has no description.
-Gemini has no description.
-Eramik has no description.
-Typing it on has no description.
-
 Crash
 An Interactive Disaster by Phil Riley
 Release 18 / Serial number 221124 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
@@ -29,6 +23,9 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
             <child nodeId="node-1189"></child>
             <child nodeId="node-1325"></child>
             <child nodeId="node-2203"></child>
+            <child nodeId="node-3276"></child>
+            <child nodeId="node-3274"></child>
+            <child nodeId="node-3260"></child>
             <child nodeId="node-1298"></child>
             <child nodeId="node-1305"></child>
             <child nodeId="node-1323"></child>
@@ -36,7 +33,24 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
             <child nodeId="node-2205"></child>
             <child nodeId="node-1660"></child>
             <child nodeId="node-1485"></child>
+            <child nodeId="node-3258"></child>
         </children>
+    </item>
+    <item nodeId="node-3258">
+        <command xml:space="preserve">use toolbox</command>
+        <result xml:space="preserve">The word "use" is too ambiguous for me. Try something more precise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3259"></child>
+        </children>
+    </item>
+    <item nodeId="node-3259">
+        <command xml:space="preserve">use screwdriver on wrench</command>
+        <result xml:space="preserve">The word "use" is too ambiguous for me. Try something more precise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1485">
         <command xml:space="preserve">test win</command>
@@ -3136,10 +3150,8 @@ You add an item ("close the vent") to your to-do list.
 &gt;[16] take gum
 You unstick the chewing gum from the repair corps uniform.
 
-The chewing gum has become stuck to the toolbox.
-
 &gt;[17] chew gum
-You can't chew the gum when it's stuck to the toolbox.
+You put the chewing gum in your mouth.
 
 &gt;[18] u
 
@@ -3374,7 +3386,7 @@ A large equipment trunk lies on the midship door, blocking it.
 &gt;[52] move trunk
 You push the trunk clear of the door.
 
-A man's voice comes over comms: "Come in, Usagi, Come in, Usagi."
+A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 [Finally, another person! I'm saved!]
 
@@ -3387,7 +3399,7 @@ You dial the gravity to 1.
 &gt;[54] press button
 The door slides open.
 
-A man's voice comes over comms: "Usagi, are you there?"
+A man's voice comes over comms: "If there's anyone on the Usagi, please respond!"
 
 
 &gt;[55] d
@@ -3552,19 +3564,19 @@ The alien ambassador from the planet Blow'k-bibben-Gordo ambles toward you from 
 &gt;[90] z
 Time passes.
 
-The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
+The ambassador asks if you are performing some sort of religious ceremony.
 
 &gt;[91] z
 Time passes.
 
 Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required.
 
-The ambassador inquires whether you are interested in a game of Bocci.
+The ambassador introduces himself as Br'gun-te'elkner-ipg'nun.
 
 &gt;[92] z
 Time passes.
 
-The ambassador offers you a bit of celery.
+The ambassador asks where Admiral Smithers can be found.
 
 &gt;[93] z
 Time passes.
@@ -3883,9 +3895,7 @@ The access panel is set in the bulkhead to the left of the door. It is open, lea
 The panel holds a row of fresh fuses.
 
 &gt;[133] put gum in hole
-(first taking the chewing gum)
-You unstick the chewing gum from the toolbox.
-
+(first spitting out the gum)
 You push the gum into the hole.
 [I hope this works.]
 
@@ -4376,6 +4386,7 @@ You cross out an item ("adjust fuel injection specification") on your to-do list
 [167] og &gt; 1
 </commentary>
         <children><child nodeId="node-2547"></child>
+            <child nodeId="node-3250"></child>
             <child nodeId="node-2373"></child>
         </children>
     </item>
@@ -4426,7 +4437,8 @@ You hear someone speaking aft of here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2722"></child>
+        <children><child nodeId="node-3076"></child>
+            <child nodeId="node-2722"></child>
             <child nodeId="node-2376"></child>
         </children>
     </item>
@@ -4555,6 +4567,221 @@ This is where all of the support activity for the bridge occurs. There are large
 
 
 You can see an equipment trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3076">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+You can see an equipment trunk (closed) here.
+
+Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3077"></child>
+        </children>
+    </item>
+    <item nodeId="node-3077">
+        <command xml:space="preserve">ask arvax about ship</command>
+        <result xml:space="preserve">(the ss usagi)
+"Looks like the ship is ready to fly! Quick! I've plotted evasive maneuvers but the command needs to be given from the bridge! I've reenabled command mode! Get to the bridge and touch the command console to activate it! Say 'computer, execute'"
+[Not much time!]
+
+Impact in 9.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3078"></child>
+        </children>
+    </item>
+    <item nodeId="node-3078">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Bridge
+This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. To port you can see the blue-white disk of Deneb. Ahead, the moon New Da Nang looms steadily larger and larger before you.
+ 
+The pilot's and navigator's chairs sit before the large helm console. The captain's chair, with command console, sits halfway between them and operations further aft.
+
+You hear someone speaking aft of here.
+
+Impact in 8.
+
+Attention: current trajectory intersects the moon New Da Nang. Please correct course.
+
+The moon of New Da Nang looms ever larger on the forward viewscreen.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3079"></child>
+        </children>
+    </item>
+    <item nodeId="node-3079">
+        <command xml:space="preserve">computer, execute</command>
+        <result xml:space="preserve">Command mode is presently unavailable.
+
+Impact in 7.
+
+The moon of New Da Nang looms ever larger on the forward viewscreen.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3080"></child>
+        </children>
+    </item>
+    <item nodeId="node-3080">
+        <command xml:space="preserve">touch console</command>
+        <result xml:space="preserve">Welcome, Captain. What are your orders?
+Impact in 6.
+
+The moon of New Da Nang looms ever larger on the forward viewscreen.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3081"></child>
+        </children>
+    </item>
+    <item nodeId="node-3081">
+        <command xml:space="preserve">computer, execute</command>
+        <result xml:space="preserve">Yes, Captain. Executing evasive maneuvers.
+
+The ship pulls out of its dive toward New Da Nang, delivering a g-force that forces the breath out of you despite the intertial dampers. Soon you are turned around and headed for open space.
+
+Diverting communications to the bridge.
+
+Arvax comes over comms: "Directing SS Usagi to Deneb III. Rendezvous with retrieval crew in approximately twenty-eight minutes.
+
+"Sergeant Screwdriver, this couldn't have happened without you. You deserve to be a hero on New Da Nang, but unfortunately we need to keep this incident secret, as will no doubt be emphasized at your debriefing.
+
+"You are to be especially commended for your judgment in determining the correct course of action when presented with a difficult choice. We have determined that Captain Mulgrew has been working with the separatists and was involved in the Omicron-5 bombing. She has been apprehended and will face the most severe justice permitted by the Space Authority.
+
+"Now, soldier, time to relax. The crew will be there soon to pick you up."
+
+You relax in the captain's chair and reflect on your accomplishment. At the end of the day, you can barely sleep, as the newest member of the 95th Mechanical Division Special Maintenance Force. Adventure at last!
+
+
+
+    *** You have saved New Da Nang, the SS Usagi, and yourself! ***
+
+
+In that game you scored 11 out of a possible 11, in 163 turns.
+
+For your heroism in the face of almost certain death, we award you one point each for:
+- fixing the aft airlock door
+- closing the vent
+- fixing the microwave oven
+- fixing the equipment cabinet in the starboard-side crew quarters
+- fixing the storage unit in the port-side crew quarters
+- fixing the fusion engine
+- fixing the captain's door
+- adjusting the fuel injection specification correctly
+
+Additionally! We hereby award you one point for saving the SS Usagi, another point for saving yourself, and finally one more point for saving the moon New Da Nang! Congratulations!
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3250">
+        <command xml:space="preserve">accessibility on</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3251"></child>
+        </children>
+    </item>
+    <item nodeId="node-3251">
+        <command xml:space="preserve">access on</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3252"></child>
+        </children>
+    </item>
+    <item nodeId="node-3252">
+        <command xml:space="preserve">accessibility</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3253"></child>
+        </children>
+    </item>
+    <item nodeId="node-3253">
+        <command xml:space="preserve">access</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3254"></child>
+        </children>
+    </item>
+    <item nodeId="node-3254">
+        <command xml:space="preserve">accessible on</command>
+        <result xml:space="preserve">Accessibility on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3255"></child>
+        </children>
+    </item>
+    <item nodeId="node-3255">
+        <command xml:space="preserve">x diagram</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+Input 1 is Oganesson. Input 2 is Anti-Helium, which is injected into the first input, producing Unobtainium. Input 3 is Tachyon Crystals, which is injected into the Unobtainium, producing Red Matter. Input 3 is Oganesson, which is injected into the Red Matter, producing Liquid Copernicium. The final product of the injection process is Liquid Copernicium.
+The possible inputs are Anti-Helium, Oganesson, Red Matter, Tachyon Crystals, and Unobtainium. There are two additional possible outputs: Liquid Copernicium and Void Matter.
+
+Tip: Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3256"></child>
+        </children>
+    </item>
+    <item nodeId="node-3256">
+        <command xml:space="preserve">accessible off</command>
+        <result xml:space="preserve">Accessibility off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3257"></child>
+        </children>
+    </item>
+    <item nodeId="node-3257">
+        <command xml:space="preserve">x diagram</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 AH  3 TC  4 Og
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Og &gt;&gt; Un &gt;&gt; RM &gt;&gt; LC  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION VALID
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -6242,6 +6469,326 @@ caller: "You there, Usagi? We don't have much time."
     <item nodeId="node-1304">
         <command xml:space="preserve">set gravity control to 1</command>
         <result xml:space="preserve">You dial the gravity to 1.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3260">
+        <command xml:space="preserve">purloin uge</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3261"></child>
+        </children>
+    </item>
+    <item nodeId="node-3261">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Universal Game Emulator
+  some chewing gum (being chewed)
+  a To-Do list
+  a repair corps uniform (being worn)
+  a toolbox
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3264"></child>
+        </children>
+    </item>
+    <item nodeId="node-3264">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3265"></child>
+        </children>
+    </item>
+    <item nodeId="node-3265">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 18 / Serial number 221124 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+[Better get a move on], you think.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3266"></child>
+        </children>
+    </item>
+    <item nodeId="node-3266">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3267"></child>
+        </children>
+    </item>
+    <item nodeId="node-3267">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3268"></child>
+        </children>
+    </item>
+    <item nodeId="node-3268">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and lies face down on the floor.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 18 / Serial number 221124 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship.
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3269"></child>
+        </children>
+    </item>
+    <item nodeId="node-3269">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required. There is also an oxygen leak due to a jammed vent cover on the external hull.
+
+You add an item ("close the vent") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3270"></child>
+        </children>
+    </item>
+    <item nodeId="node-3270">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You faintly hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3271"></child>
+        </children>
+    </item>
+    <item nodeId="node-3271">
+        <command xml:space="preserve">press red</command>
+        <result xml:space="preserve">You press the Cook button on the microwave oven. Nothing happens, but it's unclear why.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3272"></child>
+        </children>
+    </item>
+    <item nodeId="node-3272">
+        <command xml:space="preserve">purloin uge</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3273"></child>
+        </children>
+    </item>
+    <item nodeId="node-3273">
+        <command xml:space="preserve">play super mario</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3274">
+        <command xml:space="preserve">play planetfall</command>
+        <result xml:space="preserve">You don't have that game
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3275"></child>
+        </children>
+    </item>
+    <item nodeId="node-3275">
+        <command xml:space="preserve">play planetfall on uge</command>
+        <result xml:space="preserve">You don't have that game
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3276">
+        <command xml:space="preserve">play mario</command>
+        <result xml:space="preserve">You don't have that game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3277"></child>
+        </children>
+    </item>
+    <item nodeId="node-3277">
+        <command xml:space="preserve">purloin ugr</command>
+        <result xml:space="preserve">There seems to be no such object anywhere in the model world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3278"></child>
+        </children>
+    </item>
+    <item nodeId="node-3278">
+        <command xml:space="preserve">purloin uge</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3279"></child>
+        </children>
+    </item>
+    <item nodeId="node-3279">
+        <command xml:space="preserve">play mario</command>
+        <result xml:space="preserve">You don't have that game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3280"></child>
+        </children>
+    </item>
+    <item nodeId="node-3280">
+        <command xml:space="preserve">play planetfall</command>
+        <result xml:space="preserve">You don't have that game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3281"></child>
+        </children>
+    </item>
+    <item nodeId="node-3281">
+        <command xml:space="preserve">play planetfall on uge</command>
+        <result xml:space="preserve">You don't have that game.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3282"></child>
+        </children>
+    </item>
+    <item nodeId="node-3282">
+        <command xml:space="preserve">purloin planetfall</command>
+        <result xml:space="preserve">Which do you mean, the copy of Planetfall or Gangway?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3283"></child>
+        </children>
+    </item>
+    <item nodeId="node-3283">
+        <command xml:space="preserve">copy</command>
+        <result xml:space="preserve">[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3284"></child>
+        </children>
+    </item>
+    <item nodeId="node-3284">
+        <command xml:space="preserve">purloin planetfall</command>
+        <result xml:space="preserve">(the copy of Planetfall)
+[Purloined.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3285"></child>
+        </children>
+    </item>
+    <item nodeId="node-3285">
+        <command xml:space="preserve">play planetfall on uge</command>
+        <result xml:space="preserve">PLANETFALL
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1983 by Infocom, Inc. All rights reserved.
+PLANETFALL is a registered trademark of Infocom, Inc.
+Release 39 / Serial number 880501
+
+Another routine day of drudgery aboard the Stellar Patrol Ship Feinstein. This morning's assignment for a certain lowly Ensign Seventh Class: scrubbing the filthy metal deck at the port end of Level Nine. With your Patrol-issue self-contained multi-purpose all-weather scrub brush you shine the floor with a diligence born of the knowledge that at any moment dreaded Ensign First Class Blather, the bane of your shipboard existence, could appear.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3286"></child>
+        </children>
+    </item>
+    <item nodeId="node-3286">
+        <command xml:space="preserve">q</command>
+        <result xml:space="preserve">You stop playing Planetfall. Time to save the ship.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+⇒ Tip: Type "help" to learn about this game, and interactive fiction in general.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

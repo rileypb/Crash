@@ -1675,6 +1675,15 @@ Instead of doing something to a dummy-backdrop (this is the don't worry about a 
 
 Book 8 - Actions
 
+Using is an action applying to one thing. Understand "use [something]" as using.
+Using it on is an action applying to two things. Understand "use [something] on [something]" as using it on.
+
+Check using:
+	say "The word 'use' is too ambiguous for me. Try something more precise.";
+
+Check using something on:
+	say "The word 'use' is too ambiguous for me. Try something more precise.";
+
 Understand "hear" as listening.
 
 Understand "search under [something]" as looking under.
@@ -1949,6 +1958,10 @@ Instead of taking off something when the noun is not wearable:
 Chapter 13 - Playing
 
 Played Planetfall already is a truth state that varies.
+
+Playing is an action applying to one topic. Understand "play [text]" as playing.
+Check playing a topic:
+	say "You don't have that game. To play a game you need two things: a physical medium containing the game, and an emulator to play it on.";
 
 Playing it on is an action applying to two things. Understand "play [something] on/with [something]" and "play [something]" as playing it on.
 
@@ -2532,7 +2545,7 @@ To say problems description:
 		say "I'm trying to divert the ship from its collision course with New Da Nang, but there are some problems: [problems]";
 
 After saying hello to Arvax when talking about cs-end-game-reboot:
-	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now.'[paragraph break]" as Arvax near communications console;
+	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now. Unfortunately, it seems Mulgrew has dropped connection.'[paragraph break]" as Arvax near communications console;
 	reset turns in state;
 
 To decide whether ship is in self-destruct mode:
@@ -2610,7 +2623,7 @@ For asking for attention by Arvax while talking about cs-end-game-protocols:
 cs-end-game-protocols-said-hello is a truth state that varies.
 
 After saying hello to Arvax when talking about cs-end-game-protocols and cs-end-game-protocols-said-hello is false:
-	print "'Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation.'[paragraph break]" as Arvax near communications console;
+	print "'Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation. Unfortunately it seems Mulgrew has dropped connection.'[paragraph break]" as Arvax near communications console;
 	now cs-end-game-protocols-said-hello is true;
 	report on ship-protocols;
 	reset turns in state;
@@ -4492,7 +4505,7 @@ The piece of note paper is readable. The description is "[the readable text]". T
 
 Rule for printing room description details of the engineering uniform: omit contents in listing;
 
-The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "The Universal Game Emulator, or 'UGE', can play any game ever produced for any system, provided you have a cassette, disk, cartridge, dvd, sd card, or memory crystal with the game executable.".  Understand "UGE", "MAME" as Universal Game Emulator.
+The port-side equipment cabinet contains the Universal Game Emulator. The description of Universal Game Emulator is "The Universal Game Emulator, or 'UGE', can play any game ever produced for any system, provided you have a cassette, disk, cartridge, dvd, sd card, or memory crystal with the game executable.".  Understand "UGE", "MAME" as Universal Game Emulator. The indefinite article of the universal game emulator is "a".
 
 The port-side bed is in the port-side crew quarters. it is privately-named. The printed name is "bunk bed". It is scenery. The description is "A fairly typical military bunk bed." Understand "bunk" and "bed" as the port-side bed.
 The port-side top bunk is a part of the port-side bed. It is a supporter. It is enterable. It is privately-named. The printed name is "top bunk". It is improper-named. The description is "This bunk is, like the other, made up with regulation precision." Understand "top bunk" as the port-side top bunk. 
@@ -6254,7 +6267,7 @@ Carry out helping with commands:
 	- [bold type]vacuum[roman type][line break]
 	- [bold type]vent[roman type][line break]
 	
-	A note on fixing things: you don't need to fiddle with screwdrivers and screws. Instead, say what you mean.";
+	A note on fixing things: you don't need to fiddle with screwdrivers and screws. Instead, say what you want to do.";
 	
 Carry out helping with speech:
 	say "There are a few commands that allow you to talk to other characters you meet. These are:
@@ -6505,7 +6518,7 @@ When play begins:
 		Now Arvax's security code is 2;
 		Now Mulgrew's security code is 3;
 		
-include property checking by emily short.
+[include property checking by emily short.]
 		
 Show blank subjects is always false.
 

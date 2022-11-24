@@ -3526,10 +3526,13 @@ Carry out examining communications console:
 
 The power systems console is a thing in Operations. It is scenery. The description is "[The power systems console] controls the power for the entire craft allowing, for instance, for power to be rerouted away from non-essential systems and to more essential systems such as life support or defensive systems."
 
-Rerouting power is an action applying to nothing. Understand "reroute the/-- power" and "route the/-- power" as rerouting power.
+Rerouting power is an action applying to nothing. Understand "reroute the/-- power" and "route the/-- power" and "set the/-- power" and "adjust the/-- power" as rerouting power.
 
-Instead of rerouting power:
+Instead of rerouting power when the location is the operations deck:
 	say "You lack the necessary expertise to do that safely.";
+	
+Instead of rerouting power:
+	say "You don't see any way to do that.";
 
 Instead of examining midship door when location is operations:
 	say "[description of midship door] Set in the frame of the door is a blue button[if the equipment trunk blocks the midship door]. A large equipment trunk is lying on the door, blocking it[end if]."
@@ -3552,11 +3555,17 @@ Report jumping when gravity < 4:
 Check setting something to a topic when the noun is not the gravity control:
 	say "[We] [can't set] [regarding the noun][those] to anything." instead;
 	
+Check setting the gravity control to a topic when the location is not the operations deck:
+	say "You don't see a gravity control here.";
+	
 Carry out setting the gravity control to a topic:
 	now gravity is the number understood;
 	
 Report setting the gravity control to a topic:
 	say "You dial the gravity to [gravity].";
+	
+Instead of doing something other than examining to the communications console:
+	say "The communications console will pick up and relay communications automatically. No reason to do anything with it.";
 	
 Deneb III Naval Command is a room. "This is a dummy description.".
 

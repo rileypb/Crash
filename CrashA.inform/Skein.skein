@@ -23,7 +23,150 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1003"></child>
             <child nodeId="node-1189"></child>
+            <child nodeId="node-1298"></child>
+            <child nodeId="node-1305"></child>
         </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">set gravity control to 1</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1306"></child>
+        </children>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">jrb</command>
+        <result xml:space="preserve">Reboot complete.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">set gravity control to 1</command>
+        <result xml:space="preserve">You dial the gravity to 1.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">x communications</command>
+        <result xml:space="preserve">The communications console is used for all communications, including long-range subspace and short-range radio communications. A readout displays the connections on each channel: "channel 1 -- Deneb III Marine Command, channel 2 -- No Connection, channel 3 -- No Connection."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1298">
+        <command xml:space="preserve">reroute power</command>
+        <result xml:space="preserve">You don't see any way to do that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1299"></child>
+        </children>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve">jrb</command>
+        <result xml:space="preserve">Reboot complete.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1300"></child>
+        </children>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">reroute power</command>
+        <result xml:space="preserve">You lack the necessary expertise to do that safely.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1301"></child>
+        </children>
+    </item>
+    <item nodeId="node-1301">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">There's an equipment trunk blocking the door.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">set gravity to 1</command>
+        <result xml:space="preserve">You got it. Physics has been changed at your whim.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Operations Deck
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">set gravity control to 1</command>
+        <result xml:space="preserve">You dial the gravity to 1.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1189">
         <command xml:space="preserve">jrb</command>
@@ -48,6 +191,7 @@ A large equipment trunk lies on the midship door, blocking it.
             <child nodeId="node-1270"></child>
             <child nodeId="node-1193"></child>
             <child nodeId="node-1235"></child>
+            <child nodeId="node-1287"></child>
             <child nodeId="node-1262"></child>
         </children>
     </item>
@@ -116,6 +260,118 @@ You hear someone speaking aft of here.
     <item nodeId="node-1268">
         <command xml:space="preserve">x usagi</command>
         <result xml:space="preserve">The SS Usagi is quiet except for the hum of its life support system.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1287">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1288"></child>
+        </children>
+    </item>
+    <item nodeId="node-1288">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">It seems to be locked.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1289"></child>
+        </children>
+    </item>
+    <item nodeId="node-1289">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">⇒ Really, the equipment trunk isn't important to the story, other than it blocks the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1290"></child>
+        </children>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Operations Deck
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1291"></child>
+        </children>
+    </item>
+    <item nodeId="node-1291">
+        <command xml:space="preserve">push trunk</command>
+        <result xml:space="preserve">You push the trunk clear of the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1292"></child>
+        </children>
+    </item>
+    <item nodeId="node-1292">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">⇒ Really, the equipment trunk isn't important to the story.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1293"></child>
+        </children>
+    </item>
+    <item nodeId="node-1293">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't open that with your bare hands.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1294"></child>
+        </children>
+    </item>
+    <item nodeId="node-1294">
+        <command xml:space="preserve">touch console</command>
+        <result xml:space="preserve">Which do you mean, the communications console, the environmental console, or the power systems console?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1295"></child>
+        </children>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">power systems</command>
+        <result xml:space="preserve">You feel nothing unexpected.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1296"></child>
+        </children>
+    </item>
+    <item nodeId="node-1296">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are doorways aft and port, to the engine room and machine room respectively.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1297"></child>
+        </children>
+    </item>
+    <item nodeId="node-1297">
+        <command xml:space="preserve">reroute power</command>
+        <result xml:space="preserve">You lack the necessary expertise to do that safely.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

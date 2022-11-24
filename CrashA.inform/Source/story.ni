@@ -2819,7 +2819,7 @@ Space Authority is a subject. The description is "subject".
 The Space Force is a subject. The description is "subject".
 Pollux star is a subject. The description is "subject".
 [Explosion is a subject. It is not familiar. The description is "subject".]
-Location of the ship is a subject. The description is "subject". Understand "navigation", "navigate", "course", "trajectory" as location of the ship.
+Location of the ship is a subject. The description is "subject". Understand "navigation", "navigate", "course", "trajectory", "position" as location of the ship.
 Captain Jane Mulgrew is a woman. The description is "dummy description". She is familiar.
 The Deneb separatists is a subject. The description is "subject". Understand "terrorists", "rebels" as Deneb separatists.
 New Da Nang is a subject. The description is "subject".
@@ -2838,7 +2838,7 @@ Uranus is a subject. The description is "subject".
 Neptune is a subject. The description is "subject".
 Pluto is a subject. The description is "subject".
 Cygnus is a subject. The description is "subject".
-Milky Way is a subject. The description is "subject".
+Milky Way is a subject. The description is "subject". Understand "galaxy" as Milky Way.
 Life support is a subject. The description is "subject".
 Hull Integrity is a subject. The description is "subject".
 Pollux III is a subject. The description is "subject".
@@ -2854,6 +2854,9 @@ Destroying the ship is a subject. Understand "destruction", "destruct", "self-de
 Luna Spacewerks Company is a subject. It is unfamiliar.
 The microwave oven is familiar.
 The starboard-side equipment cabinet is familiar.
+Orenascopol Thrax is a subject. It is unfamiliar.
+Gemini is a subject. It is unfamiliar. 
+Eramik is a subject. It is unfamiliar. Understand "moon of pollux iii" as Eramik.
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
@@ -2861,7 +2864,7 @@ Table of Computer Subjects
 dt-subject (a thing)	dt-text-mulgrew (a text)	dt-text-arvax (a text)
 Arvax	"Classified personnel data on [Arvax]: Master Sergeant Arvax has had a distinguished career in the Space Marines, but has come under scrutiny in recent years for alleged sympathies with separatist factions on Deneb IV. Military Intelligence has so far declined to move on Arvax, but urges commanding officers to exercise discretion in their dealings with him, and to remain vigilant for any suspicious behavior."	"Classified personnel data on [Arvax]: Master Sergeant Arvax has had a distinguished career in the Space Marines, with a top-secret deployment with Military Intelligence. He is currently posing as a separatist sympathizer on Deneb IV."
 SS Usagi	"The SS Usagi is a light frigate in the Deneb system, with a crew of five including the captain. It is currently helmed by Captain Jane Mulgrew.[familiarize Captain Jane Mulgrew] The ship's main drive is a Luna Spacewerks Parsec VI.[familiarize Luna Spacewerks Parsec VI][familiarize Luna Spacewerks Company]"	--
-Captain Jane Mulgrew	"Captain Mulgrew is one of the most decorated captains in the Deneb sector.[familiarize Deneb sector] She was the second-youngest graduate of the Orion Marine Academy[familiarize Orion Marine Academy]. She received command of the SS Usagi[familiarize SS Usagi] after successfully leading the retaking of the capital of Pollux VI from Irion invaders from the moon of Pollux III."	--
+Captain Jane Mulgrew	"Captain Mulgrew is one of the most decorated captains in the Deneb sector.[familiarize Deneb sector] She was the second-youngest graduate of the Orion Marine Academy[familiarize Orion Marine Academy]. She received command of the SS Usagi[familiarize SS Usagi] after successfully leading the retaking of the capital of Pollux VI from [familiarize Irion]Irion invaders from the moon of Pollux III."	--
 Deneb System	"The planetary system orbiting the star Deneb consists of seven planets, of which the second and fourth are suitable for large-scale settlement, though they are not habitable without artificial intervention. There are sizable human populations on Deneb II[familiarize Deneb II] and Deneb IV[familiarize Deneb IV], as well as on the moon New Da Nang[familiarize New Da Nang]. There is also a small military settlement on Deneb III[familiarize Deneb III planet]."	--
 Deneb IV	"Deneb IV, founded by anti-corporate ideologues who split off from Deneb II, has from the start had a popular separatist movement.[familiarize Deneb II]"	--
 Operation Dalmatian  	""	"Operation Dalmatian is a top secret operation to infiltrate the Deneb IV separatist movement. The primary operative is [Arvax], who has been playing double agent to ingratiate himself with the terrorist leadership. Among other successes, he has confirmed that as many as three Space Marine captains are compromised by the separatists, although he has not been able to positively identify these captains."
@@ -2883,7 +2886,8 @@ Void Matter	"Void Matter is essentially vacuum condensed into matter, according 
 Delphi Engine Controls LLC	"Delphi Engine Controls LLC is an engine parts manufacturer based on Tethys, moon of Saturn."
 Space Authority	"The Space Authority is the governing body of most human-controlled space. Its military is known as the Space Force. The Space Authority is a socialist society with a representative democracy."
 The Space Force	"The Space Force is the military arm of The Space Authority."
-Pollux star	"Pollux is the brightest star in the Earth constellation of Gemini."
+Pollux star	"Pollux is the brightest star in the Earth constellation of Gemini[familiarize Gemini]."
+Gemini	"One of the thirteen zodiac constellations seen from Earth."
 Fuel Injection	"Starship fuel injection is the process of 'injecting' one substance into another, creating a third substance at a higher energy level. See 'Substance Injection'[familiarize substance injection]."
 Explosion	"There seems to have been some sort of explosion on Space Station Omicron-5 that ejected the SS Usagi from dock."
 Beacon	"A radio beacon broadcasts a radio signal on a dedicated frequency which by Space Authority regulations is continuously monitored by all space vessels."
@@ -2911,7 +2915,8 @@ Pluto	"Once considered the ninth planet, Pluto is now classified as a dwarf plan
 Emergency Protocols	"It is standard practice for a ship's captain to establish a set of emergency actions to be used in the event the ship is compromised. Typically such 'emergency protocols' include measures to incapacitate, eject, or kill intruders, as well as to render the ship unusable by such invaders."
 Space Marines	"The Space Marines is an arm of the Space Force."
 Deneb Separatists	"Anti-corporate ideologues advocating for Deneb IV's independence from the Space Authority."
-New Da Nang	"New Da Nang is a moon of Deneb II. It is the home of famous composer Orenascopol Thrax."
+New Da Nang	"New Da Nang is a moon of Deneb II. It is the home of famous composer Orenascopol Thrax[familiarize Orenascopol Thrax]."
+Orenascopol Thrax	"Possibly the most famous musician of the 30th century, Orenascopol Thrax is responsible for the composition 'Please I Really Need Some $$$'."
 The Moon	"The moon of Earth, often called simply 'The Moon', is famously the first extraterrestrial body inhabited by humans."
 Bertie the Bear	"Bertie the Bear™ is a children's toy sold by Interstellar Kids Incorporated. It is notable for its superior optical recognition."	--
 Deneb sector	"A portion of space containing the stars Deneb, XB-546J, GF-195A, and numerous other minor stars."
@@ -2933,9 +2938,10 @@ Milky Way	"The Milky Way is the galaxy that includes the Solar System, and the s
 Life Support	"Life support systems are all functioning satisfactorily."
 Fusion Engine	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Company][familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
 Hull Integrity	"Despite the recent battering from the destruction of Space Station Omicron-5, hull integrity remains at 90%."
-Pollux III	"Pollux III, now uninhabitable due to intense radiation, was once the home of the Irion race, who now live on the single moon of Pollux III."
-Irion	"A sentient race of silicon-based insectoids originally from Pollux III. Their homeworld was destroyed in an industrial accident, leaving only the Irion who had settled on their planet's moon."
-Pollux VI	"A human-settled planet which is contested by the Irion."
+Pollux III	"Pollux III, now uninhabitable due to intense radiation, was once the home of the [familiarize Irion]Irion race, who now live on the largest moon of Pollux III, [familiarize Eramik]Eramik."
+Irion	"A sentient race of silicon-based insectoids originally from [familiarize Pollux III]Pollux III. Their homeworld was destroyed in an industrial accident, leaving only the Irion who had settled on their planet's moon, Eramik[familiarize Eramik]."
+Eramik	"The largest moon of Pollux III, settled by the [familiarize Irion]Irion."
+Pollux VI	"A human-settled planet which is contested by the [familiarize Irion]Irion."
 Engine status	"The SS Usagi employs a Luna Spacewerks Parsec VI[familiarize Luna Spacewerks Company][familiarize Luna Spacewerks Parsec VI]. [if fusion engine is broken]The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.[otherwise]The shipboard engine is functioning normally.[end if]"
 Gravity-subject	"The gravity is currently set to [gravity]."
 Corporal Delores Franck	"Corporal Delores Franck is deployed on the SS Usagi. For further information, contact the Enlistment Office on Space Station Omicron-5."
@@ -5086,6 +5092,12 @@ The examine containers rule does nothing when the noun is the munitions compartm
 
 Understand "compartments", "gun", "cabinet", "glass" as munitions compartment. It is closed, locked and transparent. It is scenery.
 
+Instead of doing something to the munitions compartment for the third time:
+	say "Leave the munitions compartment alone. You will not win this game through your superior firepower.";
+
+Instead of doing something to the laser rifle for the third time:
+	say "Leave the laser rifle alone. You will not win this game through your superior firepower.";
+
 The laser rifle is in the munitions compartment. The description is "A red and black ferocious stick of death, the Syrinx 52-K is among the best rifles available today." Understand "rifles", "weapon", "weapons", "gun", "guns", "stick of death", "Syrinx" and "52-K" as the laser rifle.
 
 Instead of examining the Aft Airlock when the location is Staging Area: 
@@ -5348,7 +5360,7 @@ To decide whether mag-boots-on:
 	let MB be random magnetic boots which are part of VS;
 	decide on whether or not MB is switched on;
 
-Instead of going outside when location is an offboard room and destruct in progress is false:
+Instead of going outside when location is an offboard room and destruct in progress is false and location is not the space station gangway:
 	if mag-boots-on:
 		say "The mag boots keep you firmly attached to the hull.";
 	otherwise if the player carries the EVA transport line and attachment count > 0 or the location is room-tethered:
@@ -5379,7 +5391,7 @@ To end game destruct:
 		now the final result is noble suicide;
 		End the story saying "You died saving New Da Nang.";
 
-Instead of jumping when location is an offboard room:
+Instead of jumping when location is an offboard room and the location is not space station gangway:
 	if mag-boots-on:
 		Say "You can't even begin to jump in these mag boots.";
 	otherwise if destruct in progress is true:

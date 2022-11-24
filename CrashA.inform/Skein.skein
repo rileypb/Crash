@@ -12,7 +12,7 @@ Typing it on has no description.
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 18 / Serial number 221123 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 18 / Serial number 221124 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Space Station Gangway
 This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
@@ -21,10 +21,1111 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1527"></child>
+        <children><child nodeId="node-1003"></child>
+            <child nodeId="node-1189"></child>
         </children>
     </item>
-    <item nodeId="node-1527">
+    <item nodeId="node-1189">
+        <command xml:space="preserve">jrb</command>
+        <result xml:space="preserve">Reboot complete.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+            <child nodeId="node-1270"></child>
+            <child nodeId="node-1193"></child>
+            <child nodeId="node-1235"></child>
+            <child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">x trunk</command>
+        <result xml:space="preserve">It's a large black trunk with an electronic lock. Generally you need a special RF device to open one of these.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">open it</command>
+        <result xml:space="preserve">It seems to be locked.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1264"></child>
+        </children>
+    </item>
+    <item nodeId="node-1264">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Bridge
+This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.
+ 
+The pilot's and navigator's chairs sit before the large helm console. The captain's chair, with command console, sits halfway between them and operations further aft.
+
+You hear someone speaking aft of here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1265"></child>
+        </children>
+    </item>
+    <item nodeId="node-1265">
+        <command xml:space="preserve">x embers</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1266"></child>
+        </children>
+    </item>
+    <item nodeId="node-1266">
+        <command xml:space="preserve">station</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1267"></child>
+        </children>
+    </item>
+    <item nodeId="node-1267">
+        <command xml:space="preserve">x station</command>
+        <result xml:space="preserve">Space Station Omicron-5 is a huge spindle-shaped structure, spinning eternally to generate the coriolis force that simulates gravity.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1268"></child>
+        </children>
+    </item>
+    <item nodeId="node-1268">
+        <command xml:space="preserve">x usagi</command>
+        <result xml:space="preserve">The SS Usagi is quiet except for the hum of its life support system.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">(addressing the caller)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">move trunk</command>
+        <result xml:space="preserve">You push the trunk clear of the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1241"></child>
+        </children>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+You can see an equipment trunk (closed) here.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">ask arvax about ship</command>
+        <result xml:space="preserve">(the ss usagi)
+"I'm trying to divert the ship from its collision course with New Da Nang, but there are some problems: there is some physical issue with the engine and the fuel injection specification for the fusion engine is incorrect."
+
+You add an item ("adjust fuel injection specification") to your to-do list.
+
+You add an item ("fix the engine") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+You can see an equipment trunk (closed) here.
+
+Attention: current trajectory intersects the moon New Da Nang. Please correct course.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">x console</command>
+        <result xml:space="preserve">Which do you mean, the communications console, the environmental console, or the power systems console?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">environmental</command>
+        <result xml:space="preserve">The environmental console contains the controls that deal with the comfort of the occupants, including temperature, pressure, and gravity. The gravity dial can be set from 1 to 10. It is set to 5.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">x dial</command>
+        <result xml:space="preserve">The gravity dial can be set from 1 to 10. It is set to 5.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">set dial to 1</command>
+        <result xml:space="preserve">You dial the gravity to 1.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">ask computer about gravity</command>
+        <result xml:space="preserve">The gravity is currently set to 1.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">x temperature</command>
+        <result xml:space="preserve">It's a comfortable 295 degrees Kelvin.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">x pressure</command>
+        <result xml:space="preserve">The pressure is right in the middle of safe territory at 30 inHg.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">x comms</command>
+        <result xml:space="preserve">The communications console is used for all communications, including long-range subspace and short-range radio communications. A readout displays the connections on each channel: "channel 1 -- Deneb III Marine Command, channel 2 -- No Connection, channel 3 -- No Connection."
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">x connections</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">x command</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">x arvax</command>
+        <result xml:space="preserve">The caller is not here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">x captain</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">x console</command>
+        <result xml:space="preserve">Which do you mean, the communications console, the environmental console, or the power systems console?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">x power</command>
+        <result xml:space="preserve">The power systems console controls the power for the entire craft allowing, for instance, for power to be rerouted away from non-essential systems and to more essential systems such as life support or defensive systems.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1258"></child>
+        </children>
+    </item>
+    <item nodeId="node-1258">
+        <command xml:space="preserve">set power</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1259"></child>
+        </children>
+    </item>
+    <item nodeId="node-1259">
+        <command xml:space="preserve">reroute power</command>
+        <result xml:space="preserve">You lack the necessary expertise to do that safely.
+
+Attention: current trajectory intersects the moon New Da Nang. Please correct course.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+        </children>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">route power</command>
+        <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">(addressing the caller)
+"You're back! Great job rebooting the computer -- I'm getting telemetry now."
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">ask arvax about ship</command>
+        <result xml:space="preserve">(the ss usagi)
+"I'm trying to divert the ship from its collision course with New Da Nang, but there are some problems: there is some physical issue with the engine and the fuel injection specification for the fusion engine is incorrect."
+
+You add an item ("adjust fuel injection specification") to your to-do list.
+
+You add an item ("fix the engine") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+            <child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">move trunk</command>
+        <result xml:space="preserve">You push the trunk clear of the door.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+You can see an equipment trunk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">ask arvax about ship</command>
+        <result xml:space="preserve">(the ss usagi)
+"I'm trying to divert the ship from its collision course with New Da Nang, but there's a problem: the fuel injection specification for the fusion engine is incorrect."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">read list</command>
+        <result xml:space="preserve">You have the following items on your to-do list: fix the microwave, fix the cabinet, and adjust fuel injection specification. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are doorways aft and port, to the engine room and machine room respectively.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engine Room
+This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+
+There is a large diagram of the fuel injection process on the forward wall. There is a large button below the diagram labeled "Test".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">x diagram</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 --  3 --  4 --
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     -- &gt;&gt; -- &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">Og &gt; 1</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 --  3 --  4 --
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Og &gt;&gt; -- &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">rm &gt; 2</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 RM  3 --  4 --
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Og &gt;&gt; -- &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+Attention: current trajectory intersects the moon New Da Nang. Please correct course.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1205"></child>
+        </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">ah &gt; 2</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 AH  3 --  4 --
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Og &gt;&gt; Un &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">rm &gt; 3</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 AH  3 RM  4 --
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Og &gt;&gt; Un &gt;&gt; -- &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">tc &gt; 3</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 AH  3 TC  4 --
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Og &gt;&gt; Un &gt;&gt; RM &gt;&gt; --  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION INCOMPLETE
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">og  &gt; 4</command>
+        <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
+
+       Input: 2 AH  3 TC  4 Og
+                ||    ||    ||
+             ===vv====vv====vv===
+Input 1:     Og &gt;&gt; Un &gt;&gt; RM &gt;&gt; LC  Output
+             ====================
+
+        FUEL INJECTION SPECIFICATION VALID
+
+Key:    --   empty input or output
+        AH   Anti-Helium
+        LC   Liquid Copernicium*
+        Og   Oganesson
+        RM   Red Matter            
+        TC   Tachyon Crystals
+        Un   Unobtainium
+        VM   Void Matter*
+
+        * this substance can only be produced, not input.
+
+⇒ Use "substance &gt; input" to set each input. For instance, "Un &gt; 3" sets input 3 to Unobtainium. You may also use "set &lt;input&gt; to &lt;substance&gt;" for the same effect. Use "disconnect &lt;input&gt;" to disconnect an input.
+
+You cross out an item ("adjust fuel injection specification") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1209"></child>
+        </children>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are doorways aft and port, to the engine room and machine room respectively.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1211"></child>
+        </children>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">ask arvax about ship</command>
+        <result xml:space="preserve">(the ss usagi)
+"Looks like the ship is ready to fly! Quick! I've plotted evasive maneuvers but the command needs to be given from the bridge! Get to the bridge and touch the command console to activate command mode! Say 'computer, execute'"
+[Not much time!]
+
+Impact in 9.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1212"></child>
+        </children>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">x list</command>
+        <result xml:space="preserve">You have the following items on your to-do list: fix the microwave and fix the cabinet. You have finished the following: adjust fuel injection specification.
+
+Impact in 8.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Operations Deck
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Operations Deck
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Engineering Deck
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engine Room
+This where the combustion process is controlled. The aft wall is dominated by the operating panel section of the fusion engine. Monitoring electronics and controls cover the other two walls. A doorway opens forward to the Engineering Deck.
+
+There is a large diagram of the fuel injection process on the forward wall. There is a large button below the diagram labeled "Test".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1217"></child>
+        </children>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">x engine</command>
+        <result xml:space="preserve">(the fusion engine)
+The portion of the engine directly accessible from the engine room is a formidable machine. You wouldn't dare touch any of the various dials, components, hatches, etc. that adorn the surface.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1218"></child>
+        </children>
+    </item>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">x panel</command>
+        <result xml:space="preserve">Without a degree in fusion propulsion, trying to understand these controls is pointless.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">x electronics</command>
+        <result xml:space="preserve">Without a degree in fusion propulsion, trying to understand these controls is pointless.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1220"></child>
+        </children>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">gonear staging area</command>
+        <result xml:space="preserve">Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. It houses a number of vac suits in an open locker, and various munitions in locked compartments set into the walls. A ladder leads up into the rest of the ship. 
+Through the airlock windows you can see the gangway to Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+Attention: current trajectory intersects the moon New Da Nang. Please correct course.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1221"></child>
+        </children>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">ask computer about engine</command>
+        <result xml:space="preserve">(the brand-new JL-758)
+The JL-758 is a widely-used model of engine stabilizer produced by Luna Spacewerks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">ask computer about engine status</command>
+        <result xml:space="preserve">The SS Usagi employs a Luna Spacewerks Parsec VI. The shipboard engine is functioning normally.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1270">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Bridge
+This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.
+ 
+The pilot's and navigator's chairs sit before the large helm console. The captain's chair, with command console, sits halfway between them and operations further aft.
+
+You hear someone speaking aft of here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1271"></child>
+        </children>
+    </item>
+    <item nodeId="node-1271">
+        <command xml:space="preserve">x ember</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1272"></child>
+        </children>
+    </item>
+    <item nodeId="node-1272">
+        <command xml:space="preserve">x embers</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1273"></child>
+        </children>
+    </item>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">x explosion</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1274"></child>
+        </children>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The only obvious exit is aft (to operations deck).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">press blue button</command>
+        <result xml:space="preserve">A loud buzzer sounds and a red light flashes on the door, which stays resolutely shut.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Engineering Deck
+The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
+
+The engineering deck consists of a large console giving a comprehensive view of the physical status of the ship. There is an airlock to starboard. The operations deck continues forward from here, and there are doorways aft and port, to the engine room and machine room respectively.
+
+You hear someone speaking to fore.
+
+A device labeled "Suit Recharging Station" is here. It is shaped like a chair with nozzles protruding from either arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">x conole</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">x console</command>
+        <result xml:space="preserve">The engineering console is huge, boasting an incomprehensible array of controls and monitors of the physical state of the ship. You dare not mess with it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1280"></child>
+        </children>
+    </item>
+    <item nodeId="node-1280">
+        <command xml:space="preserve">x controls</command>
+        <result xml:space="preserve">Without a degree in starship engineering, trying to understand these controls is pointless.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1281"></child>
+        </children>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1282"></child>
+        </children>
+    </item>
+    <item nodeId="node-1282">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">It seems to be locked.
+
+Attention: current trajectory intersects the moon New Da Nang. Please correct course.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1283"></child>
+        </children>
+    </item>
+    <item nodeId="node-1283">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">It seems to be locked.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1284"></child>
+        </children>
+    </item>
+    <item nodeId="node-1284">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">⇒ Really, the equipment trunk isn't important to the story.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">push it</command>
+        <result xml:space="preserve">You push the trunk clear of the door.
+
+caller: "You there, Usagi? We don't have much time."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">ask arvax about the ship</command>
+        <result xml:space="preserve">(the ss usagi)
+You should say hello first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1191"></child>
+        </children>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">hello</command>
+        <result xml:space="preserve">(addressing the caller)
+You call out "Yes! I'm here! I'm here! What's going on?"
+
+The caller responds, "Ahoy there, SS Usagi, good to hear from you. Seems like you're a bit out of sorts, and we'd like to help you out. But before we get into that, who am I speaking to? Tell me about yourself."
+
+You tell the caller that you're from the repair corps.
+
+"Alright then, Sergeant Screwdriver, I'll fill you in. Space Station Omicron-5 was bombed by separatists from Deneb IV. By some miracle the Usagi was spared the worst of the blast; you were thrown clear of the station. Only problem is now you're hurtling towards New Da Nang, a heavily-populated moon of Deneb II. An impact there would kill not only you but potentially thousands of people more.
+
+ "So we've got some work to do. I'm Master Sergeant R. Mu Arvax -- you can ask the ship computer about me. I'm going to try and help you get this ship under control again. First we have to establish, though, what the ship is currently doing. Normally, I'd be able to tap into the ship diagnostics and controls from here on Deneb III, but something seems to have gone wrong. So I'm going to need your help. Are you up to the task?"
+
+[Sergeant Screwdriver, guy thinks he's funny.]
+
+"Yes sir!" you proclaim, despite his lame joke.
+
+"Great, great. Now let's get to work.
+
+ "The first thing I need you to do is reboot the system, using the computer. Once you do that, hopefully I'll be able to access ship controls. You'll have to use my access code: say 'compu--"
+
+Master Sergeant R. Mu Arvax's voice breaks up and another voice comes over comms. "SS Usagi, this is Captain Jane Mulgrew, please come in. Repeat, this is Captain Mulgrew of the SS Usagi, Usagi come in."
+
+[Somebody else?]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1003">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
 
@@ -40,10 +1141,10 @@ A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboa
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1528"></child>
+        <children><child nodeId="node-1004"></child>
         </children>
     </item>
-    <item nodeId="node-1528">
+    <item nodeId="node-1004">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">You enter the ship from the airlock. The inner door closes behind you.
 
@@ -55,10 +1156,10 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1529"></child>
+        <children><child nodeId="node-1005"></child>
         </children>
     </item>
-    <item nodeId="node-1529">
+    <item nodeId="node-1005">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">You climb the la--
 
@@ -88,7 +1189,7 @@ Press any key...
 
 Crash
 An Interactive Disaster by Phil Riley
-Release 18 / Serial number 221123 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 18 / Serial number 221124 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Staging Area
 This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
@@ -107,10 +1208,42 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1530"></child>
+        <children><child nodeId="node-1006"></child>
+            <child nodeId="node-1232"></child>
         </children>
     </item>
-    <item nodeId="node-1530">
+    <item nodeId="node-1232">
+        <command xml:space="preserve">x suit</command>
+        <result xml:space="preserve">A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently off. A gauge indicates the suit has 20 units of air left.
+[I always wanted one of these.]
+
+⇒ You can vent air by using "vent suit."
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required. There is also an oxygen leak due to a jammed vent cover on the external hull.
+
+You add an item ("close the vent") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">jrb</command>
+        <result xml:space="preserve">Reboot complete.
+
+Operations Deck
+This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
+
+⇒ You can always find out the current status by asking Arvax about the ship.
+
+
+A large equipment trunk lies on the midship door, blocking it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1006">
         <command xml:space="preserve">take gum</command>
         <result xml:space="preserve">You unstick the chewing gum from the repair corps uniform.
 
@@ -122,19 +1255,19 @@ The chewing gum has become stuck to the toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1531"></child>
+        <children><child nodeId="node-1007"></child>
         </children>
     </item>
-    <item nodeId="node-1531">
+    <item nodeId="node-1007">
         <command xml:space="preserve">chew gum</command>
         <result xml:space="preserve">You can't chew the gum when it's stuck to the toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1532"></child>
+        <children><child nodeId="node-1008"></child>
         </children>
     </item>
-    <item nodeId="node-1532">
+    <item nodeId="node-1008">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -144,19 +1277,19 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1533"></child>
+        <children><child nodeId="node-1009"></child>
         </children>
     </item>
-    <item nodeId="node-1533">
+    <item nodeId="node-1009">
         <command xml:space="preserve">read list</command>
         <result xml:space="preserve">You have the following items on your to-do list: fix the microwave, fix the cabinet, and close the vent. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1534"></child>
+        <children><child nodeId="node-1010"></child>
         </children>
     </item>
-    <item nodeId="node-1534">
+    <item nodeId="node-1010">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Starboard-Side Crew Quarters
@@ -168,28 +1301,28 @@ A pair of slippers peeks out from under the bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1535"></child>
+        <children><child nodeId="node-1011"></child>
         </children>
     </item>
-    <item nodeId="node-1535">
+    <item nodeId="node-1011">
         <command xml:space="preserve">x slippers</command>
         <result xml:space="preserve">These seem comfy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1536"></child>
+        <children><child nodeId="node-1012"></child>
         </children>
     </item>
-    <item nodeId="node-1536">
+    <item nodeId="node-1012">
         <command xml:space="preserve">take them</command>
         <result xml:space="preserve">As you lean to take the slippers, you notice something under the bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1537"></child>
+        <children><child nodeId="node-1013"></child>
         </children>
     </item>
-    <item nodeId="node-1537">
+    <item nodeId="node-1013">
         <command xml:space="preserve">look under bed</command>
         <result xml:space="preserve">You find a black trunk and move it out from under the bottom bunk.
 
@@ -202,19 +1335,19 @@ You can also see a black trunk (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1538"></child>
+        <children><child nodeId="node-1014"></child>
         </children>
     </item>
-    <item nodeId="node-1538">
+    <item nodeId="node-1014">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the black trunk, revealing a present.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1539"></child>
+        <children><child nodeId="node-1015"></child>
         </children>
     </item>
-    <item nodeId="node-1539">
+    <item nodeId="node-1015">
         <command xml:space="preserve">open present</command>
         <result xml:space="preserve">[I'll go to hell for this, but here goes...]
 
@@ -222,55 +1355,55 @@ You rip off the wrapping paper and open the box. Inside is a stuffed bear you re
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1540"></child>
+        <children><child nodeId="node-1016"></child>
         </children>
     </item>
-    <item nodeId="node-1540">
+    <item nodeId="node-1016">
         <command xml:space="preserve">x bear</command>
         <result xml:space="preserve">Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals. This bear's blindly staring eyes are unnerving.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1541"></child>
+        <children><child nodeId="node-1017"></child>
         </children>
     </item>
-    <item nodeId="node-1541">
+    <item nodeId="node-1017">
         <command xml:space="preserve">bear, hello</command>
         <result xml:space="preserve">Bertie the Bear™ has no batteries, apparently.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1542"></child>
+        <children><child nodeId="node-1018"></child>
         </children>
     </item>
-    <item nodeId="node-1542">
+    <item nodeId="node-1018">
         <command xml:space="preserve">talk to bear</command>
         <result xml:space="preserve">Bertie the Bear™ has no batteries, apparently.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1543"></child>
+        <children><child nodeId="node-1019"></child>
         </children>
     </item>
-    <item nodeId="node-1543">
+    <item nodeId="node-1019">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">There's no one here but you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1544"></child>
+        <children><child nodeId="node-1020"></child>
         </children>
     </item>
-    <item nodeId="node-1544">
+    <item nodeId="node-1020">
         <command xml:space="preserve">computer, hello</command>
         <result xml:space="preserve">The shipboard computer has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1545"></child>
+        <children><child nodeId="node-1021"></child>
         </children>
     </item>
-    <item nodeId="node-1545">
+    <item nodeId="node-1021">
         <command xml:space="preserve">bear, s</command>
         <result xml:space="preserve">Bertie the Bear™ has no batteries, apparently.
 
@@ -278,28 +1411,28 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1617"></child>
+        <children><child nodeId="node-1022"></child>
         </children>
     </item>
-    <item nodeId="node-1617">
+    <item nodeId="node-1022">
         <command xml:space="preserve">x bear</command>
         <result xml:space="preserve">Bertie the Bear™ is a massively popular toy. It accepts voice commands, and its eyes, actually advanced optical sensors, can differentiate between individuals. This bear's blindly staring eyes are unnerving.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1618"></child>
+        <children><child nodeId="node-1023"></child>
         </children>
     </item>
-    <item nodeId="node-1618">
+    <item nodeId="node-1023">
         <command xml:space="preserve">feel bear</command>
         <result xml:space="preserve">You feel nothing unexpected.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1619"></child>
+        <children><child nodeId="node-1024"></child>
         </children>
     </item>
-    <item nodeId="node-1619">
+    <item nodeId="node-1024">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Starboard-Side Crew Quarters
 All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
@@ -310,37 +1443,37 @@ You can also see a cardboard box (empty), some wrapping paper, and a black trunk
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1620"></child>
+        <children><child nodeId="node-1025"></child>
         </children>
     </item>
-    <item nodeId="node-1620">
+    <item nodeId="node-1025">
         <command xml:space="preserve">x note</command>
         <result xml:space="preserve">Written on the note is "Mail package to Mitchell ASAP".
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1621"></child>
+        <children><child nodeId="node-1026"></child>
         </children>
     </item>
-    <item nodeId="node-1621">
+    <item nodeId="node-1026">
         <command xml:space="preserve">x paper</command>
         <result xml:space="preserve">The paper, which is adorned with cartoon animals in primary colors prancing around the words "Happy Birthday", is ripped beyond repair.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1659"></child>
+        <children><child nodeId="node-1027"></child>
         </children>
     </item>
-    <item nodeId="node-1659">
+    <item nodeId="node-1027">
         <command xml:space="preserve">x eyes</command>
         <result xml:space="preserve">They're well disguised, but the eyes are clearly top-of-the-line optical sensors that you might see in more serious uses, such as in facial recognition devices.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1660"></child>
+        <children><child nodeId="node-1028"></child>
         </children>
     </item>
-    <item nodeId="node-1660">
+    <item nodeId="node-1028">
         <command xml:space="preserve">take eye</command>
         <result xml:space="preserve">[Am I really going to do this? Yes, yes, I am, apparently.]
 
@@ -350,28 +1483,28 @@ You try again more carefully with the second eye, and manage to produce an undam
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1661"></child>
+        <children><child nodeId="node-1029"></child>
         </children>
     </item>
-    <item nodeId="node-1661">
+    <item nodeId="node-1029">
         <command xml:space="preserve">x eye</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1662"></child>
+        <children><child nodeId="node-1030"></child>
         </children>
     </item>
-    <item nodeId="node-1662">
+    <item nodeId="node-1030">
         <command xml:space="preserve">x sensor</command>
         <result xml:space="preserve">The optical sensor is a small component with a two-pronged connector on the back and a blue metallic circle on the other.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1663"></child>
+        <children><child nodeId="node-1031"></child>
         </children>
     </item>
-    <item nodeId="node-1663">
+    <item nodeId="node-1031">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Junction
@@ -379,20 +1512,20 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1664"></child>
+        <children><child nodeId="node-1032"></child>
         </children>
     </item>
-    <item nodeId="node-1664">
+    <item nodeId="node-1032">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">The door stays shut as you try to go through it.
 [Almost bumped my head.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1665"></child>
+        <children><child nodeId="node-1033"></child>
         </children>
     </item>
-    <item nodeId="node-1665">
+    <item nodeId="node-1033">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Staging Area
@@ -408,10 +1541,10 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1666"></child>
+        <children><child nodeId="node-1034"></child>
         </children>
     </item>
-    <item nodeId="node-1666">
+    <item nodeId="node-1034">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -419,19 +1552,19 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1667"></child>
+        <children><child nodeId="node-1035"></child>
         </children>
     </item>
-    <item nodeId="node-1667">
+    <item nodeId="node-1035">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">The Captain's Door is a conventional, self-opening starship door. It is painted in the traditional red of a starship captain. It features a slot through which you may slide the appropriate access card. Beside the door is an access panel, which is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1668"></child>
+        <children><child nodeId="node-1036"></child>
         </children>
     </item>
-    <item nodeId="node-1668">
+    <item nodeId="node-1036">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Staging Area
@@ -447,10 +1580,10 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1669"></child>
+        <children><child nodeId="node-1037"></child>
         </children>
     </item>
-    <item nodeId="node-1669">
+    <item nodeId="node-1037">
         <command xml:space="preserve">wear suit</command>
         <result xml:space="preserve">(first taking the vac suit)
 You put on the vac suit.
@@ -459,19 +1592,19 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1670"></child>
+        <children><child nodeId="node-1038"></child>
         </children>
     </item>
-    <item nodeId="node-1670">
+    <item nodeId="node-1038">
         <command xml:space="preserve">drop trunk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1671"></child>
+        <children><child nodeId="node-1039"></child>
         </children>
     </item>
-    <item nodeId="node-1671">
+    <item nodeId="node-1039">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
 Junction
@@ -479,10 +1612,10 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1672"></child>
+        <children><child nodeId="node-1040"></child>
         </children>
     </item>
-    <item nodeId="node-1672">
+    <item nodeId="node-1040">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Starboard-Side Crew Quarters
@@ -494,19 +1627,19 @@ You can also see a cardboard box (empty), some wrapping paper, and a black trunk
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1673"></child>
+        <children><child nodeId="node-1041"></child>
         </children>
     </item>
-    <item nodeId="node-1673">
+    <item nodeId="node-1041">
         <command xml:space="preserve">take trunk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1674"></child>
+        <children><child nodeId="node-1042"></child>
         </children>
     </item>
-    <item nodeId="node-1674">
+    <item nodeId="node-1042">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Junction
@@ -514,10 +1647,10 @@ This is a busy place when the ship is populated. To port and starboard are the c
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1675"></child>
+        <children><child nodeId="node-1043"></child>
         </children>
     </item>
-    <item nodeId="node-1675">
+    <item nodeId="node-1043">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Staging Area
@@ -531,46 +1664,46 @@ What looks like part of an engine is stowed in a corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1676"></child>
+        <children><child nodeId="node-1044"></child>
         </children>
     </item>
-    <item nodeId="node-1676">
+    <item nodeId="node-1044">
         <command xml:space="preserve">drop trunk</command>
         <result xml:space="preserve">You place the black trunk near the airlock door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1677"></child>
+        <children><child nodeId="node-1045"></child>
         </children>
     </item>
-    <item nodeId="node-1677">
+    <item nodeId="node-1045">
         <command xml:space="preserve">stand on engine</command>
         <result xml:space="preserve">That's not something you can stand on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1678"></child>
+        <children><child nodeId="node-1046"></child>
         </children>
     </item>
-    <item nodeId="node-1678">
+    <item nodeId="node-1046">
         <command xml:space="preserve">stand on locker</command>
         <result xml:space="preserve">You get onto the vac suit locker.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1679"></child>
+        <children><child nodeId="node-1047"></child>
         </children>
     </item>
-    <item nodeId="node-1679">
+    <item nodeId="node-1047">
         <command xml:space="preserve">x panel</command>
         <result xml:space="preserve">The locker isn't close enough to the airlock door for you to see the component panel well.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1680"></child>
+        <children><child nodeId="node-1048"></child>
         </children>
     </item>
-    <item nodeId="node-1680">
+    <item nodeId="node-1048">
         <command xml:space="preserve">stand on trunk</command>
         <result xml:space="preserve">(first closing the black trunk)
 (getting off the vac suit locker)
@@ -578,10 +1711,10 @@ You get onto the black trunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1681"></child>
+        <children><child nodeId="node-1049"></child>
         </children>
     </item>
-    <item nodeId="node-1681">
+    <item nodeId="node-1049">
         <command xml:space="preserve">x panel</command>
         <result xml:space="preserve">The prominent features of the panel are two optical sensors. One of them has become partially detached and looks broken.
 
@@ -589,10 +1722,10 @@ You add an item ("fix the airlock door") to your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1682"></child>
+        <children><child nodeId="node-1050"></child>
         </children>
     </item>
-    <item nodeId="node-1682">
+    <item nodeId="node-1050">
         <command xml:space="preserve">replace sensor</command>
         <result xml:space="preserve">You remove the broken sensor and insert the fresh sensor into the empty socket.
 [There. That should do it.]
@@ -603,19 +1736,19 @@ You cross out an item ("fix the airlock door") on your to-do list.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1683"></child>
+        <children><child nodeId="node-1051"></child>
         </children>
     </item>
-    <item nodeId="node-1683">
+    <item nodeId="node-1051">
         <command xml:space="preserve">x list</command>
         <result xml:space="preserve">You have the following items on your to-do list: fix the microwave, fix the cabinet, and close the vent. You have finished the following: fix the airlock door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1684"></child>
+        <children><child nodeId="node-1052"></child>
         </children>
     </item>
-    <item nodeId="node-1684">
+    <item nodeId="node-1052">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">(first getting off the black trunk)
 
@@ -624,10 +1757,10 @@ You are in the aft airlock. Outside is the blackness of space, speckled with the
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1685"></child>
+        <children><child nodeId="node-1053"></child>
         </children>
     </item>
-    <item nodeId="node-1685">
+    <item nodeId="node-1053">
         <command xml:space="preserve">turn on boots</command>
         <result xml:space="preserve">You switch the Magnetic boots on.
 
@@ -635,20 +1768,20 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1686"></child>
+        <children><child nodeId="node-1054"></child>
         </children>
     </item>
-    <item nodeId="node-1686">
+    <item nodeId="node-1054">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">It's dangerous out there. I recommend saving the game first...
 ⇒ Use "save" to save the game, or go "out" again to continue without saving.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1687"></child>
+        <children><child nodeId="node-1055"></child>
         </children>
     </item>
-    <item nodeId="node-1687">
+    <item nodeId="node-1055">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Outside the Aft Airlock (vacuum)
@@ -660,10 +1793,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1688"></child>
+        <children><child nodeId="node-1056"></child>
         </children>
     </item>
-    <item nodeId="node-1688">
+    <item nodeId="node-1056">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">The obvious exits are fore, inside (to aft airlock) and outside.
 
@@ -671,29 +1804,29 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1689"></child>
+        <children><child nodeId="node-1057"></child>
         </children>
     </item>
-    <item nodeId="node-1689">
+    <item nodeId="node-1057">
         <command xml:space="preserve">und</command>
         <result xml:space="preserve">I'm not sure what you're trying to say. I might just not recognize the words you're using.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1690"></child>
+        <children><child nodeId="node-1058"></child>
         </children>
     </item>
-    <item nodeId="node-1690">
+    <item nodeId="node-1058">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Outside the Aft Airlock (vacuum)
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1691"></child>
+        <children><child nodeId="node-1059"></child>
         </children>
     </item>
-    <item nodeId="node-1691">
+    <item nodeId="node-1059">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Hull of the Usagi (vacuum)
@@ -707,10 +1840,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1692"></child>
+        <children><child nodeId="node-1060"></child>
         </children>
     </item>
-    <item nodeId="node-1692">
+    <item nodeId="node-1060">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You attempt to climb over the debris. Just when you think you're over, your foot catches, and you lose your hold. The result: you're floating about a foot from the hull, unable to make contact with your mag boots to pull yourself down. You're barely moving relative to the hull, but you're stuck here. The bright side? You broke down the debris enough that it's no longer a barrier.
 
@@ -725,10 +1858,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1693"></child>
+        <children><child nodeId="node-1061"></child>
         </children>
     </item>
-    <item nodeId="node-1693">
+    <item nodeId="node-1061">
         <command xml:space="preserve">grab hook</command>
         <result xml:space="preserve">The hook is just out of reach.
 
@@ -736,10 +1869,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1871"></child>
+        <children><child nodeId="node-1062"></child>
         </children>
     </item>
-    <item nodeId="node-1871">
+    <item nodeId="node-1062">
         <command xml:space="preserve">vent suit</command>
         <result xml:space="preserve">You vent a bit of air from your suit. It propels you just a tiny amount toward the hull, but it's enough. One agonizing minute later, you're attached to the hull again.
 
@@ -754,10 +1887,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1872"></child>
+        <children><child nodeId="node-1063"></child>
         </children>
     </item>
-    <item nodeId="node-1872">
+    <item nodeId="node-1063">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Outside the Engineering Airlock (vacuum)
@@ -771,10 +1904,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1873"></child>
+        <children><child nodeId="node-1064"></child>
         </children>
     </item>
-    <item nodeId="node-1873">
+    <item nodeId="node-1064">
         <command xml:space="preserve">take debris</command>
         <result xml:space="preserve">(the tiny piece of debris)
 The vent slides all the way shut.
@@ -789,10 +1922,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1874"></child>
+        <children><child nodeId="node-1065"></child>
         </children>
     </item>
-    <item nodeId="node-1874">
+    <item nodeId="node-1065">
         <command xml:space="preserve">x it</command>
         <result xml:space="preserve">It's like a small piece of debris, only smaller.
 
@@ -800,10 +1933,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1875"></child>
+        <children><child nodeId="node-1066"></child>
         </children>
     </item>
-    <item nodeId="node-1875">
+    <item nodeId="node-1066">
         <command xml:space="preserve">in</command>
         <result xml:space="preserve">Welcome back, visitor. I hope your spacewalk was uneventful.
 
@@ -814,10 +1947,10 @@ You are in the engineering airlock. Outside, the space to starboard looks so emp
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1876"></child>
+        <children><child nodeId="node-1067"></child>
         </children>
     </item>
-    <item nodeId="node-1876">
+    <item nodeId="node-1067">
         <command xml:space="preserve">in</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -831,29 +1964,29 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1877"></child>
+        <children><child nodeId="node-1068"></child>
         </children>
     </item>
-    <item nodeId="node-1877">
+    <item nodeId="node-1068">
         <command xml:space="preserve">sit</command>
         <result xml:space="preserve">(on the engineering console)
 That's not something you can sit down on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1878"></child>
+        <children><child nodeId="node-1069"></child>
         </children>
     </item>
-    <item nodeId="node-1878">
+    <item nodeId="node-1069">
         <command xml:space="preserve">sit in station</command>
         <result xml:space="preserve">The nozzles on either side of the chair connect with the suit. After a few moments, the machine emits a pleasant "ping", the nozzles retract, and you stand up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1879"></child>
+        <children><child nodeId="node-1070"></child>
         </children>
     </item>
-    <item nodeId="node-1879">
+    <item nodeId="node-1070">
         <command xml:space="preserve">x suit</command>
         <result xml:space="preserve">(the vac suit)
 A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently on. A gauge indicates the suit has 50 units of air left.
@@ -865,10 +1998,10 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1880"></child>
+        <children><child nodeId="node-1071"></child>
         </children>
     </item>
-    <item nodeId="node-1880">
+    <item nodeId="node-1071">
         <command xml:space="preserve">x suit</command>
         <result xml:space="preserve">(the vac suit)
 A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently on. A gauge indicates the suit has 50 units of air left.
@@ -876,10 +2009,10 @@ A puffy yellow suit with an attached helmet and magnetic boots. The gloves are m
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1950"></child>
+        <children><child nodeId="node-1072"></child>
         </children>
     </item>
-    <item nodeId="node-1950">
+    <item nodeId="node-1072">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Engineering Deck
 The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
@@ -892,146 +2025,146 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1951"></child>
+        <children><child nodeId="node-1073"></child>
         </children>
     </item>
-    <item nodeId="node-1951">
+    <item nodeId="node-1073">
         <command xml:space="preserve">ask computer about engineering</command>
         <result xml:space="preserve">Which do you mean, Engineering Deck or Engineering Airlock?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1952"></child>
+        <children><child nodeId="node-1074"></child>
         </children>
     </item>
-    <item nodeId="node-1952">
+    <item nodeId="node-1074">
         <command xml:space="preserve">deck</command>
         <result xml:space="preserve">I'm unable to give you any information about Engineering Deck.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1953"></child>
+        <children><child nodeId="node-1075"></child>
         </children>
     </item>
-    <item nodeId="node-1953">
+    <item nodeId="node-1075">
         <command xml:space="preserve">ask computer about hull integrity</command>
         <result xml:space="preserve">Despite the recent battering from the destruction of Space Station Omicron-5, hull integrity remains at 90%.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1954"></child>
+        <children><child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-1954">
+    <item nodeId="node-1076">
         <command xml:space="preserve">ask computer about life support</command>
         <result xml:space="preserve">Life support systems are all functioning satisfactorily.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1955"></child>
+        <children><child nodeId="node-1077"></child>
         </children>
     </item>
-    <item nodeId="node-1955">
+    <item nodeId="node-1077">
         <command xml:space="preserve">x console</command>
         <result xml:space="preserve">The engineering console is huge, boasting an incomprehensible array of controls and monitors of the physical state of the ship. You dare not mess with it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1956"></child>
+        <children><child nodeId="node-1078"></child>
         </children>
     </item>
-    <item nodeId="node-1956">
+    <item nodeId="node-1078">
         <command xml:space="preserve">mess with it</command>
         <result xml:space="preserve">I SAID YOU DARE NOT MESS WITH IT!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1957"></child>
+        <children><child nodeId="node-1079"></child>
         </children>
     </item>
-    <item nodeId="node-1957">
+    <item nodeId="node-1079">
         <command xml:space="preserve">x controls</command>
         <result xml:space="preserve">Without a degree in starship engineering, trying to understand these controls is pointless.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1958"></child>
+        <children><child nodeId="node-1080"></child>
         </children>
     </item>
-    <item nodeId="node-1958">
+    <item nodeId="node-1080">
         <command xml:space="preserve">x monitors</command>
         <result xml:space="preserve">Without a degree in starship engineering, trying to understand these controls is pointless.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1959"></child>
+        <children><child nodeId="node-1081"></child>
         </children>
     </item>
-    <item nodeId="node-1959">
+    <item nodeId="node-1081">
         <command xml:space="preserve">ask computer about status</command>
         <result xml:space="preserve">The SS Usagi employs a Luna Spacewerks Parsec VI. The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1960"></child>
+        <children><child nodeId="node-1082"></child>
         </children>
     </item>
-    <item nodeId="node-1960">
+    <item nodeId="node-1082">
         <command xml:space="preserve">ask computer about engine</command>
         <result xml:space="preserve">Which do you mean, the brand-new JL-758 or engine status?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1961"></child>
+        <children><child nodeId="node-1083"></child>
         </children>
     </item>
-    <item nodeId="node-1961">
+    <item nodeId="node-1083">
         <command xml:space="preserve">status</command>
         <result xml:space="preserve">The SS Usagi employs a Luna Spacewerks Parsec VI. The shipboard engine is currently non-functional. It needs a replacement JL-758 engine stabilizer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1962"></child>
+        <children><child nodeId="node-1084"></child>
         </children>
     </item>
-    <item nodeId="node-1962">
+    <item nodeId="node-1084">
         <command xml:space="preserve">ask computer about ship</command>
         <result xml:space="preserve">(the ss usagi)
 The SS Usagi is a light frigate in the Deneb system, with a crew of five including the captain. It is currently helmed by Captain Jane Mulgrew. The ship's main drive is a Luna Spacewerks Parsec VI.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1964"></child>
+        <children><child nodeId="node-1085"></child>
         </children>
     </item>
-    <item nodeId="node-1964">
+    <item nodeId="node-1085">
         <command xml:space="preserve">ask computer about jl-758</command>
         <result xml:space="preserve">The JL-758 is a widely-used model of engine stabilizer produced by Luna Spacewerks.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1965"></child>
+        <children><child nodeId="node-1086"></child>
         </children>
     </item>
-    <item nodeId="node-1965">
+    <item nodeId="node-1086">
         <command xml:space="preserve">ask computer about luna spacewerks</command>
         <result xml:space="preserve">Which do you mean, Luna Spacewerks Parsec VI or Luna Spacewerks Company?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1966"></child>
+        <children><child nodeId="node-1087"></child>
         </children>
     </item>
-    <item nodeId="node-1966">
+    <item nodeId="node-1087">
         <command xml:space="preserve">company</command>
         <result xml:space="preserve">Based on the moon of Earth, Luna Spacewerks is a leading supplier of engine parts to the Space Marines.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1967"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-1967">
+    <item nodeId="node-1088">
         <command xml:space="preserve">ask computer about moon</command>
         <result xml:space="preserve">The moon of Earth, often called simply "The Moon", is famously the first extraterrestrial body inhabited by humans.
 
@@ -1039,55 +2172,55 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1968"></child>
+        <children><child nodeId="node-1089"></child>
         </children>
     </item>
-    <item nodeId="node-1968">
+    <item nodeId="node-1089">
         <command xml:space="preserve">ask computer about earth</command>
         <result xml:space="preserve">The home planet of the human race, third planet from the star Sol. It is one of only a handful of habitable planets discovered by the human race.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1969"></child>
+        <children><child nodeId="node-1090"></child>
         </children>
     </item>
-    <item nodeId="node-1969">
+    <item nodeId="node-1090">
         <command xml:space="preserve">ask computer about sol</command>
         <result xml:space="preserve">A small unregarded yellow sun far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy. Sol, the home star of the human race, has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Sol also has numerous dwarf planets, of which the best known is Pluto, once classified as a planet.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2058"></child>
+        <children><child nodeId="node-1091"></child>
         </children>
     </item>
-    <item nodeId="node-2058">
+    <item nodeId="node-1091">
         <command xml:space="preserve">ask computer about pluto</command>
         <result xml:space="preserve">Once considered the ninth planet, Pluto is now classified as a dwarf planet. Along with many of the trans-Neptunian dwarf planets, Pluto is part of the solar system's defensive "early warning" system, with a listening post on its largest moon, Charon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2059"></child>
+        <children><child nodeId="node-1092"></child>
         </children>
     </item>
-    <item nodeId="node-2059">
+    <item nodeId="node-1092">
         <command xml:space="preserve">ask computer about charon</command>
         <result xml:space="preserve">I'm unable to give you any information about charon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2060"></child>
+        <children><child nodeId="node-1093"></child>
         </children>
     </item>
-    <item nodeId="node-2060">
+    <item nodeId="node-1093">
         <command xml:space="preserve">ask computer about neptune</command>
         <result xml:space="preserve">The eighth and last planet from the sun, Neptune is an ice giant.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2061"></child>
+        <children><child nodeId="node-1094"></child>
         </children>
     </item>
-    <item nodeId="node-2061">
+    <item nodeId="node-1094">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Engineering Deck
 The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system.
@@ -1100,28 +2233,28 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2062"></child>
+        <children><child nodeId="node-1095"></child>
         </children>
     </item>
-    <item nodeId="node-2062">
+    <item nodeId="node-1095">
         <command xml:space="preserve">x statio</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2063"></child>
+        <children><child nodeId="node-1096"></child>
         </children>
     </item>
-    <item nodeId="node-2063">
+    <item nodeId="node-1096">
         <command xml:space="preserve">x station</command>
         <result xml:space="preserve">It looks like a person might sit in it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2064"></child>
+        <children><child nodeId="node-1097"></child>
         </children>
     </item>
-    <item nodeId="node-2064">
+    <item nodeId="node-1097">
         <command xml:space="preserve">p</command>
         <result xml:space="preserve">
 Machine Room
@@ -1131,37 +2264,37 @@ There's a hand vac sitting on the counter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2065"></child>
+        <children><child nodeId="node-1098"></child>
         </children>
     </item>
-    <item nodeId="node-2065">
+    <item nodeId="node-1098">
         <command xml:space="preserve">x saws</command>
         <result xml:space="preserve">The machine room boasts an impressive array of tools, none of which you have call to use for now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2066"></child>
+        <children><child nodeId="node-1099"></child>
         </children>
     </item>
-    <item nodeId="node-2066">
+    <item nodeId="node-1099">
         <command xml:space="preserve">take hand</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2067"></child>
+        <children><child nodeId="node-1100"></child>
         </children>
     </item>
-    <item nodeId="node-2067">
+    <item nodeId="node-1100">
         <command xml:space="preserve">open drawer</command>
         <result xml:space="preserve">You open the machine room drawers, revealing a small key, a roll of electrical tape, a hex-shaped tool, and a fresh fuse.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2068"></child>
+        <children><child nodeId="node-1101"></child>
         </children>
     </item>
-    <item nodeId="node-2068">
+    <item nodeId="node-1101">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">small key: Taken.
 roll of electrical tape: Taken.
@@ -1170,10 +2303,10 @@ fresh fuse: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2069"></child>
+        <children><child nodeId="node-1102"></child>
         </children>
     </item>
-    <item nodeId="node-2069">
+    <item nodeId="node-1102">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -1187,10 +2320,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2070"></child>
+        <children><child nodeId="node-1103"></child>
         </children>
     </item>
-    <item nodeId="node-2070">
+    <item nodeId="node-1103">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Operations Deck
@@ -1207,10 +2340,10 @@ A man's voice comes over comms: "SS Usagi, come in! Is anyone there?"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2071"></child>
+        <children><child nodeId="node-1104"></child>
         </children>
     </item>
-    <item nodeId="node-2071">
+    <item nodeId="node-1104">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">(addressing the caller)
 You call out "Yes! I'm here! I'm here! What's going on?"
@@ -1239,10 +2372,10 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2072"></child>
+        <children><child nodeId="node-1105"></child>
         </children>
     </item>
-    <item nodeId="node-2072">
+    <item nodeId="node-1105">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">(addressing Captain Jane Mulgrew)
 Captain Mulgrew responds, "Hello there, Usagi. That's my ship you've got there. Be careful with her.
@@ -1257,37 +2390,37 @@ Master Sergeant R. Mu Arvax's voice comes back over the radio: "You there still,
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2073"></child>
+        <children><child nodeId="node-1106"></child>
         </children>
     </item>
-    <item nodeId="node-2073">
+    <item nodeId="node-1106">
         <command xml:space="preserve">ask arvax about mulgrew</command>
         <result xml:space="preserve">"Let me guess. She told you I'm a separatist stooge, right? I guess it's time to blow my cover. I've been cultivating that image for several years now to infiltrate Deneb IV. Here. Enter my access code: 'computer, access code 2' and look up 'Operation Dalmatian'."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2074"></child>
+        <children><child nodeId="node-1107"></child>
         </children>
     </item>
-    <item nodeId="node-2074">
+    <item nodeId="node-1107">
         <command xml:space="preserve">ask mulgrew about emergency</command>
         <result xml:space="preserve">"To prevent Arvax from seizing control of the ship remotely, we need to put the ship in a mode where it ignores all data communications. Voice radio will still be able to get through, but communications with the computer from outside will cease. You'll need to use my access code: say 'computer, access code 3'."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2075"></child>
+        <children><child nodeId="node-1108"></child>
         </children>
     </item>
-    <item nodeId="node-2075">
+    <item nodeId="node-1108">
         <command xml:space="preserve">computer, access code 3</command>
         <result xml:space="preserve">Welcome, Captain Jane Mulgrew. Logging you in.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2184"></child>
+        <children><child nodeId="node-1109"></child>
         </children>
     </item>
-    <item nodeId="node-2184">
+    <item nodeId="node-1109">
         <command xml:space="preserve">ask computer about trajectory</command>
         <result xml:space="preserve">Unable to access navigation system. Please reboot the computer.
 
@@ -1295,29 +2428,29 @@ Captain Mulgrew: "Calling the SS Usagi..."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2185"></child>
+        <children><child nodeId="node-1110"></child>
         </children>
     </item>
-    <item nodeId="node-2185">
+    <item nodeId="node-1110">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "Great ship. I hope we can save her. And you."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2186"></child>
+        <children><child nodeId="node-1111"></child>
         </children>
     </item>
-    <item nodeId="node-2186">
+    <item nodeId="node-1111">
         <command xml:space="preserve">ask computer about new da nang</command>
         <result xml:space="preserve">New Da Nang is a moon of Deneb II. It is the home of famous composer Orenascopol Thrax.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2187"></child>
+        <children><child nodeId="node-1112"></child>
         </children>
     </item>
-    <item nodeId="node-2187">
+    <item nodeId="node-1112">
         <command xml:space="preserve">ask computer about thrax</command>
         <result xml:space="preserve">I'm unable to give you any information about thrax.
 
@@ -1325,10 +2458,10 @@ Captain Mulgrew: "Calling the SS Usagi..."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2188"></child>
+        <children><child nodeId="node-1113"></child>
         </children>
     </item>
-    <item nodeId="node-2188">
+    <item nodeId="node-1113">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Operations Deck
 This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
@@ -1337,10 +2470,10 @@ A large equipment trunk lies on the midship door, blocking it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2189"></child>
+        <children><child nodeId="node-1114"></child>
         </children>
     </item>
-    <item nodeId="node-2189">
+    <item nodeId="node-1114">
         <command xml:space="preserve">x trunk</command>
         <result xml:space="preserve">It's a large black trunk with an electronic lock. Generally you need a special RF device to open one of these.
 
@@ -1348,19 +2481,19 @@ Master Sergeant R. Mu Arvax: "Hey, friend, we need to reboot the computer soon b
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2190"></child>
+        <children><child nodeId="node-1115"></child>
         </children>
     </item>
-    <item nodeId="node-2190">
+    <item nodeId="node-1115">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2191"></child>
+        <children><child nodeId="node-1116"></child>
         </children>
     </item>
-    <item nodeId="node-2191">
+    <item nodeId="node-1116">
         <command xml:space="preserve">unlock it</command>
         <result xml:space="preserve">You must specify what you want to unlock the equipment trunk with.
 
@@ -1368,19 +2501,19 @@ Captain Mulgrew: "Calling the SS Usagi..."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2306"></child>
+        <children><child nodeId="node-1117"></child>
         </children>
     </item>
-    <item nodeId="node-2306">
+    <item nodeId="node-1117">
         <command xml:space="preserve">move it</command>
         <result xml:space="preserve">You push the trunk clear of the door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2307"></child>
+        <children><child nodeId="node-1118"></child>
         </children>
     </item>
-    <item nodeId="node-2307">
+    <item nodeId="node-1118">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">The midship door is a square horizontal hatch, separating Operations Deck from the Galley. It is made of a strong black plastic/metal alloy. Set in the frame of the door is a blue button.
 
@@ -1388,39 +2521,39 @@ Master Sergeant R. Mu Arvax: "Hey, friend, we need to reboot the computer soon b
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2308"></child>
+        <children><child nodeId="node-1119"></child>
         </children>
     </item>
-    <item nodeId="node-2308">
+    <item nodeId="node-1119">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2309"></child>
+        <children><child nodeId="node-1120"></child>
         </children>
     </item>
-    <item nodeId="node-2309">
+    <item nodeId="node-1120">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Operations Deck
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2310"></child>
+        <children><child nodeId="node-1121"></child>
         </children>
     </item>
-    <item nodeId="node-2310">
+    <item nodeId="node-1121">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">The midship door is a square horizontal hatch, separating Operations Deck from the Galley. It is made of a strong black plastic/metal alloy. Set in the frame of the door is a blue button. A large equipment trunk is lying on the door, blocking it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2311"></child>
+        <children><child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-2311">
+    <item nodeId="node-1122">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Operations Deck
 This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.
@@ -1431,10 +2564,10 @@ Master Sergeant R. Mu Arvax: "Hey, friend, we need to reboot the computer soon b
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2432"></child>
+        <children><child nodeId="node-1123"></child>
         </children>
     </item>
-    <item nodeId="node-2432">
+    <item nodeId="node-1123">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Bridge
@@ -1448,28 +2581,28 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2433"></child>
+        <children><child nodeId="node-1124"></child>
         </children>
     </item>
-    <item nodeId="node-2433">
+    <item nodeId="node-1124">
         <command xml:space="preserve">x chair</command>
         <result xml:space="preserve">Which do you mean, the pilot's chair, the navigator's chair, or the captain's chair?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2434"></child>
+        <children><child nodeId="node-1125"></child>
         </children>
     </item>
-    <item nodeId="node-2434">
+    <item nodeId="node-1125">
         <command xml:space="preserve">captain</command>
         <result xml:space="preserve">Functional yet comfortable, it is every inch the chair of a commander. On the arm of the captain's chair is the command console, with which the captain commands the shipboard computer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2435"></child>
+        <children><child nodeId="node-1126"></child>
         </children>
     </item>
-    <item nodeId="node-2435">
+    <item nodeId="node-1126">
         <command xml:space="preserve">x command console</command>
         <result xml:space="preserve">The command console displays the red outline of a hand.
 
@@ -1477,19 +2610,19 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2436"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-2436">
+    <item nodeId="node-1127">
         <command xml:space="preserve">touch it</command>
         <result xml:space="preserve">Unauthorized access attempted. This event has been logged by security.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2437"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-2437">
+    <item nodeId="node-1128">
         <command xml:space="preserve">computer, help</command>
         <result xml:space="preserve">
 Helpful commands: 
@@ -1501,102 +2634,102 @@ Helpful commands:
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2438"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-2438">
+    <item nodeId="node-1129">
         <command xml:space="preserve">computer, asdfa</command>
         <result xml:space="preserve">Please present hand print to command console in order to activate command mode.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2566"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-2566">
+    <item nodeId="node-1130">
         <command xml:space="preserve">x helm</command>
         <result xml:space="preserve">(the helm table)
 The helm is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel which is closed. A hex-shaped aperture is probably the locking mechanism.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2567"></child>
+        <children><child nodeId="node-1131"></child>
         </children>
     </item>
-    <item nodeId="node-2567">
+    <item nodeId="node-1131">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2697"></child>
+        <children><child nodeId="node-1132"></child>
         </children>
     </item>
-    <item nodeId="node-2697">
+    <item nodeId="node-1132">
         <command xml:space="preserve">unlock it</command>
         <result xml:space="preserve">You must specify what you want to unlock the helm table with.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2698"></child>
+        <children><child nodeId="node-1133"></child>
         </children>
     </item>
-    <item nodeId="node-2698">
+    <item nodeId="node-1133">
         <command xml:space="preserve">unlock it with hex</command>
         <result xml:space="preserve">You unlock the helm access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2833"></child>
+        <children><child nodeId="node-1134"></child>
         </children>
     </item>
-    <item nodeId="node-2833">
+    <item nodeId="node-1134">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">Opening the helm access panel reveals an array of wiring and circuit boards.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2834"></child>
+        <children><child nodeId="node-1135"></child>
         </children>
     </item>
-    <item nodeId="node-2834">
+    <item nodeId="node-1135">
         <command xml:space="preserve">x it</command>
         <result xml:space="preserve">The helm is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel which is open, revealing a maze of wiring and circuit boards.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2835"></child>
+        <children><child nodeId="node-1136"></child>
         </children>
     </item>
-    <item nodeId="node-2835">
+    <item nodeId="node-1136">
         <command xml:space="preserve">x wiring</command>
         <result xml:space="preserve">There's a lot of it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2836"></child>
+        <children><child nodeId="node-1137"></child>
         </children>
     </item>
-    <item nodeId="node-2836">
+    <item nodeId="node-1137">
         <command xml:space="preserve">close it</command>
         <result xml:space="preserve">It isn't something you can close.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2837"></child>
+        <children><child nodeId="node-1138"></child>
         </children>
     </item>
-    <item nodeId="node-2837">
+    <item nodeId="node-1138">
         <command xml:space="preserve">close helm</command>
         <result xml:space="preserve">(the helm table)
 You close the helm access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2974"></child>
+        <children><child nodeId="node-1139"></child>
         </children>
     </item>
-    <item nodeId="node-2974">
+    <item nodeId="node-1139">
         <command xml:space="preserve">x helm</command>
         <result xml:space="preserve">(the helm table)
 The helm is a sloped table covered with cryptic readouts and touch controls. In the back is an access panel which is closed. A hex-shaped aperture is probably the locking mechanism.
@@ -1605,28 +2738,28 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2975"></child>
+        <children><child nodeId="node-1140"></child>
         </children>
     </item>
-    <item nodeId="node-2975">
+    <item nodeId="node-1140">
         <command xml:space="preserve">x aperture</command>
         <result xml:space="preserve">It's a small hex-shaped hole.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3114"></child>
+        <children><child nodeId="node-1141"></child>
         </children>
     </item>
-    <item nodeId="node-3114">
+    <item nodeId="node-1141">
         <command xml:space="preserve">put hex in hole</command>
         <result xml:space="preserve">You unlock the helm access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3254"></child>
+        <children><child nodeId="node-1142"></child>
         </children>
     </item>
-    <item nodeId="node-3254">
+    <item nodeId="node-1142">
         <command xml:space="preserve">close helm then open it</command>
         <result xml:space="preserve">(the helm table)
 That's already closed.
@@ -1635,10 +2768,10 @@ Opening the helm access panel reveals an array of wiring and circuit boards.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3255"></child>
+        <children><child nodeId="node-1143"></child>
         </children>
     </item>
-    <item nodeId="node-3255">
+    <item nodeId="node-1143">
         <command xml:space="preserve">close helm then open it</command>
         <result xml:space="preserve">(the helm table)
 You close the helm access panel.
@@ -1647,10 +2780,10 @@ It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3256"></child>
+        <children><child nodeId="node-1144"></child>
         </children>
     </item>
-    <item nodeId="node-3256">
+    <item nodeId="node-1144">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Bridge
 This is where the captain, navigator, and pilot all sit. Large viewscreens give a full view of the space around the ship. To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.
@@ -1661,37 +2794,37 @@ You hear someone speaking aft of here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3257"></child>
+        <children><child nodeId="node-1145"></child>
         </children>
     </item>
-    <item nodeId="node-3257">
+    <item nodeId="node-1145">
         <command xml:space="preserve">x screen</command>
         <result xml:space="preserve">To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3258"></child>
+        <children><child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-3258">
+    <item nodeId="node-1146">
         <command xml:space="preserve">x deneb</command>
         <result xml:space="preserve">Deneb is a blue-white spot off the port side of the ship.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3259"></child>
+        <children><child nodeId="node-1147"></child>
         </children>
     </item>
-    <item nodeId="node-3259">
+    <item nodeId="node-1147">
         <command xml:space="preserve">x station</command>
         <result xml:space="preserve">The space station is now just an expanding cloud of debris, receding behind the ship.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3408"></child>
+        <children><child nodeId="node-1148"></child>
         </children>
     </item>
-    <item nodeId="node-3408">
+    <item nodeId="node-1148">
         <command xml:space="preserve">x pilot</command>
         <result xml:space="preserve">(the pilot's chair)
 An ergonomically-countoured swivel chair designed for hours of stressful work.
@@ -1699,20 +2832,20 @@ An ergonomically-countoured swivel chair designed for hours of stressful work.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3409"></child>
+        <children><child nodeId="node-1149"></child>
         </children>
     </item>
-    <item nodeId="node-3409">
+    <item nodeId="node-1149">
         <command xml:space="preserve">x navigator</command>
         <result xml:space="preserve">(the navigator's chair)
 An ergonomically-countoured swivel chair designed for hours of stressful work.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3410"></child>
+        <children><child nodeId="node-1150"></child>
         </children>
     </item>
-    <item nodeId="node-3410">
+    <item nodeId="node-1150">
         <command xml:space="preserve">x   console</command>
         <result xml:space="preserve">The command console displays the red outline of a hand.
 
@@ -1720,19 +2853,19 @@ An ergonomically-countoured swivel chair designed for hours of stressful work.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3411"></child>
+        <children><child nodeId="node-1151"></child>
         </children>
     </item>
-    <item nodeId="node-3411">
+    <item nodeId="node-1151">
         <command xml:space="preserve">touch it</command>
         <result xml:space="preserve">Unauthorized access attempted. This event has been logged by security.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3412"></child>
+        <children><child nodeId="node-1152"></child>
         </children>
     </item>
-    <item nodeId="node-3412">
+    <item nodeId="node-1152">
         <command xml:space="preserve">x   console</command>
         <result xml:space="preserve">The command console displays the red outline of a hand.
 
@@ -1742,28 +2875,28 @@ Attention all crew: command functions are offline and the computer is running wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3563"></child>
+        <children><child nodeId="node-1153"></child>
         </children>
     </item>
-    <item nodeId="node-3563">
+    <item nodeId="node-1153">
         <command xml:space="preserve">computer, access code 3</command>
         <result xml:space="preserve">Please present hand print to command console in order to activate command mode.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3564"></child>
+        <children><child nodeId="node-1154"></child>
         </children>
     </item>
-    <item nodeId="node-3564">
+    <item nodeId="node-1154">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">The only obvious exit is aft (to operations deck).
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3565"></child>
+        <children><child nodeId="node-1155"></child>
         </children>
     </item>
-    <item nodeId="node-3565">
+    <item nodeId="node-1155">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Operations Deck
@@ -1775,36 +2908,36 @@ Captain Mulgrew: "Did I lose you, Usagi?"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3566"></child>
+        <children><child nodeId="node-1156"></child>
         </children>
     </item>
-    <item nodeId="node-3566">
+    <item nodeId="node-1156">
         <command xml:space="preserve">computer, access code 3</command>
         <result xml:space="preserve">Welcome, Captain Jane Mulgrew. Logging you in.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3567"></child>
+        <children><child nodeId="node-1157"></child>
         </children>
     </item>
-    <item nodeId="node-3567">
+    <item nodeId="node-1157">
         <command xml:space="preserve">computer, emergency</command>
         <result xml:space="preserve">"I'm afraid I don't have anything to say about that."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3568"></child>
+        <children><child nodeId="node-1158"></child>
         </children>
     </item>
-    <item nodeId="node-3568">
+    <item nodeId="node-1158">
         <command xml:space="preserve">computer, emergency protocols</command>
         <result xml:space="preserve">Are you sure you wish to invoke the emergency protocols?
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3569"></child>
+        <children><child nodeId="node-1159"></child>
         </children>
     </item>
-    <item nodeId="node-3569">
+    <item nodeId="node-1159">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">Beginning emergency protocols. Take all appropriate precautions.
 
@@ -1815,10 +2948,10 @@ The emergency depressurization siren sounds throughout the ship.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3570"></child>
+        <children><child nodeId="node-1160"></child>
         </children>
     </item>
-    <item nodeId="node-3570">
+    <item nodeId="node-1160">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1826,10 +2959,10 @@ Your vac suit pings gently to indicate you have expended a unit of air.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3571"></child>
+        <children><child nodeId="node-1161"></child>
         </children>
     </item>
-    <item nodeId="node-3571">
+    <item nodeId="node-1161">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1839,10 +2972,10 @@ The depressurization siren stops.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3572"></child>
+        <children><child nodeId="node-1162"></child>
         </children>
     </item>
-    <item nodeId="node-3572">
+    <item nodeId="node-1162">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1851,10 +2984,10 @@ Approaching New Da Nang. Beginning emergency countdown at 60.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3573"></child>
+        <children><child nodeId="node-1163"></child>
         </children>
     </item>
-    <item nodeId="node-3573">
+    <item nodeId="node-1163">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">(addressing Master Sergeant R. Mu Arvax)
 "Finally! Where've you been? I'm sad to see you invoked Mulgrew's emergency protocols, but that's water under the bridge. Now we need to try to salvage the situation."
@@ -1865,10 +2998,10 @@ Approaching New Da Nang. Beginning emergency countdown at 60.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3574"></child>
+        <children><child nodeId="node-1164"></child>
         </children>
     </item>
-    <item nodeId="node-3574">
+    <item nodeId="node-1164">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Bridge
@@ -1882,49 +3015,49 @@ Attention: current trajectory intersects the moon New Da Nang. Please correct co
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3575"></child>
+        <children><child nodeId="node-1165"></child>
         </children>
     </item>
-    <item nodeId="node-3575">
+    <item nodeId="node-1165">
         <command xml:space="preserve">open helm</command>
         <result xml:space="preserve">(the helm table)
 It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3576"></child>
+        <children><child nodeId="node-1166"></child>
         </children>
     </item>
-    <item nodeId="node-3576">
+    <item nodeId="node-1166">
         <command xml:space="preserve">unlock helm</command>
         <result xml:space="preserve">(the helm table)
 You must specify what you want to unlock the helm table with.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3577"></child>
+        <children><child nodeId="node-1167"></child>
         </children>
     </item>
-    <item nodeId="node-3577">
+    <item nodeId="node-1167">
         <command xml:space="preserve">unlock helm with hex</command>
         <result xml:space="preserve">(the helm table with the hex-shaped tool)
 You unlock the helm access panel.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3578"></child>
+        <children><child nodeId="node-1168"></child>
         </children>
     </item>
-    <item nodeId="node-3578">
+    <item nodeId="node-1168">
         <command xml:space="preserve">open it</command>
         <result xml:space="preserve">Opening the helm access panel reveals a fused mass of wiring and circuit boards. It's ruined beyond repair.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3579"></child>
+        <children><child nodeId="node-1169"></child>
         </children>
     </item>
-    <item nodeId="node-3579">
+    <item nodeId="node-1169">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Operations Deck
@@ -1939,19 +3072,19 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3580"></child>
+        <children><child nodeId="node-1170"></child>
         </children>
     </item>
-    <item nodeId="node-3580">
+    <item nodeId="node-1170">
         <command xml:space="preserve">hello</command>
         <result xml:space="preserve">You are already talking to Master Sergeant R. Mu Arvax.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3581"></child>
+        <children><child nodeId="node-1171"></child>
         </children>
     </item>
-    <item nodeId="node-3581">
+    <item nodeId="node-1171">
         <command xml:space="preserve">ask arvax about ship</command>
         <result xml:space="preserve">(the ss usagi)
 "I'm sorry, I don't think the helm can be fixed -- not with the time you have left. You're going to have to destroy the ship."
@@ -1959,10 +3092,10 @@ Master Sergeant R. Mu Arvax: "You there, Usagi? We don't have much time."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3582"></child>
+        <children><child nodeId="node-1172"></child>
         </children>
     </item>
-    <item nodeId="node-3582">
+    <item nodeId="node-1172">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -1976,10 +3109,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3583"></child>
+        <children><child nodeId="node-1173"></child>
         </children>
     </item>
-    <item nodeId="node-3583">
+    <item nodeId="node-1173">
         <command xml:space="preserve">a</command>
         <result xml:space="preserve">
 Engine Room
@@ -1989,10 +3122,10 @@ There is a large diagram of the fuel injection process on the forward wall. Ther
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3584"></child>
+        <children><child nodeId="node-1174"></child>
         </children>
     </item>
-    <item nodeId="node-3584">
+    <item nodeId="node-1174">
         <command xml:space="preserve">x diagram</command>
         <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
@@ -2021,19 +3154,19 @@ Attention: current trajectory intersects the moon New Da Nang. Please correct co
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3585"></child>
+        <children><child nodeId="node-1175"></child>
         </children>
     </item>
-    <item nodeId="node-3585">
+    <item nodeId="node-1175">
         <command xml:space="preserve">ask computer about vm</command>
         <result xml:space="preserve">Void Matter is essentially vacuum condensed into matter, according to the most comprehensible description we could find. It is an extremely unstable substance, and tends to explode catastrophically in the presence of high levels of energy. It can be created by injecting one source of tachyon crystals into another source of tachyon crystals.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3586"></child>
+        <children><child nodeId="node-1176"></child>
         </children>
     </item>
-    <item nodeId="node-3586">
+    <item nodeId="node-1176">
         <command xml:space="preserve">tc &gt; 4</command>
         <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
@@ -2060,19 +3193,19 @@ Key:    --   empty input or output
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3587"></child>
+        <children><child nodeId="node-1177"></child>
         </children>
     </item>
-    <item nodeId="node-3587">
+    <item nodeId="node-1177">
         <command xml:space="preserve">ask computer about tc</command>
         <result xml:space="preserve">Rather than containing or being formed of tachyons, tachyon crystals get their name from their use in detecting tachyons, due to their negative refractive index. The typical method of creating tachyon crystals is injecting Anti-Helium into Red Matter. Tachyon Crystals can be used in the creation of Void Matter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3588"></child>
+        <children><child nodeId="node-1178"></child>
         </children>
     </item>
-    <item nodeId="node-3588">
+    <item nodeId="node-1178">
         <command xml:space="preserve">AH &gt; 3</command>
         <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
@@ -2099,19 +3232,19 @@ Key:    --   empty input or output
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3589"></child>
+        <children><child nodeId="node-1179"></child>
         </children>
     </item>
-    <item nodeId="node-3589">
+    <item nodeId="node-1179">
         <command xml:space="preserve">ask computer about RM</command>
         <result xml:space="preserve">Red Matter is an unstable, possibly impossible substance created by injecting Tachyon Crystals into Unobtainium.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3590"></child>
+        <children><child nodeId="node-1180"></child>
         </children>
     </item>
-    <item nodeId="node-3590">
+    <item nodeId="node-1180">
         <command xml:space="preserve">un &gt; 1</command>
         <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
@@ -2138,10 +3271,10 @@ Key:    --   empty input or output
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3591"></child>
+        <children><child nodeId="node-1181"></child>
         </children>
     </item>
-    <item nodeId="node-3591">
+    <item nodeId="node-1181">
         <command xml:space="preserve">tc &gt; 2</command>
         <result xml:space="preserve">This is a diagram of the fuel injection process for the fusion engine. Printed above it is the label "Delphi Engine Controls Aleph-Null". Below that is a representation of the various inputs and the products created during the fuel injection process. Each input has a touch-sensitive surface which can be used to alter the diagram's settings.
 
@@ -2168,10 +3301,10 @@ Key:    --   empty input or output
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3592"></child>
+        <children><child nodeId="node-1182"></child>
         </children>
     </item>
-    <item nodeId="node-3592">
+    <item nodeId="node-1182">
         <command xml:space="preserve">press test</command>
         <result xml:space="preserve">A voice says "Fuel test sequence beginning..."
 
@@ -2179,10 +3312,10 @@ Key:    --   empty input or output
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3593"></child>
+        <children><child nodeId="node-1183"></child>
         </children>
     </item>
-    <item nodeId="node-3593">
+    <item nodeId="node-1183">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Engineering Deck
@@ -2198,10 +3331,10 @@ A device labeled "Suit Recharging Station" is here. It is shaped like a chair wi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3594"></child>
+        <children><child nodeId="node-1184"></child>
         </children>
     </item>
-    <item nodeId="node-3594">
+    <item nodeId="node-1184">
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">
 Engineering Airlock
@@ -2213,10 +3346,10 @@ Attention: current trajectory intersects the moon New Da Nang. Please correct co
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3595"></child>
+        <children><child nodeId="node-1185"></child>
         </children>
     </item>
-    <item nodeId="node-3595">
+    <item nodeId="node-1185">
         <command xml:space="preserve">turn off boots</command>
         <result xml:space="preserve">You switch the Magnetic boots off.
 
@@ -2224,10 +3357,10 @@ Attention: current trajectory intersects the moon New Da Nang. Please correct co
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3596"></child>
+        <children><child nodeId="node-1186"></child>
         </children>
     </item>
-    <item nodeId="node-3596">
+    <item nodeId="node-1186">
         <command xml:space="preserve">out</command>
         <result xml:space="preserve">You propel yourself away from the ship, away from the explosion that follows moments later. However, in the blackness of space, there is no way anyone will find you. You float until you run out of air and suffocate.
 

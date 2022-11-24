@@ -3039,12 +3039,12 @@ To say view of space:
 	otherwise:
 		say "To port you can see the blue-white disk of Deneb. Astern you can faintly see the fading embers of what was Space Station Omicron-5.";
 
-Operations Deck is aft of Bridge. "This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.[arvax tip]".
+Operations Deck is aft of Bridge. "This is where all of the support activity for the bridge occurs. There are large consoles for environmental controls (which include gravity, temperature, and pressure), communications, and power systems here. The bridge continues forward from here, and engineering is aft. There is a door set in the floor with a ladder leading through it. Set in the frame of the door is a blue button.[arvax tip][run paragraph on]".
 
 To say arvax tip:
 	if computer-rebooted is true or protocols-activated is true:
 		say paragraph break;
-		tip "You can always find out the current status by asking Arvax about the ship.";
+		tip "You can always find out the current status by asking Arvax about the ship.[run paragraph on]";
 
 Engineering Deck is aft of Operations Deck. "The engineering crew is responsible for keeping the physical ship operating. They are in charge of every physical aspect of the ship, from the engines to hull integrity to the life support system. 
 
@@ -3495,7 +3495,7 @@ Check taking the equipment trunk when gravity is 1:
 	say "You could probably lift the trunk in this low gravity, if it weren't so cumbersome." instead;
 
 instead of doing something other than pushing to the equipment trunk for the third time:
-	tip "Really, the equipment trunk isn't important to the story.";
+	tip "Really, the equipment trunk isn't important to the story[if the equipment trunk blocks the midship door], other than it blocks the door[end if].";
 
 The environmental console is a thing in Operations. It is scenery. The description is "[The environmental console] contains the controls that deal with the comfort of the occupants, including temperature, pressure, and gravity. [description of the gravity control]".
 
@@ -3526,7 +3526,7 @@ Carry out examining communications console:
 
 The power systems console is a thing in Operations. It is scenery. The description is "[The power systems console] controls the power for the entire craft allowing, for instance, for power to be rerouted away from non-essential systems and to more essential systems such as life support or defensive systems."
 
-Rerouting power is an action applying to nothing. Understand "reroute the/-- power" as rerouting power.
+Rerouting power is an action applying to nothing. Understand "reroute the/-- power" and "route the/-- power" as rerouting power.
 
 Instead of rerouting power:
 	say "You lack the necessary expertise to do that safely.";
@@ -6554,6 +6554,19 @@ Carry out refilling:
 planetfalling is an action out of world. Understand "pf" as planetfalling.
 Carry out planetfalling:
 	start playing planetfall;
+	
+jumping to reboot is an action applying to nothing. Understand "jrb" as jumping to reboot.
+Carry out jumping to reboot:
+	now system rebooted is true;
+	now end-game is true;
+	now computer-rebooted is true;
+	now the current interlocutor is nothing;
+	print "Reboot complete.[line break]" as computer near player;
+	move player to operations deck;	
+	talk about cs-end-game-reboot;
+	now turns left is 120;
+	Now the fusion engine is broken;
+	
 	
 test wiring1 with "f/f/u/u/p/purloin small key/unlock keypad";
 

@@ -13207,7 +13207,33 @@ A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboa
             <child nodeId="node-1395"></child>
             <child nodeId="node-1004"></child>
             <child nodeId="node-2027"></child>
+            <child nodeId="node-4003"></child>
         </children>
+    </item>
+    <item nodeId="node-4003">
+        <command xml:space="preserve">x air</command>
+        <result xml:space="preserve">Isn't it nice there's so much of it?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4004"></child>
+        </children>
+    </item>
+    <item nodeId="node-4004">
+        <command xml:space="preserve">x air</command>
+        <result xml:space="preserve">Isn't it nice there's so much of it?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4005"></child>
+        </children>
+    </item>
+    <item nodeId="node-4005">
+        <command xml:space="preserve">fill air</command>
+        <result xml:space="preserve">You aren't wearing a vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2027">
         <command xml:space="preserve">undo</command>

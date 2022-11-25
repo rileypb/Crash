@@ -843,7 +843,7 @@ Instead of putting the toolbox on something:
 	think "No. That's my life right there.";
 	
 Instead of opening the toolbox:
-	say "You'll open it if you need it.";
+	say "You'll open it if you need it. For instance, when you say 'replace screw' or something like that.";
 
 Chapter 3 - The To-do list
 
@@ -5772,7 +5772,7 @@ Instead of going nowhere when location is Staging Area during Boarding the Ship:
 	tip "Try going up: enter 'u'.";
 	
 Instead of taking a vac suit during Boarding the Ship:
-	say "In general, the crew's gear is off-limits.";
+	say "No reason to take that. It's not like you'll be going on a mission.";
 	
 Attention All Crew Spoken is a truth state that varies.
 Explosion Turn is a number that varies.

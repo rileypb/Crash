@@ -1757,7 +1757,7 @@ Check unscrewing a screwable thing:
 		
 Check unscrewing something when the noun is not screwable:
 	say "[The noun] cannot be unscrewed." instead;
-		
+	
 Carry out unscrewing something:
 	now the noun is unscrewed;
 	
@@ -3874,7 +3874,7 @@ The operating panel is scenery in the engine room. "Without a degree in fusion p
 
 Section 8 - Galley
 
-The galley's blue button is a button.
+The galley's blue button is a button. The printed name is "blue button".
 
 After going to the galley for the first time:
 	activate the table of midship door hints;
@@ -6328,15 +6328,18 @@ hint	used (a number)
 Table of Microwave Hints
 hint	used (a number)
 "Have you examined the microwave yet?"	
-"Have you tried turning it off and on again?"	
-"Okay, not quite that easy, but almost."	
-"But first, you'll have to get to the other side of the ship."	
-"You'll want to examine the socket up close."	
+"That plug and socket looks interesting."	
+"You'll want to examine the socket up close -- without the cord plugged into it."	
+"How might you get the dust out of there?"	
+"You can't stick anything into the socket."	
+"How about air?"	
+"There are two ways to solve this: either get the vacuum cleaner from the other side of the ship, or find something that can deliver a big puff of air."	
 
 Table of cabinet hints
 hint	used (a number)
 "You might want to look at this problem from a different perspective."	
 "Perhaps from above."	
+"Get on the bunk, examine the door, and then replace the screw."		
 
 Table of open unit hints
 hint	used (a number)
@@ -6350,11 +6353,12 @@ hint	used (a number)
 Table of fix unit hints
 hint	used (a number)
 "Yeah, you broke it, now you've gotta fix it."	
-"Spoiler: it has to do with the keyhole on the keypad. You did examine it, right?"	
-"Don't come back until you have the key."
+"Spoiler: it has to do with the keyhole on the keypad. You did examine it, right?"		
+"Don't come back until you have the key."	
 "The key is on the other side of the ship."	
 "Okay, you got the key, now open it."	
-"Tell me you got the electrical tape when you picked up the key..."
+"Tell me you got the electrical tape when you picked up the key..."	
+"TAPE WIRES"	
 
 Table of airlock door hints
 hint	used (a number)
@@ -6373,18 +6377,19 @@ Table of captain door hints
 hint	used (a number)
 "Look around for something that will allow us to work on the door."	
 "Open the panel."	
-"Looks like we need a new fuse. Have you found one?"
+"Looks like we need a new fuse. Have you found one?"	
 "If you haven't reached the other side of the ship yet, stop here."		
 "Okay great, you found a fuse and replaced the old one. Now close the panel."	
 "Butter fingers. But that's okay because you have lots of screws in your toolbox."	
 "None of them fit, dang. But maybe you can make one fit."		
-"Stick the chewing gum into the hole."
+"Stick the chewing gum into the hole, and then close the panel."	
 
 Table of journal hints
 hint	used (a number)
 "There are clues in the room as to the password."	
 "Like the dog and the moon."	
 "Think moon and Pluto."	
+"The computer can give you a hint here."	
 "The password is Charon, the largest moon of Pluto."		
 
 Table of Vacuum Hints
@@ -6413,6 +6418,7 @@ hint	used (a number)
 "You could verify their answers with the shipboard computer."	
 "Is either of them particularly concerned or unconcerned about your well-being?"	
 "Maybe you could investigate one of them. Who's easier to investigate at the moment?"	
+"Go read the captain's journal. It's in her quarters."	
 
 Table of Computer Hints
 hint	used (a number)	
@@ -6434,7 +6440,7 @@ hint	used (a number)
 
 Table of Winning Hints
 hint	used (a number)
-"To save the ship, first you need to reboot it."	
+"To save the ship, first you need to reboot the system."	
 "If you invoke the emergency protocols, you cannot save the ship, only destroy it."	
 "As Arvax will tell you, there are two things you must do:"	
 "Set the correct fuel injection configuration."	
@@ -6444,6 +6450,7 @@ hint	used (a number)
 Table of Helm Hints Protocols
 hint	used (a number)
 "You'll have to go look"	
+"The helm is on the bridge. You'll need the hex-shaped tool to open it."	
 "Oh that looks bad. Go talk to Arvax about it."	
 "Okay, face it, you're not going to be able to fix the helm."	
 
@@ -6467,6 +6474,7 @@ Table of Vent Hints
 hint	used (a number)
 "The vent is on the external hull. You'll have to go out there to fix it."	
 "To do that, you need a vac suit. Lucky there's one just lying around."	
+"Unfortunately, the airlock door is broken. Better fix it."	
 
 Table of Moving Engine Hints
 hint	used (a number)
@@ -6487,7 +6495,8 @@ hint	used (a number)
 "I would suggest getting off the ship before it explodes."	
 "Well, you need the vac suit, and it needs to be recharged."	
 "You also need some way for people to find you floating in space."	
-"Look for the beacon in the starboard-side locker."
+"Look for the beacon in the starboard-side locker."	
+"Grab the beacon and go out an airlock. Then jump."	
 
 Table of Midship Door Hints
 hint	used (a number)
@@ -6495,6 +6504,7 @@ hint	used (a number)
 "But there is *something* on the door."	
 "You're going to have to move it."	
 "So you'll have to get to the other side of the door."	
+"To do that you'll need to do a spacewalk, which means you'll need to fix the airlock door."	
 
 Book 20 - About
 

@@ -18,7 +18,8 @@ This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Beh
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1003"></child>
+        <children><child nodeId="node-3532"></child>
+            <child nodeId="node-1003"></child>
             <child nodeId="node-1451"></child>
             <child nodeId="node-1189"></child>
             <child nodeId="node-1325"></child>
@@ -11561,7 +11562,171 @@ What looks like part of an engine is stowed in a corner.
             <child nodeId="node-1005"></child>
             <child nodeId="node-1348"></child>
             <child nodeId="node-1360"></child>
+            <child nodeId="node-3508"></child>
         </children>
+    </item>
+    <item nodeId="node-3508">
+        <command xml:space="preserve">x window</command>
+        <result xml:space="preserve">You can see the aft airlock through a window in the airlock door. Beyond the airlock is the gangway back to Space Station Omicron-5.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3509"></child>
+        </children>
+    </item>
+    <item nodeId="node-3509">
+        <command xml:space="preserve">x windows</command>
+        <result xml:space="preserve">You can see the aft airlock through a window in the airlock door. Beyond the airlock is the gangway back to Space Station Omicron-5.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3510"></child>
+        </children>
+    </item>
+    <item nodeId="node-3510">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">There's no one here to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3511"></child>
+        </children>
+    </item>
+    <item nodeId="node-3511">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You climb the la--
+
+***BOOM***
+
+Press any key...
+
+A gigantic force grabs the ship, knocking you off the ladder and sending you flying against an aft bulkhead. The inertial dampers are probably all that saved you from being smashed to jelly rather than just banged up. 
+
+Press any key...
+
+Some time later you find yourself lying on the floor of the staging area with a throbbing headache. Gingerly you push yourself to your knees and stand up. The vac suit locker has detached from its mounting and lies face down on the floor.
+
+[Thank god I wasn't in the way of that.]
+
+Looking outside --
+
+[Holy -- ]
+
+[Where's the station?].
+
+Where Space Station Omicron-5 was, is now an expanding sphere of rubble, dimly lit by the blue light of far-off Deneb. The rubble is clearly receding behind the ship. [We're moving!]
+
+[How am I going to get off this ship?]
+
+Press any key...
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 18 / Serial number 221124 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Staging Area
+This is the staging area of the ship, where marines prepare for missions. It is adjacent to the aft airlock. Locked compartments set into the walls hold various munitions. A ladder leads up into the rest of the ship. 
+
+An equipment locker is sprawled across the room, with its door to the ground.
+ 
+Through the airlock windows you see the blank space left by the destruction of Space Station Omicron-5.
+
+What looks like part of an engine is stowed in a corner.
+
+A vac suit is here, lying prone as if it were some malformed yellow person knocked unconscious by the shaking of the ship.
+
+[What now?]
+
+[I think I spit out my gum.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3512"></child>
+        </children>
+    </item>
+    <item nodeId="node-3512">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+⇒ You can enter "hints" at any time for help in progressing in the game.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required. There is also an oxygen leak due to a jammed vent cover on the external hull.
+
+You add an item ("close the vent") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3513"></child>
+        </children>
+    </item>
+    <item nodeId="node-3513">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3514"></child>
+        </children>
+    </item>
+    <item nodeId="node-3514">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">sticky note: Taken.
+slippers: As you lean to take the slippers, you notice something under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3515"></child>
+        </children>
+    </item>
+    <item nodeId="node-3515">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3516"></child>
+        </children>
+    </item>
+    <item nodeId="node-3516">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Galley
+This narrow space is barely enough room for two Marines to prepare and eat a meal. There is a counter with a drawer, and two stools, a microwave oven, and a large closet here. Pots and pans hang from hooks in the ceiling. A ladder leads up through the midship door, and you can leave aft.
+
+On the starboard wall is a panel on which is a blue button. Tacked to the panel is the operator's manual for the midship door.
+
+You faintly hear someone speaking above.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3517"></child>
+        </children>
+    </item>
+    <item nodeId="node-3517">
+        <command xml:space="preserve">take pot</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3518"></child>
+        </children>
+    </item>
+    <item nodeId="node-3518">
+        <command xml:space="preserve">take pots</command>
+        <result xml:space="preserve">The pots and pans are not something you need to fix the ship.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1360">
         <command xml:space="preserve">x rifle</command>
@@ -12126,6 +12291,7 @@ A vac suit is here, lying prone as if it were some malformed yellow person knock
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1006"></child>
             <child nodeId="node-1462"></child>
+            <child nodeId="node-3500"></child>
             <child nodeId="node-1232"></child>
         </children>
     </item>
@@ -12160,6 +12326,66 @@ A large equipment trunk lies on the midship door, blocking it.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-3500">
+        <command xml:space="preserve">wear suit</command>
+        <result xml:space="preserve">(first taking the vac suit)
+You put on the vac suit.
+
+Attention all crew: command functions are offline and the computer is running with decreased capabilities. Full system reboot required. There is also an oxygen leak due to a jammed vent cover on the external hull.
+
+You add an item ("close the vent") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3501"></child>
+        </children>
+    </item>
+    <item nodeId="node-3501">
+        <command xml:space="preserve">turn on boots</command>
+        <result xml:space="preserve">You switch the Magnetic boots on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3502"></child>
+        </children>
+    </item>
+    <item nodeId="node-3502">
+        <command xml:space="preserve">turn on boots</command>
+        <result xml:space="preserve">They're already on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3503"></child>
+        </children>
+    </item>
+    <item nodeId="node-3503">
+        <command xml:space="preserve">x boots</command>
+        <result xml:space="preserve">Big boots with a thick sole. Lights indicate these boots are currently on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3504"></child>
+        </children>
+    </item>
+    <item nodeId="node-3504">
+        <command xml:space="preserve">x suit</command>
+        <result xml:space="preserve">A puffy yellow suit with an attached helmet and magnetic boots. The gloves are misshapen things, optimized for carrying weaponry, not precision work. There is a nozzle on the front through which air can be recharged or vented. Lights indicate the boots are currently on. A gauge indicates the suit has 20 units of air left.
+[I always wanted one of these.]
+
+⇒ You can vent air by using "vent suit."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3505"></child>
+        </children>
+    </item>
+    <item nodeId="node-3505">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Not much to see other than the vac suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1462">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">
@@ -12175,7 +12401,95 @@ You add an item ("close the vent") to your to-do list.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1463"></child>
+            <child nodeId="node-3489"></child>
         </children>
+    </item>
+    <item nodeId="node-3489">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3490"></child>
+        </children>
+    </item>
+    <item nodeId="node-3490">
+        <command xml:space="preserve">unscrew door</command>
+        <result xml:space="preserve">You can't see anything to unscrew from this angle. There are probably screws you can't reach inside the cabinet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3491"></child>
+        </children>
+    </item>
+    <item nodeId="node-3491">
+        <command xml:space="preserve">get on cabinet</command>
+        <result xml:space="preserve">That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3492"></child>
+        </children>
+    </item>
+    <item nodeId="node-3492">
+        <command xml:space="preserve">get on bunk</command>
+        <result xml:space="preserve">As you clamber up, it looks like there's something wrong with the cabinet door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3493"></child>
+        </children>
+    </item>
+    <item nodeId="node-3493">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">You can see the problem from up here: the top hinge of the cabinet door has a crooked screw, probably from the door being slammed too many times. You'll have to replace it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3494"></child>
+        </children>
+    </item>
+    <item nodeId="node-3494">
+        <command xml:space="preserve">replace screw</command>
+        <result xml:space="preserve">You unscrew the old, crooked screw and replace it with a new one from your toolbox.
+
+You cross out an item ("fix the cabinet") on your to-do list.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3495"></child>
+        </children>
+    </item>
+    <item nodeId="node-3495">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You get off the top bunk.
+
+Starboard-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to port.
+
+In a shocking lapse of military precision, there is a sticky note attached to the bed post.
+
+A pair of slippers peeks out from under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3496"></child>
+        </children>
+    </item>
+    <item nodeId="node-3496">
+        <command xml:space="preserve">take slippers</command>
+        <result xml:space="preserve">As you lean to take the slippers, you notice something under the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1463">
         <command xml:space="preserve">f</command>
@@ -12191,7 +12505,84 @@ You faintly hear someone speaking above.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-3292"></child>
             <child nodeId="node-1464"></child>
+            <child nodeId="node-3524"></child>
         </children>
+    </item>
+    <item nodeId="node-3524">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the kitchen drawer, revealing a knife, a fork, and a spoon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3525"></child>
+        </children>
+    </item>
+    <item nodeId="node-3525">
+        <command xml:space="preserve">take knife</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3526"></child>
+        </children>
+    </item>
+    <item nodeId="node-3526">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve">
+Junction
+This is a busy place when the ship is populated. To port and starboard are the crew quarters, aft is the closed door to the captain's private quarters, and fore is the galley. A ladder leads down to the staging area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3527"></child>
+        </children>
+    </item>
+    <item nodeId="node-3527">
+        <command xml:space="preserve">p</command>
+        <result xml:space="preserve">
+Port-Side Crew Quarters
+All crew members who aren't the captain sleep in this or the opposite-side bunk room. This one sleeps two in a bunk bed, done up with military precision. There is a large cabinet here, stretching almost to the ceiling. It is closed. Mounted in the wall is a crew personal storage unit. The sole exit is to starboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3528"></child>
+        </children>
+    </item>
+    <item nodeId="node-3528">
+        <command xml:space="preserve">type</command>
+        <result xml:space="preserve">What do you want to type on?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3529"></child>
+        </children>
+    </item>
+    <item nodeId="node-3529">
+        <command xml:space="preserve">keypad</command>
+        <result xml:space="preserve">As you press a key, the storage unit starts buzzing continuously. The display lights up with random characters, and you smell the distinct odor of burning wires. The bottom drawer pops out a centimeter or two.
+
+You add an item ("fix the storage unit") to your to-do list.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3530"></child>
+        </children>
+    </item>
+    <item nodeId="node-3530">
+        <command xml:space="preserve">put knife in drawer</command>
+        <result xml:space="preserve">Which do you mean, the top drawer or the bottom drawer?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3531"></child>
+        </children>
+    </item>
+    <item nodeId="node-3531">
+        <command xml:space="preserve">bottom</command>
+        <result xml:space="preserve">You wedge the knife into the seam and lever the drawer open, revealing the red access card.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1464">
         <command xml:space="preserve">open closet</command>
@@ -15110,6 +15501,58 @@ slippers: As you lean to take the slippers, you notice something under the bed.
 You cross out an item ("fix the cabinet") on your to-do list.
 
 [Your score has just gone up by one point.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-3532">
+        <command xml:space="preserve">enter airlock</command>
+        <result xml:space="preserve">You pass into the aft airlock, the outer door closing behind you.
+
+
+The Second Law of Thermodynamics, in one formulation, states that disorganization always increases in the absence of some outside force. A corollary is that things will always break down in the absence of someone to fix them. As a member of the repair corps of Space Station Omicron-5, you're that someone.
+
+Your last assignment of the day, on the SS Usagi, a Space Marines fighting ship, looks routine enough. Fix the microwave and a jammed cabinet door, and then you're off for the day.
+
+Aft Airlock
+You are in the aft airlock. Outside is the gangway back to Space Station Omicron-5. Forward leads into the ship.
+
+A pleasant androgynous voice says, "Welcome to the SS Usagi. This is the shipboard computer. Please feel free to call upon me for any information you may need. Use the command 'computer, help' for more information."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3534"></child>
+        </children>
+    </item>
+    <item nodeId="node-3534">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3535"></child>
+        </children>
+    </item>
+    <item nodeId="node-3535">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">
+
+
+Crash
+An Interactive Disaster by Phil Riley
+Release 18 / Serial number 221124 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Space Station Gangway
+This is the pressurized bridge from Space Station Omicron-5 to the SS Usagi. Behind you is the familiar bulk of the huge station, largest outpost of the Space Authority in Deneb Sector. Before you is the aft airlock of the Usagi, beckoning you in.
+
+[Better get a move on], you think.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3536"></child>
+        </children>
+    </item>
+    <item nodeId="node-3536">
+        <command xml:space="preserve">enter usagi</command>
+        <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

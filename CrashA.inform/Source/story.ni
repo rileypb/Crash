@@ -543,7 +543,7 @@ Does the player mean wearing vacuum-suit: It is very unlikely.
 
 A helmet is a kind of thing.
 Every vac suit incorporates a helmet. The description of a helmet is "A big transparent fish bowl."
-Magnetic boots are a kind of device. Understand "mag" and "magboots" as Magnetic boots.
+Magnetic boots are a kind of device. They are plural-named. Understand "mag" and "magboots" as Magnetic boots.
 The description of magnetic boots is "Big boots with a thick sole. Lights indicate these boots are currently [if switched on]on.[otherwise]off.[end if]".
 Magnetic boots are part of every vac suit. 
 Gloves are a kind of thing. The description is "Rather than being optimized for manual dexterity, these gloves are shaped to more easily wield a laser rifle.".
@@ -3033,7 +3033,7 @@ deep space is a backdrop. "[if crashing is not happening]The blue-white disk of 
 
 Deneb Star is a backdrop. The printed name is "Deneb (star)". Deneb Star is in Space Station Gangway, Spacewalk 1, Spacewalk 2, Spacewalk 3, and Bridge. "Deneb is a blue-white spot off the port side of the ship.";
 
-Aft Airlock is a backdrop. Aft Airlock is in Space Station Gangway, Aft-Airlock-Room, Staging Area, and Spacewalk 1. The description of Aft Airlock is "[if location is space station gangway]The aft airlock is to fore. The door is open, expecting you to come in.[otherwise if location is aft-airlock-room]The airlock is the last defense against the great uncaring vacuum of outer space.[otherwise if location is spacewalk 1][think]God, I wish I was in there.[think end][end if]". Understand "windows" as aft airlock.
+Aft Airlock is a backdrop. Aft Airlock is in Space Station Gangway, Aft-Airlock-Room, Staging Area, and Spacewalk 1. The description of Aft Airlock is "[if location is space station gangway]The aft airlock is to fore. The door is open, expecting you to come in.[otherwise if location is aft-airlock-room]The airlock is the last defense against the great uncaring vacuum of outer space.[otherwise if location is spacewalk 1][think]God, I wish I was in there.[think end][end if]". Understand "windows" and "window" as aft airlock.
 
 Book 13 - The Map
 
@@ -3195,6 +3195,12 @@ Instead of going fore when the location is the space station gangway:
 	now player is in Aft-Airlock-Room;
 	
 Instead of going inside when the location is the space station gangway:
+	try going fore;
+	
+Instead of entering aft airlock when the location is the space station gangway:
+	try going fore;
+	
+Instead of entering usagi when the location is the space station gangway:
 	try going fore;
 	
 Instead of dropping something when location is space station gangway:
@@ -4202,7 +4208,7 @@ Report randomly shouting:
 Instead of hailing while player is in galley:
 	say "Whoever is talking doesn't seem to hear you.";
 
-The cookware is a thing in the galley. The printed name is "pots and pans". Understand "pots" and "pans" as cookware. The cookware is scenery. It is plural-named. The description is "There is a wide array of cookware here, none of which is likely to be useful to you."
+The cookware is a thing in the galley. The printed name is "pots and pans". Understand "pots" and "pans" and "pot" and "pan" as cookware. The cookware is scenery. It is plural-named. The description is "There is a wide array of cookware here, none of which is likely to be useful to you."
 
 Instead of taking the cookware:
 	say "[The cookware] [are] not something you need to fix the ship.";
@@ -4488,7 +4494,7 @@ After the journal hacking a topic:
 
 Section 11 - Port-Side Crew Quarters
 
-The port-side equipment cabinet is a container in Port-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, it is [state and contents of port-side equipment cabinet]."
+The port-side equipment cabinet is a container in Port-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, it is [state and contents of port-side equipment cabinet]." Understand "cupboard" as the port-side equipment cabinet.
 
 The port-side cabinet door is a part of the port-side equipment cabinet. It is privately-named. The printed name is "cabinet door". Understand "cabinet/-- door" as port-side cabinet door. The description is "It's a simple black-painted steel door.".
 
@@ -4702,7 +4708,7 @@ Report contentlessly typing on the port keypad when port-side storage unit was s
 Check contentlessly typing on the port keypad when the port-side storage unit is storage-broken:
 	say "The storage unit seems to be broken." instead;
 	
-Prying it open with is an action applying to two things. Understand "pry [something] with [something]" and "pry [something] open with [something]" and "pry open [something] with [something]" and "jimmy [something] with [something]" and "jimmy [something] open with [something]" and "jimmy open [something] with [something]" as prying it open with.
+Prying it open with is an action applying to two things. Understand "pry [something] with/using [something]" and "pry [something] open with/using [something]" and "pry open [something] with/using [something]" and "jimmy [something] with/using [something]" and "jimmy [something] open with/using [something]" and "jimmy open [something] with/using [something]" as prying it open with.
 
 Instead of unlocking port bottom drawer with knife when the port bottom drawer is half-open:
 	try prying the port bottom drawer open with knife;
@@ -4830,11 +4836,13 @@ Instead of going nowhere from port-side crew quarters when player is on the port
 Section 12 - Starboard-Side Crew Quarters
 
 The starboard-side equipment cabinet is a container in starboard-side crew quarters. It is scenery. It is closed and openable. "A simple black-painted steel cabinet, it is [state and contents of starboard-side equipment cabinet]. It's about the same height as the bunk bed it's next to."
+Understand "cupboard" as the starboard-side equipment cabinet.
+
 The starboard-side cabinet door is a part of the starboard-side equipment cabinet. It is privately-named. The printed name is "cabinet door". Understand "cabinet/-- door" as starboard-side cabinet door. The description is "It's a simple black-painted steel door.".
 
 The starboard-side equipment cabinet can be unrepaired or repaired. The starboard-side equipment cabinet is unrepaired. 
 
-The beacon is in the starboard-side equipment cabinet. The description is "A device for broadcasting the location of an object in space."
+The beacon is in the starboard-side equipment cabinet. The description is "A device for broadcasting the location of an object in space. It activates automatically in vacuum."
 
 After entering the starboard-side top bunk when the starboard-side equipment cabinet is unrepaired:
 	say "As you clamber up, it looks like there's something wrong with the cabinet door.";

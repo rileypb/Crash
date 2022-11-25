@@ -14,7 +14,7 @@ Reading language definition from </Applications/Inform.app_old.app/Contents/Reso
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 55716 words long.
+I've now read your source text, which is 55831 words long.
 
 
 -----------------------------------------------------
@@ -117,6 +117,14 @@ Phase XII ... Code generation
 
 ==== Phase XII.6 ... Compiling first block of phrases ====
 
+Regional: CONSTANT_VNT'the interior'-region(I199_interior)(I105'interior')
+ == region
+Regional: CONSTANT_VNT'the interior'-region(I199_interior)(I105'interior')
+ == region
+Regional: CONSTANT_VNT'the interior'-region(I199_interior)(I105'interior')
+ == region
+Regional: CONSTANT_VNT'the interior'-region(I199_interior)(I105'interior')
+ == region
 
 
 ==== Phase XII.7 ... Compiling the rulebooks ====
@@ -186,7 +194,7 @@ Phase XIII ... Compilation now complete
 
 CAT "A cartoon spaceship."
 Total of 207 files written as streams.
-CPU time: 454 centiseconds
+CPU time: 457 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

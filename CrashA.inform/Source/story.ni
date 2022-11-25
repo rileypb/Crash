@@ -2875,6 +2875,7 @@ The starboard-side equipment cabinet is familiar.
 Orenascopol Thrax is a subject. It is unfamiliar.
 Gemini is a subject. It is unfamiliar. 
 Eramik is a subject. It is unfamiliar. Understand "moon of pollux iii" as Eramik.
+Access code is a subject.
 
 subj-rebooting-computer is a subject. The description is "subject". Understand "reboot/rebooting/restart/restarting computer/--" as subj-rebooting-computer.
 
@@ -2988,6 +2989,8 @@ Captain's Door	"The captain's door is a standard Model X red door, opened via a 
 starboard-side equipment cabinet	"[if The starboard-side equipment cabinet is unrepaired]Crew report the door of the starboard-side equipment cabinet is jammed[otherwise]The previously stuck door has been repaired[end if]."
 yourself	"Members of the Omicron-5 repair corps are responsible for the upkeep of Space Marines ships in dock."
 Universal Game Emulator	"The Universal Game Emulator is able to play any game ever made; however, you must possess the game cassette, disk, cartridge, or other storage medium to play such a game. The UGE does not possess storage to hold games."
+Access Code	"Authorization for higher-level functions requires an access code."
+
 
 
 [Does the player mean quizzing computer about an object (called Obj) when there is a dt-subject of Obj in the Table of computer Subjects:
@@ -3721,12 +3724,24 @@ Section 4 - Engineering Deck
 
 The suit recharging station is in the Engineering Deck. It is an enterable supporter. "A device labeled 'Suit Recharging Station' is here. It is shaped like a chair with nozzles protruding from either arm." The description is "It looks like a person might sit in it."
 
-Recharging suit is an action applying to one thing. Understand "recharge [vac suit]", "charge [vac suit]", "fill [vac suit]", and "refill [vac suit]" as recharging suit.
+Air is a backdrop. "Isn't it nice there's so much of it?"
 
-Instead of recharging suit when the location is the engineering deck:
+When play begins:
+	now air is in the interior;
+
+Recharging is an action applying to one thing. Understand "recharge [vac suit]", "charge [vac suit]", "fill [vac suit]", "refill [vac suit]", "recharge [air]", "charge [air]", "fill [air]" and "refill [air]" as recharging.
+
+Instead of recharging air:
+	let VS be a random vac suit worn by the player;
+	if VS is nothing: 
+		say "You aren't wearing a vac suit.";
+	otherwise:
+		try recharging VS;
+
+Instead of recharging a vac suit when the location is the engineering deck:
 	try entering the suit recharging station;
 
-Check recharging suit when the location is not the engineering deck:
+Check recharging a vac suit when the location is not the engineering deck:
 	say "There is no recharging station here.";
 
 Understand "recharger" and "chair" and "seat" as suit recharging station.
@@ -4033,10 +4048,10 @@ An MRE is a kind of thing. An MRE is edible. The description is "A regulation Me
 10 MREs is in the closet. 
 
 Instead of doing something other than examining to the MREs:
-	say "The MREs are not important to the story.";
+	say "You're not hungry right now.";
 
 Instead of doing something other than examining to the microwavable dinner:
-	say "The microwavable dinner is not important to the story.";
+	say "You're not hungry right now.";
 
 A microwavable dinner is in the closet. The description is "Spiced ham in some kind of sauce. Ugh."
 Understand "meal" as the microwavable dinner.
@@ -4864,6 +4879,12 @@ Instead of unlocking starboard-side cabinet door with knife:
 
 Instead of unlocking starboard-side equipment cabinet with knife:
 	say "That's just likely to bend the knife.";
+	
+Instead of prying the starboard-side cabinet door open with something:
+	say "Attempting to pry the cabinet door open would probably damage the cabinet.";
+	
+Instead of prying the starboard-side equipment cabinet open with something:
+	say "Attempting to pry the cabinet door open would probably damage the cabinet.";
 
 The starboard-side equipment cabinet can be unrepaired or repaired. The starboard-side equipment cabinet is unrepaired. 
 

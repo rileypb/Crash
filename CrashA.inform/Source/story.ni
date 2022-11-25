@@ -2547,6 +2547,11 @@ To say problems description:
 After saying hello to Arvax when talking about cs-end-game-reboot:
 	print "'You're back! Great job rebooting the computer -- I'm getting telemetry now. Unfortunately, it seems Mulgrew has dropped connection.'[paragraph break]" as Arvax near communications console;
 	reset turns in state;
+	
+Telemetry is a subject.
+
+Instead of quizzing Arvax about telemetry:
+	try quizzing arvax about the ss usagi;
 
 To decide whether ship is in self-destruct mode:
 	decide on whether or not engine output is Void Matter;
@@ -2726,7 +2731,7 @@ Instead of asking shipboard computer about "help":
 	try quizzing the shipboard computer about shipboard computer instead;
 	
 After reading a command:
-	if "[the player's command]" is "computer, help":
+	if "[the player's command]" is "computer, help" or "[the player's command]" is "computer,help" :
 		change the text of the player's command to "ask shipboard computer about shipboard computer";
 
 Instead of answering the shipboard computer that a topic when the location is offboard:
@@ -2901,7 +2906,7 @@ Space Authority	"The Space Authority is the governing body of most human-control
 The Space Force	"The Space Force is the military arm of The Space Authority."
 Pollux star	"Pollux is the brightest star in the Earth constellation of Gemini[familiarize Gemini]."
 Gemini	"One of the thirteen zodiac constellations seen from Earth."
-Fuel Injection	"Starship fuel injection is the process of 'injecting' one substance into another, creating a third substance at a higher energy level. See 'Substance Injection'[familiarize substance injection]."
+Fuel Injection	"Starship fuel injection is the process of 'injecting' one substance into another, creating a third substance at a higher energy level. The object of the fuel injection process is to create the correct type of fuel for a particular engine type. See 'Substance Injection'[familiarize substance injection]."
 Explosion	"There seems to have been some sort of explosion on Space Station Omicron-5 that ejected the SS Usagi from dock."
 Beacon	"A radio beacon broadcasts a radio signal on a dedicated frequency which by Space Authority regulations is continuously monitored by all space vessels."
 Location of the ship	"[if computer-rebooted is true]We are currently on a collision course with the moon New Da Nang[otherwise if explosion happened is true]Unable to access navigation system. Please reboot the computer[otherwise]The ship is docked at Space Station Omicron-5[end if]."
@@ -3222,10 +3227,10 @@ Instead of doing something to the pilot when location is the bridge:
 Instead of doing something to the navigator when location is the bridge:
 	Say "When I say that 'the captain, navigator, and pilot all sit' here, I don't mean they're actually here right now.";
 
-The viewscreen is a thing in Bridge. It is scenery. "[view of space][run paragraph on]". Understand "viewscreens" and "screen" and "screens" as viewscreen.
+The viewscreen is a thing in Bridge. It is scenery. "[view of space][run paragraph on]". Understand "viewscreens" and "screen" and "screens" and "view" as viewscreen.
 
 The pilot's chair and the navigator's chair are crew chairs in the bridge.
-Understand "pilot chair/--" as pilot's chair. Understand "navigator chair/--" as navigator's chair.
+Understand "pilot/pilots chair/--" as pilot's chair. Understand "navigator/navigators/nav chair/--" as navigator's chair.
 
 The captain's chair is a supporter in the bridge. It is scenery. It is enterable. "Functional yet comfortable, it is every inch the chair of a commander. On the arm of the captain's chair is the command console, with which the captain commands the shipboard computer.". Understand "captain chair" as captain's chair.
 The command console is a part of the captain's chair. The description is "The command console displays the red outline of a hand." Understand "captain's/captain/command console", "red/-- outline", "hand" as command console. 
@@ -3329,7 +3334,7 @@ Emergency-protocols is a truth state that varies.
 After deciding the scope of the player when location is Bridge and computer-rebooting is false:
 	place shipboard computer in scope;
 	
-Rebooting is an action applying to nothing. Understand "reboot" as rebooting.
+Rebooting is an action applying to nothing. Understand "reboot system/computer/--"  as rebooting.
 
 [Persuasion rule when asking the shipboard computer to try doing something other than helping and location is bridge and command mode activated is false:
 	print "Please present hand print to command console in order to activate command mode.[line break]" as computer near captain's chair;
@@ -3716,10 +3721,18 @@ Section 4 - Engineering Deck
 
 The suit recharging station is in the Engineering Deck. It is an enterable supporter. "A device labeled 'Suit Recharging Station' is here. It is shaped like a chair with nozzles protruding from either arm." The description is "It looks like a person might sit in it."
 
+Recharging suit is an action applying to one thing. Understand "recharge [vac suit]", "charge [vac suit]", "fill [vac suit]", and "refill [vac suit]" as recharging suit.
+
+Instead of recharging suit when the location is the engineering deck:
+	try entering the suit recharging station;
+
+Check recharging suit when the location is not the engineering deck:
+	say "There is no recharging station here.";
+
 Understand "recharger" and "chair" and "seat" as suit recharging station.
 
 Instead of entering the suit recharging station when the player is not wearing a vac suit:
-	say "You sit in the suit recharger, but nothing happens. You stand up again.";
+	say "You sit in the suit recharger, but nothing happens, probably because you're not wearing a suit. You stand up again.";
 
 Instead of entering the suit recharging station when the player is wearing a vac suit (called VS):
 	if remaining air of VS < 50:
@@ -4309,13 +4322,13 @@ Carry out screwing the aft access panel when the aft access panel is unscrewed a
 closing it with is an action applying to two things. Understand "close [something] with [something]" and "stick [something] with [something]" and "fix [something] with [something]" and "repair [something] with [something]" as closing it with.
 
 Instead of closing the aft access panel with the chewing gum:
-	say "Good idea, but it seems something needs to be screwed into the hole somehow.";
+	say "Good idea, but it doesn't keep the panel closed tightly enough to activate the door. You take your gum back.";
 	
 Instead of closing the aft access panel with the electrical tape:
-	say "Good idea, but it seems something needs to be screwed into the hole somehow.";
+	say "Good idea, but it doesn't keep the panel closed tightly enough to activate the door.";
 
 Instead of taping the aft access panel:
-	say "Good idea, but it seems something needs to be screwed into the hole somehow.";
+	say "Good idea, but it doesn't keep the panel closed tightly enough to activate the door.";
 	
 Instead of closing something with something:
 	say "I'm not sure how to do that.";
@@ -4840,6 +4853,18 @@ Understand "cupboard" as the starboard-side equipment cabinet.
 
 The starboard-side cabinet door is a part of the starboard-side equipment cabinet. It is privately-named. The printed name is "cabinet door". Understand "cabinet/-- door" as starboard-side cabinet door. The description is "It's a simple black-painted steel door.".
 
+Instead of prying the starboard-side cabinet door open with knife:
+	say "That's just likely to bend the knife.";
+
+Instead of prying the starboard-side equipment cabinet open with knife:
+	say "That's just likely to bend the knife.";
+	
+Instead of unlocking starboard-side cabinet door with knife:
+	say "That's just likely to bend the knife.";
+
+Instead of unlocking starboard-side equipment cabinet with knife:
+	say "That's just likely to bend the knife.";
+
 The starboard-side equipment cabinet can be unrepaired or repaired. The starboard-side equipment cabinet is unrepaired. 
 
 The beacon is in the starboard-side equipment cabinet. The description is "A device for broadcasting the location of an object in space. It activates automatically in vacuum."
@@ -5157,7 +5182,8 @@ Instead of going from Staging Area to Aft-Airlock-Room when Aft Airlock Inner Do
 	think thought 20;
 	add fix the airlock door;
 	
-The inner side of the airlock inner door is in the staging area. It is privately-named. It is scenery. The printed name is "Airlock door". Understand "Airlock" and "door" and "inner" as the inner side of the airlock inner door. "The airlock door is an imposing solid barrier between vacuum and safety. It is colored yellow with red warning symbols on it. Above the door is a panel of electronic components."
+The inner side of the airlock inner door is in the staging area. It is privately-named. It is scenery. The printed name is "Airlock door". Understand "Airlock" and "door" and "inner" and "symbols" as the inner side of the airlock inner door. "The airlock door is an imposing solid barrier between vacuum and safety. It is colored yellow with red warning symbols on it. Above the door is a panel of electronic components."
+
 
 The component panel is a thing in the staging area. The description is "dummy description". It is scenery. Understand "electronic" and "components" and "socket" as component panel.
 
